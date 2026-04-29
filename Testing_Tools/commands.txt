@@ -1,0 +1,74 @@
+Prokka: 
+
+To put all the fasta files, downloaded from NCBI in one directory:
+$ cp ~/ncbi_dataset/data/GCF_*/*.fna ~/prokka_test/
+
+To perform annotation:
+$ for fasta in ~/prokka_test/*.fna; do
+	strain=$(basename $fasta.fna)
+	echo "Annotating: $strain"
+	prokka --outdir prokka_output/$strain \
+		--prefix $strain \
+		--genus Lactiplantibacillus \
+		--species plantarum \
+		--kingdom Bacteria \
+		--cpus 4 \
+		$fasta
+done
+
+
+
+Roary:
+$ conda activate roary_env
+
+To run the analysis:
+$ roary -f roary_output \
+-e \
+-n \
+-v \
+-p 4 \
+prokka_output/*.gff
+
+To change the identity threshold:
+-i 98 \
+-e \
+-n \
+-v \
+-p 4 \
+prokka_output/*.gff
+
+
+
+Panaroo:
+$ conda activate panaroo
+
+To run the analysis:
+$ panaroo -i prokka_gff_output/*.gff \
+-o panaroo_output \
+--clean-mode strict \
+-t 4 \
+--alignment core \
+--aligner mafft \
+
+
+
+FastTree:
+$ FastTree -nt (-gtr) roary_ouput/core_gene_alignment.aln > roary_ouput/tree.newick
+
+
+
+PPanGGOLiN:
+The location of the gff files needs to be put into a tab delimited file with the following code:
+$ for gff in prokka_gff_output/*gff; do
+strain=$(basename $gff .gff)
+echo -e "$strain\t$(realpath $gff)"
+done > ppanggolin_input.tsv
+
+To run the analysis:
+$ ppanggolin workflow \
+--anno ppanggolin_input.tsv \
+--output ppanggolin_output \
+--cpu 4
+
+To open the interacive U-curve (or tile-plot):
+$ xdg-open Ushaped_plot.html
