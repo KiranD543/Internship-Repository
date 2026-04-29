@@ -1,0 +1,10 @@
+#soft_core=0.95
+#duplication_margin=0.05
+organism	nb_families	nb_persistent_families	nb_shell_families	nb_cloud_families	nb_exact_core	nb_soft_core	nb_genes	nb_persistent_genes	nb_shell_genes	nb_cloud_genes	nb_exact_core_genes	nb_soft_core_genes	completeness	nb_single_copy_markers
+Dataset2	3310	2670	636	4	2556	2556	3572	2754	814	4	2614	2614	99.88	2508
+Dataset3	3301	2668	514	119	2556	2556	3456	2750	577	129	2614	2614	99.8	2506
+Reference	2920	2635	62	223	2556	2556	2957	2664	62	231	2575	2575	99.0	2486
+Type_strain	2978	2659	139	180	2556	2556	3027	2701	140	186	2585	2585	99.6	2501
+Dataset4	3217	2637	94	486	2556	2556	3408	2734	136	538	2641	2641	98.77	2480
+Dataset5	3224	2637	170	417	2556	2556	3305	2687	179	439	2593	2593	98.69	2478
+Dataset1	3311	2669	636	6	2556	2556	3556	2752	798	6	2613	2613	99.84	2507
