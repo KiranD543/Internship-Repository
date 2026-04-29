@@ -1,0 +1,52 @@
+
+Options:
+
+ - Creating pangenome on amino acid % identity using BLAST.
+ - Input directory:	/home/intern/pirate_test/pirate_output
+ - Output directory:	/home/intern/pirate_test/pirate_output/pangenome_iterations
+ - Number of input files: 1
+ - Threshold(s): 50 60 70 80 90 95 98
+ - MCL inflation value: 1.5
+ - Homology test cutoff: 1E-6
+ - Loci file contains 23281 loci from 7 genomes.
+ - Extracting core loci during cdhit clustering
+ - Opening pan_sequences
+ - /home/intern/pirate_test/pirate_output/pan_sequences.fasta contains 23117 sequences.
+ - Passing 23118 loci to cd-hit at 100%  
+ - command: "cd-hit -i /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.temp.fasta -o /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.100 -aS 0.9 -c 1 -T 6 -g 1 -n 5 -M 2000 -d 256 >> /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - Passing 18799 loci to cd-hit at 99.5%  
+ - command: "cd-hit -i /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.temp.fasta -o /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.99.5 -aS 0.9 -c 0.995 -T 6 -g 1 -n 5 -M 2000 -d 256 >> /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - Passing 14767 loci to cd-hit at 99%  
+ - command: "cd-hit -i /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.temp.fasta -o /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.99 -aS 0.9 -c 0.99 -T 6 -g 1 -n 5 -M 2000 -d 256 >> /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - Passing 10616 loci to cd-hit at 98.5%  
+ - command: "cd-hit -i /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.temp.fasta -o /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.98.5 -aS 0.9 -c 0.985 -T 6 -g 1 -n 5 -M 2000 -d 256 >> /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - Passing 8621 loci to cd-hit at 98%  
+ - command: "cd-hit -i /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.temp.fasta -o /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.98 -aS 0.9 -c 0.98 -T 6 -g 1 -n 5 -M 2000 -d 256 >> /home/intern/pirate_test/pirate_output/pangenome_iterations/pan_sequences.cdhit_log.txt"
+ - completed in 8 secs
+
+ - 15701 core loci (67.9167748075093%)
+ - 7417 non-core loci (32.0832251924907%)
+
+ - 3151 representative loci passed to blast.
+
+ - running all-vs-all BLASTP on pan_sequences
+ - completed in 62 secs
+
+ - running mcl on pan_sequences at 50    
+ - 1795 clusters at 50 % - completed in 0 secs
+ - running mcl on pan_sequences at 60    
+ - 1871 clusters at 60 % - completed in 16 secs
+ - running mcl on pan_sequences at 70    
+ - 1948 clusters at 70 % - completed in 17 secs
+ - running mcl on pan_sequences at 80    
+ - 2038 clusters at 80 % - completed in 20 secs
+ - running mcl on pan_sequences at 90    
+ - 2193 clusters at 90 % - completed in 19 secs
+ - running mcl on pan_sequences at 95    
+ - 2439 clusters at 95 % - completed in 21 secs
+ - running mcl on pan_sequences at 98    
+ - 2976 clusters at 98 % - completed in 23 secs
+
+ - reinflating clusters for pan_sequences
+ - Finished
+

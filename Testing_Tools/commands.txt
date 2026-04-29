@@ -72,3 +72,13 @@ $ ppanggolin workflow \
 
 To open the interacive U-curve (or tile-plot):
 $ xdg-open Ushaped_plot.html
+
+
+
+
+PIRATE:
+To execute the analysis:
+$ PIRATE –i prokka_gff_output \ 
+-o pirate_output \ 
+-t 4 \ 
+-v 
