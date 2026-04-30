@@ -1,0 +1,44 @@
+Prokka annotation:
+$ for fasta in FastaFiles/*.fna; do
+> strain=$(basename $fasta .fna)
+> echo "Annotating: $strain"
+> prokka --outdir prokka_output/$strain \
+> --prefix $strain \
+> --genus Levilactobacillus \
+> --species brevis \
+> --kingdom Bacteria \
+> --cpus 8 \
+> $fasta
+> done
+
+
+Roary analysis:
+$ roary -f roary_output \
+> -e \
+> -n \
+> -v \
+> -p 8 \
+> prokka_gff_output/*.gff
+
+To create a newick file with the Roary output:
+FastTree -nt -gtr roary_output/core_gene_alignment.aln > fasttree_output/RoaryTree.nwk
+
+To find the unique genes:
+python3 -c "
+import pandas as pd
+df = pd.read_csv('roary_output/gene_presence_absence.csv', low_memory=False)
+genome_cols = df.columns[14:]
+for genome in genome_cols:
+    unique = df[(df[genome].notna()) & (df[genome_cols].notna().sum(axis=1) == 1)]
+    print(f'{genome}: {len(unique)} unique genes')
+
+
+
+Panaroo analysis:
+$ panaroo -i prokka_gff_output/*.gff \
+> -o panaroo_output \
+> --clean-mode strict \
+> -t 4 \
+> --alsignment core \
+> --aligner mafft 
+
