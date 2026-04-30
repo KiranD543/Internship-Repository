@@ -82,3 +82,66 @@ $ PIRATE –i prokka_gff_output \
 -o pirate_output \ 
 -t 4 \ 
 -v 
+
+
+
+Anvio: 
+To reformat the fasta files: 
+$ for fasta in test_fastas/*.fna; do 
+> strain=$(basename $fasta .fna) 
+> echo "Reformatting: $strain" 
+> docker run --rm -v ~/anvio_test:/data meren/anvio:latest \ 
+> anvi-script-reformat-fasta \ 
+> /data/test_fastas/$strain.fna \ 
+> -o /data/test_fastas/${strain}_reformatted.fna \ 
+> --simplify-names 
+> done 
+
+To create a contigs database per strain:
+$ for fasta in test_fastas/*_reformatted.fna; do 
+> strain=$(basename $fasta _reformatted.fna) 
+> echo "Processing: $strain" 
+> docker run --rm -v ~/anvio_test:/data meren/anvio:latest \ 
+> anvi-gen-contigs-database \ 
+> -f /data/test_fastas/${strain}_reformatted.fna \ 
+> -o /data/$strain.db \
+> -n $strain 
+> done 
+
+To run HMMs on each database:
+$ for db in ~/anvio_test/*.db; do 
+> strain=$(basename $db .db) 
+> echo "Running HMMs: $strain" 
+> docker run --rm -v ~/anvio_test:/data meren/anvio:latest \ 
+> anvi-run-hmms \ 
+> -c /data/$strain.db
+> done 
+
+To make the genomes.txt file:
+$ echo -e "name\tcontigs_db_path" > genomes.txt 
+$ for fasta in test_fastas/*_reformatted.fna; do 
+> strain=$(basename $fasta _reformatted.fna) 
+> echo -e "$strain\t/data/$strain.db" 
+> done >> genomes.txt 
+
+To make a genome storage: 
+$ docker run --rm -v ~/anvio_test:/data meren/anvio:latest \ 
+> anvi-gen-genomes-storage \ 
+> -e /data/genomes.txt \ 
+> -o /data/Lactiplantibacillus-GENOMES.db 
+
+To run the pangenome analysis: 
+$ docker run --rm -v ~/anvio_test:/data meren/anvio:latest \ 
+> anvi-pan-genome \ 
+> -g /data/Lactiplantibacillus-GENOMES.db \ 
+> -o /data/pangenome_output \ 
+> -n Lactiplantibacillus_plantarum \ 
+> --num-threads 4 
+
+To visualize the pangenome: 
+$ docker run --rm -p 8080:8080 -v ~/anvio_test:/data meren/anvio:latest \ 
+> anvi-display-pan \ 
+> -g /data/Lactiplantibacillus-GENOMES.db \ 
+> -p /data/pangenome_output/Lactiplantibacillus_plantarum-PAN.db 
+
+http://localhost:8080 
