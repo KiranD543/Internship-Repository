@@ -1,0 +1,30 @@
+To create a newick file from the panaroo output:
+$ FastTree -nt -gtr panaroo_output/core_gene_alignment.aln > PanarooTree.newick
+
+To reinstall Anvi'o:
+$ conda remove -n anvio_env --all -y
+$ conda create -y name anvio-9 --all -y
+$ conda activate anvio-9
+$ conda install -y -c conda-forge -c bioconda python=3.10 \
+  sqlite=3.46 prodigal idba mcl muscle=3.8.1551 famsa hmmer diamond \
+  blast megahit spades bowtie2 bwa graphviz "samtools>=1.9" \
+  trimal iqtree trnascan-se fasttree vmatch r-base r-tidyverse \
+  r-optparse r-stringi r-magrittr bioconductor-qvalue meme ghostscript \
+  nodejs=20.12.2 llvlite numba
+$ curl -L https://github.com/merenlab/anvio/releases/download/v9/anvio-9.tar.gz \
+  --output anvio-9.tar.gz
+$ pip install anvio-9.tar.gz
+
+To test Anvi'o:
+$ anvi-self-test --suite mini
+
+To setup key resources (for pangenome analysis):
+$ anvi-setup-scg-taxonomy
+$ anvi-setup-ncbi-cogs
+$ anvi-setup-kegg-data
+$ anvi-setup-modelseed-database
+
+To test the key resources: 
+$ anvi-self-test --suite pangenomics
+
+
