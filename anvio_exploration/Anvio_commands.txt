@@ -27,4 +27,180 @@ $ anvi-setup-modelseed-database
 To test the key resources: 
 $ anvi-self-test --suite pangenomics
 
+To reformat the fasta files:
+$ for fasta in FastaFiles/*_reformatted.fna; do
+  stain=$(basename $fasta _reformatted.fna)
+  echo "Processing: $strain"
+  anvi-gen-contigs-database \
+  -f FastaFiles/${strain}_reformatted.fna \
+  -o ${strain}.db \
+  -n $strain
+  done
 
+To create a contigs database per strain:
+$ for fasta in FastaFiles/*_reformatted.fna; do
+  strain=$(basename $fasta _reformatted.fna)
+  echo "Processing: $strain"
+  anvi-gen-contigs-database \
+  -f FastaFiles/${strain}_reformatted.fna \
+  -o ${strain}.db \
+  -n $strain
+  done
+  
+To run HMMs on each database:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Running HMMs: $strain"
+  anvi-run-hmms \ 
+  -c ${strain}.db \
+  --num-threads 4
+  done
+  
+To the contigs statistics per strain:
+$ anvi-display-contigs-stats *.db
+Or by using the commandline:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "=== $strain ==="
+  anvi-estimate-genome-completeness -c ${strain}.db
+  done
+
+To create the genomes.txt file:
+$ echo -e "name\tcontigs_db_path" > genomes.txt
+$ for fasta in FastaFiles/*_reformatted.fna; do
+  strain=$(basename $fasta _reformatted.fna)
+  echo -e "$strain\t$(pwd)/${strain}.db"
+  done >> genomes.txt
+  
+To create a genome storage:
+$ anvi-gen-genomes-storage \
+  -e genomes.txt \
+  -o Levilactobacillus-GENOMES.db
+
+To run the pangenome analysis:
+$ anvi-pan-genome \
+  -g Levilactobacillus-GENOMES.db \
+  -o pangenome_output \
+  -n Levilactobacillus_brevis \
+  --num-threads 4
+
+To calculate ANI scores:
+$ anvi-compute-genome-similarity \
+  -e genomes.txt \
+  -o ANI_output \
+  --program pyANI \
+  --num-threads 4 \
+  --pan-db pangenome_output/Levilactobacillus_brevis-PAN.db 
+
+To create a default collection of the database:
+$ anvi-script-add-default-collection \
+  -p pangenome_output/Levilactobacillus_brevis-PAN.db
+
+To make a summary (comparable to Roary and Panaroo):
+$ anvi-summarize \
+  -p pangenome_output/Levilactobacillus_brevis-PAN.db \
+  -g Levilactobacillus-GENOMES.db \
+  -C DEFAULT \
+  -o pangenome_summary
+  
+$ python3 << 'EOF'
+import pandas as pd
+
+# Load the file
+df = pd.read_csv('pangenome_summary/Levilactobacillus_brevis_gene_clusters_summary.txt', 
+                 sep='\t', 
+                 usecols=['gene_cluster_id', 'num_genomes_gene_cluster_has_hits'])
+
+# Delete duplicates
+df = df.drop_duplicates(subset='gene_cluster_id')
+
+total_genomes = 10
+
+# Calculate the percentage presence
+df['percentage'] = df['num_genomes_gene_cluster_has_hits'] / total_genomes * 100
+
+# Categorize like Roary and Panaroo
+core = len(df[df['percentage'] >= 99])
+soft_core = len(df[(df['percentage'] >= 95) & (df['percentage'] < 99)])
+shell = len(df[(df['percentage'] >= 15) & (df['percentage'] < 95)])
+cloud = len(df[df['percentage'] < 15])
+total = len(df)
+
+print("=== Pangenoom Samenvatting (Anvi'o) ===")
+print(f"Core genes    (99% <= strains <= 100%)  {core}")
+print(f"Soft core     (95% <= strains < 99%)    {soft_core}")
+print(f"Shell genes   (15% <= strains < 95%)    {shell}")
+print(f"Cloud genes   (0%  <= strains < 15%)    {cloud}")
+print(f"Total genes   (0%  <= strains <= 100%)  {total}")
+
+EOF
+
+
+To find the amount of unique genes per strain:
+$ python3 << 'EOF'
+from collections import defaultdict
+
+counts = defaultdict(int)
+
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        if line.startswith('>'):
+            # Get the genome name from the header
+            parts = line.strip().split('|')
+            for part in parts:
+                if 'genome_name:' in part:
+                    genome = part.replace('genome_name:', '').strip()
+                    counts[genome] += 1
+
+for genome, count in sorted(counts.items()):
+    print(f"{genome}: {count} unique genes")
+
+
+To make a fasta of the unique genes:
+$ python3 << 'EOF'
+from collections import defaultdict
+
+# Read all sequences
+sequences = {}
+current_header = None
+current_genome = None
+
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            current_header = line
+            # Extract genome name from header
+            for part in line.split('|'):
+                if 'genome_name:' in part:
+                    current_genome = part.replace('genome_name:', '').strip()
+            sequences[current_header] = {'genome': current_genome, 'seq': ''}
+        else:
+            sequences[current_header]['seq'] += line
+
+# Group by strain
+genomes = defaultdict(list)
+for header, data in sequences.items():
+    genomes[data['genome']].append((header, data['seq']))
+
+# Write separate FASTA file per strain
+for genome, genes in genomes.items():
+    filename = f"unique_genes_{genome}.fasta"
+    with open(filename, 'w') as f:
+        for header, seq in genes:
+            f.write(f"{header}\n{seq}\n")
+    print(f"{genome}: {len(genes)} unique genes → {filename}")
+
+EOF
+
+  
+  
+  
+  
+  
+
+To view the pangenome: 
+$ anvi-display-pan \
+  -g Levilactobacillus-GENOMES.db \
+  -p pangenome_output/Levilactobacillus_brevis-PAN.db \
+  --server-only
