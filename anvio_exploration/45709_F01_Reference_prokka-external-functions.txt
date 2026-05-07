@@ -1,0 +1,1458 @@
+gene_callers_id	source	accession	function	e_value
+0	NCBI_PGAP	JECDCPOO_00001	Chromosomal replication initiator protein DnaA (dnaA)	0
+1	NCBI_PGAP	JECDCPOO_00002	Beta sliding clamp (dnaN)	0
+3	NCBI_PGAP	JECDCPOO_00004	DNA replication and repair protein RecF (recF)	0
+4	NCBI_PGAP	JECDCPOO_00005	DNA gyrase subunit B (gyrB)	0
+5	NCBI_PGAP	JECDCPOO_00006	DNA gyrase subunit A GyrA (gyrA)	0
+6	NCBI_PGAP	JECDCPOO_00007	Small ribosomal subunit protein bS6 (rpsF)	0
+7	NCBI_PGAP	JECDCPOO_00008	Single-stranded DNA-binding protein A (ssbA)	0
+8	NCBI_PGAP	JECDCPOO_00009	Small ribosomal subunit protein bS18 (rpsR)	0
+10	NCBI_PGAP	JECDCPOO_00011	Dipeptide-binding protein (dppA_1)	0
+13	NCBI_PGAP	JECDCPOO_00014	Dipeptide-binding protein (dppA_2)	0
+16	NCBI_PGAP	JECDCPOO_00017	Cyclic-di-AMP phosphodiesterase GdpP (gdpP)	0
+17	NCBI_PGAP	JECDCPOO_00018	Large ribosomal subunit protein bL9 (rplI)	0
+19	NCBI_PGAP	JECDCPOO_00020	Isoprimeverose transporter (xylP_1)	0
+20	NCBI_PGAP	JECDCPOO_00021	Beta-xylosidase (xynB_1)	0
+23	NCBI_PGAP	JECDCPOO_00024	Replicative DNA helicase DnaC (dnaC)	0
+24	NCBI_PGAP	JECDCPOO_00025	Putative NAD(P)H-dependent FMN-containing oxidoreductase YwqN (ywqN_1)	0
+27	NCBI_PGAP	JECDCPOO_00028	Dipeptide-binding protein (dppA_3)	0
+31	NCBI_PGAP	JECDCPOO_00032	Enolase (eno)	0
+32	NCBI_PGAP	JECDCPOO_00033	Potassium-transporting ATPase ATP-binding subunit (kdpB)	0
+33	NCBI_PGAP	JECDCPOO_00036	Transcriptional regulatory protein WalR (walR)	0
+34	NCBI_PGAP	JECDCPOO_00037	Sensor protein kinase WalK (walK)	0
+36	NCBI_PGAP	JECDCPOO_00039	Two-component system WalR/WalK regulatory protein YycI (yycI)	0
+37	NCBI_PGAP	JECDCPOO_00040	Exodeoxyribonuclease WalJ (walJ)	0
+38	NCBI_PGAP	JECDCPOO_00041	Serine protease Do-like HtrA (htrA)	0
+39	NCBI_PGAP	JECDCPOO_00042	Ribosomal RNA large subunit methyltransferase H (rlmH)	0
+45	NCBI_PGAP	JECDCPOO_00048	Cell wall protein	0
+48	NCBI_PGAP	JECDCPOO_00051	Foldase protein PrsA (prsA_1)	0
+52	NCBI_PGAP	JECDCPOO_00055	putative MFS-type transporter EfpA (efpA)	0
+54	NCBI_PGAP	JECDCPOO_00057	3-ketodihydrosphingosine reductase (kdsr_1)	0
+56	NCBI_PGAP	JECDCPOO_00059	Ribosome protection protein VmlR (vmlR_1)	0
+57	NCBI_PGAP	JECDCPOO_00060	Arginine exporter protein ArgO (argO)	0
+58	NCBI_PGAP	JECDCPOO_00061	HTH-type transcriptional regulator MgrA (mgrA)	0
+59	NCBI_PGAP	JECDCPOO_00062	Acetyl esterase (aes)	0
+60	NCBI_PGAP	JECDCPOO_00063	ADP-ribosylarginine hydrolase Tri1 (tri1)	0
+61	NCBI_PGAP	JECDCPOO_00064	Maltose O-acetyltransferase (maa_1)	0
+64	NCBI_PGAP	JECDCPOO_00067	Peptidyl-lysine N-acetyltransferase YjaB (yjaB)	0
+66	NCBI_PGAP	JECDCPOO_00069	Dipeptide-binding protein (dppA_4)	0
+74	NCBI_PGAP	JECDCPOO_00077	1,4-dihydroxy-2-naphthoyl-CoA hydrolase (menI)	0
+75	NCBI_PGAP	JECDCPOO_00078	1,4-dihydroxy-2-naphthoyl-CoA synthase (menB)	0
+76	NCBI_PGAP	JECDCPOO_00079	2-succinylbenzoate--CoA ligase (menE)	0
+79	NCBI_PGAP	JECDCPOO_00082	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--L- lysine ligase (murE)	0
+80	NCBI_PGAP	JECDCPOO_00083	Lysine--tRNA ligase (lysS)	0
+82	NCBI_PGAP	JECDCPOO_00087	3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase (hcaB)	0
+86	NCBI_PGAP	JECDCPOO_00091	Glutamate/gamma-aminobutyrate antiporter (gadC_1)	0
+87	NCBI_PGAP	JECDCPOO_00092	Glutamate decarboxylase (gadB_1)	0
+88	NCBI_PGAP	JECDCPOO_00093	Glutamate--tRNA ligase (gltX_1)	0
+90	NCBI_PGAP	JECDCPOO_00098	Proton/sodium-glutamate symport protein (gltT)	0
+91	NCBI_PGAP	JECDCPOO_00099	Alkyl hydroperoxide reductase C (ahpC)	0
+93	NCBI_PGAP	JECDCPOO_00101	putative sugar epimerase YhfK (yhfK_1)	0
+95	NCBI_PGAP	JECDCPOO_00103	Gamma-resorcylate decarboxylase	0
+96	NCBI_PGAP	JECDCPOO_00104	Gamma-resorcylate decarboxylase	0
+101	NCBI_PGAP	JECDCPOO_00109	6-phosphogluconate dehydrogenase, decarboxylating (gnd)	0
+103	NCBI_PGAP	JECDCPOO_00111	Protein ElaA (elaA_1)	0
+105	NCBI_PGAP	JECDCPOO_00113	Glucose-6-phosphate 1-dehydrogenase (zwf)	0
+106	NCBI_PGAP	JECDCPOO_00114	SPbeta prophage-derived aminoglycoside N(3')-acetyltransferase-like protein YokD (yokD)	0
+108	NCBI_PGAP	JECDCPOO_00116	Coniferyl aldehyde dehydrogenase (calB)	0
+109	NCBI_PGAP	JECDCPOO_00117	Pyridoxine 4-dehydrogenase (pdxI)	0
+112	NCBI_PGAP	JECDCPOO_00120	Phosphoglycerate transporter protein (pgtP)	0
+114	NCBI_PGAP	JECDCPOO_00122	Multidrug transporter protein MdtP (mdtP_1)	0
+116	NCBI_PGAP	JECDCPOO_00124	FMN reductase (NADPH) (nfrA1)	0
+117	NCBI_PGAP	JECDCPOO_00125	Putative NrdI-like protein	0
+118	NCBI_PGAP	JECDCPOO_00126	Ribosome protection protein VmlR (vmlR_2)	0
+119	NCBI_PGAP	JECDCPOO_00127	Fatty acid resistance protein FarB (farB)	0
+121	NCBI_PGAP	JECDCPOO_00129	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase (kduD_1)	0
+122	NCBI_PGAP	JECDCPOO_00130	HTH-type transcriptional regulator KdgR (kdgR_1)	0
+125	NCBI_PGAP	JECDCPOO_00133	Acid shock protein	0
+126	NCBI_PGAP	JECDCPOO_00134	Inner membrane transporter YjeM (yjeM_1)	0
+127	NCBI_PGAP	JECDCPOO_00135	Glyoxal reductase (yvgN_1)	0
+129	NCBI_PGAP	JECDCPOO_00137	Calcium-transporting ATPase CtpE (ctpE)	0
+132	NCBI_PGAP	JECDCPOO_00140	Aldehyde-alcohol dehydrogenase (adhE_1)	0
+140	NCBI_PGAP	JECDCPOO_00148	4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase 1 (kduI1_1)	0
+141	NCBI_PGAP	JECDCPOO_00149	2-dehydro-3-deoxygluconokinase (kdgK_1)	0
+142	NCBI_PGAP	JECDCPOO_00150	Acetate kinase (ackA_1)	0
+144	NCBI_PGAP	JECDCPOO_00152	Multidrug efflux system permease protein	0
+145	NCBI_PGAP	JECDCPOO_00153	Multidrug efflux system ATP-binding protein	0
+146	NCBI_PGAP	JECDCPOO_00154	putative protein YedJ (yedJ)	0
+148	NCBI_PGAP	JECDCPOO_00156	Uronate isomerase (uxaC_1)	0
+149	NCBI_PGAP	JECDCPOO_00157	Glucuronide carrier protein (uidB)	0
+150	NCBI_PGAP	JECDCPOO_00158	Oligosaccharide 4-alpha-D-glucosyltransferase	0
+151	NCBI_PGAP	JECDCPOO_00159	Beta-glucuronidase (bglR)	0
+152	NCBI_PGAP	JECDCPOO_00160	D-mannonate oxidoreductase (uxuB)	0
+153	NCBI_PGAP	JECDCPOO_00161	Protein LacX, plasmid (lacX_1)	0
+154	NCBI_PGAP	JECDCPOO_00162	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_1)	0
+155	NCBI_PGAP	JECDCPOO_00163	Hydroxypyruvate reductase	0
+156	NCBI_PGAP	JECDCPOO_00164	Xylulose kinase (xylB_1)	0
+157	NCBI_PGAP	JECDCPOO_00165	6-phosphogluconate dehydrogenase, NAD(+)-dependent, decarboxylating	0
+158	NCBI_PGAP	JECDCPOO_00166	HTH-type transcriptional repressor RspR (rspR)	0
+159	NCBI_PGAP	JECDCPOO_00167	Mannonate dehydratase (uxuA)	0
+160	NCBI_PGAP	JECDCPOO_00168	putative HTH-type transcriptional repressor ExuR (exuR)	0
+161	NCBI_PGAP	JECDCPOO_00169	putative symporter YjmB (yjmB)	0
+162	NCBI_PGAP	JECDCPOO_00170	Tagaturonate/fructuronate epimerase (uxaE)	0
+163	NCBI_PGAP	JECDCPOO_00171	Uronate isomerase (uxaC_2)	0
+166	NCBI_PGAP	JECDCPOO_00174	putative transport protein HsrA (hsrA)	0
+171	NCBI_PGAP	JECDCPOO_00179	Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase YbaK (ybaK)	0
+172	NCBI_PGAP	JECDCPOO_00180	HTH-type transcriptional repressor NagR (nagR_1)	0
+174	NCBI_PGAP	JECDCPOO_00182	Transcription elongation factor GreA (greA_1)	0
+176	NCBI_PGAP	JECDCPOO_00184	Accessory gene regulator A (agrA)	0
+179	NCBI_PGAP	JECDCPOO_00187	NADP-dependent (R)-specific alcohol dehydrogenase (adh_1)	0
+181	NCBI_PGAP	JECDCPOO_00189	Ribosomal large subunit pseudouridine synthase D (rluD_1)	0
+182	NCBI_PGAP	JECDCPOO_00190	Putative universal stress protein	0
+184	NCBI_PGAP	JECDCPOO_00192	Multidrug resistance protein Stp (stp_1)	0
+186	NCBI_PGAP	JECDCPOO_00194	Oligopeptide-binding protein OppA (oppA)	0
+187	NCBI_PGAP	JECDCPOO_00195	Oligopeptide transport system permease protein OppC (oppC)	0
+188	NCBI_PGAP	JECDCPOO_00196	Oligopeptide transport system permease protein OppB (oppB)	0
+189	NCBI_PGAP	JECDCPOO_00197	Oligopeptide transport ATP-binding protein OppF (oppF_1)	0
+190	NCBI_PGAP	JECDCPOO_00198	Oligopeptide transport ATP-binding protein OppD (oppD)	0
+192	NCBI_PGAP	JECDCPOO_00200	Lipoate-protein ligase LplJ (lplJ_1)	0
+196	NCBI_PGAP	JECDCPOO_00204	Xylose isomerase (xylA)	0
+197	NCBI_PGAP	JECDCPOO_00205	Xylulose kinase (xylB_2)	0
+198	NCBI_PGAP	JECDCPOO_00206	D-xylose transporter (xylT_1)	0
+199	NCBI_PGAP	JECDCPOO_00207	Diacetyl reductase [(S)-acetoin forming] (butA)	0
+200	NCBI_PGAP	JECDCPOO_00208	Intracellular iron chaperone frataxin (fra)	0
+202	NCBI_PGAP	JECDCPOO_00210	Putative universal stress protein	0
+204	NCBI_PGAP	JECDCPOO_00212	putative succinyl-diaminopimelate desuccinylase (dapE_1)	0
+207	NCBI_PGAP	JECDCPOO_00215	Aldo-keto reductase/MSMEI_2347	0
+210	NCBI_PGAP	JECDCPOO_00218	Na(+)/H(+) antiporter NhaC (nhaC_1)	0
+212	NCBI_PGAP	JECDCPOO_00220	(R)-2-hydroxyglutarate dehydrogenase (hgdH)	0
+213	NCBI_PGAP	JECDCPOO_00221	Sensor histidine kinase DcuS (dcuS)	0
+214	NCBI_PGAP	JECDCPOO_00222	Transcriptional regulatory protein DcuR (dcuR)	0
+222	NCBI_PGAP	JECDCPOO_00230	Phenolic acid decarboxylase PadC (padC)	0
+223	NCBI_PGAP	JECDCPOO_00231	Negative transcriptional regulator PadR (padR)	0
+225	NCBI_PGAP	JECDCPOO_00233	3-beta-hydroxysteroid dehydrogenase	0
+226	NCBI_PGAP	JECDCPOO_00234	Protein ElaA (elaA_2)	0
+233	NCBI_PGAP	JECDCPOO_00241	Putative universal stress protein	0
+234	NCBI_PGAP	JECDCPOO_00242	Divalent metal cation transporter MntH (mntH_1)	0
+236	NCBI_PGAP	JECDCPOO_00244	GMP reductase (guaC)	0
+237	NCBI_PGAP	JECDCPOO_00245	Adenylosuccinate synthetase (purA)	0
+238	NCBI_PGAP	JECDCPOO_00246	Adenylosuccinate lyase (purB)	0
+240	NCBI_PGAP	JECDCPOO_00248	Succinate-semialdehyde dehydrogenase [NADP(+)] 1 (gabD1_1)	0
+242	NCBI_PGAP	JECDCPOO_00250	Fatty acid metabolism regulator protein (fadR)	0
+243	NCBI_PGAP	JECDCPOO_00251	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase (menH_1)	0
+244	NCBI_PGAP	JECDCPOO_00252	Triple specificity protein phosphatase PtpB (ptpB_1)	0
+245	NCBI_PGAP	JECDCPOO_00253	Monoterpene epsilon-lactone hydrolase (mlhB)	0
+246	NCBI_PGAP	JECDCPOO_00254	Kumamolisin-As (scpA_1)	0
+248	NCBI_PGAP	JECDCPOO_00256	Putative glutamine amidotransferase	0
+250	NCBI_PGAP	JECDCPOO_00258	Endonuclease III (nth_1)	0
+251	NCBI_PGAP	JECDCPOO_00259	Glycerol kinase (glpK_1)	0
+254	NCBI_PGAP	JECDCPOO_00262	Thermostable beta-glucosidase B (bglB_1)	0
+255	NCBI_PGAP	JECDCPOO_00263	HTH-type transcriptional activator RhaR (rhaR_1)	0
+256	NCBI_PGAP	JECDCPOO_00264	Beta-galactosidase BgaA (bgaA)	0
+259	NCBI_PGAP	JECDCPOO_00267	Triuret hydrolase TrtA (trtA)	0
+263	NCBI_PGAP	JECDCPOO_00271	putative tRNA-dihydrouridine synthase (dus)	0
+264	NCBI_PGAP	JECDCPOO_00272	Enoyl-[acyl-carrier-protein] reductase [NADH] (fabV)	0
+265	NCBI_PGAP	JECDCPOO_00273	Flavodoxin	0
+267	NCBI_PGAP	JECDCPOO_00275	Threonine/serine transporter ThrP (thrP)	0
+271	NCBI_PGAP	JECDCPOO_00279	putative succinyl-diaminopimelate desuccinylase (dapE_2)	0
+272	NCBI_PGAP	JECDCPOO_00280	Alcohol dehydrogenase 1 (adhA_1)	0
+274	NCBI_PGAP	JECDCPOO_00282	Vitamin B12 import ATP-binding protein BtuD (btuD_1)	0
+275	NCBI_PGAP	JECDCPOO_00283	putative ergothioneine transporter EgtUBC (egtUBC)	0
+280	NCBI_PGAP	JECDCPOO_00288	putative cation-transporting ATPase F (ctpF)	0
+281	NCBI_PGAP	JECDCPOO_00289	Dipeptidase A (pepDA_1)	0
+283	NCBI_PGAP	JECDCPOO_00291	Maltose O-acetyltransferase (maa_2)	0
+285	NCBI_PGAP	JECDCPOO_00293	putative inner membrane transporter YicL (yicL_1)	0
+286	NCBI_PGAP	JECDCPOO_00294	Copper-exporting P-type ATPase B (copB)	0
+287	NCBI_PGAP	JECDCPOO_00295	Transcriptional repressor CopY (copY)	0
+289	NCBI_PGAP	JECDCPOO_00297	putative oxidoreductase YtbE (ytbE_1)	0
+290	NCBI_PGAP	JECDCPOO_00298	putative copper-transporting ATPase PacS (pacS)	0
+293	NCBI_PGAP	JECDCPOO_00301	Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase (icaB)	0
+294	NCBI_PGAP	JECDCPOO_00302	Tyrosine recombinase XerC (xerC_1)	0
+295	NCBI_PGAP	JECDCPOO_00303	Adenosine deaminase (add)	0
+296	NCBI_PGAP	JECDCPOO_00304	Peptidoglycan O-acetyltransferase OatA (oatA)	0
+298	NCBI_PGAP	JECDCPOO_00306	Linoleate hydratase (cla-hy)	0
+299	NCBI_PGAP	JECDCPOO_00307	Signal peptidase IB (spsB_1)	0
+300	NCBI_PGAP	JECDCPOO_00308	Cytidine deaminase (cdd)	0
+303	NCBI_PGAP	JECDCPOO_00311	Isoprimeverose transporter (xylP_2)	0
+304	NCBI_PGAP	JECDCPOO_00312	Inner membrane protein YagU (yagU)	0
+305	NCBI_PGAP	JECDCPOO_00313	UvrABC system protein A (uvrA_1)	0
+309	NCBI_PGAP	JECDCPOO_00317	Glycine betaine/carnitine/choline transport system permease protein OpuCD (opuCD)	0
+310	NCBI_PGAP	JECDCPOO_00318	Glycine betaine/carnitine/choline-binding protein OpuCC (opuCC)	0
+311	NCBI_PGAP	JECDCPOO_00319	Carnitine transport permease protein OpuCB (opuCB)	0
+312	NCBI_PGAP	JECDCPOO_00320	Carnitine transport ATP-binding protein OpuCA (opuCA)	0
+314	NCBI_PGAP	JECDCPOO_00322	Staphyloferrin B transporter (sbnD_1)	0
+315	NCBI_PGAP	JECDCPOO_00323	Dye-decolorizing peroxidase (dyp)	0
+316	NCBI_PGAP	JECDCPOO_00324	Cystathionine beta-lyase PatB (patB)	0
+319	NCBI_PGAP	JECDCPOO_00327	putative glycosyltransferase YkoT (ykoT)	0
+324	NCBI_PGAP	JECDCPOO_00332	putative ABC transporter ATP-binding protein	0
+325	NCBI_PGAP	JECDCPOO_00333	Oligo-1,6-glucosidase (malL_1)	0
+327	NCBI_PGAP	JECDCPOO_00335	Nicotinamide riboside transporter PnuC (pnuC_1)	0
+329	NCBI_PGAP	JECDCPOO_00337	Pyruvate oxidase (pox5)	0
+332	NCBI_PGAP	JECDCPOO_00340	Adaptive-response sensory-kinase SasA (sasA_1)	0
+333	NCBI_PGAP	JECDCPOO_00341	Response regulator MprA (mprA)	0
+335	NCBI_PGAP	JECDCPOO_00343	putative sugar epimerase YhfK (yhfK_2)	0
+336	NCBI_PGAP	JECDCPOO_00344	Type II NADH:quinone oxidoreductase	0
+337	NCBI_PGAP	JECDCPOO_00345	Methylated-DNA--protein-cysteine methyltransferase (ogt)	0
+339	NCBI_PGAP	JECDCPOO_00347	Succinate-semialdehyde dehydrogenase [NADP(+)] 1 (gabD1_2)	0
+340	NCBI_PGAP	JECDCPOO_00348	HTH-type transcriptional regulator BhcR (bhcR)	0
+344	NCBI_PGAP	JECDCPOO_00352	4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase 1 (kduI1_2)	0
+345	NCBI_PGAP	JECDCPOO_00353	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase (kduD_2)	0
+346	NCBI_PGAP	JECDCPOO_00354	2-keto-3-deoxygluconate permease (kdgT)	0
+347	NCBI_PGAP	JECDCPOO_00355	2-dehydro-3-deoxygluconokinase (kdgK_2)	0
+348	NCBI_PGAP	JECDCPOO_00356	2-dehydro-3-deoxy-phosphogluconate aldolase (kdgA)	0
+350	NCBI_PGAP	JECDCPOO_00358	NADP-dependent (R)-specific alcohol dehydrogenase (adh_2)	0
+351	NCBI_PGAP	JECDCPOO_00359	Divalent metal cation transporter MntH (mntH_2)	0
+352	NCBI_PGAP	JECDCPOO_00360	Protein DegV (degV_1)	0
+353	NCBI_PGAP	JECDCPOO_00361	NADH oxidase (nox_1)	0
+354	NCBI_PGAP	JECDCPOO_00362	Thioredoxin (trxA_1)	0
+356	NCBI_PGAP	JECDCPOO_00364	Fluoride-specific ion channel FluC 1 (fluC1)	0
+357	NCBI_PGAP	JECDCPOO_00365	Fluoride-specific ion channel FluC 2 (fluC2)	0
+359	NCBI_PGAP	JECDCPOO_00367	putative carboxylic ester hydrolase LipM (lipM)	0
+360	NCBI_PGAP	JECDCPOO_00368	S-ribosylhomocysteine lyase (luxS)	0
+364	NCBI_PGAP	JECDCPOO_00372	Transcriptional dual regulator GltC (gltC_1)	0
+368	NCBI_PGAP	JECDCPOO_00376	NADP-dependent (R)-specific alcohol dehydrogenase (adh_3)	0
+369	NCBI_PGAP	JECDCPOO_00377	Staphyloferrin B transporter (sbnD_2)	0
+370	NCBI_PGAP	JECDCPOO_00378	GTP pyrophosphokinase YwaC (ywaC)	0
+372	NCBI_PGAP	JECDCPOO_00380	Na(+)/H(+) antiporter (napA_1)	0
+375	NCBI_PGAP	JECDCPOO_00383	Response regulator ArlR (arlR_1)	0
+376	NCBI_PGAP	JECDCPOO_00384	Adaptive-response sensory-kinase SasA (sasA_2)	0
+377	NCBI_PGAP	JECDCPOO_00385	HTH-type transcriptional regulator MalR (malR)	0
+379	NCBI_PGAP	JECDCPOO_00387	Maltose phosphorylase (malP)	0
+381	NCBI_PGAP	JECDCPOO_00389	Small ribosomal subunit protein uS14A (rpsN2)	0
+382	NCBI_PGAP	JECDCPOO_00390	Maltose epimerase	0
+384	NCBI_PGAP	JECDCPOO_00392	Sugar phosphatase YbiV (ybiV_1)	0
+387	NCBI_PGAP	JECDCPOO_00395	Global transcriptional regulator Spx (spx_1)	0
+392	NCBI_PGAP	JECDCPOO_00400	3alpha-hydroxysteroid dehydrogenase (baiA)	0
+394	NCBI_PGAP	JECDCPOO_00402	Beta-xylosidase (xynB_2)	0
+395	NCBI_PGAP	JECDCPOO_00403	HTH-type transcriptional activator RhaS (rhaS_1)	0
+396	NCBI_PGAP	JECDCPOO_00404	3beta-hydroxysteroid dehydrogenase 2	0
+397	NCBI_PGAP	JECDCPOO_00405	Quinone oxidoreductase 2 (qorB_1)	0
+398	NCBI_PGAP	JECDCPOO_00406	Putative HTH-type transcriptional regulator YwnA (ywnA_1)	0
+401	NCBI_PGAP	JECDCPOO_00409	putative HTH-type transcriptional regulator YtcD (ytcD_1)	0
+402	NCBI_PGAP	JECDCPOO_00410	Inner membrane transport protein YdhP (ydhP)	0
+403	NCBI_PGAP	JECDCPOO_00411	6-dehydroglucose reductase (smoB_1)	0
+404	NCBI_PGAP	JECDCPOO_00412	Bacitracin export ATP-binding protein BceA (bceA)	0
+405	NCBI_PGAP	JECDCPOO_00413	Bacitracin export permease protein BceB (bceB)	0
+409	NCBI_PGAP	JECDCPOO_00417	Zinc-transporting ATPase (zosA)	0
+411	NCBI_PGAP	JECDCPOO_00419	Multicopper oxidase mco (mco)	0
+412	NCBI_PGAP	JECDCPOO_00420	HTH-type transcriptional repressor CzrA (czrA_1)	0
+415	NCBI_PGAP	JECDCPOO_00423	HTH-type transcriptional regulator CysL (cysL)	0
+416	NCBI_PGAP	JECDCPOO_00424	Quinolone resistance protein NorA (norA)	0
+417	NCBI_PGAP	JECDCPOO_00425	HTH-type transcriptional activator RhaS (rhaS_2)	0
+418	NCBI_PGAP	JECDCPOO_00426	putative ATP-binding protein YbiT (ybiT)	0
+419	NCBI_PGAP	JECDCPOO_00427	AB hydrolase superfamily protein YdjP (ydjP)	0
+420	NCBI_PGAP	JECDCPOO_00428	Transcriptional regulator LsrR (lsrR)	0
+421	NCBI_PGAP	JECDCPOO_00429	NAD-dependent malic enzyme	0
+423	NCBI_PGAP	JECDCPOO_00431	[Citrate [pro-3S]-lyase] ligase (citC)	0
+424	NCBI_PGAP	JECDCPOO_00432	Citrate lyase acyl carrier protein (citD)	0
+425	NCBI_PGAP	JECDCPOO_00433	Citrate lyase subunit beta (citE)	0
+426	NCBI_PGAP	JECDCPOO_00434	Citrate lyase alpha chain (citF)	0
+427	NCBI_PGAP	JECDCPOO_00435	Apo-citrate lyase phosphoribosyl-dephospho-CoA transferase (citX)	0
+428	NCBI_PGAP	JECDCPOO_00436	2-(5''-triphosphoribosyl)-3'-dephosphocoenzyme-A synthase (citG)	0
+430	NCBI_PGAP	JECDCPOO_00438	Non-specific ribonucleoside hydrolase RihC (rihC_1)	0
+432	NCBI_PGAP	JECDCPOO_00440	Arylsulfate sulfotransferase AssT (assT_1)	0
+435	NCBI_PGAP	JECDCPOO_00443	HTH-type transcriptional repressor YtrA (ytrA)	0
+436	NCBI_PGAP	JECDCPOO_00444	ABC transporter ATP-binding protein YtrB (ytrB_1)	0
+438	NCBI_PGAP	JECDCPOO_00446	Carbohydrate diacid regulator (cdaR_1)	0
+440	NCBI_PGAP	JECDCPOO_00448	Glycerate 3-kinase (glxK)	0
+441	NCBI_PGAP	JECDCPOO_00449	Sodium, potassium, lithium and rubidium/H(+) antiporter (nhaK_1)	0
+445	NCBI_PGAP	JECDCPOO_00453	Allantoin permease (pucI)	0
+451	NCBI_PGAP	JECDCPOO_00459	Divalent metal cation transporter MntH (mntH_3)	0
+452	NCBI_PGAP	JECDCPOO_00460	Tyrosine--tRNA ligase (tyrS_1)	0
+453	NCBI_PGAP	JECDCPOO_00465	Isopentenyl-diphosphate Delta-isomerase (idi)	0
+458	NCBI_PGAP	JECDCPOO_00470	Glutathione amide reductase (garB)	0
+461	NCBI_PGAP	JECDCPOO_00473	Na(+)/H(+) antiporter (napA_2)	0
+465	NCBI_PGAP	JECDCPOO_00477	2-dehydro-3-deoxygluconokinase (kdgK_3)	0
+466	NCBI_PGAP	JECDCPOO_00478	3-hexulose-6-phosphate synthase (rmpA)	0
+467	NCBI_PGAP	JECDCPOO_00479	3-hexulose-6-phosphate isomerase (hxlB)	0
+468	NCBI_PGAP	JECDCPOO_00480	HTH-type transcriptional regulator KdgR (kdgR_2)	0
+471	NCBI_PGAP	JECDCPOO_00483	DNA helicase IV (helD_1)	0
+472	NCBI_PGAP	JECDCPOO_00484	Tryptophan--tRNA ligase 2 (trpS2)	0
+473	NCBI_PGAP	JECDCPOO_00485	Exopolyphosphatase (ppx_1)	0
+474	NCBI_PGAP	JECDCPOO_00486	3-hydroxy-3-methylglutaryl-coenzyme A reductase (mvaA)	0
+476	NCBI_PGAP	JECDCPOO_00488	NAD-dependent protein deacetylase (cobB)	0
+479	NCBI_PGAP	JECDCPOO_00491	Methionine--tRNA ligase (metG)	0
+480	NCBI_PGAP	JECDCPOO_00492	D-aminoacyl-tRNA deacylase (dtd3)	0
+481	NCBI_PGAP	JECDCPOO_00493	Ribonuclease M5 (rnmV)	0
+482	NCBI_PGAP	JECDCPOO_00494	Ribosomal RNA small subunit methyltransferase A (rsmA)	0
+483	NCBI_PGAP	JECDCPOO_00495	Protein Veg (veg)	0
+484	NCBI_PGAP	JECDCPOO_00496	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (ispE)	0
+486	NCBI_PGAP	JECDCPOO_00498	Alpha-xylosidase XylQ (xylQ)	0
+487	NCBI_PGAP	JECDCPOO_00499	Isoprimeverose transporter (xylP_3)	0
+488	NCBI_PGAP	JECDCPOO_00500	N-acetylmannosamine kinase (nanK)	0
+489	NCBI_PGAP	JECDCPOO_00501	Aryl-phospho-beta-D-glucosidase BglA (bglA)	0
+490	NCBI_PGAP	JECDCPOO_00502	Beta-glucoside kinase (bglK_1)	0
+494	NCBI_PGAP	JECDCPOO_00506	Fluoroquinolones export ATP-binding protein	0
+497	NCBI_PGAP	JECDCPOO_00509	Manganese-binding lipoprotein MntA (mntA)	0
+498	NCBI_PGAP	JECDCPOO_00510	Manganese transport system ATP-binding protein MntB (mntB)	0
+499	NCBI_PGAP	JECDCPOO_00511	High-affinity zinc uptake system membrane protein ZnuB (znuB)	0
+502	NCBI_PGAP	JECDCPOO_00514	Purine biosynthesis transcriptional repressor PurR (purR)	0
+503	NCBI_PGAP	JECDCPOO_00515	Bifunctional protein GlmU (glmU)	0
+504	NCBI_PGAP	JECDCPOO_00516	Ribose-phosphate pyrophosphokinase (prs_1)	0
+507	NCBI_PGAP	JECDCPOO_00519	HTH-type transcriptional regulator GmuR (gmuR)	0
+508	NCBI_PGAP	JECDCPOO_00520	Xylulose-5-phosphate phosphoketolase (xpkA)	0
+509	NCBI_PGAP	JECDCPOO_00521	Sugar phosphatase YidA (yidA_1)	0
+511	NCBI_PGAP	JECDCPOO_00523	Octanoyl-[GcvH]:protein N-octanoyltransferase (lipL)	0
+512	NCBI_PGAP	JECDCPOO_00524	putative beta-barrel protein YwiB (ywiB)	0
+513	NCBI_PGAP	JECDCPOO_00525	putative DNA-directed RNA polymerase subunit delta (rpoE)	0
+514	NCBI_PGAP	JECDCPOO_00526	CTP synthase (pyrG)	0
+518	NCBI_PGAP	JECDCPOO_00530	Acetolactate synthase (alsS)	0
+519	NCBI_PGAP	JECDCPOO_00531	Alpha-acetolactate decarboxylase (aldC)	0
+521	NCBI_PGAP	JECDCPOO_00533	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (murA1_1)	0
+522	NCBI_PGAP	JECDCPOO_00534	Large ribosomal subunit protein bL31B (rpmE2)	0
+523	NCBI_PGAP	JECDCPOO_00535	Sortase A (strA)	0
+534	NCBI_PGAP	JECDCPOO_00546	Low molecular weight protein-tyrosine-phosphatase YfkJ (yfkJ)	0
+535	NCBI_PGAP	JECDCPOO_00547	Protein LemA (lemA)	0
+536	NCBI_PGAP	JECDCPOO_00548	Protease HtpX (htpX)	0
+538	NCBI_PGAP	JECDCPOO_00550	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase (murF)	0
+539	NCBI_PGAP	JECDCPOO_00551	ATP-dependent RNA helicase CshA (cshA)	0
+541	NCBI_PGAP	JECDCPOO_00553	Holo-[acyl-carrier-protein] synthase (acpS)	0
+542	NCBI_PGAP	JECDCPOO_00554	Alanine racemase (alr)	0
+544	NCBI_PGAP	JECDCPOO_00556	Endoribonuclease EndoA (ndoA)	0
+548	NCBI_PGAP	JECDCPOO_00560	L-lactate dehydrogenase (ldh_1)	0
+549	NCBI_PGAP	JECDCPOO_00561	Peptidyl-tRNA hydrolase (pth)	0
+550	NCBI_PGAP	JECDCPOO_00562	Transcription-repair-coupling factor (mfd)	0
+551	NCBI_PGAP	JECDCPOO_00563	lipid II flippase MurJ (murJ_1)	0
+552	NCBI_PGAP	JECDCPOO_00564	RQC P-site tRNA stabilizing factor (rqcP)	0
+554	NCBI_PGAP	JECDCPOO_00566	Polyribonucleotide nucleotidyltransferase (pnp)	0
+555	NCBI_PGAP	JECDCPOO_00567	tRNA(Ile)-lysidine synthase (tilS)	0
+556	NCBI_PGAP	JECDCPOO_00568	Hypoxanthine-guanine phosphoribosyltransferase (hpt)	0
+557	NCBI_PGAP	JECDCPOO_00569	ATP-dependent zinc metalloprotease FtsH (ftsH)	0
+558	NCBI_PGAP	JECDCPOO_00570	33 kDa chaperonin (hslO)	0
+559	NCBI_PGAP	JECDCPOO_00571	tRNA-dihydrouridine synthase B (dusB)	0
+561	NCBI_PGAP	JECDCPOO_00580	Di-/tripeptide transporter (dtpT)	0
+563	NCBI_PGAP	JECDCPOO_00584	Pyrroline-5-carboxylate reductase (proC)	0
+564	NCBI_PGAP	JECDCPOO_00585	N-acetylglucosamine-6-phosphate deacetylase (nagA)	0
+565	NCBI_PGAP	JECDCPOO_00586	HTH-type transcriptional repressor NagR (nagR_2)	0
+566	NCBI_PGAP	JECDCPOO_00587	Mycothiol acetyltransferase (mshD_1)	0
+567	NCBI_PGAP	JECDCPOO_00588	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase (tagA)	0
+568	NCBI_PGAP	JECDCPOO_00589	Nicotinate phosphoribosyltransferase pncB2 (pncB2)	0
+569	NCBI_PGAP	JECDCPOO_00590	NH(3)-dependent NAD(+) synthetase (nadE)	0
+571	NCBI_PGAP	JECDCPOO_00592	Protein YhgF (yhgF)	0
+572	NCBI_PGAP	JECDCPOO_00593	Protein SprT-like protein	0
+573	NCBI_PGAP	JECDCPOO_00594	Homoserine kinase (thrB_1)	0
+574	NCBI_PGAP	JECDCPOO_00596	Gamma-resorcylate decarboxylase (graF)	0
+575	NCBI_PGAP	JECDCPOO_00597	putative hydrolase	0
+579	NCBI_PGAP	JECDCPOO_00601	Multidrug export protein MepA (mepA_1)	0
+580	NCBI_PGAP	JECDCPOO_00602	Pyrophosphatase PpaX (ppaX)	0
+582	NCBI_PGAP	JECDCPOO_00604	PTS system mannose-specific EIIAB component (manX)	0
+583	NCBI_PGAP	JECDCPOO_00605	PTS system mannose-specific EIIC component (manY)	0
+584	NCBI_PGAP	JECDCPOO_00606	PTS system mannose-specific EIID component (manZ)	0
+587	NCBI_PGAP	JECDCPOO_00609	putative cyclic di-GMP phosphodiesterase PdeK (pdeK_1)	0
+589	NCBI_PGAP	JECDCPOO_00611	Chromosome partition protein Smc (smc_1)	0
+590	NCBI_PGAP	JECDCPOO_00612	Manganese ABC transporter substrate-binding lipoprotein PsaA (psaA)	0
+591	NCBI_PGAP	JECDCPOO_00613	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU (tagU_1)	0
+594	NCBI_PGAP	JECDCPOO_00616	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_2)	0
+596	NCBI_PGAP	JECDCPOO_00618	Aminopeptidase C (pepC)	0
+598	NCBI_PGAP	JECDCPOO_00620	Ribose-5-phosphate isomerase A (rpiA)	0
+600	NCBI_PGAP	JECDCPOO_00622	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dut)	0
+601	NCBI_PGAP	JECDCPOO_00623	DNA repair protein RadA (radA)	0
+602	NCBI_PGAP	JECDCPOO_00624	putative PIN and TRAM-domain containing protein YacL (yacL)	0
+603	NCBI_PGAP	JECDCPOO_00625	Glutamate--tRNA ligase (gltX_2)	0
+604	NCBI_PGAP	JECDCPOO_00626	Cysteine--tRNA ligase (cysS)	0
+605	NCBI_PGAP	JECDCPOO_00627	Mini-ribonuclease 3 (mrnC)	0
+606	NCBI_PGAP	JECDCPOO_00628	Putative TrmH family tRNA/rRNA methyltransferase	0
+609	NCBI_PGAP	JECDCPOO_00631	Protein translocase subunit SecE (secE)	0
+610	NCBI_PGAP	JECDCPOO_00632	Transcription termination/antitermination protein NusG (nusG)	0
+611	NCBI_PGAP	JECDCPOO_00633	Large ribosomal subunit protein uL11 (rplK)	0
+612	NCBI_PGAP	JECDCPOO_00634	Large ribosomal subunit protein uL1 (rplA)	0
+613	NCBI_PGAP	JECDCPOO_00635	Large ribosomal subunit protein uL10 (rplJ)	0
+614	NCBI_PGAP	JECDCPOO_00636	Large ribosomal subunit protein bL12 (rplL)	0
+615	NCBI_PGAP	JECDCPOO_00637	Phosphatidylglycerol lysyltransferase (mprF)	0
+616	NCBI_PGAP	JECDCPOO_00638	LOG family protein YvdD (yvdD)	0
+617	NCBI_PGAP	JECDCPOO_00639	3-hydroxybutyryl-CoA dehydrogenase	0
+618	NCBI_PGAP	JECDCPOO_00640	Ribonucleoside-diphosphate reductase subunit beta nrdF2 (nrdF2)	0
+619	NCBI_PGAP	JECDCPOO_00641	Ribonucleoside-diphosphate reductase subunit alpha (nrdE)	0
+620	NCBI_PGAP	JECDCPOO_00642	Glutaredoxin-like protein NrdH (nrdH)	0
+621	NCBI_PGAP	JECDCPOO_00643	Ribosomal RNA small subunit methyltransferase C (rsmC)	0
+622	NCBI_PGAP	JECDCPOO_00644	tRNA-specific adenosine deaminase (tadA_1)	0
+623	NCBI_PGAP	JECDCPOO_00645	DNA polymerase III subunit tau (dnaX)	0
+624	NCBI_PGAP	JECDCPOO_00646	Nucleoid-associated protein	0
+625	NCBI_PGAP	JECDCPOO_00647	Recombination protein RecR (recR)	0
+627	NCBI_PGAP	JECDCPOO_00649	Thymidylate kinase (tmk)	0
+628	NCBI_PGAP	JECDCPOO_00650	Cyclic di-AMP receptor A (darA)	0
+629	NCBI_PGAP	JECDCPOO_00651	DNA polymerase III subunit delta' (holB)	0
+630	NCBI_PGAP	JECDCPOO_00652	Replication initiation control protein YabA (yabA)	0
+631	NCBI_PGAP	JECDCPOO_00653	Ribosomal RNA small subunit methyltransferase I (rsmI)	0
+633	NCBI_PGAP	JECDCPOO_00655	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB (tsaB)	0
+634	NCBI_PGAP	JECDCPOO_00656	[Ribosomal protein bS18]-alanine N-acetyltransferase (rimI_1)	0
+635	NCBI_PGAP	JECDCPOO_00657	tRNA N6-adenosine threonylcarbamoyltransferase (tsaD)	0
+636	NCBI_PGAP	JECDCPOO_00658	putative transporter YycB (yycB_1)	0
+638	NCBI_PGAP	JECDCPOO_00660	putative ATP-binding protein YheS (yheS)	0
+639	NCBI_PGAP	JECDCPOO_00661	Redox-sensing transcriptional repressor Rex (rex)	0
+640	NCBI_PGAP	JECDCPOO_00662	Co-chaperonin GroES (groES)	0
+641	NCBI_PGAP	JECDCPOO_00663	Chaperonin GroEL (groEL)	0
+642	NCBI_PGAP	JECDCPOO_00664	Potassium transporter KimA (kimA)	0
+643	NCBI_PGAP	JECDCPOO_00665	Antiholin-like protein LrgB (lrgB)	0
+644	NCBI_PGAP	JECDCPOO_00666	Antiholin-like protein LrgA (lrgA)	0
+645	NCBI_PGAP	JECDCPOO_00667	putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (tagO)	0
+647	NCBI_PGAP	JECDCPOO_00669	Competence protein ComFA (comFA)	0
+648	NCBI_PGAP	JECDCPOO_00670	Competence protein ComFC (comFC)	0
+649	NCBI_PGAP	JECDCPOO_00671	Ribosome hibernation promotion factor (hpf)	0
+650	NCBI_PGAP	JECDCPOO_00672	Protein translocase subunit SecA (secA)	0
+651	NCBI_PGAP	JECDCPOO_00673	Peptide chain release factor 2 (prfB)	0
+652	NCBI_PGAP	JECDCPOO_00674	Cell division topological determinant MinJ (minJ)	0
+653	NCBI_PGAP	JECDCPOO_00675	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP (phoP)	0
+654	NCBI_PGAP	JECDCPOO_00676	Alkaline phosphatase synthesis sensor protein PhoR (phoR)	0
+655	NCBI_PGAP	JECDCPOO_00677	Phosphate-binding protein PstS 1 (pstS1_1)	0
+656	NCBI_PGAP	JECDCPOO_00678	Phosphate transport system permease protein PstC 1 (pstC1)	0
+658	NCBI_PGAP	JECDCPOO_00680	Phosphate import ATP-binding protein PstB 3 (pstB3_1)	0
+659	NCBI_PGAP	JECDCPOO_00681	Phosphate import ATP-binding protein PstB 3 (pstB3_2)	0
+660	NCBI_PGAP	JECDCPOO_00682	Phosphate-specific transport system accessory protein PhoU (phoU)	0
+663	NCBI_PGAP	JECDCPOO_00685	HPr kinase/phosphorylase (hprK)	0
+664	NCBI_PGAP	JECDCPOO_00686	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase (lgt)	0
+665	NCBI_PGAP	JECDCPOO_00687	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (gpsA)	0
+666	NCBI_PGAP	JECDCPOO_00688	UTP--glucose-1-phosphate uridylyltransferase (gtaB)	0
+667	NCBI_PGAP	JECDCPOO_00689	Thioredoxin reductase (trxB)	0
+669	NCBI_PGAP	JECDCPOO_00691	5'-deoxynucleotidase YfbR (yfbR)	0
+671	NCBI_PGAP	JECDCPOO_00693	UvrABC system protein B (uvrB)	0
+672	NCBI_PGAP	JECDCPOO_00694	UvrABC system protein A (uvrA_2)	0
+674	NCBI_PGAP	JECDCPOO_00696	Nucleotide-binding protein YvcJ (yvcJ)	0
+675	NCBI_PGAP	JECDCPOO_00697	Putative gluconeogenesis factor	0
+676	NCBI_PGAP	JECDCPOO_00698	putative cell division protein WhiA (whiA)	0
+677	NCBI_PGAP	JECDCPOO_00699	ATP-dependent Clp protease proteolytic subunit (clpP)	0
+678	NCBI_PGAP	JECDCPOO_00700	putative HTH-type transcriptional regulator	0
+681	NCBI_PGAP	JECDCPOO_00705	Central glycolytic genes regulator (cggR)	0
+682	NCBI_PGAP	JECDCPOO_00706	Glyceraldehyde-3-phosphate dehydrogenase (gap)	0
+683	NCBI_PGAP	JECDCPOO_00707	Phosphoglycerate kinase (pgk)	0
+684	NCBI_PGAP	JECDCPOO_00708	Triosephosphate isomerase (tpiA)	0
+685	NCBI_PGAP	JECDCPOO_00709	Enolase 1 (eno1)	0
+687	NCBI_PGAP	JECDCPOO_00711	H(+)/Cl(-) exchange transporter ClcA (clcA)	0
+688	NCBI_PGAP	JECDCPOO_00712	putative protein-export membrane protein SecG (secG)	0
+689	NCBI_PGAP	JECDCPOO_00713	Carboxylesterase (est)	0
+690	NCBI_PGAP	JECDCPOO_00714	Ribonuclease R (rnr)	0
+691	NCBI_PGAP	JECDCPOO_00715	SsrA-binding protein (smpB)	0
+692	NCBI_PGAP	JECDCPOO_00716	Glutamine transport ATP-binding protein GlnQ (glnQ_1)	0
+694	NCBI_PGAP	JECDCPOO_00718	Uracil-DNA glycosylase (ung)	0
+695	NCBI_PGAP	JECDCPOO_00719	Phosphate acetyltransferase (pta)	0
+696	NCBI_PGAP	JECDCPOO_00720	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE (tsaE)	0
+697	NCBI_PGAP	JECDCPOO_00721	Mycothiol acetyltransferase (mshD_2)	0
+698	NCBI_PGAP	JECDCPOO_00722	L-glyceraldehyde 3-phosphate reductase (gpr_1)	0
+699	NCBI_PGAP	JECDCPOO_00723	DNA polymerase III PolC-type (polC_1)	0
+700	NCBI_PGAP	JECDCPOO_00724	Exodeoxyribonuclease (exoA)	0
+701	NCBI_PGAP	JECDCPOO_00725	UDP-N-acetylenolpyruvoylglucosamine reductase (murB)	0
+702	NCBI_PGAP	JECDCPOO_00726	Sodium, potassium, lithium and rubidium/H(+) antiporter (nhaK_2)	0
+704	NCBI_PGAP	JECDCPOO_00728	Cyclic di-AMP synthase CdaA (cdaA)	0
+705	NCBI_PGAP	JECDCPOO_00729	CdaA regulatory protein CdaR (cdaR_2)	0
+706	NCBI_PGAP	JECDCPOO_00730	Phosphoglucosamine mutase (glmM)	0
+707	NCBI_PGAP	JECDCPOO_00731	Glutamine--fructose-6-phosphate aminotransferase [isomerizing] (glmS)	0
+709	NCBI_PGAP	JECDCPOO_00733	Glucosamine-6-phosphate deaminase (nagB)	0
+711	NCBI_PGAP	JECDCPOO_00735	putative cadmium-transporting ATPase (cadA)	0
+714	NCBI_PGAP	JECDCPOO_00738	Copper chaperone CopZ (copZ)	0
+715	NCBI_PGAP	JECDCPOO_00739	Vitamin B12 import ATP-binding protein BtuD (btuD_2)	0
+720	NCBI_PGAP	JECDCPOO_00744	High-affinity heme uptake system protein IsdE (isdE)	0
+721	NCBI_PGAP	JECDCPOO_00745	putative heme-iron transport system permease protein IsdF (isdF)	0
+722	NCBI_PGAP	JECDCPOO_00746	Fe(3+) dicitrate transport ATP-binding protein FecE (fecE)	0
+723	NCBI_PGAP	JECDCPOO_00747	Exopolyphosphatase (ppx_2)	0
+724	NCBI_PGAP	JECDCPOO_00748	Polyphosphate kinase (ppk)	0
+725	NCBI_PGAP	JECDCPOO_00749	Guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase (gppA)	0
+735	NCBI_PGAP	JECDCPOO_00759	Fumarate hydratase class II (fumC)	0
+736	NCBI_PGAP	JECDCPOO_00760	RNA polymerase sigma factor YlaC (ylaC)	0
+738	NCBI_PGAP	JECDCPOO_00762	Cysteinylglycine-S-conjugate dipeptidase (tpdA)	0
+739	NCBI_PGAP	JECDCPOO_00763	HTH-type transcriptional repressor CytR (cytR)	0
+742	NCBI_PGAP	JECDCPOO_00766	Bile salt hydrolase/transferase (cbh)	0
+743	NCBI_PGAP	JECDCPOO_00767	Arginine deiminase (arcA_1)	0
+748	NCBI_PGAP	JECDCPOO_00773	Transcriptional regulatory protein SrrA (srrA)	0
+749	NCBI_PGAP	JECDCPOO_00774	Sensor histidine kinase RcsC (rcsC)	0
+750	NCBI_PGAP	JECDCPOO_00775	Ribosomal RNA large subunit methyltransferase I (rlmI)	0
+751	NCBI_PGAP	JECDCPOO_00776	putative glucose uptake protein GlcU (glcU)	0
+752	NCBI_PGAP	JECDCPOO_00777	Glucose-6-phosphate isomerase (pgi)	0
+755	NCBI_PGAP	JECDCPOO_00780	Potassium channel	0
+757	NCBI_PGAP	JECDCPOO_00784	Inner membrane protein YbiR (ybiR)	0
+758	NCBI_PGAP	JECDCPOO_00785	putative cyclic di-GMP phosphodiesterase PdeG (pdeG)	0
+762	NCBI_PGAP	JECDCPOO_00789	putative ABC transporter ATP-binding protein	0
+763	NCBI_PGAP	JECDCPOO_00790	Fatty acid ABC transporter ATP-binding/permease protein	0
+764	NCBI_PGAP	JECDCPOO_00791	Putative D-alanyl-D-alanine carboxypeptidase (yfeW_1)	0
+765	NCBI_PGAP	JECDCPOO_00792	Lipid II isoglutaminyl synthase (glutamine-hydrolyzing) subunit GatD (gatD)	0
+766	NCBI_PGAP	JECDCPOO_00793	Lipid II isoglutaminyl synthase (glutamine-hydrolyzing) subunit MurT (murT)	0
+767	NCBI_PGAP	JECDCPOO_00794	Thymidine kinase (tdk)	0
+768	NCBI_PGAP	JECDCPOO_00795	Peptide chain release factor 1 (prfA)	0
+769	NCBI_PGAP	JECDCPOO_00796	Release factor glutamine methyltransferase (prmC)	0
+770	NCBI_PGAP	JECDCPOO_00797	Threonylcarbamoyl-AMP synthase (ywlC)	0
+771	NCBI_PGAP	JECDCPOO_00798	Serine hydroxymethyltransferase (glyA)	0
+772	NCBI_PGAP	JECDCPOO_00799	Uracil phosphoribosyltransferase (upp)	0
+773	NCBI_PGAP	JECDCPOO_00800	ATP synthase subunit a (atpB)	0
+774	NCBI_PGAP	JECDCPOO_00801	ATP synthase subunit c (atpE)	0
+775	NCBI_PGAP	JECDCPOO_00802	ATP synthase subunit b (atpF)	0
+776	NCBI_PGAP	JECDCPOO_00803	ATP synthase subunit delta (atpH)	0
+777	NCBI_PGAP	JECDCPOO_00804	ATP synthase subunit alpha (atpA)	0
+778	NCBI_PGAP	JECDCPOO_00805	ATP synthase gamma chain (atpG)	0
+779	NCBI_PGAP	JECDCPOO_00806	ATP synthase subunit beta (atpD)	0
+780	NCBI_PGAP	JECDCPOO_00807	ATP synthase epsilon chain (atpC)	0
+782	NCBI_PGAP	JECDCPOO_00809	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1 (murA1_2)	0
+783	NCBI_PGAP	JECDCPOO_00810	Cell shape-determining protein Mbl (mbl)	0
+784	NCBI_PGAP	JECDCPOO_00811	Putative membrane protein insertion efficiency factor	0
+786	NCBI_PGAP	JECDCPOO_00813	Peptidoglycan glycosyltransferase RodA (rodA_1)	0
+787	NCBI_PGAP	JECDCPOO_00814	Glycine cleavage system H protein (gcvH_1)	0
+790	NCBI_PGAP	JECDCPOO_00817	D-alanine--D-alanine ligase (ddl)	0
+793	NCBI_PGAP	JECDCPOO_00820	Putative universal stress protein	0
+795	NCBI_PGAP	JECDCPOO_00822	Replication-associated recombination protein A (rarA_1)	0
+796	NCBI_PGAP	JECDCPOO_00823	putative protein YueI (yueI)	0
+799	NCBI_PGAP	JECDCPOO_00826	Small ribosomal subunit protein uS4 (rpsD)	0
+800	NCBI_PGAP	JECDCPOO_00827	Free methionine-R-sulfoxide reductase (msrC)	0
+801	NCBI_PGAP	JECDCPOO_00828	Septation ring formation regulator EzrA (ezrA)	0
+802	NCBI_PGAP	JECDCPOO_00829	Cysteine desulfurase IscS (iscS_1)	0
+803	NCBI_PGAP	JECDCPOO_00830	putative tRNA sulfurtransferase (thiI)	0
+804	NCBI_PGAP	JECDCPOO_00831	Thiol peroxidase (tpx)	0
+805	NCBI_PGAP	JECDCPOO_00832	Valine--tRNA ligase (valS)	0
+806	NCBI_PGAP	JECDCPOO_00833	Folylpolyglutamate synthase (fpgS)	0
+808	NCBI_PGAP	JECDCPOO_00835	Cell shape-determining protein MreB (mreB)	0
+809	NCBI_PGAP	JECDCPOO_00836	Cell shape-determining protein MreC (mreC)	0
+811	NCBI_PGAP	JECDCPOO_00838	septum site-determining protein MinC (minC)	0
+812	NCBI_PGAP	JECDCPOO_00839	Septum site-determining protein MinD (minD)	0
+813	NCBI_PGAP	JECDCPOO_00840	Arginine transport system permease protein ArtQ (artQ)	0
+814	NCBI_PGAP	JECDCPOO_00841	Glutamine transport ATP-binding protein GlnQ (glnQ_2)	0
+815	NCBI_PGAP	JECDCPOO_00842	Glutamine-binding periplasmic protein (glnH_1)	0
+819	NCBI_PGAP	JECDCPOO_00846	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (pgsA)	0
+820	NCBI_PGAP	JECDCPOO_00847	Putative competence-damage inducible protein (cinA)	0
+821	NCBI_PGAP	JECDCPOO_00848	Protein RecA (recA)	0
+823	NCBI_PGAP	JECDCPOO_00850	Ribonuclease Y (rny_1)	0
+824	NCBI_PGAP	JECDCPOO_00851	2',3'-cyclic-nucleotide 2'-phosphodiesterase (ymdB)	0
+825	NCBI_PGAP	JECDCPOO_00852	DNA mismatch repair protein MutS (mutS)	0
+826	NCBI_PGAP	JECDCPOO_00853	DNA mismatch repair protein MutL (mutL)	0
+827	NCBI_PGAP	JECDCPOO_00854	Holliday junction branch migration complex subunit RuvA (ruvA)	0
+828	NCBI_PGAP	JECDCPOO_00855	Holliday junction branch migration complex subunit RuvB (ruvB)	0
+829	NCBI_PGAP	JECDCPOO_00856	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (queA)	0
+830	NCBI_PGAP	JECDCPOO_00857	Queuine tRNA-ribosyltransferase (tgt)	0
+832	NCBI_PGAP	JECDCPOO_00859	DNA polymerase IV (dinB_1)	0
+833	NCBI_PGAP	JECDCPOO_00860	putative bifunctional oligoribonuclease and PAP phosphatase NrnA (nrnA)	0
+834	NCBI_PGAP	JECDCPOO_00861	DEAD-box ATP-dependent RNA helicase CshB (cshB)	0
+835	NCBI_PGAP	JECDCPOO_00862	Alanine--tRNA ligase (alaS)	0
+837	NCBI_PGAP	JECDCPOO_00864	Putative pre-16S rRNA nuclease (yrrK)	0
+839	NCBI_PGAP	JECDCPOO_00866	Cell division protein ZapA (zapA)	0
+841	NCBI_PGAP	JECDCPOO_00868	Putative endonuclease MutS2 (mutSB)	0
+842	NCBI_PGAP	JECDCPOO_00869	Thioredoxin (trxA_2)	0
+844	NCBI_PGAP	JECDCPOO_00871	Glutamate racemase (murI)	0
+845	NCBI_PGAP	JECDCPOO_00872	dITP/XTP pyrophosphatase (rdgB)	0
+847	NCBI_PGAP	JECDCPOO_00874	Cyclic di-AMP receptor B (darB)	0
+855	NCBI_PGAP	JECDCPOO_00882	Multidrug resistance protein Stp (stp_2)	0
+856	NCBI_PGAP	JECDCPOO_00883	putative MscS family protein YkuT (ykuT)	0
+859	NCBI_PGAP	JECDCPOO_00886	Xaa-Pro dipeptidase (pepQ)	0
+860	NCBI_PGAP	JECDCPOO_00887	Catabolite control protein A (ccpA_1)	0
+862	NCBI_PGAP	JECDCPOO_00889	Arginine transport ATP-binding protein ArtM (artM)	0
+863	NCBI_PGAP	JECDCPOO_00890	Membrane-bound lytic murein transglycosylase F (mltF)	0
+864	NCBI_PGAP	JECDCPOO_00891	putative transcriptional regulatory protein YebC (yebC)	0
+865	NCBI_PGAP	JECDCPOO_00892	Competence protein ComGA (comGA)	0
+866	NCBI_PGAP	JECDCPOO_00893	Type IV pilus assembly protein PilC	0
+873	NCBI_PGAP	JECDCPOO_00900	Acetate kinase (ackA_2)	0
+874	NCBI_PGAP	JECDCPOO_00901	D-serine/D-alanine/glycine transporter (cycA_1)	0
+875	NCBI_PGAP	JECDCPOO_00902	Methylglyoxal reductase YeaE (yeaE)	0
+879	NCBI_PGAP	JECDCPOO_00906	5'-nucleotidase YutF (yutF)	0
+884	NCBI_PGAP	JECDCPOO_00911	Branched-chain amino acid permease BcaP (bcaP_1)	0
+885	NCBI_PGAP	JECDCPOO_00912	(S)-1-Phenylethanol dehydrogenase (ped)	0
+886	NCBI_PGAP	JECDCPOO_00913	putative oxidoreductase YtbE (ytbE_2)	0
+888	NCBI_PGAP	JECDCPOO_00915	putative HTH-type transcriptional regulator	0
+889	NCBI_PGAP	JECDCPOO_00916	DedA family protein (dedA)	0
+890	NCBI_PGAP	JECDCPOO_00917	putative protein YpjQ (ypjQ)	0
+891	NCBI_PGAP	JECDCPOO_00918	Putative peptidyl-prolyl cis-trans isomerase	0
+892	NCBI_PGAP	JECDCPOO_00919	General stress protein 13 (yugI)	0
+896	NCBI_PGAP	JECDCPOO_00944	Global transcriptional regulator Spx (spx_2)	0
+897	NCBI_PGAP	JECDCPOO_00945	Adapter protein MecA (mecA)	0
+898	NCBI_PGAP	JECDCPOO_00946	putative cyclic di-GMP phosphodiesterase PdeK (pdeK_2)	0
+900	NCBI_PGAP	JECDCPOO_00948	Poly-beta-1,6-N-acetyl-D-glucosamine synthase (icaA)	0
+902	NCBI_PGAP	JECDCPOO_00950	tRNA (mnm(5)s(2)U34)-methyltransferase (mnmM)	0
+903	NCBI_PGAP	JECDCPOO_00951	Phosphatidylglycerophosphatase B (pgpB)	0
+904	NCBI_PGAP	JECDCPOO_00952	Leucine--tRNA ligase (leuS)	0
+906	NCBI_PGAP	JECDCPOO_00954	Iron(3+)-hydroxamate import ATP-binding protein FhuC (fhuC)	0
+909	NCBI_PGAP	JECDCPOO_00957	Lipid II flippase MurJ (murJ_2)	0
+911	NCBI_PGAP	JECDCPOO_00959	ADP-dependent (S)-NAD(P)H-hydrate dehydratase (nnrD)	0
+912	NCBI_PGAP	JECDCPOO_00960	Putative dipeptidase	0
+913	NCBI_PGAP	JECDCPOO_00961	Putative universal stress protein	0
+914	NCBI_PGAP	JECDCPOO_00962	Alanine dehydrogenase (ald_1)	0
+915	NCBI_PGAP	JECDCPOO_00963	Alanine dehydrogenase (ald_2)	0
+916	NCBI_PGAP	JECDCPOO_00964	D-serine/D-alanine/glycine transporter (cycA_2)	0
+918	NCBI_PGAP	JECDCPOO_00966	Thioredoxin-like protein YtpP (ytpP)	0
+919	NCBI_PGAP	JECDCPOO_00967	Phenylalanine--tRNA ligase beta subunit (pheT_1)	0
+921	NCBI_PGAP	JECDCPOO_00969	UDP-N-acetylmuramate--L-alanine ligase (murC)	0
+922	NCBI_PGAP	JECDCPOO_00970	Nicotinamide riboside transporter PnuC (pnuC_2)	0
+923	NCBI_PGAP	JECDCPOO_00971	Inner membrane protein YbhL (ybhL)	0
+924	NCBI_PGAP	JECDCPOO_00972	Nucleobase transporter PlUacP	0
+925	NCBI_PGAP	JECDCPOO_00973	Guanine deaminase (guaD)	0
+926	NCBI_PGAP	JECDCPOO_00974	DNA polymerase I (polA)	0
+927	NCBI_PGAP	JECDCPOO_00975	Formamidopyrimidine-DNA glycosylase (mutM)	0
+928	NCBI_PGAP	JECDCPOO_00976	Dephospho-CoA kinase (coaE)	0
+929	NCBI_PGAP	JECDCPOO_00977	Transcriptional repressor NrdR (nrdR)	0
+930	NCBI_PGAP	JECDCPOO_00978	Replicative helicase loading/DNA remodeling protein DnaB (dnaB)	0
+931	NCBI_PGAP	JECDCPOO_00979	Replicative helicase loader DnaI (dnaI)	0
+932	NCBI_PGAP	JECDCPOO_00980	Threonine--tRNA ligase (thrS)	0
+933	NCBI_PGAP	JECDCPOO_00981	Translation initiation factor IF-3 (infC)	0
+934	NCBI_PGAP	JECDCPOO_00982	Large ribosomal subunit protein bL35 (rpmI)	0
+935	NCBI_PGAP	JECDCPOO_00983	Large ribosomal subunit protein bL20 (rplT)	0
+938	NCBI_PGAP	JECDCPOO_00986	putative protein YqeH (yqeH)	0
+939	NCBI_PGAP	JECDCPOO_00987	RNA-binding protein	0
+940	NCBI_PGAP	JECDCPOO_00988	Nicotinate-nucleotide adenylyltransferase (nadD)	0
+941	NCBI_PGAP	JECDCPOO_00989	Bis(5'-nucleosyl)-tetraphosphatase, symmetrical	0
+942	NCBI_PGAP	JECDCPOO_00990	Ribosomal silencing factor RsfS (rsfS)	0
+943	NCBI_PGAP	JECDCPOO_00991	dTDP-3-amino-3,4, 6-trideoxy-alpha-D-glucopyranose N,N-dimethyltransferase (desVI)	0
+944	NCBI_PGAP	JECDCPOO_00992	tRNA(Met) cytidine acetate ligase (tmcAL)	0
+946	NCBI_PGAP	JECDCPOO_00994	Large ribosomal subunit protein bL32C (rpmF3)	0
+947	NCBI_PGAP	JECDCPOO_00995	Sugar phosphatase YbiV (ybiV_2)	0
+948	NCBI_PGAP	JECDCPOO_00996	HTH-type transcriptional repressor CzrA (czrA_2)	0
+950	NCBI_PGAP	JECDCPOO_00998	Alcohol dehydrogenase 1 (adhA_2)	0
+951	NCBI_PGAP	JECDCPOO_00999	Response regulator ArlR (arlR_2)	0
+952	NCBI_PGAP	JECDCPOO_01000	Adaptive-response sensory-kinase SasA (sasA_3)	0
+954	NCBI_PGAP	JECDCPOO_01002	Membrane protein insertase YidC (yidC)	0
+955	NCBI_PGAP	JECDCPOO_01003	Acylphosphatase (yccX)	0
+956	NCBI_PGAP	JECDCPOO_01004	23S rRNA (guanosine(2553)-2'-O)-methyltransferase RlmP (rlmP)	0
+958	NCBI_PGAP	JECDCPOO_01006	HTH-type transcriptional regulator YodB (yodB)	0
+959	NCBI_PGAP	JECDCPOO_01007	Phenylalanine--tRNA ligase alpha subunit (pheS)	0
+960	NCBI_PGAP	JECDCPOO_01008	Phenylalanine--tRNA ligase beta subunit (pheT_2)	0
+961	NCBI_PGAP	JECDCPOO_01009	Endolytic murein transglycosylase (mltG)	0
+962	NCBI_PGAP	JECDCPOO_01010	Uridine kinase (udk)	0
+963	NCBI_PGAP	JECDCPOO_01011	Transcription elongation factor GreA (greA_2)	0
+964	NCBI_PGAP	JECDCPOO_01012	Pyruvate dehydrogenase inhibitor (pdhI)	0
+967	NCBI_PGAP	JECDCPOO_01015	Penicillin-binding protein 2B (penA)	0
+968	NCBI_PGAP	JECDCPOO_01016	Large ribosomal subunit protein bL33A (rpmGA)	0
+969	NCBI_PGAP	JECDCPOO_01017	putative protein YqgN (yqgN)	0
+970	NCBI_PGAP	JECDCPOO_01018	Rhomboid protease GluP (gluP)	0
+972	NCBI_PGAP	JECDCPOO_01020	Glucokinase (glcK)	0
+973	NCBI_PGAP	JECDCPOO_01021	putative protein YibN (yibN)	0
+975	NCBI_PGAP	JECDCPOO_01023	Glycerophosphodiester phosphodiesterase (UgpQ)	0
+976	NCBI_PGAP	JECDCPOO_01024	tRNA dimethylallyltransferase (miaA)	0
+977	NCBI_PGAP	JECDCPOO_01025	HTH-type transcriptional regulator GlnR (glnR)	0
+978	NCBI_PGAP	JECDCPOO_01026	Glutamine synthetase (glnA)	0
+983	NCBI_PGAP	JECDCPOO_01031	Large ribosomal subunit protein bL21 (rplU)	0
+985	NCBI_PGAP	JECDCPOO_01033	Large ribosomal subunit protein bL27 (rpmA)	0
+986	NCBI_PGAP	JECDCPOO_01034	Aminopeptidase YpdF (ypdF)	0
+987	NCBI_PGAP	JECDCPOO_01035	Elongation factor P (efp)	0
+989	NCBI_PGAP	JECDCPOO_01037	Transcription antitermination protein NusB (nusB)	0
+990	NCBI_PGAP	JECDCPOO_01038	Bifunctional protein FolD protein (folD)	0
+991	NCBI_PGAP	JECDCPOO_01039	Exodeoxyribonuclease 7 large subunit (xseA)	0
+992	NCBI_PGAP	JECDCPOO_01040	Exodeoxyribonuclease 7 small subunit (xseB)	0
+993	NCBI_PGAP	JECDCPOO_01041	Farnesyl diphosphate synthase	0
+995	NCBI_PGAP	JECDCPOO_01043	Arginine repressor (argR_1)	0
+996	NCBI_PGAP	JECDCPOO_01044	DNA repair protein RecN (recN)	0
+1000	NCBI_PGAP	JECDCPOO_01048	Guanylate kinase (gmk_1)	0
+1001	NCBI_PGAP	JECDCPOO_01049	DNA-directed RNA polymerase subunit omega (rpoZ)	0
+1002	NCBI_PGAP	JECDCPOO_01050	Coenzyme A biosynthesis bifunctional protein CoaBC (coaBC)	0
+1003	NCBI_PGAP	JECDCPOO_01051	Replication restart protein PriA (priA)	0
+1004	NCBI_PGAP	JECDCPOO_01052	Methionyl-tRNA formyltransferase (fmt)	0
+1005	NCBI_PGAP	JECDCPOO_01053	Ribosomal RNA small subunit methyltransferase B (rsmB)	0
+1006	NCBI_PGAP	JECDCPOO_01054	Serine/threonine phosphatase stp (stp_3)	0
+1007	NCBI_PGAP	JECDCPOO_01055	Serine/threonine-protein kinase PrkC (prkC)	0
+1008	NCBI_PGAP	JECDCPOO_01056	Small ribosomal subunit biogenesis GTPase RsgA (rsgA)	0
+1009	NCBI_PGAP	JECDCPOO_01057	Ribulose-phosphate 3-epimerase (rpe)	0
+1010	NCBI_PGAP	JECDCPOO_01058	Thiamine pyrophosphokinase (thiN)	0
+1011	NCBI_PGAP	JECDCPOO_01059	Large ribosomal subunit protein bL28 (rpmB)	0
+1014	NCBI_PGAP	JECDCPOO_01062	ATP-dependent DNA helicase RecG (recG)	0
+1015	NCBI_PGAP	JECDCPOO_01063	Phosphate acyltransferase (plsX)	0
+1016	NCBI_PGAP	JECDCPOO_01064	Acyl carrier protein (acpP_1)	0
+1017	NCBI_PGAP	JECDCPOO_01065	Ribonuclease 3 (rnc)	0
+1018	NCBI_PGAP	JECDCPOO_01066	Chromosome partition protein Smc (smc_2)	0
+1019	NCBI_PGAP	JECDCPOO_01067	Signal recognition particle receptor FtsY (ftsY)	0
+1021	NCBI_PGAP	JECDCPOO_01069	Signal recognition particle protein (ffh)	0
+1022	NCBI_PGAP	JECDCPOO_01070	Calcium-transporting ATPase 1	0
+1026	NCBI_PGAP	JECDCPOO_01074	Small ribosomal subunit protein bS16 (rpsP)	0
+1027	NCBI_PGAP	JECDCPOO_01075	RNA-binding protein KhpA (khpA)	0
+1028	NCBI_PGAP	JECDCPOO_01076	Ribosome maturation factor RimM (rimM)	0
+1029	NCBI_PGAP	JECDCPOO_01077	tRNA (guanine-N(1)-)-methyltransferase (trmD)	0
+1030	NCBI_PGAP	JECDCPOO_01078	Large ribosomal subunit protein bL19 (rplS)	0
+1032	NCBI_PGAP	JECDCPOO_01080	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (fabZ_1)	0
+1034	NCBI_PGAP	JECDCPOO_01082	Beta-ketoacyl-[acyl-carrier-protein] synthase III (fabH)	0
+1035	NCBI_PGAP	JECDCPOO_01083	Acyl carrier protein (acpP_2)	0
+1036	NCBI_PGAP	JECDCPOO_01084	Malonyl CoA-acyl carrier protein transacylase (fabD)	0
+1037	NCBI_PGAP	JECDCPOO_01085	3-oxoacyl-[acyl-carrier-protein] reductase FabG (fabG)	0
+1038	NCBI_PGAP	JECDCPOO_01086	3-oxoacyl-[acyl-carrier-protein] synthase 2 (fabF)	0
+1039	NCBI_PGAP	JECDCPOO_01087	Biotin carboxyl carrier protein of acetyl-CoA carboxylase (accB)	0
+1040	NCBI_PGAP	JECDCPOO_01088	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (fabZ_2)	0
+1041	NCBI_PGAP	JECDCPOO_01089	2-oxoglutarate carboxylase small subunit (cfiB)	0
+1042	NCBI_PGAP	JECDCPOO_01090	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta (accD)	0
+1043	NCBI_PGAP	JECDCPOO_01091	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (accA)	0
+1044	NCBI_PGAP	JECDCPOO_01092	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI (fabI)	0
+1045	NCBI_PGAP	JECDCPOO_01093	Bifunctional ligase/repressor BirA (birA)	0
+1046	NCBI_PGAP	JECDCPOO_01094	Biotin transporter BioY (bioY)	0
+1049	NCBI_PGAP	JECDCPOO_01097	3-ketodihydrosphingosine reductase (kdsr_2)	0
+1050	NCBI_PGAP	JECDCPOO_01098	putative HTH-type transcriptional regulator	0
+1052	NCBI_PGAP	JECDCPOO_01100	Riboflavin transporter RibZ (ribZ_1)	0
+1055	NCBI_PGAP	JECDCPOO_01103	putative HTH-type transcriptional regulator	0
+1057	NCBI_PGAP	JECDCPOO_01105	Multidrug export protein EmrB (emrB_1)	0
+1063	NCBI_PGAP	JECDCPOO_01111	putative protease YdeA (ydeA)	0
+1065	NCBI_PGAP	JECDCPOO_01113	Aryl-alcohol dehydrogenase (xylB_3)	0
+1066	NCBI_PGAP	JECDCPOO_01114	HTH-type transcriptional regulator HdfR (hdfR_1)	0
+1067	NCBI_PGAP	JECDCPOO_01115	1-deoxyxylulose-5-phosphate synthase YajO (yajO)	0
+1068	NCBI_PGAP	JECDCPOO_01116	Nitroreductase NfnB (nfnB)	0
+1070	NCBI_PGAP	JECDCPOO_01118	Vegetative catalase (katA)	0
+1073	NCBI_PGAP	JECDCPOO_01121	NADH peroxidase (npr)	0
+1076	NCBI_PGAP	JECDCPOO_01124	Inner membrane transporter YjeM (yjeM_2)	0
+1077	NCBI_PGAP	JECDCPOO_01125	Dipeptidase A (pepDA_2)	0
+1079	NCBI_PGAP	JECDCPOO_01127	putative tautomerase.1	0
+1080	NCBI_PGAP	JECDCPOO_01128	Glycerol kinase (glpK_2)	0
+1088	NCBI_PGAP	JECDCPOO_01136	Macrolide export ATP-binding/permease protein MacB (macB)	0
+1089	NCBI_PGAP	JECDCPOO_01137	HTH-type transcriptional regulator BetI (betI)	0
+1090	NCBI_PGAP	JECDCPOO_01138	Arsenate reductase (arsC)	0
+1095	NCBI_PGAP	JECDCPOO_01143	putative multidrug ABC transporter ATP-binding protein YbhF (ybhF)	0
+1096	NCBI_PGAP	JECDCPOO_01144	Linearmycin resistance permease protein LnrN (lnrN)	0
+1098	NCBI_PGAP	JECDCPOO_01146	L-lactate oxidase (haox)	0
+1100	NCBI_PGAP	JECDCPOO_01148	Sodium, potassium, lithium and rubidium/H(+) antiporter (nhaK_3)	0
+1101	NCBI_PGAP	JECDCPOO_01149	putative transporter YycB (yycB_2)	0
+1102	NCBI_PGAP	JECDCPOO_01150	Low affinity potassium transport system protein Kup (kup)	0
+1105	NCBI_PGAP	JECDCPOO_01153	putative HTH-type transcriptional regulator	0
+1108	NCBI_PGAP	JECDCPOO_01156	Alcohol dehydrogenase (adh_4)	0
+1110	NCBI_PGAP	JECDCPOO_01158	Morphine 6-dehydrogenase (morA)	0
+1111	NCBI_PGAP	JECDCPOO_01159	Aldo-keto reductase/MSMEI_2347	0
+1113	NCBI_PGAP	JECDCPOO_01161	putative succinyl-diaminopimelate desuccinylase (dapE_3)	0
+1114	NCBI_PGAP	JECDCPOO_01162	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YitU (yitU)	0
+1115	NCBI_PGAP	JECDCPOO_01163	Ribosomal RNA small subunit methyltransferase F (rsmF)	0
+1116	NCBI_PGAP	JECDCPOO_01164	Isopentenyl-diphosphate delta-isomerase (fni)	0
+1117	NCBI_PGAP	JECDCPOO_01165	Phosphomevalonate kinase	0
+1118	NCBI_PGAP	JECDCPOO_01166	Homoserine kinase (thrB_2)	0
+1119	NCBI_PGAP	JECDCPOO_01167	Galactokinase (galK_1)	0
+1120	NCBI_PGAP	JECDCPOO_01168	3'-5' exonuclease DinG (dinG_1)	0
+1122	NCBI_PGAP	JECDCPOO_01170	Asparagine--oxo-acid transaminase (aspB)	0
+1123	NCBI_PGAP	JECDCPOO_01171	Replicative helicase loading/DNA remodeling protein DnaD (dnaD)	0
+1127	NCBI_PGAP	JECDCPOO_01175	Catabolite control protein B (ccpB)	0
+1128	NCBI_PGAP	JECDCPOO_01176	Penicillin-binding protein 1A (ponA)	0
+1129	NCBI_PGAP	JECDCPOO_01177	Holliday junction resolvase RecU (recU)	0
+1131	NCBI_PGAP	JECDCPOO_01179	Cell cycle protein GpsB (gpsB_1)	0
+1133	NCBI_PGAP	JECDCPOO_01181	Putative RNA methyltransferase YpsC (ypsC)	0
+1135	NCBI_PGAP	JECDCPOO_01183	Ammonium transporter (amt)	0
+1138	NCBI_PGAP	JECDCPOO_01186	Putative NAD(P)H-dependent FMN-containing oxidoreductase YwqN (ywqN_2)	0
+1144	NCBI_PGAP	JECDCPOO_01192	Nucleoid occlusion factor SlmA (slmA)	0
+1146	NCBI_PGAP	JECDCPOO_01194	Glycine oxidase (thiO)	0
+1147	NCBI_PGAP	JECDCPOO_01195	14.7 kDa ribonuclease H-like protein (rnhA_1)	0
+1149	NCBI_PGAP	JECDCPOO_01197	Formate--tetrahydrofolate ligase 1 (fhs1)	0
+1150	NCBI_PGAP	JECDCPOO_01198	Lipoprotein signal peptidase (lspA)	0
+1151	NCBI_PGAP	JECDCPOO_01199	Ribosomal large subunit pseudouridine synthase D (rluD_2)	0
+1152	NCBI_PGAP	JECDCPOO_01200	Bifunctional protein pyrR (pyrR)	0
+1153	NCBI_PGAP	JECDCPOO_01201	Carbamoyl phosphate synthase pyrimidine-specific small chain (pyrAA)	0
+1154	NCBI_PGAP	JECDCPOO_01202	Formate-dependent phosphoribosylglycinamide formyltransferase (purT)	0
+1155	NCBI_PGAP	JECDCPOO_01203	Rqc2 RqcH (rqcH)	0
+1159	NCBI_PGAP	JECDCPOO_01207	Protein DegV (degV_2)	0
+1160	NCBI_PGAP	JECDCPOO_01208	Folate transporter FolT (folT)	0
+1164	NCBI_PGAP	JECDCPOO_01212	Endonuclease III (nth_2)	0
+1166	NCBI_PGAP	JECDCPOO_01214	Acrylyl-CoA reductase AcuI (acuI)	0
+1169	NCBI_PGAP	JECDCPOO_01217	Levodione reductase (lvr)	0
+1173	NCBI_PGAP	JECDCPOO_01221	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE (ubiE)	0
+1174	NCBI_PGAP	JECDCPOO_01222	3-ketodihydrosphingosine reductase (kdsr_3)	0
+1175	NCBI_PGAP	JECDCPOO_01223	HTH-type transcriptional activator RhaS (rhaS_3)	0
+1177	NCBI_PGAP	JECDCPOO_01225	putative oxidoreductase	0
+1178	NCBI_PGAP	JECDCPOO_01226	Hca operon transcriptional activator HcaR (hcaR)	0
+1179	NCBI_PGAP	JECDCPOO_01227	HTH-type transcriptional regulator HdfR (hdfR_2)	0
+1180	NCBI_PGAP	JECDCPOO_01228	putative oxidoreductase	0
+1186	NCBI_PGAP	JECDCPOO_01234	Tyrosine recombinase XerS (xerS)	0
+1188	NCBI_PGAP	JECDCPOO_01236	Peptide methionine sulfoxide reductase MsrA (msrA_1)	0
+1189	NCBI_PGAP	JECDCPOO_01237	Peptide methionine sulfoxide reductase MsrB (msrB)	0
+1191	NCBI_PGAP	JECDCPOO_01239	putative manganese-dependent inorganic pyrophosphatase (ppaC)	0
+1192	NCBI_PGAP	JECDCPOO_01240	HTH-type transcriptional regulator HdfR (hdfR_3)	0
+1193	NCBI_PGAP	JECDCPOO_01241	DNA topoisomerase IV subunit A ParC (parC)	0
+1194	NCBI_PGAP	JECDCPOO_01242	DNA topoisomerase IV subunit B ParE (parE)	0
+1195	NCBI_PGAP	JECDCPOO_01243	Glycerol-3-phosphate acyltransferase (plsY)	0
+1196	NCBI_PGAP	JECDCPOO_01244	Protein LacX, plasmid (lacX_2)	0
+1197	NCBI_PGAP	JECDCPOO_01245	ATP-dependent protease ATPase subunit ClpY (clpY)	0
+1198	NCBI_PGAP	JECDCPOO_01246	ATP-dependent protease subunit HslV (hslV)	0
+1199	NCBI_PGAP	JECDCPOO_01247	Tyrosine recombinase XerC (xerC_2)	0
+1200	NCBI_PGAP	JECDCPOO_01248	DNA topoisomerase 1 (topA)	0
+1202	NCBI_PGAP	JECDCPOO_01250	Ribonuclease HII (rnhB)	0
+1203	NCBI_PGAP	JECDCPOO_01251	Ribosome biogenesis GTPase A (rbgA)	0
+1205	NCBI_PGAP	JECDCPOO_01253	NAD-capped RNA hydrolase NudC (nudC)	0
+1207	NCBI_PGAP	JECDCPOO_01255	Deoxyribonucleoside regulator (deoR_1)	0
+1208	NCBI_PGAP	JECDCPOO_01256	Xylulose kinase (xylB_4)	0
+1210	NCBI_PGAP	JECDCPOO_01258	L-fucose-proton symporter (fucP_1)	0
+1214	NCBI_PGAP	JECDCPOO_01262	DegV domain-containing protein	0
+1216	NCBI_PGAP	JECDCPOO_01264	Dihydrofolate reductase (dfrA)	0
+1217	NCBI_PGAP	JECDCPOO_01265	Thymidylate synthase (thyA)	0
+1218	NCBI_PGAP	JECDCPOO_01266	Energy-dependent translational throttle protein EttA (ettA_1)	0
+1219	NCBI_PGAP	JECDCPOO_01267	CCA-adding enzyme (cca)	0
+1221	NCBI_PGAP	JECDCPOO_01269	TPR repeat-containing protein YpiA (ypiA)	0
+1222	NCBI_PGAP	JECDCPOO_01270	DNA-binding protein HU (hup)	0
+1223	NCBI_PGAP	JECDCPOO_01271	GTPase Der (der)	0
+1224	NCBI_PGAP	JECDCPOO_01272	Small ribosomal subunit protein bS1 (rps1)	0
+1225	NCBI_PGAP	JECDCPOO_01273	Cytidylate kinase (cmk)	0
+1227	NCBI_PGAP	JECDCPOO_01275	putative ATP-dependent DNA helicase RecS (recS)	0
+1229	NCBI_PGAP	JECDCPOO_01277	Riboflavin transporter RibU (ribU)	0
+1230	NCBI_PGAP	JECDCPOO_01278	Ribosomal large subunit pseudouridine synthase B (rluB)	0
+1231	NCBI_PGAP	JECDCPOO_01279	Segregation and condensation protein B (scpB)	0
+1232	NCBI_PGAP	JECDCPOO_01280	Segregation and condensation protein A (scpA_2)	0
+1233	NCBI_PGAP	JECDCPOO_01281	Protein RibT (ribT)	0
+1234	NCBI_PGAP	JECDCPOO_01282	Tyrosine recombinase XerD (xerD)	0
+1235	NCBI_PGAP	JECDCPOO_01283	Conserved virulence factor B (cvfB)	0
+1236	NCBI_PGAP	JECDCPOO_01284	Pyruvate kinase (pyk)	0
+1237	NCBI_PGAP	JECDCPOO_01285	Transaldolase (tal)	0
+1238	NCBI_PGAP	JECDCPOO_01286	DNA polymerase III subunit alpha (dnaE)	0
+1239	NCBI_PGAP	JECDCPOO_01287	Chaperone protein ClpB (clpB)	0
+1240	NCBI_PGAP	JECDCPOO_01288	Peptidase T (pepT)	0
+1241	NCBI_PGAP	JECDCPOO_01289	GTP cyclohydrolase 1 type 2	0
+1242	NCBI_PGAP	JECDCPOO_01290	tRNA (adenine(22)-N(1))-methyltransferase (trmK)	0
+1245	NCBI_PGAP	JECDCPOO_01293	RNA polymerase sigma factor SigA (sigA)	0
+1246	NCBI_PGAP	JECDCPOO_01294	DNA primase (dnaG)	0
+1247	NCBI_PGAP	JECDCPOO_01295	Glycine--tRNA ligase beta subunit (glyS)	0
+1248	NCBI_PGAP	JECDCPOO_01296	Glycine--tRNA ligase alpha subunit (glyQ)	0
+1249	NCBI_PGAP	JECDCPOO_01297	DNA repair protein RecO (recO)	0
+1250	NCBI_PGAP	JECDCPOO_01298	GTPase Era (era)	0
+1251	NCBI_PGAP	JECDCPOO_01299	Undecaprenol kinase (dgkA)	0
+1252	NCBI_PGAP	JECDCPOO_01300	Endoribonuclease YbeY (ybeY)	0
+1253	NCBI_PGAP	JECDCPOO_01301	PhoH-like protein	0
+1254	NCBI_PGAP	JECDCPOO_01302	putative protein YqeY (yqeY)	0
+1255	NCBI_PGAP	JECDCPOO_01303	putative HTH-type transcriptional regulator YybR (yybR_1)	0
+1256	NCBI_PGAP	JECDCPOO_01304	Zinc-type alcohol dehydrogenase-like protein	0
+1257	NCBI_PGAP	JECDCPOO_01305	Small ribosomal subunit protein bS21 (rpsU)	0
+1258	NCBI_PGAP	JECDCPOO_01306	Putative pyruvate, phosphate dikinase regulatory protein (yqfL)	0
+1259	NCBI_PGAP	JECDCPOO_01307	putative endonuclease 4 (nfo)	0
+1260	NCBI_PGAP	JECDCPOO_01308	Teichoic acid poly(glycerol phosphate) polymerase (tagF)	0
+1261	NCBI_PGAP	JECDCPOO_01309	Teichoic acid translocation permease protein TagG (tagG)	0
+1262	NCBI_PGAP	JECDCPOO_01310	Teichoic acid glycerol-phosphate primase (tagB)	0
+1264	NCBI_PGAP	JECDCPOO_01312	Peptide methionine sulfoxide reductase MsrA (msrA_2)	0
+1265	NCBI_PGAP	JECDCPOO_01313	Aspartate--tRNA ligase (aspS)	0
+1266	NCBI_PGAP	JECDCPOO_01314	Histidine--tRNA ligase (hisS)	0
+1268	NCBI_PGAP	JECDCPOO_01316	putative cell wall amidase LytH (lytH)	0
+1269	NCBI_PGAP	JECDCPOO_01317	putative ketoamine kinase	0
+1270	NCBI_PGAP	JECDCPOO_01318	N-acetylmuramic acid 6-phosphate phosphatase (mupP)	0
+1271	NCBI_PGAP	JECDCPOO_01319	D-aminoacyl-tRNA deacylase (dtd)	0
+1272	NCBI_PGAP	JECDCPOO_01320	GTP pyrophosphokinase (relA_1)	0
+1273	NCBI_PGAP	JECDCPOO_01321	GTP pyrophosphokinase (relA_2)	0
+1275	NCBI_PGAP	JECDCPOO_01323	Ribosomal RNA small subunit methyltransferase E (rsmE)	0
+1276	NCBI_PGAP	JECDCPOO_01324	Ribosomal protein L11 methyltransferase (prmA)	0
+1278	NCBI_PGAP	JECDCPOO_01326	Large-conductance mechanosensitive channel (mscL)	0
+1282	NCBI_PGAP	JECDCPOO_01330	Cyclopropane-fatty-acyl-phospholipid synthase (cfa_1)	0
+1285	NCBI_PGAP	JECDCPOO_01333	Elongation factor 4 (lepA)	0
+1286	NCBI_PGAP	JECDCPOO_01334	Protein DltD (dltD)	0
+1287	NCBI_PGAP	JECDCPOO_01335	D-alanyl carrier protein (dltC)	0
+1288	NCBI_PGAP	JECDCPOO_01336	Teichoic acid D-alanyltransferase (dltB)	0
+1289	NCBI_PGAP	JECDCPOO_01337	D-alanine--D-alanyl carrier protein ligase (dltA)	0
+1291	NCBI_PGAP	JECDCPOO_01339	Chaperone protein DnaJ (dnaJ)	0
+1292	NCBI_PGAP	JECDCPOO_01340	Chaperone protein DnaK (dnaK)	0
+1293	NCBI_PGAP	JECDCPOO_01341	Protein GrpE (grpE)	0
+1294	NCBI_PGAP	JECDCPOO_01342	Heat-inducible transcription repressor HrcA (hrcA)	0
+1295	NCBI_PGAP	JECDCPOO_01343	Bifunctional riboflavin kinase/FMN adenylyltransferase (ribCF)	0
+1296	NCBI_PGAP	JECDCPOO_01344	tRNA pseudouridine synthase B (truB)	0
+1297	NCBI_PGAP	JECDCPOO_01345	Ribosome-binding factor A (rbfA)	0
+1298	NCBI_PGAP	JECDCPOO_01346	Large ribosomal subunit assembly factor BipA (bipA_1)	0
+1299	NCBI_PGAP	JECDCPOO_01347	RNA-binding protein YlxQ (rulQ)	0
+1301	NCBI_PGAP	JECDCPOO_01349	Transcription termination/antitermination protein NusA (nusA)	0
+1302	NCBI_PGAP	JECDCPOO_01350	Ribosome maturation factor RimP (rimP)	0
+1304	NCBI_PGAP	JECDCPOO_01352	DNA polymerase III PolC-type (polC_2)	0
+1305	NCBI_PGAP	JECDCPOO_01353	Proline--tRNA ligase (proS)	0
+1306	NCBI_PGAP	JECDCPOO_01354	Regulator of sigma-W protease RasP (rasP)	0
+1308	NCBI_PGAP	JECDCPOO_01356	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) (uppS)	0
+1310	NCBI_PGAP	JECDCPOO_01358	Ribosome-recycling factor (frr)	0
+1311	NCBI_PGAP	JECDCPOO_01359	Uridylate kinase (pyrH)	0
+1312	NCBI_PGAP	JECDCPOO_01360	Elongation factor Ts (tsf)	0
+1313	NCBI_PGAP	JECDCPOO_01361	Small ribosomal subunit protein uS2 (rpsB)	0
+1314	NCBI_PGAP	JECDCPOO_01362	Phosphoserine phosphatase	0
+1315	NCBI_PGAP	JECDCPOO_01363	D-lactate/D-glycerate dehydrogenase (ldhD)	0
+1317	NCBI_PGAP	JECDCPOO_01365	tRNA1(Val) (adenine(37)-N6)-methyltransferase (yfiC)	0
+1318	NCBI_PGAP	JECDCPOO_01366	1-acyl-sn-glycerol-3-phosphate acyltransferase (plsC)	0
+1319	NCBI_PGAP	JECDCPOO_01367	putative multidrug resistance ABC transporter ATP-binding/permease protein YheH (yheH)	0
+1320	NCBI_PGAP	JECDCPOO_01368	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI (yheI_1)	0
+1321	NCBI_PGAP	JECDCPOO_01369	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI (yheI_2)	0
+1324	NCBI_PGAP	JECDCPOO_01372	LexA repressor (lexA)	0
+1327	NCBI_PGAP	JECDCPOO_01375	Hydroxymethylglutaryl-CoA synthase (mvaS)	0
+1328	NCBI_PGAP	JECDCPOO_01376	ADP-polyphosphate phosphotransferase	0
+1329	NCBI_PGAP	JECDCPOO_01377	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_3)	0
+1331	NCBI_PGAP	JECDCPOO_01379	Nucleoside diphosphate kinase (ndk)	0
+1335	NCBI_PGAP	JECDCPOO_01384	Diacylglycerol kinase (dagK_1)	0
+1338	NCBI_PGAP	JECDCPOO_01387	Putative universal stress protein	0
+1339	NCBI_PGAP	JECDCPOO_01388	Adenine phosphoribosyltransferase (apt)	0
+1340	NCBI_PGAP	JECDCPOO_01389	Single-stranded-DNA-specific exonuclease RecJ (recJ)	0
+1342	NCBI_PGAP	JECDCPOO_01391	Ribonuclease Z (rnz)	0
+1345	NCBI_PGAP	JECDCPOO_01394	GTPase Obg (obg)	0
+1346	NCBI_PGAP	JECDCPOO_01395	UvrABC system protein C (uvrC)	0
+1349	NCBI_PGAP	JECDCPOO_01398	putative GTP-binding protein EngB (engB)	0
+1350	NCBI_PGAP	JECDCPOO_01399	ATP-dependent Clp protease ATP-binding subunit ClpX (clpX)	0
+1351	NCBI_PGAP	JECDCPOO_01400	Trigger factor (tig)	0
+1352	NCBI_PGAP	JECDCPOO_01401	Elongation factor Tu (tuf)	0
+1354	NCBI_PGAP	JECDCPOO_01403	Ribonuclease J 2 (rnj2)	0
+1355	NCBI_PGAP	JECDCPOO_01404	Small ribosomal subunit protein uS15 (rpsO)	0
+1356	NCBI_PGAP	JECDCPOO_01405	Small ribosomal subunit protein bS20 (rpsT)	0
+1359	NCBI_PGAP	JECDCPOO_01408	DNA polymerase III subunit delta (holA)	0
+1360	NCBI_PGAP	JECDCPOO_01409	ComE operon protein 3 (comEC)	0
+1361	NCBI_PGAP	JECDCPOO_01410	tRNA-specific adenosine deaminase (tadA_2)	0
+1363	NCBI_PGAP	JECDCPOO_01412	putative protein YlbL (ylbL)	0
+1364	NCBI_PGAP	JECDCPOO_01413	Phosphopantetheine adenylyltransferase (coaD)	0
+1365	NCBI_PGAP	JECDCPOO_01414	Ribosomal RNA small subunit methyltransferase D (rsmD)	0
+1367	NCBI_PGAP	JECDCPOO_01416	putative peptidoglycan glycosyltransferase FtsW (ftsW)	0
+1368	NCBI_PGAP	JECDCPOO_01417	Large ribosomal subunit assembly factor BipA (bipA_2)	0
+1369	NCBI_PGAP	JECDCPOO_01418	Inositol-1-monophosphatase (suhB)	0
+1371	NCBI_PGAP	JECDCPOO_01420	L-lactate dehydrogenase (ldh_2)	0
+1372	NCBI_PGAP	JECDCPOO_01421	Dihydrolipoyl dehydrogenase (pdhD_1)	0
+1373	NCBI_PGAP	JECDCPOO_01422	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex (pdhC)	0
+1374	NCBI_PGAP	JECDCPOO_01423	Pyruvate dehydrogenase E1 component subunit beta (pdhB)	0
+1375	NCBI_PGAP	JECDCPOO_01424	Pyruvate dehydrogenase E1 component subunit alpha (pdhA)	0
+1376	NCBI_PGAP	JECDCPOO_01425	Peptide deformylase (def_1)	0
+1378	NCBI_PGAP	JECDCPOO_01427	DNA-directed RNA polymerase subunit epsilon (rpoY)	0
+1379	NCBI_PGAP	JECDCPOO_01428	Ribonuclease J1 (rnjA)	0
+1380	NCBI_PGAP	JECDCPOO_01429	Putative lipid kinase YtlR (ytlR)	0
+1382	NCBI_PGAP	JECDCPOO_01431	Cell division suppressor protein YneA (yneA)	0
+1383	NCBI_PGAP	JECDCPOO_01432	putative protein YpuA (ypuA)	0
+1384	NCBI_PGAP	JECDCPOO_01433	Gamma-D-glutamyl-L-lysine dipeptidyl-peptidase (ykfC)	0
+1385	NCBI_PGAP	JECDCPOO_01434	Transketolase (tkt_1)	0
+1386	NCBI_PGAP	JECDCPOO_01435	Ribokinase (rbsK)	0
+1387	NCBI_PGAP	JECDCPOO_01436	HTH-type transcriptional regulator DegA (degA)	0
+1388	NCBI_PGAP	JECDCPOO_01437	L-glyceraldehyde 3-phosphate reductase (gpr_2)	0
+1389	NCBI_PGAP	JECDCPOO_01438	N-acetylmuramic acid 6-phosphate etherase (murQ)	0
+1390	NCBI_PGAP	JECDCPOO_01439	Dipeptide-binding protein (dppA_5)	0
+1391	NCBI_PGAP	JECDCPOO_01440	Lipoamidase (lpa)	0
+1392	NCBI_PGAP	JECDCPOO_01441	putative ABC transporter extracellular-binding protein YckB (yckB)	0
+1393	NCBI_PGAP	JECDCPOO_01442	L-cystine transport system permease protein TcyB (tcyB)	0
+1395	NCBI_PGAP	JECDCPOO_01444	Ribose-phosphate pyrophosphokinase (prs_2)	0
+1396	NCBI_PGAP	JECDCPOO_01445	ATP-dependent RecD2 DNA helicase (recD2)	0
+1398	NCBI_PGAP	JECDCPOO_01447	Phosphoserine phosphatase 1 (pspA)	0
+1399	NCBI_PGAP	JECDCPOO_01448	tRNA-specific 2-thiouridylase MnmA (mnmA)	0
+1401	NCBI_PGAP	JECDCPOO_01450	Cysteine desulfurase IscS (iscS_2)	0
+1402	NCBI_PGAP	JECDCPOO_01451	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase (mtnN)	0
+1404	NCBI_PGAP	JECDCPOO_01453	ADP-ribose pyrophosphatase (nudF)	0
+1405	NCBI_PGAP	JECDCPOO_01454	Cold shock protein CspB (cspB)	0
+1406	NCBI_PGAP	JECDCPOO_01455	isoleucine--tRNA ligase IleS (ileS)	0
+1407	NCBI_PGAP	JECDCPOO_01456	Cell cycle adapter protein GpsB (gpsB_2)	0
+1408	NCBI_PGAP	JECDCPOO_01457	Ribosome-associated protein quality control protein P2 (rqcP2)	0
+1410	NCBI_PGAP	JECDCPOO_01459	Cell division protein SepF (sepF)	0
+1411	NCBI_PGAP	JECDCPOO_01460	Cell division protein FtsZ (ftsZ)	0
+1412	NCBI_PGAP	JECDCPOO_01461	Cell division protein FtsA (ftsA)	0
+1413	NCBI_PGAP	JECDCPOO_01462	Cell division protein DivIB (divIB)	0
+1414	NCBI_PGAP	JECDCPOO_01463	UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (murG)	0
+1415	NCBI_PGAP	JECDCPOO_01464	UDP-N-acetylmuramoylalanine--D-glutamate ligase (murD)	0
+1416	NCBI_PGAP	JECDCPOO_01465	Phospho-N-acetylmuramoyl-pentapeptide- transferase (mraY)	0
+1417	NCBI_PGAP	JECDCPOO_01466	Penicillin-binding protein 2B (pbpB)	0
+1418	NCBI_PGAP	JECDCPOO_01467	Cell division protein FtsL (ftsL)	0
+1419	NCBI_PGAP	JECDCPOO_01468	Ribosomal RNA small subunit methyltransferase H (rsmH)	0
+1420	NCBI_PGAP	JECDCPOO_01469	Transcriptional regulator MraZ (mraZ)	0
+1423	NCBI_PGAP	JECDCPOO_01472	DNA translocase SpoIIIE (spoIIIE)	0
+1424	NCBI_PGAP	JECDCPOO_01473	Putative tRNA (cytidine(34)-2'-O)-methyltransferase (cspR)	0
+1425	NCBI_PGAP	JECDCPOO_01474	23S rRNA (guanine(745)-N(1))-methyltransferase (rlmA)	0
+1426	NCBI_PGAP	JECDCPOO_01475	Putative transport protein	0
+1427	NCBI_PGAP	JECDCPOO_01476	PF03932 family protein CutC (cutC)	0
+1429	NCBI_PGAP	JECDCPOO_01478	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit (gtfA_1)	0
+1430	NCBI_PGAP	JECDCPOO_01479	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit (gtfA_2)	0
+1436	NCBI_PGAP	JECDCPOO_01485	NAD kinase 1 (ppnKA)	0
+1437	NCBI_PGAP	JECDCPOO_01486	GTP pyrophosphokinase YjbM (yjbM)	0
+1438	NCBI_PGAP	JECDCPOO_01487	ClpXP adapter protein SpxH (spxH)	0
+1439	NCBI_PGAP	JECDCPOO_01488	Protein DegV (degV_3)	0
+1440	NCBI_PGAP	JECDCPOO_01489	Oligoendopeptidase F, plasmid (pepF1)	0
+1442	NCBI_PGAP	JECDCPOO_01491	tRNA (guanine-N(7)-)-methyltransferase (trmB)	0
+1443	NCBI_PGAP	JECDCPOO_01492	Cell cycle regulator CcrZ (ccrZ)	0
+1445	NCBI_PGAP	JECDCPOO_01494	ABC-type transporter ATP-binding protein EcsA (ecsA)	0
+1446	NCBI_PGAP	JECDCPOO_01495	Protein hit (hit)	0
+1448	NCBI_PGAP	JECDCPOO_01497	Foldase protein PrsA (prsA_2)	0
+1449	NCBI_PGAP	JECDCPOO_01498	3'-5' exoribonuclease YhaM (yhaM)	0
+1450	NCBI_PGAP	JECDCPOO_01499	Chromosome partition protein Smc (smc_3)	0
+1453	NCBI_PGAP	JECDCPOO_01502	Penicillin-binding protein 2a (pbp2a)	0
+1454	NCBI_PGAP	JECDCPOO_01503	Arginine repressor (argR_2)	0
+1455	NCBI_PGAP	JECDCPOO_01504	Arginine--tRNA ligase (argS)	0
+1458	NCBI_PGAP	JECDCPOO_01508	putative protein YyaP (yyaP)	0
+1461	NCBI_PGAP	JECDCPOO_01511	Phosphoenolpyruvate-protein phosphotransferase (ptsI_1)	0
+1462	NCBI_PGAP	JECDCPOO_01512	Transketolase (tkt_2)	0
+1463	NCBI_PGAP	JECDCPOO_01513	Ascorbate-specific PTS system EIIC component (ulaA)	0
+1465	NCBI_PGAP	JECDCPOO_01515	Mannitol-specific cryptic phosphotransferase enzyme IIA component (cmtB)	0
+1466	NCBI_PGAP	JECDCPOO_01516	Aspartate racemase	0
+1467	NCBI_PGAP	JECDCPOO_01517	D-aspartate ligase	0
+1468	NCBI_PGAP	JECDCPOO_01518	Asparagine synthetase [glutamine-hydrolyzing] 1 (asnB)	0
+1469	NCBI_PGAP	JECDCPOO_01519	Anaerobic regulatory protein (fnr)	0
+1470	NCBI_PGAP	JECDCPOO_01520	Dipeptidase A (pepDA_3)	0
+1476	NCBI_PGAP	JECDCPOO_01526	UvrABC system protein A (uvrA_3)	0
+1479	NCBI_PGAP	JECDCPOO_01530	Organic hydroperoxide resistance transcriptional regulator (ohrR)	0
+1482	NCBI_PGAP	JECDCPOO_01533	Putative 2-hydroxyacid dehydrogenase	0
+1483	NCBI_PGAP	JECDCPOO_01534	Trehalose 6-phosphate phosphorylase (trePP)	0
+1484	NCBI_PGAP	JECDCPOO_01535	Beta-phosphoglucomutase (ycjU)	0
+1485	NCBI_PGAP	JECDCPOO_01536	Putative bifunctional phosphatase/peptidyl-prolyl cis-trans isomerase	0
+1486	NCBI_PGAP	JECDCPOO_01537	Deoxyguanosine kinase	0
+1488	NCBI_PGAP	JECDCPOO_01539	Multidrug transporter protein MdtP (mdtP_2)	0
+1489	NCBI_PGAP	JECDCPOO_01540	S-adenosylmethionine synthase (metK)	0
+1497	NCBI_PGAP	JECDCPOO_01548	Alkaline shock protein 23	0
+1498	NCBI_PGAP	JECDCPOO_01549	Alkaline shock protein 23	0
+1545	NCBI_PGAP	JECDCPOO_01596	Thoeris protein ThsA (thsA)	0
+1583	NCBI_PGAP	JECDCPOO_01636	Tyrosine recombinase XerC (xerC_3)	0
+1584	NCBI_PGAP	JECDCPOO_01653	Lipoteichoic acid synthase 1 (ltaS1_1)	0
+1585	NCBI_PGAP	JECDCPOO_01654	putative protein YkuJ (ykuJ)	0
+1587	NCBI_PGAP	JECDCPOO_01656	Alpha-galactosylglucosyldiacylglycerol synthase (cpoA)	0
+1588	NCBI_PGAP	JECDCPOO_01657	Alpha-monoglucosyldiacylglycerol synthase	0
+1589	NCBI_PGAP	JECDCPOO_01658	Phosphoenolpyruvate-protein phosphotransferase (ptsI_2)	0
+1590	NCBI_PGAP	JECDCPOO_01659	Phosphocarrier protein HPr (ptsH)	0
+1592	NCBI_PGAP	JECDCPOO_01661	ATP-dependent Clp protease ATP-binding subunit ClpE (clpE)	0
+1594	NCBI_PGAP	JECDCPOO_01663	Calcium-transporting ATPase 1	0
+1595	NCBI_PGAP	JECDCPOO_01664	Dipeptidase A (pepDA_4)	0
+1596	NCBI_PGAP	JECDCPOO_01665	NADH oxidase (nox_2)	0
+1598	NCBI_PGAP	JECDCPOO_01667	Peptide chain release factor 3 (prfC)	0
+1602	NCBI_PGAP	JECDCPOO_01671	Glycerol-3-phosphate cytidylyltransferase (tagD)	0
+1603	NCBI_PGAP	JECDCPOO_01672	Putative transport protein YhhT (yhhT)	0
+1604	NCBI_PGAP	JECDCPOO_01673	Nucleoside triphosphate/diphosphate phosphatase	0
+1606	NCBI_PGAP	JECDCPOO_01675	Putative penicillin-binding protein PbpX (pbpX)	0
+1607	NCBI_PGAP	JECDCPOO_01676	Regulatory protein RecX (recX)	0
+1608	NCBI_PGAP	JECDCPOO_01677	Flavodoxin	0
+1611	NCBI_PGAP	JECDCPOO_01680	UDP-N-acetylglucosamine 2-epimerase (mnaA)	0
+1612	NCBI_PGAP	JECDCPOO_01681	putative glycosyltransferase	0
+1613	NCBI_PGAP	JECDCPOO_01682	High-affinity gluconate transporter (gntT_1)	0
+1614	NCBI_PGAP	JECDCPOO_01683	Putative universal stress protein	0
+1616	NCBI_PGAP	JECDCPOO_01686	putative ATP-dependent RNA helicase YfmL (yfmL)	0
+1617	NCBI_PGAP	JECDCPOO_01687	scyllo-inositol 2-dehydrogenase (NADP(+)) IolU (iolU)	0
+1620	NCBI_PGAP	JECDCPOO_01690	HTH-type transcriptional regulator HexR (hexR)	0
+1621	NCBI_PGAP	JECDCPOO_01691	Xylulose kinase (xylB_5)	0
+1622	NCBI_PGAP	JECDCPOO_01692	High-affinity gluconate transporter (gntT_2)	0
+1623	NCBI_PGAP	JECDCPOO_01693	Serine/threonine exchanger SteT (steT_1)	0
+1624	NCBI_PGAP	JECDCPOO_01694	L-fucose-proton symporter (fucP_2)	0
+1625	NCBI_PGAP	JECDCPOO_01695	D-ribose pyranase (rbsD)	0
+1626	NCBI_PGAP	JECDCPOO_01696	Glutathione biosynthesis bifunctional protein GshAB (gshAB)	0
+1627	NCBI_PGAP	JECDCPOO_01697	Pyrimidine-nucleoside phosphorylase (pdp)	0
+1628	NCBI_PGAP	JECDCPOO_01698	Deoxyribonucleoside regulator (deoR_2)	0
+1629	NCBI_PGAP	JECDCPOO_01699	Purine nucleoside phosphorylase DeoD-type (deoD)	0
+1630	NCBI_PGAP	JECDCPOO_01700	Phosphopentomutase (deoB_1)	0
+1631	NCBI_PGAP	JECDCPOO_01701	Deoxyribose-phosphate aldolase (deoC)	0
+1634	NCBI_PGAP	JECDCPOO_01704	Triple specificity protein phosphatase PtpB (ptpB_2)	0
+1635	NCBI_PGAP	JECDCPOO_01705	NADH:acrylate oxidoreductase (ard_1)	0
+1636	NCBI_PGAP	JECDCPOO_01706	Bacterial microcompartment shell protein EutS (eutS)	0
+1637	NCBI_PGAP	JECDCPOO_01707	Acetate kinase (ackA_3)	0
+1638	NCBI_PGAP	JECDCPOO_01708	1-propanol dehydrogenase PduQ (pduQ_1)	0
+1639	NCBI_PGAP	JECDCPOO_01709	Propanal dehydrogenase (CoA-propanoylating) (pduP)	0
+1640	NCBI_PGAP	JECDCPOO_01710	Corrinoid adenosyltransferase PduO (pduO_1)	0
+1641	NCBI_PGAP	JECDCPOO_01711	Corrinoid adenosyltransferase PduO (pduO_2)	0
+1642	NCBI_PGAP	JECDCPOO_01712	Bacterial microcompartment shell vertex protein PduN (pduN_1)	0
+1644	NCBI_PGAP	JECDCPOO_01714	Phosphate propanoyltransferase (pduL_1)	0
+1645	NCBI_PGAP	JECDCPOO_01715	Bacterial microcompartment shell protein PduJ (pduJ)	0
+1646	NCBI_PGAP	JECDCPOO_01716	Bacterial microcompartment shell protein PduK (pduK)	0
+1647	NCBI_PGAP	JECDCPOO_01717	Diol dehydratase-reactivating factor small subunit (ddrB)	0
+1648	NCBI_PGAP	JECDCPOO_01718	Diol dehydratase-reactivating factor large subunit (ddrA)	0
+1649	NCBI_PGAP	JECDCPOO_01719	Propanediol dehydratase small subunit (pduE)	0
+1650	NCBI_PGAP	JECDCPOO_01720	Propanediol dehydratase medium subunit (pduD)	0
+1651	NCBI_PGAP	JECDCPOO_01721	Propanediol dehydratase large subunit (pduC)	0
+1652	NCBI_PGAP	JECDCPOO_01722	Bacterial microcompartment shell protein PduB (pduB)	0
+1653	NCBI_PGAP	JECDCPOO_01723	Bacterial microcompartment shell protein PduA (pduA)	0
+1654	NCBI_PGAP	JECDCPOO_01724	HTH-type transcriptional activator RhaR (rhaR_2)	0
+1655	NCBI_PGAP	JECDCPOO_01725	Glycerol uptake facilitator protein (glpF)	0
+1656	NCBI_PGAP	JECDCPOO_01726	Propanediol utilization protein PduV (pduV_1)	0
+1657	NCBI_PGAP	JECDCPOO_01727	putative RNA methyltransferase	0
+1658	NCBI_PGAP	JECDCPOO_01728	Diacylglycerol kinase (dagK_2)	0
+1659	NCBI_PGAP	JECDCPOO_01729	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (gatB)	0
+1660	NCBI_PGAP	JECDCPOO_01730	Glutamyl-tRNA(Gln) amidotransferase subunit A (gatA)	0
+1661	NCBI_PGAP	JECDCPOO_01731	Glutamyl-tRNA(Gln) amidotransferase subunit C (gatC)	0
+1662	NCBI_PGAP	JECDCPOO_01732	putative lipoprotein YerH (yerH)	0
+1663	NCBI_PGAP	JECDCPOO_01733	DNA ligase (ligA)	0
+1664	NCBI_PGAP	JECDCPOO_01734	ATP-dependent DNA helicase PcrA (pcrA)	0
+1665	NCBI_PGAP	JECDCPOO_01735	N5-carboxyaminoimidazole ribonucleotide synthase (purK)	0
+1666	NCBI_PGAP	JECDCPOO_01736	Xanthine phosphoribosyltransferase (xpt)	0
+1667	NCBI_PGAP	JECDCPOO_01737	1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_1)	0
+1668	NCBI_PGAP	JECDCPOO_01738	Heptaprenyl diphosphate synthase component 2 (hepT)	0
+1669	NCBI_PGAP	JECDCPOO_01739	Glutathione/L-cysteine transport system ATP-binding/permease protein CydC (cydC)	0
+1670	NCBI_PGAP	JECDCPOO_01740	Glutathione/L-cysteine transport system ATP-binding/permease protein CydD (cydD)	0
+1671	NCBI_PGAP	JECDCPOO_01741	Cytochrome bd-I ubiquinol oxidase subunit 2 (cydB)	0
+1672	NCBI_PGAP	JECDCPOO_01742	Cytochrome bd-II ubiquinol oxidase subunit 1 (appC)	0
+1673	NCBI_PGAP	JECDCPOO_01743	Glyoxylate/hydroxypyruvate reductase A (ghrA)	0
+1674	NCBI_PGAP	JECDCPOO_01744	dTDP-glucose 4,6-dehydratase (rmlB_1)	0
+1675	NCBI_PGAP	JECDCPOO_01745	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU (tagU_2)	0
+1676	NCBI_PGAP	JECDCPOO_01746	dTDP-4-dehydrorhamnose reductase (rmlD)	0
+1677	NCBI_PGAP	JECDCPOO_01747	dTDP-glucose 4,6-dehydratase (rmlB_2)	0
+1678	NCBI_PGAP	JECDCPOO_01748	dTDP-4-dehydrorhamnose 3,5-epimerase (rfbC)	0
+1679	NCBI_PGAP	JECDCPOO_01749	Glucose-1-phosphate thymidylyltransferase (rmlA)	0
+1680	NCBI_PGAP	JECDCPOO_01750	Ribulose-5-phosphate reductase 1 (tarJ)	0
+1681	NCBI_PGAP	JECDCPOO_01751	Ribitol-5-phosphate cytidylyltransferase (tarI)	0
+1685	NCBI_PGAP	JECDCPOO_01755	Phosphatidylinositol phosphate synthase	0
+1686	NCBI_PGAP	JECDCPOO_01756	Glycogen synthase (glgA)	0
+1687	NCBI_PGAP	JECDCPOO_01757	Undecaprenyl-phosphate galactose phosphotransferase (rfbP)	0
+1688	NCBI_PGAP	JECDCPOO_01758	Tyrosine-protein phosphatase YwqE (ywqE)	0
+1689	NCBI_PGAP	JECDCPOO_01759	Tyrosine-protein kinase YwqD (ywqD)	0
+1690	NCBI_PGAP	JECDCPOO_01760	putative capsular polysaccharide biosynthesis protein YwqC (ywqC)	0
+1691	NCBI_PGAP	JECDCPOO_01761	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU (tagU_3)	0
+1692	NCBI_PGAP	JECDCPOO_01762	Lipoate-protein ligase LplJ (lplJ_2)	0
+1693	NCBI_PGAP	JECDCPOO_01763	Branched-chain amino acid permease BcaP (bcaP_2)	0
+1694	NCBI_PGAP	JECDCPOO_01764	Aspartate--ammonia ligase (asnA)	0
+1695	NCBI_PGAP	JECDCPOO_01765	6,7-dimethyl-8-ribityllumazine synthase (ribH)	0
+1696	NCBI_PGAP	JECDCPOO_01766	Riboflavin biosynthesis protein RibBA (ribBA)	0
+1697	NCBI_PGAP	JECDCPOO_01767	Riboflavin synthase (ribE)	0
+1698	NCBI_PGAP	JECDCPOO_01768	Riboflavin biosynthesis protein RibD (ribD)	0
+1699	NCBI_PGAP	JECDCPOO_01769	Ktr system potassium uptake protein C (ktrC)	0
+1700	NCBI_PGAP	JECDCPOO_01770	Potassium/sodium uptake protein NtpJ (ntpJ)	0
+1701	NCBI_PGAP	JECDCPOO_01771	Putative mannose-6-phosphate isomerase YvyI (yvyI)	0
+1702	NCBI_PGAP	JECDCPOO_01772	Small ribosomal subunit protein uS9 (rpsI)	0
+1703	NCBI_PGAP	JECDCPOO_01773	Large ribosomal subunit protein uL13 (rplM)	0
+1704	NCBI_PGAP	JECDCPOO_01774	tRNA pseudouridine synthase A (truA)	0
+1705	NCBI_PGAP	JECDCPOO_01775	Energy-coupling factor transporter transmembrane protein EcfT (ecfT_1)	0
+1706	NCBI_PGAP	JECDCPOO_01776	Energy-coupling factor transporter ATP-binding protein EcfA2 (ecfA2)	0
+1707	NCBI_PGAP	JECDCPOO_01777	Energy-coupling factor transporter ATP-binding protein EcfA1 (ecfA1)	0
+1708	NCBI_PGAP	JECDCPOO_01778	Large ribosomal subunit protein bL17 (rplQ)	0
+1709	NCBI_PGAP	JECDCPOO_01779	DNA-directed RNA polymerase subunit alpha (rpoA)	0
+1710	NCBI_PGAP	JECDCPOO_01780	Small ribosomal subunit protein uS11 (rpsK)	0
+1711	NCBI_PGAP	JECDCPOO_01781	Small ribosomal subunit protein uS13 (rpsM)	0
+1712	NCBI_PGAP	JECDCPOO_01782	Translation initiation factor IF-1 (infA)	0
+1713	NCBI_PGAP	JECDCPOO_01783	Adenylate kinase (adk)	0
+1714	NCBI_PGAP	JECDCPOO_01784	Protein translocase subunit SecY (secY)	0
+1715	NCBI_PGAP	JECDCPOO_01785	Large ribosomal subunit protein uL15 (rplO)	0
+1716	NCBI_PGAP	JECDCPOO_01786	Large ribosomal subunit protein uL30 (rpmD)	0
+1717	NCBI_PGAP	JECDCPOO_01787	Small ribosomal subunit protein uS5 (rpsE)	0
+1718	NCBI_PGAP	JECDCPOO_01788	Large ribosomal subunit protein uL18 (rplR)	0
+1719	NCBI_PGAP	JECDCPOO_01789	Large ribosomal subunit protein uL6 (rplF)	0
+1720	NCBI_PGAP	JECDCPOO_01790	Small ribosomal subunit protein uS8 (rpsH)	0
+1721	NCBI_PGAP	JECDCPOO_01791	Large ribosomal subunit protein uL5 (rplE)	0
+1722	NCBI_PGAP	JECDCPOO_01792	Large ribosomal subunit protein uL24 (rplX)	0
+1723	NCBI_PGAP	JECDCPOO_01793	Large ribosomal subunit protein uL14 (rplN)	0
+1724	NCBI_PGAP	JECDCPOO_01794	Small ribosomal subunit protein uS17 (rpsQ)	0
+1725	NCBI_PGAP	JECDCPOO_01795	Large ribosomal subunit protein uL29 (rpmC)	0
+1726	NCBI_PGAP	JECDCPOO_01796	Large ribosomal subunit protein uL16 (rplP)	0
+1727	NCBI_PGAP	JECDCPOO_01797	Small ribosomal subunit protein uS3 (rpsC)	0
+1728	NCBI_PGAP	JECDCPOO_01798	Large ribosomal subunit protein uL22 (rplV)	0
+1729	NCBI_PGAP	JECDCPOO_01799	Small ribosomal subunit protein uS19 (rpsS)	0
+1730	NCBI_PGAP	JECDCPOO_01800	Large ribosomal subunit protein uL2 (rplB)	0
+1731	NCBI_PGAP	JECDCPOO_01801	Large ribosomal subunit protein uL23 (rplW)	0
+1732	NCBI_PGAP	JECDCPOO_01802	Large ribosomal subunit protein uL4 (rplD)	0
+1733	NCBI_PGAP	JECDCPOO_01803	Large ribosomal subunit protein uL3 (rplC)	0
+1734	NCBI_PGAP	JECDCPOO_01804	Small ribosomal subunit protein uS10 (rpsJ)	0
+1735	NCBI_PGAP	JECDCPOO_01805	Multidrug export protein MepA (mepA_2)	0
+1736	NCBI_PGAP	JECDCPOO_01806	elongation factor G FusA (fusA)	0
+1737	NCBI_PGAP	JECDCPOO_01807	Small ribosomal subunit protein uS7 (rpsG)	0
+1738	NCBI_PGAP	JECDCPOO_01808	Small ribosomal subunit protein uS12 (rpsL)	0
+1740	NCBI_PGAP	JECDCPOO_01810	DNA-directed RNA polymerase subunit beta RpoC (rpoC)	0
+1741	NCBI_PGAP	JECDCPOO_01811	DNA-directed RNA polymerase subunit beta RpoB (rpoB)	0
+1743	NCBI_PGAP	JECDCPOO_01813	ATP-dependent Clp protease ATP-binding subunit ClpC (clpC)	0
+1744	NCBI_PGAP	JECDCPOO_01814	Transcriptional regulator CtsR (ctsR)	0
+1745	NCBI_PGAP	JECDCPOO_01823	Serine--tRNA ligase (serS)	0
+1746	NCBI_PGAP	JECDCPOO_01824	Deoxyguanosine kinase	0
+1747	NCBI_PGAP	JECDCPOO_01825	Lysine-specific permease LysP (lysP)	0
+1749	NCBI_PGAP	JECDCPOO_01827	Acetylxylan esterase (axeA1)	0
+1753	NCBI_PGAP	JECDCPOO_01831	HTH-type transcriptional regulator MntR (mntR)	0
+1754	NCBI_PGAP	JECDCPOO_01832	Cadmium, cobalt and zinc/H(+)-K(+) antiporter (czcD)	0
+1757	NCBI_PGAP	JECDCPOO_01835	Multidrug export protein EmrB (emrB_2)	0
+1760	NCBI_PGAP	JECDCPOO_01838	Inner membrane protein YgaZ (ygaZ_1)	0
+1762	NCBI_PGAP	JECDCPOO_01840	Uracil permease (pyrP)	0
+1763	NCBI_PGAP	JECDCPOO_01841	Enterobactin exporter EntS (entS)	0
+1765	NCBI_PGAP	JECDCPOO_01843	Spermidine/spermine N(1)-acetyltransferase (paiA)	0
+1767	NCBI_PGAP	JECDCPOO_01845	[Ribosomal protein bS18]-alanine N-acetyltransferase (rimI_2)	0
+1769	NCBI_PGAP	JECDCPOO_01847	Ribosomal large subunit pseudouridine synthase D (rluD_3)	0
+1770	NCBI_PGAP	JECDCPOO_01848	Glycine cleavage system H protein (gcvH_2)	0
+1773	NCBI_PGAP	JECDCPOO_01851	Maltose O-acetyltransferase (maa_3)	0
+1774	NCBI_PGAP	JECDCPOO_01852	L-arabinose isomerase (araA)	0
+1775	NCBI_PGAP	JECDCPOO_01853	L-ribulose-5-phosphate 4-epimerase (araD_1)	0
+1776	NCBI_PGAP	JECDCPOO_01854	Xylulose kinase (xylB_6)	0
+1777	NCBI_PGAP	JECDCPOO_01855	D-xylose transporter (xylT_2)	0
+1778	NCBI_PGAP	JECDCPOO_01856	Arabinose metabolism transcriptional repressor (araR)	0
+1779	NCBI_PGAP	JECDCPOO_01857	Maltose O-acetyltransferase (maa_4)	0
+1781	NCBI_PGAP	JECDCPOO_01859	Extracellular exo-alpha-(1->5)-L-arabinofuranosidase	0
+1782	NCBI_PGAP	JECDCPOO_01860	Raffinose permease (rafB)	0
+1783	NCBI_PGAP	JECDCPOO_01861	Intracellular exo-alpha-(1->5)-L-arabinofuranosidase (abfA_1)	0
+1784	NCBI_PGAP	JECDCPOO_01862	ATP-dependent DNA helicase RecQ (recQ)	0
+1785	NCBI_PGAP	JECDCPOO_01863	Putative HTH-type transcriptional regulator YwnA (ywnA_2)	0
+1787	NCBI_PGAP	JECDCPOO_01865	Dipeptidase A (pepDA_5)	0
+1788	NCBI_PGAP	JECDCPOO_01866	Arginine/ornithine antiporter ArcD1 (arcD1_1)	0
+1789	NCBI_PGAP	JECDCPOO_01867	Aminopeptidase N (pepN)	0
+1791	NCBI_PGAP	JECDCPOO_01869	Alpha-galactosidase AgaA (agaA)	0
+1793	NCBI_PGAP	JECDCPOO_01871	GMP synthase [glutamine-hydrolyzing] (guaA_1)	0
+1795	NCBI_PGAP	JECDCPOO_01873	Pantothenate kinase (coaA)	0
+1796	NCBI_PGAP	JECDCPOO_01874	DNA helicase IV (helD_2)	0
+1798	NCBI_PGAP	JECDCPOO_01876	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_4)	0
+1799	NCBI_PGAP	JECDCPOO_01877	Oligopeptide transport ATP-binding protein OppF (oppF_2)	0
+1800	NCBI_PGAP	JECDCPOO_01878	Dipeptide transport ATP-binding protein DppD (dppD)	0
+1801	NCBI_PGAP	JECDCPOO_01879	Dipeptide transport system permease protein DppC (dppC)	0
+1802	NCBI_PGAP	JECDCPOO_01880	Dipeptide transport system permease protein DppB (dppB)	0
+1804	NCBI_PGAP	JECDCPOO_01882	Dipeptide-binding protein (dppA_6)	0
+1805	NCBI_PGAP	JECDCPOO_01883	Dipeptide-binding protein (dppA_7)	0
+1806	NCBI_PGAP	JECDCPOO_01884	GTPase HflX (hflX)	0
+1807	NCBI_PGAP	JECDCPOO_01885	putative glutamine ABC transporter permease protein GlnP (glnP)	0
+1808	NCBI_PGAP	JECDCPOO_01886	putative glutamine ABC transporter permease protein GlnM (glnM)	0
+1809	NCBI_PGAP	JECDCPOO_01887	ABC transporter glutamine-binding protein GlnH (glnH_2)	0
+1810	NCBI_PGAP	JECDCPOO_01888	Glutamine transport ATP-binding protein GlnQ (glnQ_3)	0
+1813	NCBI_PGAP	JECDCPOO_01891	Zinc-specific metallo-regulatory protein (zur)	0
+1814	NCBI_PGAP	JECDCPOO_01892	Guanylate kinase (gmk_2)	0
+1816	NCBI_PGAP	JECDCPOO_01894	Branched-chain amino acid permease BcaP (bcaP_3)	0
+1817	NCBI_PGAP	JECDCPOO_01895	Xaa-Pro dipeptidyl-peptidase (pepX)	0
+1818	NCBI_PGAP	JECDCPOO_01896	Proline iminopeptidase (fpaP)	0
+1819	NCBI_PGAP	JECDCPOO_01897	Putative L,D-transpeptidase YciB (yciB)	0
+1820	NCBI_PGAP	JECDCPOO_01898	Energy-dependent translational throttle protein EttA (ettA_2)	0
+1821	NCBI_PGAP	JECDCPOO_01899	Virulence protein	0
+1823	NCBI_PGAP	JECDCPOO_01901	ABC transporter ATP-binding protein YxdL (yxdL)	0
+1827	NCBI_PGAP	JECDCPOO_01905	Protein DegV (degV_4)	0
+1830	NCBI_PGAP	JECDCPOO_01908	Thiamine import ATP-binding protein ThiQ (thiQ)	0
+1837	NCBI_PGAP	JECDCPOO_01915	putative oxidoreductase YkwC (ykwC)	0
+1839	NCBI_PGAP	JECDCPOO_01917	Putative D-alanyl-D-alanine carboxypeptidase (yfeW_2)	0
+1842	NCBI_PGAP	JECDCPOO_01920	Penicillin V acylase (yxeI_1)	0
+1843	NCBI_PGAP	JECDCPOO_01921	Diacetyl reductase [(S)-acetoin forming] (budC)	0
+1845	NCBI_PGAP	JECDCPOO_01923	Putative membrane protein YdgH (ydgH)	0
+1846	NCBI_PGAP	JECDCPOO_01924	Riboflavin transporter RibZ (ribZ_2)	0
+1850	NCBI_PGAP	JECDCPOO_01928	Acetyltransferase	0
+1851	NCBI_PGAP	JECDCPOO_01929	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_5)	0
+1852	NCBI_PGAP	JECDCPOO_01930	Lipoteichoic acid synthase 1 (ltaS1_2)	0
+1853	NCBI_PGAP	JECDCPOO_01931	Ferredoxin--NADP reductase 2 (yumC)	0
+1856	NCBI_PGAP	JECDCPOO_01934	Pyrimidine-specific ribonucleoside hydrolase RihA (rihA_1)	0
+1859	NCBI_PGAP	JECDCPOO_01937	Sugar phosphatase YidA (yidA_2)	0
+1861	NCBI_PGAP	JECDCPOO_01939	Lichenan permease IIC component (licC)	0
+1862	NCBI_PGAP	JECDCPOO_01940	Sugar phosphatase YbiV (ybiV_3)	0
+1865	NCBI_PGAP	JECDCPOO_01943	Chloramphenicol acetyltransferase (cat)	0
+1867	NCBI_PGAP	JECDCPOO_01945	D-alanyl-D-alanine carboxypeptidase DacA (dacA_1)	0
+1868	NCBI_PGAP	JECDCPOO_01946	Putative HMP/thiamine permease protein YkoE (ykoE)	0
+1869	NCBI_PGAP	JECDCPOO_01947	Putative HMP/thiamine import ATP-binding protein YkoD (ykoD_1)	0
+1870	NCBI_PGAP	JECDCPOO_01948	Putative HMP/thiamine permease protein YkoC (ykoC)	0
+1871	NCBI_PGAP	JECDCPOO_01949	Aminopyrimidine aminohydrolase (tenA)	0
+1879	NCBI_PGAP	JECDCPOO_01957	Uric acid permease PucK (pucK)	0
+1880	NCBI_PGAP	JECDCPOO_01958	Multidrug efflux system ATP-binding protein	0
+1881	NCBI_PGAP	JECDCPOO_01959	putative protein YhaP (yhaP)	0
+1882	NCBI_PGAP	JECDCPOO_01961	putative threonine/serine exporter	0
+1883	NCBI_PGAP	JECDCPOO_01962	DegV domain-containing protein	0
+1884	NCBI_PGAP	JECDCPOO_01963	Aldo-keto reductase/MSMEI_2347	0
+1887	NCBI_PGAP	JECDCPOO_01966	Glutamate decarboxylase (gadB_2)	0
+1888	NCBI_PGAP	JECDCPOO_01967	Lactate racemization regulatory protein (larR)	0
+1889	NCBI_PGAP	JECDCPOO_01968	Lactate racemase (larA)	0
+1890	NCBI_PGAP	JECDCPOO_01969	Pyridinium-3,5-biscarboxylic acid mononucleotide synthase (larB)	0
+1891	NCBI_PGAP	JECDCPOO_01970	Pyridinium-3,5-bisthiocarboxylic acid mononucleotide nickel insertion protein (larC)	0
+1892	NCBI_PGAP	JECDCPOO_01971	Pyridinium-3,5-bisthiocarboxylic acid mononucleotide synthase (larE)	0
+1893	NCBI_PGAP	JECDCPOO_01972	Glycerol facilitator-aquaporin gla (gla)	0
+1894	NCBI_PGAP	JECDCPOO_01973	Nickel transporter NixA (nixA)	0
+1895	NCBI_PGAP	JECDCPOO_01974	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase (menH_2)	0
+1897	NCBI_PGAP	JECDCPOO_01976	Spermidine/putrescine import ATP-binding protein PotA (potA)	0
+1898	NCBI_PGAP	JECDCPOO_01977	Spermidine/putrescine transport system permease protein PotB (potB)	0
+1899	NCBI_PGAP	JECDCPOO_01978	Spermidine/putrescine transport system permease protein PotC (potC)	0
+1900	NCBI_PGAP	JECDCPOO_01979	Spermidine/putrescine-binding periplasmic protein (potD)	0
+1901	NCBI_PGAP	JECDCPOO_01980	Phosphate import ATP-binding protein PstB 3 (pstB3_3)	0
+1902	NCBI_PGAP	JECDCPOO_01981	Phosphate transport system permease protein PstA (pstA)	0
+1904	NCBI_PGAP	JECDCPOO_01983	Phosphate-binding protein PstS 1 (pstS1_2)	0
+1908	NCBI_PGAP	JECDCPOO_01987	3'-5' exonuclease DinG (dinG_2)	0
+1911	NCBI_PGAP	JECDCPOO_01990	6-phosphogluconolactonase (pgl)	0
+1913	NCBI_PGAP	JECDCPOO_01992	Glutamate/serine transporter AimA (aimA)	0
+1916	NCBI_PGAP	JECDCPOO_01995	Peroxide-responsive repressor PerR (perR)	0
+1922	NCBI_PGAP	JECDCPOO_02001	Putative universal stress protein	0
+1926	NCBI_PGAP	JECDCPOO_02005	Neutral endopeptidase (pepO)	0
+1928	NCBI_PGAP	JECDCPOO_02007	Corrinoid adenosyltransferase (yvqK_1)	0
+1931	NCBI_PGAP	JECDCPOO_02010	Bacitracin transport ATP-binding protein BcrA (bcrA)	0
+1933	NCBI_PGAP	JECDCPOO_02012	Adenosylcobalamin-dependent ribonucleoside-triphosphate reductase (rtpR)	0
+1936	NCBI_PGAP	JECDCPOO_02015	HTH-type transcriptional regulator GanR (ganR)	0
+1937	NCBI_PGAP	JECDCPOO_02016	Galactose-1-phosphate uridylyltransferase (galT)	0
+1938	NCBI_PGAP	JECDCPOO_02017	UDP-glucose 4-epimerase (galE)	0
+1939	NCBI_PGAP	JECDCPOO_02018	Galactokinase (galK_2)	0
+1940	NCBI_PGAP	JECDCPOO_02019	Lactose permease (lacS)	0
+1942	NCBI_PGAP	JECDCPOO_02021	Phosphoglucomutase (pgcA)	0
+1943	NCBI_PGAP	JECDCPOO_02022	Maltose epimerase	0
+1944	NCBI_PGAP	JECDCPOO_02023	Acyl-CoA dehydrogenase (mmgC)	0
+1945	NCBI_PGAP	JECDCPOO_02024	Caffeyl-CoA reductase-Etf complex subunit CarD (carD)	0
+1946	NCBI_PGAP	JECDCPOO_02025	Caffeyl-CoA reductase-Etf complex subunit CarE (carE)	0
+1947	NCBI_PGAP	JECDCPOO_02026	L-threonine 3-dehydrogenase (tdh)	0
+1949	NCBI_PGAP	JECDCPOO_02028	Protein/nucleic acid deglycase HchA (hchA)	0
+1952	NCBI_PGAP	JECDCPOO_02031	putative MFS-type transporter YhjX (yhjX)	0
+1953	NCBI_PGAP	JECDCPOO_02032	Shikimate dehydrogenase (NADP(+)) (aroE)	0
+1954	NCBI_PGAP	JECDCPOO_02033	Dihydroanticapsin 7-dehydrogenase (bacC)	0
+1956	NCBI_PGAP	JECDCPOO_02035	Riboflavin transporter RibZ (ribZ_3)	0
+1958	NCBI_PGAP	JECDCPOO_02037	Methionine aminopeptidase 1 (map_1)	0
+1959	NCBI_PGAP	JECDCPOO_02038	Demethylmenaquinone methyltransferase (menG)	0
+1961	NCBI_PGAP	JECDCPOO_02040	Putative 3-methyladenine DNA glycosylase	0
+1963	NCBI_PGAP	JECDCPOO_02042	Beta-phosphoglucomutase (yvdM)	0
+1965	NCBI_PGAP	JECDCPOO_02044	Glycine betaine transporter BetL (betL)	0
+1966	NCBI_PGAP	JECDCPOO_02045	Maltose O-acetyltransferase (maa_5)	0
+1968	NCBI_PGAP	JECDCPOO_02047	Ribonuclease H (rnhA_2)	0
+1970	NCBI_PGAP	JECDCPOO_02049	Cytosine deaminase (codA)	0
+1972	NCBI_PGAP	JECDCPOO_02051	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase (thiD_1)	0
+1974	NCBI_PGAP	JECDCPOO_02053	Glutathione-regulated potassium-efflux system ancillary protein KefG (kefG)	0
+1978	NCBI_PGAP	JECDCPOO_02058	Cold shock protein CspC (cspC)	0
+1979	NCBI_PGAP	JECDCPOO_02059	Putative hydrolase MhqD (mhqD)	0
+1981	NCBI_PGAP	JECDCPOO_02061	Adenine DNA glycosylase (mutY)	0
+1982	NCBI_PGAP	JECDCPOO_02062	Dipeptide-binding protein (dppA_8)	0
+1985	NCBI_PGAP	JECDCPOO_02065	Lipoate--protein ligase (lplA)	0
+1986	NCBI_PGAP	JECDCPOO_02066	Glycine cleavage system H protein (gcvH_3)	0
+1987	NCBI_PGAP	JECDCPOO_02067	Aldo-keto reductase IolS (iolS_1)	0
+1989	NCBI_PGAP	JECDCPOO_02069	putative inner membrane transporter YicL (yicL_2)	0
+1990	NCBI_PGAP	JECDCPOO_02070	Methionine import system permease protein MetP (metP)	0
+1991	NCBI_PGAP	JECDCPOO_02071	Methionine import ATP-binding protein MetN (metN)	0
+1992	NCBI_PGAP	JECDCPOO_02072	D-methionine-binding lipoprotein MetQ (metQ)	0
+1993	NCBI_PGAP	JECDCPOO_02073	DNA-3-methyladenine glycosylase 1 (tag_1)	0
+1994	NCBI_PGAP	JECDCPOO_02074	Dipeptide-binding protein (dppA_9)	0
+1996	NCBI_PGAP	JECDCPOO_02076	Thermostable beta-glucosidase B (bglB_2)	0
+1997	NCBI_PGAP	JECDCPOO_02077	Penicillin V acylase (yxeI_2)	0
+1998	NCBI_PGAP	JECDCPOO_02078	Nuclease SbcCD subunit C (sbcC)	0
+1999	NCBI_PGAP	JECDCPOO_02079	Nuclease SbcCD subunit D (sbcD)	0
+2000	NCBI_PGAP	JECDCPOO_02080	DNA-3-methyladenine glycosylase 1 (tag_2)	0
+2003	NCBI_PGAP	JECDCPOO_02083	Endoglucanase	0
+2007	NCBI_PGAP	JECDCPOO_02087	putative HTH-type transcriptional regulator	0
+2010	NCBI_PGAP	JECDCPOO_02090	2,5-diketo-D-gluconic acid reductase B (dkgB)	0
+2011	NCBI_PGAP	JECDCPOO_02091	Purine efflux pump PbuE (pbuE_1)	0
+2012	NCBI_PGAP	JECDCPOO_02092	Purine efflux pump PbuE (pbuE_2)	0
+2013	NCBI_PGAP	JECDCPOO_02093	NADH:acrylate oxidoreductase (ard_2)	0
+2014	NCBI_PGAP	JECDCPOO_02094	Bacterial microcompartment shell vertex protein PduN (pduN_2)	0
+2015	NCBI_PGAP	JECDCPOO_02095	HTH-type transcriptional activator RhaR (rhaR_3)	0
+2019	NCBI_PGAP	JECDCPOO_02099	Putative HMP/thiamine import ATP-binding protein YkoD (ykoD_2)	0
+2020	NCBI_PGAP	JECDCPOO_02100	Energy-coupling factor transporter transmembrane protein EcfT (ecfT_2)	0
+2021	NCBI_PGAP	JECDCPOO_02101	Protein LpdD (lpdD)	0
+2022	NCBI_PGAP	JECDCPOO_02102	Flavin prenyltransferase LpdB (lpdB)	0
+2023	NCBI_PGAP	JECDCPOO_02103	Gallate decarboxylase (lpdC)	0
+2024	NCBI_PGAP	JECDCPOO_02104	Transcriptional dual regulator GltC (gltC_2)	0
+2025	NCBI_PGAP	JECDCPOO_02105	Peptide deformylase (def_2)	0
+2028	NCBI_PGAP	JECDCPOO_02108	Triple specificity protein phosphatase PtpB (ptpB_3)	0
+2029	NCBI_PGAP	JECDCPOO_02109	Propanediol utilization protein PduV (pduV_2)	0
+2030	NCBI_PGAP	JECDCPOO_02110	Ethanolamine utilization protein EutJ (eutJ)	0
+2031	NCBI_PGAP	JECDCPOO_02111	Bacterial microcompartment shell protein PduU (pduU)	0
+2032	NCBI_PGAP	JECDCPOO_02112	Acetate kinase EutQ (eutQ)	0
+2033	NCBI_PGAP	JECDCPOO_02113	putative ethanolamine permease EutH (eutH)	0
+2034	NCBI_PGAP	JECDCPOO_02114	Carboxysome shell vertex protein CcmL (ccmL)	0
+2036	NCBI_PGAP	JECDCPOO_02116	Phosphate propanoyltransferase (pduL_2)	0
+2038	NCBI_PGAP	JECDCPOO_02118	Bacterial microcompartment shell protein EutM (eutM)	0
+2039	NCBI_PGAP	JECDCPOO_02119	Bifunctional aldehyde-alcohol dehydrogenase AdhE (adhE_2)	0
+2040	NCBI_PGAP	JECDCPOO_02120	Carboxysome shell protein CcmK (ccmK)	0
+2041	NCBI_PGAP	JECDCPOO_02121	Bacterial microcompartment shell protein EutL (eutL)	0
+2042	NCBI_PGAP	JECDCPOO_02122	Ethanolamine ammonia-lyase small subunit (eutC)	0
+2043	NCBI_PGAP	JECDCPOO_02123	Ethanolamine ammonia-lyase large subunit (eutB)	0
+2044	NCBI_PGAP	JECDCPOO_02124	Ethanolamine ammonia-lyase reactivase EutA (eutA)	0
+2046	NCBI_PGAP	JECDCPOO_02126	Transcriptional regulatory protein PdtaR (pdtaR)	0
+2047	NCBI_PGAP	JECDCPOO_02127	1-propanol dehydrogenase PduQ (pduQ_2)	0
+2048	NCBI_PGAP	JECDCPOO_02128	Corrinoid adenosyltransferase (yvqK_2)	0
+2049	NCBI_PGAP	JECDCPOO_02129	Aquaporin Z 2 (aqpZ2)	0
+2050	NCBI_PGAP	JECDCPOO_02130	Pyrrolidone-carboxylate peptidase (pcp)	0
+2051	NCBI_PGAP	JECDCPOO_02131	Multidrug resistance ABC transporter ATP-binding and permease protein (lmrA)	0
+2056	NCBI_PGAP	JECDCPOO_02136	ABC transporter ATP-binding protein YtrB (ytrB_2)	0
+2059	NCBI_PGAP	JECDCPOO_02139	Hydroperoxy fatty acid reductase gpx1 (gpx1)	0
+2061	NCBI_PGAP	JECDCPOO_02141	Multidrug resistance protein MdtL (mdtL)	0
+2062	NCBI_PGAP	JECDCPOO_02142	Sugar phosphatase YidA (yidA_3)	0
+2063	NCBI_PGAP	JECDCPOO_02143	Methionine aminopeptidase (map_2)	0
+2065	NCBI_PGAP	JECDCPOO_02145	putative oxidoreductase	0
+2066	NCBI_PGAP	JECDCPOO_02146	HTH-type transcriptional activator HxlR (hxlR)	0
+2067	NCBI_PGAP	JECDCPOO_02147	Alkaline shock protein 23	0
+2068	NCBI_PGAP	JECDCPOO_02148	Alkaline shock protein 23	0
+2073	NCBI_PGAP	JECDCPOO_02153	Asparagine--tRNA ligase (asnS)	0
+2074	NCBI_PGAP	JECDCPOO_02154	Multidrug resistance protein Stp (stp_4)	0
+2078	NCBI_PGAP	JECDCPOO_02158	HTH-type transcriptional regulator ArcR (arcR)	0
+2079	NCBI_PGAP	JECDCPOO_02159	Carbamate kinase 1 (arcC1_1)	0
+2080	NCBI_PGAP	JECDCPOO_02160	Capreomycidine synthase (vioD)	0
+2081	NCBI_PGAP	JECDCPOO_02161	Arginine/ornithine antiporter ArcD1 (arcD1_2)	0
+2082	NCBI_PGAP	JECDCPOO_02162	Ornithine carbamoyltransferase, catabolic (arcB)	0
+2083	NCBI_PGAP	JECDCPOO_02163	Arginine deiminase (arcA_2)	0
+2085	NCBI_PGAP	JECDCPOO_02165	Sensor histidine kinase GlnK (glnK)	0
+2086	NCBI_PGAP	JECDCPOO_02166	Protein-glutamate methylesterase/protein-glutamine glutaminase (cheB)	0
+2088	NCBI_PGAP	JECDCPOO_02168	Putative dipeptidase	0
+2092	NCBI_PGAP	JECDCPOO_02172	Sodium, potassium, lithium and rubidium/H(+) antiporter (nhaK_4)	0
+2095	NCBI_PGAP	JECDCPOO_02175	Multidrug transporter protein MdtP (mdtP_3)	0
+2096	NCBI_PGAP	JECDCPOO_02176	Hydroxyacylglutathione hydrolase (gloB)	0
+2101	NCBI_PGAP	JECDCPOO_02181	6-dehydroglucose reductase (smoB_2)	0
+2102	NCBI_PGAP	JECDCPOO_02182	4-deoxy-4-sulfo-D-erythrose isomerase (sqwI)	0
+2103	NCBI_PGAP	JECDCPOO_02183	putative HTH-type transcriptional regulator	0
+2106	NCBI_PGAP	JECDCPOO_02186	putative N-acetyltransferase YafP (yafP)	0
+2107	NCBI_PGAP	JECDCPOO_02187	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_6)	0
+2110	NCBI_PGAP	JECDCPOO_02190	DNA-binding transcriptional dual regulator NagC (nagC_1)	0
+2112	NCBI_PGAP	JECDCPOO_02192	Cyclopropane-fatty-acyl-phospholipid synthase (cfa_2)	0
+2114	NCBI_PGAP	JECDCPOO_02194	Inner membrane protein YgaZ (ygaZ_2)	0
+2115	NCBI_PGAP	JECDCPOO_02195	Putative phosphinothricin acetyltransferase YwnH (ywnH)	0
+2116	NCBI_PGAP	JECDCPOO_02196	Dihydrolipoyl dehydrogenase (pdhD_2)	0
+2118	NCBI_PGAP	JECDCPOO_02198	Chromosome partition protein Smc (smc_4)	0
+2119	NCBI_PGAP	JECDCPOO_02199	D-alanyl-D-alanine carboxypeptidase DacA (dacA_2)	0
+2120	NCBI_PGAP	JECDCPOO_02200	Adaptive-response sensory-kinase SasA (sasA_4)	0
+2121	NCBI_PGAP	JECDCPOO_02201	Regulatory protein VanRc (vanRc)	0
+2122	NCBI_PGAP	JECDCPOO_02202	Inosine-5'-monophosphate dehydrogenase (guaB)	0
+2125	NCBI_PGAP	JECDCPOO_02205	Ribosome-binding ATPase YchF (ychF)	0
+2127	NCBI_PGAP	JECDCPOO_02207	Stage 0 sporulation protein J (spo0J)	0
+2128	NCBI_PGAP	JECDCPOO_02208	Sporulation initiation inhibitor protein Soj (soj)	0
+2129	NCBI_PGAP	JECDCPOO_02209	Nucleoid occlusion protein (noc)	0
+2130	NCBI_PGAP	JECDCPOO_02210	Ribosomal RNA small subunit methyltransferase G (rsmG)	0
+2131	NCBI_PGAP	JECDCPOO_02211	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA (cpdA)	0
+2132	NCBI_PGAP	JECDCPOO_02212	Non-specific ribonucleoside hydrolase RihC (rihC_2)	0
+2133	NCBI_PGAP	JECDCPOO_02213	Nucleobase transporter PlAzg2	0
+2134	NCBI_PGAP	JECDCPOO_02214	Purine nucleoside transport protein NupG (nupG)	0
+2135	NCBI_PGAP	JECDCPOO_02215	Phosphopentomutase (deoB_2)	0
+2151	NCBI_PGAP	JECDCPOO_02231	2-aminoadipate transaminase (lysN_1)	0
+2152	NCBI_PGAP	JECDCPOO_02232	HTH-type transcriptional regulator MetR (metR)	0
+2159	NCBI_PGAP	JECDCPOO_02239	DNA polymerase IV (dinB_2)	0
+2160	NCBI_PGAP	JECDCPOO_02240	Pyoverdine export ATP-binding/permease protein PvdT (pvdT)	0
+2161	NCBI_PGAP	JECDCPOO_02241	Thiamine-phosphate synthase (thiE)	0
+2162	NCBI_PGAP	JECDCPOO_02242	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase (thiD_2)	0
+2163	NCBI_PGAP	JECDCPOO_02243	Hydroxyethylthiazole kinase (thiM)	0
+2164	NCBI_PGAP	JECDCPOO_02244	3-ketodihydrosphingosine reductase (kdsr_4)	0
+2165	NCBI_PGAP	JECDCPOO_02245	putative iron export permease protein FetB (fetB)	0
+2166	NCBI_PGAP	JECDCPOO_02246	putative iron export ATP-binding protein FetA (fetA)	0
+2167	NCBI_PGAP	JECDCPOO_02247	23S rRNA (uracil-C(5))-methyltransferase RlmCD (rlmCD)	0
+2179	NCBI_PGAP	JECDCPOO_02259	DNA-binding transcriptional dual regulator NagC (nagC_2)	0
+2180	NCBI_PGAP	JECDCPOO_02260	Glyoxal reductase (yvgN_2)	0
+2181	NCBI_PGAP	JECDCPOO_02261	Replication-associated recombination protein A (rarA_2)	0
+2182	NCBI_PGAP	JECDCPOO_02262	Ribonuclease Y (rny_2)	0
+2184	NCBI_PGAP	JECDCPOO_02264	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase (menH_3)	0
+2189	NCBI_PGAP	JECDCPOO_02269	Branched-chain amino acid permease BrnQ (brnQ_1)	0
+2190	NCBI_PGAP	JECDCPOO_02270	Beta-glucoside kinase (bglK_2)	0
+2191	NCBI_PGAP	JECDCPOO_02271	Serine/threonine exchanger SteT (steT_2)	0
+2198	NCBI_PGAP	JECDCPOO_02278	Putative cryptic C4-dicarboxylate transporter DcuD (dcuD)	0
+2199	NCBI_PGAP	JECDCPOO_02279	Non-specific ribonucleoside hydrolase RihC (rihC_3)	0
+2202	NCBI_PGAP	JECDCPOO_02283	Bifunctional NAD(P)H-hydrate repair enzyme Nnr (nnr)	0
+2204	NCBI_PGAP	JECDCPOO_02285	Putative multidrug resistance protein MdtD (mdtD)	0
+2205	NCBI_PGAP	JECDCPOO_02286	D-alanyl-D-alanine dipeptidase (ddpX)	0
+2207	NCBI_PGAP	JECDCPOO_02288	Penicillin V acylase (yxeI_3)	0
+2209	NCBI_PGAP	JECDCPOO_02290	Lipid II flippase MurJ (murJ_3)	0
+2212	NCBI_PGAP	JECDCPOO_02293	2-dehydropantoate 2-reductase (panE)	0
+2214	NCBI_PGAP	JECDCPOO_02295	Global transcriptional regulator Spx (spx_3)	0
+2216	NCBI_PGAP	JECDCPOO_02297	Trifunctional nucleotide phosphoesterase protein YfkN (yfkN)	0
+2217	NCBI_PGAP	JECDCPOO_02298	Arylsulfate sulfotransferase AssT (assT_2)	0
+2219	NCBI_PGAP	JECDCPOO_02300	Pyrimidine-specific ribonucleoside hydrolase RihA (rihA_2)	0
+2221	NCBI_PGAP	JECDCPOO_02302	Nucleoside permease NupC (nupC)	0
+2224	NCBI_PGAP	JECDCPOO_02305	N-(5'-phosphoribosyl)anthranilate isomerase (trpF)	0
+2225	NCBI_PGAP	JECDCPOO_02306	Pseudouridine kinase (psuK)	0
+2226	NCBI_PGAP	JECDCPOO_02307	Deoxyribokinase (deoK)	0
+2227	NCBI_PGAP	JECDCPOO_02309	Catabolite control protein A (ccpA_2)	0
+2230	NCBI_PGAP	JECDCPOO_02312	Thiamine precursor transporter HmpT (hmpT)	0
+2231	NCBI_PGAP	JECDCPOO_02313	Pyridoxine kinase (pdxK)	0
+2232	NCBI_PGAP	JECDCPOO_02314	HTH-type transcriptional regulator NorG (norG)	0
+2233	NCBI_PGAP	JECDCPOO_02315	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU (tagU_4)	0
+2234	NCBI_PGAP	JECDCPOO_02316	ATP-binding protein Uup (uup)	0
+2236	NCBI_PGAP	JECDCPOO_02318	Peptidoglycan glycosyltransferase RodA (rodA_2)	0
+2237	NCBI_PGAP	JECDCPOO_02319	Purine efflux pump PbuE (pbuE_3)	0
+2238	NCBI_PGAP	JECDCPOO_02320	putative HTH-type transcriptional regulator YybR (yybR_2)	0
+2243	NCBI_PGAP	JECDCPOO_02325	2-deoxy-scyllo-inosamine dehydrogenase (neoA)	0
+2244	NCBI_PGAP	JECDCPOO_02326	Putative fructokinase (gmuE)	0
+2246	NCBI_PGAP	JECDCPOO_02328	Glycerol dehydrogenase (gldA)	0
+2248	NCBI_PGAP	JECDCPOO_02330	putative guanidinium efflux system subunit GdnD (gdnD)	0
+2250	NCBI_PGAP	JECDCPOO_02332	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_7)	0
+2252	NCBI_PGAP	JECDCPOO_02334	Alpha,alpha-trehalose phosphorylase (treP)	0
+2253	NCBI_PGAP	JECDCPOO_02335	Carboxylesterase NlhH (nlhH)	0
+2254	NCBI_PGAP	JECDCPOO_02336	Isoprimeverose transporter (xylP_4)	0
+2255	NCBI_PGAP	JECDCPOO_02337	Dipeptide-binding protein (dppA_10)	0
+2258	NCBI_PGAP	JECDCPOO_02340	Catabolite control protein A (ccpA_3)	0
+2260	NCBI_PGAP	JECDCPOO_02342	Oligo-1,6-glucosidase (malL_2)	0
+2261	NCBI_PGAP	JECDCPOO_02343	Zinc-type alcohol dehydrogenase-like protein	0
+2263	NCBI_PGAP	JECDCPOO_02345	putative HTH-type transcriptional regulator	0
+2267	NCBI_PGAP	JECDCPOO_02349	NADH:acrylate oxidoreductase (ard_3)	0
+2269	NCBI_PGAP	JECDCPOO_02351	putative HTH-type transcriptional regulator YtcD (ytcD_2)	0
+2270	NCBI_PGAP	JECDCPOO_02352	Microcin C7 self-immunity protein MccF (mccF)	0
+2271	NCBI_PGAP	JECDCPOO_02353	Pyrimidine-specific ribonucleoside hydrolase RihB (rihB)	0
+2272	NCBI_PGAP	JECDCPOO_02354	Regulatory protein YeiL (yeiL)	0
+2273	NCBI_PGAP	JECDCPOO_02355	Manganese efflux system protein MneS (mneS)	0
+2274	NCBI_PGAP	JECDCPOO_02356	1,3-propanediol dehydrogenase (dhaT)	0
+2275	NCBI_PGAP	JECDCPOO_02357	(S)-2-haloacid dehalogenase 4A (hdl IVa)	0
+2279	NCBI_PGAP	JECDCPOO_02361	D-xylose transporter (xylT_3)	0
+2280	NCBI_PGAP	JECDCPOO_02362	Putative hemin import ATP-binding protein HrtA (hrtA)	0
+2283	NCBI_PGAP	JECDCPOO_02365	putative transporter	0
+2284	NCBI_PGAP	JECDCPOO_02366	Toxin-antitoxin biofilm protein TabA (tabA)	0
+2285	NCBI_PGAP	JECDCPOO_02367	Membrane sensor protein UhpC (uhpC)	0
+2287	NCBI_PGAP	JECDCPOO_02369	L-ribulose-5-phosphate 4-epimerase (araD_2)	0
+2288	NCBI_PGAP	JECDCPOO_02370	L-ribulose-5-phosphate 3-epimerase UlaE (ulaE)	0
+2289	NCBI_PGAP	JECDCPOO_02371	L-xylulose/3-keto-L-gulonate kinase (lyx)	0
+2291	NCBI_PGAP	JECDCPOO_02373	Putative 2-hydroxyacid dehydrogenase	0
+2292	NCBI_PGAP	JECDCPOO_02374	HTH-type transcriptional regulator KdgR (kdgR_3)	0
+2295	NCBI_PGAP	JECDCPOO_02377	Malolactic enzyme (mleS)	0
+2296	NCBI_PGAP	JECDCPOO_02378	Transcriptional dual regulator GltC (gltC_3)	0
+2298	NCBI_PGAP	JECDCPOO_02380	Putative agmatine deiminase (aguA_1)	0
+2299	NCBI_PGAP	JECDCPOO_02381	Carbamate kinase 1 (arcC1_2)	0
+2300	NCBI_PGAP	JECDCPOO_02382	Putative agmatine deiminase (aguA_2)	0
+2301	NCBI_PGAP	JECDCPOO_02383	Glutamate/gamma-aminobutyrate antiporter (gadC_2)	0
+2302	NCBI_PGAP	JECDCPOO_02384	Putrescine carbamoyltransferase (ptcA)	0
+2303	NCBI_PGAP	JECDCPOO_02385	Na(+)/H(+) antiporter NhaC (nhaC_2)	0
+2304	NCBI_PGAP	JECDCPOO_02386	Glutamate/gamma-aminobutyrate antiporter (gadC_3)	0
+2305	NCBI_PGAP	JECDCPOO_02387	L-tyrosine decarboxylase (tdc)	0
+2306	NCBI_PGAP	JECDCPOO_02388	Tyrosine--tRNA ligase (tyrS_2)	0
+2310	NCBI_PGAP	JECDCPOO_02392	Acetyl-CoA acetyltransferase (thlA)	0
+2313	NCBI_PGAP	JECDCPOO_02395	Intracellular exo-alpha-(1->5)-L-arabinofuranosidase (abfA_2)	0
+2317	NCBI_PGAP	JECDCPOO_02399	HTH-type transcriptional activator RhaR (rhaR_4)	0
+2319	NCBI_PGAP	JECDCPOO_02401	DNA-binding and peroxide stress resistance protein YaaA (yaaA)	0
+2320	NCBI_PGAP	JECDCPOO_02402	Orotate phosphoribosyltransferase (pyrE)	0
+2321	NCBI_PGAP	JECDCPOO_02403	Orotidine 5'-phosphate decarboxylase (pyrF)	0
+2322	NCBI_PGAP	JECDCPOO_02404	Niacin transporter NiaP (niaP)	0
+2324	NCBI_PGAP	JECDCPOO_02406	Proline iminopeptidase (pip)	0
+2325	NCBI_PGAP	JECDCPOO_02407	putative sugar kinase YdjH (ydjH)	0
+2328	NCBI_PGAP	JECDCPOO_02410	putative fructoselysine utilization operon transcriptional repressor (frlR)	0
+2329	NCBI_PGAP	JECDCPOO_02411	putative protein YhaZ (yhaZ)	0
+2333	NCBI_PGAP	JECDCPOO_02415	GMP synthase [glutamine-hydrolyzing] (guaA_2)	0
+2334	NCBI_PGAP	JECDCPOO_02416	Tetracycline resistance protein TetO (tetO)	0
+2335	NCBI_PGAP	JECDCPOO_02417	2-aminoadipate transaminase (lysN_2)	0
+2336	NCBI_PGAP	JECDCPOO_02418	2,5-dichloro-2,5-cyclohexadiene-1,4-diol dehydrogenase LinX (linX)	0
+2340	NCBI_PGAP	JECDCPOO_02422	Galactoside O-acetyltransferase (lacA)	0
+2343	NCBI_PGAP	JECDCPOO_02425	Carbonic anhydrase (cah)	0
+2348	NCBI_PGAP	JECDCPOO_02430	2-hydroxy-1,4-benzoquinone reductase	0
+2351	NCBI_PGAP	JECDCPOO_02433	FMN-dependent NADH:quinone oxidoreductase (azoR)	0
+2352	NCBI_PGAP	JECDCPOO_02434	Multidrug export protein EmrB (emrB_3)	0
+2358	NCBI_PGAP	JECDCPOO_02440	Alcohol dehydrogenase (adh_5)	0
+2360	NCBI_PGAP	JECDCPOO_02442	HTH-type transcriptional regulator AdhR (adhR)	0
+2364	NCBI_PGAP	JECDCPOO_02446	HTH-type transcriptional regulator CueR (cueR)	0
+2367	NCBI_PGAP	JECDCPOO_02449	Beta-galactosidase small subunit (lacM)	0
+2368	NCBI_PGAP	JECDCPOO_02450	Beta-galactosidase large subunit (lacL)	0
+2369	NCBI_PGAP	JECDCPOO_02451	Putative HTH-type transcriptional regulator YwnA (ywnA_3)	0
+2370	NCBI_PGAP	JECDCPOO_02452	Quinone oxidoreductase 2 (qorB_2)	0
+2372	NCBI_PGAP	JECDCPOO_02454	HTH-type transcriptional activator RhaR (rhaR_5)	0
+2374	NCBI_PGAP	JECDCPOO_02456	ATP-dependent helicase/nuclease subunit A (addA)	0
+2375	NCBI_PGAP	JECDCPOO_02457	ATP-dependent helicase/deoxyribonuclease subunit B (addB)	0
+2376	NCBI_PGAP	JECDCPOO_02458	putative succinyl-diaminopimelate desuccinylase (dapE_4)	0
+2377	NCBI_PGAP	JECDCPOO_02459	Peptidoglycan-N-acetylglucosamine deacetylase PgdA (pgdA)	0
+2380	NCBI_PGAP	JECDCPOO_02462	Aldo-keto reductase IolS (iolS_2)	0
+2381	NCBI_PGAP	JECDCPOO_02463	Guanine/hypoxanthine permease PbuG (pbuG)	0
+2383	NCBI_PGAP	JECDCPOO_02465	Daunorubicin resistance ATP-binding protein DrrA1 (drrA1)	0
+2384	NCBI_PGAP	JECDCPOO_02466	Daunorubicin resistance ABC transporter permease protein DrrB1 (drrB1)	0
+2385	NCBI_PGAP	JECDCPOO_02467	1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_2)	0
+2387	NCBI_PGAP	JECDCPOO_02469	Queuosine precursor transporter QueT (queT)	0
+2391	NCBI_PGAP	JECDCPOO_02473	Beta-xylosidase (xynB_3)	0
+2392	NCBI_PGAP	JECDCPOO_02474	Isoprimeverose transporter (xylP_5)	0
+2393	NCBI_PGAP	JECDCPOO_02475	HTH-type transcriptional activator RhaR (rhaR_6)	0
+2394	NCBI_PGAP	JECDCPOO_02476	Major cardiolipin synthase ClsA (clsA)	0
+2403	NCBI_PGAP	JECDCPOO_02485	putative phosphatase IndB (indB)	0
+2404	NCBI_PGAP	JECDCPOO_02486	Aminopeptidase E (pepE)	0
+2406	NCBI_PGAP	JECDCPOO_02488	Signal peptidase IB (spsB_2)	0
+2407	NCBI_PGAP	JECDCPOO_02489	Bicyclomycin resistance protein (bcr)	0
+2412	NCBI_PGAP	JECDCPOO_02494	Branched-chain amino acid permease BrnQ (brnQ_2)	0
+2414	NCBI_PGAP	JECDCPOO_02496	Pyrimidine 5'-nucleotidase PynA (pynA)	0
+2417	NCBI_PGAP	JECDCPOO_02499	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG (mnmG)	0
+2418	NCBI_PGAP	JECDCPOO_02500	tRNA modification GTPase MnmE (mnmE)	0
+2419	NCBI_PGAP	JECDCPOO_02501	RNA-binding protein KhpB (khpB)	0
+2420	NCBI_PGAP	JECDCPOO_02502	Membrane protein insertase YidC 2 (yidC2)	0
+2421	NCBI_PGAP	JECDCPOO_02503	Ribonuclease P protein component (rnpA)	0
+2422	NCBI_PGAP	JECDCPOO_02504	Large ribosomal subunit protein bL34 (rpmH)	0

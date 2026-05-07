@@ -1,0 +1,1520 @@
+gene_callers_id	source	accession	function	e_value
+0	NCBI_PGAP	OPNKAGHI_00001	Chromosomal replication initiator protein DnaA (dnaA)	0
+1	NCBI_PGAP	OPNKAGHI_00002	Beta sliding clamp (dnaN)	0
+3	NCBI_PGAP	OPNKAGHI_00004	DNA replication and repair protein RecF (recF)	0
+4	NCBI_PGAP	OPNKAGHI_00005	DNA gyrase subunit B (gyrB)	0
+5	NCBI_PGAP	OPNKAGHI_00006	DNA gyrase subunit A GyrA (gyrA)	0
+6	NCBI_PGAP	OPNKAGHI_00007	ISL3 family transposase ISP1	0
+7	NCBI_PGAP	OPNKAGHI_00008	Small ribosomal subunit protein bS6 (rpsF)	0
+8	NCBI_PGAP	OPNKAGHI_00009	Single-stranded DNA-binding protein A (ssbA)	0
+9	NCBI_PGAP	OPNKAGHI_00010	Small ribosomal subunit protein bS18 (rpsR)	0
+12	NCBI_PGAP	OPNKAGHI_00013	Dipeptide-binding protein (dppA_1)	0
+15	NCBI_PGAP	OPNKAGHI_00016	Dipeptide-binding protein (dppA_2)	0
+18	NCBI_PGAP	OPNKAGHI_00019	Cyclic-di-AMP phosphodiesterase GdpP (gdpP)	0
+19	NCBI_PGAP	OPNKAGHI_00020	Large ribosomal subunit protein bL9 (rplI)	0
+21	NCBI_PGAP	OPNKAGHI_00022	Replicative DNA helicase DnaC (dnaC)	0
+22	NCBI_PGAP	OPNKAGHI_00023	Putative NAD(P)H-dependent FMN-containing oxidoreductase YwqN (ywqN)	0
+25	NCBI_PGAP	OPNKAGHI_00026	Dipeptide-binding protein (dppA_3)	0
+28	NCBI_PGAP	OPNKAGHI_00030	Transcriptional regulatory protein WalR (walR_1)	0
+29	NCBI_PGAP	OPNKAGHI_00031	Sensor protein kinase WalK (walK)	0
+31	NCBI_PGAP	OPNKAGHI_00033	Two-component system WalR/WalK regulatory protein YycI (yycI)	0
+32	NCBI_PGAP	OPNKAGHI_00034	Exodeoxyribonuclease WalJ (walJ)	0
+33	NCBI_PGAP	OPNKAGHI_00035	Serine protease Do-like HtrA (htrA)	0
+34	NCBI_PGAP	OPNKAGHI_00036	Ribosomal RNA large subunit methyltransferase H (rlmH)	0
+37	NCBI_PGAP	OPNKAGHI_00039	Putative HTH-type transcriptional regulator YwnA (ywnA_1)	0
+38	NCBI_PGAP	OPNKAGHI_00040	Quinone oxidoreductase 2 (qorB_1)	0
+39	NCBI_PGAP	OPNKAGHI_00041	HTH-type transcriptional regulator HdfR (hdfR_1)	0
+41	NCBI_PGAP	OPNKAGHI_00043	putative sugar epimerase YhfK (yhfK_1)	0
+42	NCBI_PGAP	OPNKAGHI_00044	NADH:acrylate oxidoreductase (ard_1)	0
+51	NCBI_PGAP	OPNKAGHI_00053	IS30 family transposase IS1070	0
+58	NCBI_PGAP	OPNKAGHI_00060	Cell wall protein	0
+62	NCBI_PGAP	OPNKAGHI_00064	Foldase protein PrsA (prsA_1)	0
+67	NCBI_PGAP	OPNKAGHI_00069	Ribosome protection protein VmlR (vmlR_1)	0
+68	NCBI_PGAP	OPNKAGHI_00070	Arginine exporter protein ArgO (argO)	0
+69	NCBI_PGAP	OPNKAGHI_00071	HTH-type transcriptional regulator MgrA (mgrA)	0
+70	NCBI_PGAP	OPNKAGHI_00072	Carboxylesterase NlhH (nlhH)	0
+71	NCBI_PGAP	OPNKAGHI_00073	ADP-ribosylarginine hydrolase Tri1 (tri1)	0
+72	NCBI_PGAP	OPNKAGHI_00074	Galactoside O-acetyltransferase (lacA_1)	0
+75	NCBI_PGAP	OPNKAGHI_00077	Peptidyl-lysine N-acetyltransferase YjaB (yjaB)	0
+77	NCBI_PGAP	OPNKAGHI_00079	Dipeptide-binding protein (dppA_4)	0
+86	NCBI_PGAP	OPNKAGHI_00088	1,4-dihydroxy-2-naphthoyl-CoA hydrolase (menI)	0
+87	NCBI_PGAP	OPNKAGHI_00089	1,4-dihydroxy-2-naphthoyl-CoA synthase (menB)	0
+88	NCBI_PGAP	OPNKAGHI_00090	2-succinylbenzoate--CoA ligase (menE)	0
+91	NCBI_PGAP	OPNKAGHI_00093	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--L- lysine ligase (murE_1)	0
+92	NCBI_PGAP	OPNKAGHI_00094	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase (murE_2)	0
+93	NCBI_PGAP	OPNKAGHI_00095	Lysine--tRNA ligase (lysS)	0
+99	NCBI_PGAP	OPNKAGHI_00103	Glutamate/gamma-aminobutyrate antiporter (gadC_1)	0
+100	NCBI_PGAP	OPNKAGHI_00104	Glutamate decarboxylase (gadB_1)	0
+101	NCBI_PGAP	OPNKAGHI_00105	Glutamate--tRNA ligase (gltX_1)	0
+103	NCBI_PGAP	OPNKAGHI_00110	Proton/sodium-glutamate symport protein (gltT)	0
+104	NCBI_PGAP	OPNKAGHI_00111	Peroxiredoxin	0
+106	NCBI_PGAP	OPNKAGHI_00113	putative sugar epimerase YhfK (yhfK_2)	0
+110	NCBI_PGAP	OPNKAGHI_00117	6-phosphogluconate dehydrogenase, decarboxylating (gnd)	0
+112	NCBI_PGAP	OPNKAGHI_00119	Protein ElaA (elaA_1)	0
+114	NCBI_PGAP	OPNKAGHI_00121	Glucose-6-phosphate 1-dehydrogenase (zwf)	0
+115	NCBI_PGAP	OPNKAGHI_00122	SPbeta prophage-derived aminoglycoside N(3')-acetyltransferase-like protein YokD (yokD)	0
+120	NCBI_PGAP	OPNKAGHI_00127	Carbonic anhydrase (cah)	0
+123	NCBI_PGAP	OPNKAGHI_00130	Galactoside O-acetyltransferase (lacA_2)	0
+124	NCBI_PGAP	OPNKAGHI_00131	L-glyceraldehyde 3-phosphate reductase (gpr_1)	0
+133	NCBI_PGAP	OPNKAGHI_00140	2-aminoadipate transaminase (lysN_1)	0
+134	NCBI_PGAP	OPNKAGHI_00141	Tetracycline resistance protein TetO (tetO)	0
+135	NCBI_PGAP	OPNKAGHI_00142	GMP synthase [glutamine-hydrolyzing] (guaA_1)	0
+136	NCBI_PGAP	OPNKAGHI_00143	putative protein YhaZ (yhaZ)	0
+137	NCBI_PGAP	OPNKAGHI_00144	putative fructoselysine utilization operon transcriptional repressor (frlR)	0
+140	NCBI_PGAP	OPNKAGHI_00147	putative sugar kinase YdjH (ydjH)	0
+141	NCBI_PGAP	OPNKAGHI_00148	Proline iminopeptidase (pip)	0
+143	NCBI_PGAP	OPNKAGHI_00150	Niacin transporter NiaP (niaP)	0
+144	NCBI_PGAP	OPNKAGHI_00151	Orotidine 5'-phosphate decarboxylase (pyrF)	0
+145	NCBI_PGAP	OPNKAGHI_00152	Orotate phosphoribosyltransferase (pyrE)	0
+146	NCBI_PGAP	OPNKAGHI_00153	DNA-binding and peroxide stress resistance protein YaaA (yaaA)	0
+148	NCBI_PGAP	OPNKAGHI_00155	HTH-type transcriptional activator RhaR (rhaR_1)	0
+154	NCBI_PGAP	OPNKAGHI_00161	Intracellular exo-alpha-(1->5)-L-arabinofuranosidase (abfA_1)	0
+157	NCBI_PGAP	OPNKAGHI_00164	Acetyl-CoA acetyltransferase (thlA)	0
+158	NCBI_PGAP	OPNKAGHI_00165	Putrescine carbamoyltransferase (ptcA)	0
+159	NCBI_PGAP	OPNKAGHI_00166	Glutamate/gamma-aminobutyrate antiporter (gadC_2)	0
+160	NCBI_PGAP	OPNKAGHI_00167	Putative agmatine deiminase (aguA_1)	0
+161	NCBI_PGAP	OPNKAGHI_00168	Carbamate kinase 1 (arcC1_1)	0
+162	NCBI_PGAP	OPNKAGHI_00169	Putative agmatine deiminase (aguA_2)	0
+163	NCBI_PGAP	OPNKAGHI_00170	HTH-type transcriptional regulator GlvR (glvR)	0
+164	NCBI_PGAP	OPNKAGHI_00171	Transcriptional dual regulator GltC (gltC)	0
+165	NCBI_PGAP	OPNKAGHI_00172	Malolactic enzyme (mleS)	0
+168	NCBI_PGAP	OPNKAGHI_00175	putative transporter	0
+171	NCBI_PGAP	OPNKAGHI_00178	Putative hemin import ATP-binding protein HrtA (hrtA)	0
+172	NCBI_PGAP	OPNKAGHI_00179	IS30 family transposase IS1070	0
+173	NCBI_PGAP	OPNKAGHI_00180	D-xylose transporter (xylT_1)	0
+175	NCBI_PGAP	OPNKAGHI_00182	(S)-2-haloacid dehalogenase 4A (hdl IVa)	0
+176	NCBI_PGAP	OPNKAGHI_00183	1,3-propanediol dehydrogenase (dhaT)	0
+177	NCBI_PGAP	OPNKAGHI_00184	Manganese efflux system protein MneS (mneS_1)	0
+178	NCBI_PGAP	OPNKAGHI_00185	Regulatory protein YeiL (yeiL)	0
+179	NCBI_PGAP	OPNKAGHI_00186	Pyrimidine-specific ribonucleoside hydrolase RihB (rihB)	0
+182	NCBI_PGAP	OPNKAGHI_00189	putative HTH-type transcriptional regulator YtcD (ytcD_1)	0
+184	NCBI_PGAP	OPNKAGHI_00191	NADH:acrylate oxidoreductase (ard_2)	0
+185	NCBI_PGAP	OPNKAGHI_00192	putative HTH-type transcriptional regulator	0
+187	NCBI_PGAP	OPNKAGHI_00194	Oligo-1,6-glucosidase (malL_1)	0
+189	NCBI_PGAP	OPNKAGHI_00196	Catabolite control protein A (ccpA_1)	0
+192	NCBI_PGAP	OPNKAGHI_00199	Dipeptide-binding protein (dppA_5)	0
+193	NCBI_PGAP	OPNKAGHI_00200	CRISPR-associated endonuclease Cas9 (cas9)	0
+194	NCBI_PGAP	OPNKAGHI_00201	CRISPR-associated endonuclease Cas1 (cas1)	0
+195	NCBI_PGAP	OPNKAGHI_00202	CRISPR-associated endoribonuclease Cas2 (cas2)	0
+197	NCBI_PGAP	OPNKAGHI_00204	Isoprimeverose transporter (xylP_1)	0
+200	NCBI_PGAP	OPNKAGHI_00207	Alpha,alpha-trehalose phosphorylase (treP)	0
+202	NCBI_PGAP	OPNKAGHI_00209	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_1)	0
+204	NCBI_PGAP	OPNKAGHI_00211	putative guanidinium efflux system subunit GdnD (gdnD)	0
+207	NCBI_PGAP	OPNKAGHI_00214	Putative fructokinase (gmuE)	0
+208	NCBI_PGAP	OPNKAGHI_00215	2-deoxy-scyllo-inosamine dehydrogenase (neoA)	0
+211	NCBI_PGAP	OPNKAGHI_00218	HTH-type transcriptional regulator NorG (norG)	0
+212	NCBI_PGAP	OPNKAGHI_00219	Pyridoxine kinase (pdxK)	0
+213	NCBI_PGAP	OPNKAGHI_00220	Thiamine precursor transporter HmpT (hmpT)	0
+216	NCBI_PGAP	OPNKAGHI_00223	Catabolite control protein A (ccpA_2)	0
+217	NCBI_PGAP	OPNKAGHI_00225	Deoxyribokinase (deoK)	0
+218	NCBI_PGAP	OPNKAGHI_00226	Pseudouridine kinase (psuK)	0
+219	NCBI_PGAP	OPNKAGHI_00227	N-(5'-phosphoribosyl)anthranilate isomerase (trpF)	0
+223	NCBI_PGAP	OPNKAGHI_00231	Nucleoside permease NupC (nupC)	0
+225	NCBI_PGAP	OPNKAGHI_00233	Pyrimidine-specific ribonucleoside hydrolase RihA (rihA_1)	0
+228	NCBI_PGAP	OPNKAGHI_00236	Arylsulfate sulfotransferase AssT (assT)	0
+229	NCBI_PGAP	OPNKAGHI_00237	IS30 family transposase ISLpl1	0
+231	NCBI_PGAP	OPNKAGHI_00239	Sulfoacetate--CoA ligase (sauT)	0
+232	NCBI_PGAP	OPNKAGHI_00240	Long-chain-fatty-acid--CoA ligase FadD13	0
+233	NCBI_PGAP	OPNKAGHI_00241	Putative aliphatic sulfonates-binding protein (ssuA)	0
+234	NCBI_PGAP	OPNKAGHI_00242	Trifunctional nucleotide phosphoesterase protein YfkN (yfkN)	0
+236	NCBI_PGAP	OPNKAGHI_00244	Global transcriptional regulator Spx (spx_1)	0
+238	NCBI_PGAP	OPNKAGHI_00246	2-dehydropantoate 2-reductase (panE)	0
+240	NCBI_PGAP	OPNKAGHI_00248	HTH-type transcriptional activator BcrR (bcrR)	0
+242	NCBI_PGAP	OPNKAGHI_00250	Lipid II flippase MurJ (murJ_1)	0
+243	NCBI_PGAP	OPNKAGHI_00251	Lipid II flippase MurJ (murJ_2)	0
+244	NCBI_PGAP	OPNKAGHI_00252	IS30 family transposase ISSlu1	0
+246	NCBI_PGAP	OPNKAGHI_00254	Penicillin V acylase (yxeI_1)	0
+249	NCBI_PGAP	OPNKAGHI_00257	D-alanyl-D-alanine dipeptidase (ddpX)	0
+250	NCBI_PGAP	OPNKAGHI_00258	Bifunctional NAD(P)H-hydrate repair enzyme Nnr (nnr)	0
+255	NCBI_PGAP	OPNKAGHI_00264	Serine/threonine exchanger SteT (steT_1)	0
+257	NCBI_PGAP	OPNKAGHI_00266	Beta-glucoside kinase (bglK_1)	0
+258	NCBI_PGAP	OPNKAGHI_00267	Branched-chain amino acid permease BrnQ (brnQ_1)	0
+264	NCBI_PGAP	OPNKAGHI_00273	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase (menH_1)	0
+266	NCBI_PGAP	OPNKAGHI_00275	Ribonuclease Y (rny_1)	0
+267	NCBI_PGAP	OPNKAGHI_00276	Replication-associated recombination protein A (rarA_1)	0
+268	NCBI_PGAP	OPNKAGHI_00277	Glyoxal reductase (yvgN_1)	0
+269	NCBI_PGAP	OPNKAGHI_00278	DNA-binding transcriptional dual regulator NagC (nagC_1)	0
+281	NCBI_PGAP	OPNKAGHI_00290	23S rRNA (uracil-C(5))-methyltransferase RlmCD (rlmCD)	0
+282	NCBI_PGAP	OPNKAGHI_00291	putative iron export ATP-binding protein FetA (fetA)	0
+283	NCBI_PGAP	OPNKAGHI_00292	putative iron export permease protein FetB (fetB)	0
+284	NCBI_PGAP	OPNKAGHI_00293	3-ketodihydrosphingosine reductase (kdsr_1)	0
+285	NCBI_PGAP	OPNKAGHI_00294	Hydroxyethylthiazole kinase (thiM)	0
+286	NCBI_PGAP	OPNKAGHI_00295	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase (thiD_1)	0
+287	NCBI_PGAP	OPNKAGHI_00296	Thiamine-phosphate synthase (thiE)	0
+288	NCBI_PGAP	OPNKAGHI_00297	putative ABC transporter ATP-binding protein YknY (yknY)	0
+289	NCBI_PGAP	OPNKAGHI_00298	Pyoverdine export ATP-binding/permease protein PvdT (pvdT)	0
+290	NCBI_PGAP	OPNKAGHI_00299	DNA polymerase IV (dinB_1)	0
+297	NCBI_PGAP	OPNKAGHI_00306	HTH-type transcriptional regulator MetR (metR)	0
+298	NCBI_PGAP	OPNKAGHI_00307	2-aminoadipate transaminase (lysN_2)	0
+299	NCBI_PGAP	OPNKAGHI_00308	S-layer protein	0
+312	NCBI_PGAP	OPNKAGHI_00321	Phosphopentomutase (deoB_1)	0
+313	NCBI_PGAP	OPNKAGHI_00322	Phosphopentomutase (deoB_2)	0
+314	NCBI_PGAP	OPNKAGHI_00323	Purine nucleoside transport protein NupG (nupG)	0
+315	NCBI_PGAP	OPNKAGHI_00324	Nucleobase transporter PlAzg2	0
+316	NCBI_PGAP	OPNKAGHI_00325	Non-specific ribonucleoside hydrolase RihC (rihC_1)	0
+317	NCBI_PGAP	OPNKAGHI_00326	3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA (cpdA)	0
+318	NCBI_PGAP	OPNKAGHI_00327	Ribosomal RNA small subunit methyltransferase G (rsmG)	0
+319	NCBI_PGAP	OPNKAGHI_00328	Nucleoid occlusion protein (noc)	0
+320	NCBI_PGAP	OPNKAGHI_00329	Sporulation initiation inhibitor protein Soj (soj_1)	0
+321	NCBI_PGAP	OPNKAGHI_00330	Stage 0 sporulation protein J (spo0J)	0
+323	NCBI_PGAP	OPNKAGHI_00332	Ribosome-binding ATPase YchF (ychF)	0
+326	NCBI_PGAP	OPNKAGHI_00335	Inosine-5'-monophosphate dehydrogenase (guaB)	0
+327	NCBI_PGAP	OPNKAGHI_00336	Regulatory protein VanRc (vanRc)	0
+328	NCBI_PGAP	OPNKAGHI_00337	Adaptive-response sensory-kinase SasA (sasA_1)	0
+329	NCBI_PGAP	OPNKAGHI_00338	D-alanyl-D-alanine carboxypeptidase DacA (dacA_1)	0
+330	NCBI_PGAP	OPNKAGHI_00339	Chromosome partition protein Smc (smc_1)	0
+332	NCBI_PGAP	OPNKAGHI_00341	Dihydrolipoyl dehydrogenase (pdhD_1)	0
+333	NCBI_PGAP	OPNKAGHI_00342	Putative phosphinothricin acetyltransferase YwnH (ywnH)	0
+334	NCBI_PGAP	OPNKAGHI_00343	Inner membrane protein YgaZ (ygaZ_1)	0
+336	NCBI_PGAP	OPNKAGHI_00345	Cyclopropane-fatty-acyl-phospholipid synthase (cfa_1)	0
+338	NCBI_PGAP	OPNKAGHI_00347	DNA-binding transcriptional dual regulator NagC (nagC_2)	0
+341	NCBI_PGAP	OPNKAGHI_00350	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_2)	0
+345	NCBI_PGAP	OPNKAGHI_00354	ISL3 family transposase ISP1	0
+349	NCBI_PGAP	OPNKAGHI_00358	Tyrosine recombinase XerC (xerC_1)	0
+351	NCBI_PGAP	OPNKAGHI_00360	Tyrosine recombinase XerC (xerC_2)	0
+358	NCBI_PGAP	OPNKAGHI_00367	putative N-acetyltransferase YafP (yafP)	0
+363	NCBI_PGAP	OPNKAGHI_00372	Hydroxyacylglutathione hydrolase (gloB)	0
+364	NCBI_PGAP	OPNKAGHI_00373	Multidrug transporter protein MdtP (mdtP_1)	0
+366	NCBI_PGAP	OPNKAGHI_00375	Sodium, potassium, lithium and rubidium/H(+) antiporter (nhaK_1)	0
+370	NCBI_PGAP	OPNKAGHI_00379	Putative dipeptidase	0
+372	NCBI_PGAP	OPNKAGHI_00381	Protein-glutamate methylesterase/protein-glutamine glutaminase (cheB)	0
+373	NCBI_PGAP	OPNKAGHI_00382	Sensor histidine kinase GlnK (glnK)	0
+375	NCBI_PGAP	OPNKAGHI_00384	Arginine deiminase (arcA)	0
+376	NCBI_PGAP	OPNKAGHI_00385	Ornithine carbamoyltransferase, catabolic (arcB)	0
+377	NCBI_PGAP	OPNKAGHI_00386	Arginine/ornithine antiporter ArcD1 (arcD1_1)	0
+378	NCBI_PGAP	OPNKAGHI_00387	Capreomycidine synthase (vioD)	0
+379	NCBI_PGAP	OPNKAGHI_00388	Carbamate kinase 1 (arcC1_2)	0
+380	NCBI_PGAP	OPNKAGHI_00389	HTH-type transcriptional regulator ArcR (arcR)	0
+384	NCBI_PGAP	OPNKAGHI_00393	Multidrug resistance protein Stp (stp_1)	0
+386	NCBI_PGAP	OPNKAGHI_00395	Asparagine--tRNA ligase (asnS)	0
+392	NCBI_PGAP	OPNKAGHI_00401	Alkaline shock protein 23	0
+393	NCBI_PGAP	OPNKAGHI_00402	Alkaline shock protein 23	0
+394	NCBI_PGAP	OPNKAGHI_00403	HTH-type transcriptional activator HxlR (hxlR)	0
+395	NCBI_PGAP	OPNKAGHI_00404	putative oxidoreductase	0
+397	NCBI_PGAP	OPNKAGHI_00406	Methionine aminopeptidase (map_1)	0
+398	NCBI_PGAP	OPNKAGHI_00407	Sugar phosphatase YidA (yidA_1)	0
+399	NCBI_PGAP	OPNKAGHI_00408	Multidrug resistance protein MdtL (mdtL)	0
+402	NCBI_PGAP	OPNKAGHI_00411	Hydroperoxy fatty acid reductase gpx1 (gpx1)	0
+405	NCBI_PGAP	OPNKAGHI_00414	ABC transporter ATP-binding protein YtrB (ytrB_1)	0
+410	NCBI_PGAP	OPNKAGHI_00419	Multidrug resistance ABC transporter ATP-binding and permease protein (lmrA_1)	0
+411	NCBI_PGAP	OPNKAGHI_00420	Pyrrolidone-carboxylate peptidase (pcp)	0
+412	NCBI_PGAP	OPNKAGHI_00421	Aquaporin Z 2 (aqpZ2)	0
+415	NCBI_PGAP	OPNKAGHI_00424	Peptide deformylase (def_1)	0
+416	NCBI_PGAP	OPNKAGHI_00425	Energy-coupling factor transporter transmembrane protein EcfT (ecfT_1)	0
+417	NCBI_PGAP	OPNKAGHI_00426	Putative HMP/thiamine import ATP-binding protein YkoD (ykoD_1)	0
+421	NCBI_PGAP	OPNKAGHI_00430	HTH-type transcriptional activator RhaR (rhaR_2)	0
+422	NCBI_PGAP	OPNKAGHI_00431	Bacterial microcompartment shell vertex protein PduN (pduN_1)	0
+423	NCBI_PGAP	OPNKAGHI_00432	NADH:acrylate oxidoreductase (ard_3)	0
+424	NCBI_PGAP	OPNKAGHI_00433	Purine efflux pump PbuE (pbuE_1)	0
+425	NCBI_PGAP	OPNKAGHI_00434	Purine efflux pump PbuE (pbuE_2)	0
+426	NCBI_PGAP	OPNKAGHI_00435	2,5-diketo-D-gluconic acid reductase B (dkgB)	0
+429	NCBI_PGAP	OPNKAGHI_00438	putative HTH-type transcriptional regulator	0
+436	NCBI_PGAP	OPNKAGHI_00445	DNA-3-methyladenine glycosylase 1 (tag_1)	0
+437	NCBI_PGAP	OPNKAGHI_00446	Nuclease SbcCD subunit D (sbcD)	0
+438	NCBI_PGAP	OPNKAGHI_00447	Nuclease SbcCD subunit C (sbcC_1)	0
+439	NCBI_PGAP	OPNKAGHI_00448	Nuclease SbcCD subunit C (sbcC_2)	0
+440	NCBI_PGAP	OPNKAGHI_00449	Penicillin V acylase (yxeI_2)	0
+441	NCBI_PGAP	OPNKAGHI_00450	Thermostable beta-glucosidase B (bglB)	0
+443	NCBI_PGAP	OPNKAGHI_00452	Dipeptide-binding protein (dppA_6)	0
+445	NCBI_PGAP	OPNKAGHI_00454	DNA-3-methyladenine glycosylase 1 (tag_2)	0
+446	NCBI_PGAP	OPNKAGHI_00455	D-methionine-binding lipoprotein MetQ (metQ)	0
+447	NCBI_PGAP	OPNKAGHI_00456	Methionine import ATP-binding protein MetN 2 (metN2)	0
+448	NCBI_PGAP	OPNKAGHI_00457	Methionine import ATP-binding protein MetN (metN)	0
+449	NCBI_PGAP	OPNKAGHI_00458	Methionine import system permease protein MetP (metP)	0
+450	NCBI_PGAP	OPNKAGHI_00459	putative inner membrane transporter YicL (yicL_1)	0
+452	NCBI_PGAP	OPNKAGHI_00461	Aldo-keto reductase IolS (iolS_1)	0
+453	NCBI_PGAP	OPNKAGHI_00462	Glycine cleavage system H protein (gcvH_1)	0
+454	NCBI_PGAP	OPNKAGHI_00463	Lipoate--protein ligase (lplA)	0
+457	NCBI_PGAP	OPNKAGHI_00466	Dipeptide-binding protein (dppA_7)	0
+458	NCBI_PGAP	OPNKAGHI_00467	Adenine DNA glycosylase (mutY)	0
+461	NCBI_PGAP	OPNKAGHI_00470	Putative hydrolase MhqD (mhqD)	0
+462	NCBI_PGAP	OPNKAGHI_00471	Cold shock protein CspC (cspC)	0
+466	NCBI_PGAP	OPNKAGHI_00476	Glutathione-regulated potassium-efflux system ancillary protein KefG (kefG)	0
+468	NCBI_PGAP	OPNKAGHI_00478	Hydroxymethylpyrimidine/phosphomethylpyrimidine kinase (thiD_2)	0
+470	NCBI_PGAP	OPNKAGHI_00480	Cytosine deaminase (codA_1)	0
+472	NCBI_PGAP	OPNKAGHI_00482	Ribonuclease H (rnhA_1)	0
+474	NCBI_PGAP	OPNKAGHI_00484	Maltose O-acetyltransferase (maa_1)	0
+475	NCBI_PGAP	OPNKAGHI_00485	Glycine betaine transporter BetL (betL)	0
+477	NCBI_PGAP	OPNKAGHI_00487	Beta-phosphoglucomutase (yvdM)	0
+479	NCBI_PGAP	OPNKAGHI_00489	Putative 3-methyladenine DNA glycosylase	0
+480	NCBI_PGAP	OPNKAGHI_00490	Putative 3-methyladenine DNA glycosylase	0
+483	NCBI_PGAP	OPNKAGHI_00493	Demethylmenaquinone methyltransferase (menG)	0
+484	NCBI_PGAP	OPNKAGHI_00494	Methionine aminopeptidase 1 (map_2)	0
+486	NCBI_PGAP	OPNKAGHI_00496	Riboflavin transporter RibZ (ribZ_1)	0
+488	NCBI_PGAP	OPNKAGHI_00498	Dihydroanticapsin 7-dehydrogenase (bacC)	0
+489	NCBI_PGAP	OPNKAGHI_00499	Shikimate dehydrogenase (NADP(+)) (aroE)	0
+490	NCBI_PGAP	OPNKAGHI_00500	putative MFS-type transporter YhjX (yhjX)	0
+493	NCBI_PGAP	OPNKAGHI_00503	Caffeyl-CoA reductase-Etf complex subunit CarE (carE)	0
+494	NCBI_PGAP	OPNKAGHI_00504	Caffeyl-CoA reductase-Etf complex subunit CarD (carD)	0
+495	NCBI_PGAP	OPNKAGHI_00505	Acyl-CoA dehydrogenase (mmgC)	0
+496	NCBI_PGAP	OPNKAGHI_00506	Maltose epimerase	0
+498	NCBI_PGAP	OPNKAGHI_00508	Phosphoglucomutase (pgcA)	0
+500	NCBI_PGAP	OPNKAGHI_00510	Lactose permease (lacS)	0
+501	NCBI_PGAP	OPNKAGHI_00511	Galactokinase (galK_1)	0
+502	NCBI_PGAP	OPNKAGHI_00512	UDP-glucose 4-epimerase (galE)	0
+503	NCBI_PGAP	OPNKAGHI_00513	Galactose-1-phosphate uridylyltransferase (galT)	0
+504	NCBI_PGAP	OPNKAGHI_00514	HTH-type transcriptional regulator GanR (ganR)	0
+506	NCBI_PGAP	OPNKAGHI_00516	Adenosylcobalamin-dependent ribonucleoside-triphosphate reductase (rtpR)	0
+507	NCBI_PGAP	OPNKAGHI_00517	Corrinoid adenosyltransferase (yvqK)	0
+508	NCBI_PGAP	OPNKAGHI_00518	Neutral endopeptidase (pepO)	0
+511	NCBI_PGAP	OPNKAGHI_00521	Putative universal stress protein	0
+517	NCBI_PGAP	OPNKAGHI_00527	Peroxide-responsive repressor PerR (perR)	0
+520	NCBI_PGAP	OPNKAGHI_00530	Glutamate/serine transporter AimA (aimA)	0
+522	NCBI_PGAP	OPNKAGHI_00532	6-phosphogluconolactonase (pgl)	0
+525	NCBI_PGAP	OPNKAGHI_00535	3'-5' exonuclease DinG (dinG_1)	0
+529	NCBI_PGAP	OPNKAGHI_00539	Phosphate-binding protein PstS 1 (pstS1_1)	0
+531	NCBI_PGAP	OPNKAGHI_00541	Phosphate transport system permease protein PstA (pstA)	0
+532	NCBI_PGAP	OPNKAGHI_00542	Phosphate import ATP-binding protein PstB 3 (pstB3_1)	0
+533	NCBI_PGAP	OPNKAGHI_00543	Spermidine/putrescine-binding periplasmic protein (potD)	0
+534	NCBI_PGAP	OPNKAGHI_00544	Spermidine/putrescine transport system permease protein PotC (potC)	0
+535	NCBI_PGAP	OPNKAGHI_00545	Spermidine/putrescine transport system permease protein PotB (potB)	0
+536	NCBI_PGAP	OPNKAGHI_00546	Spermidine/putrescine import ATP-binding protein PotA (potA)	0
+540	NCBI_PGAP	OPNKAGHI_00550	Nickel transporter NixA (nixA)	0
+541	NCBI_PGAP	OPNKAGHI_00551	Glycerol facilitator-aquaporin gla (gla)	0
+542	NCBI_PGAP	OPNKAGHI_00552	Pyridinium-3,5-bisthiocarboxylic acid mononucleotide synthase (larE)	0
+543	NCBI_PGAP	OPNKAGHI_00553	Pyridinium-3,5-bisthiocarboxylic acid mononucleotide nickel insertion protein (larC)	0
+544	NCBI_PGAP	OPNKAGHI_00554	Pyridinium-3,5-biscarboxylic acid mononucleotide synthase (larB)	0
+545	NCBI_PGAP	OPNKAGHI_00555	Lactate racemase (larA)	0
+546	NCBI_PGAP	OPNKAGHI_00556	Lactate racemization regulatory protein (larR)	0
+547	NCBI_PGAP	OPNKAGHI_00557	Glutamate decarboxylase (gadB_2)	0
+550	NCBI_PGAP	OPNKAGHI_00560	Aldo-keto reductase/MSMEI_2347	0
+551	NCBI_PGAP	OPNKAGHI_00561	DegV domain-containing protein	0
+552	NCBI_PGAP	OPNKAGHI_00562	putative threonine/serine exporter	0
+553	NCBI_PGAP	OPNKAGHI_00564	putative protein YhaP (yhaP)	0
+554	NCBI_PGAP	OPNKAGHI_00565	Multidrug efflux system ATP-binding protein	0
+555	NCBI_PGAP	OPNKAGHI_00566	Uric acid permease PucK (pucK)	0
+563	NCBI_PGAP	OPNKAGHI_00574	Aminopyrimidine aminohydrolase (tenA)	0
+564	NCBI_PGAP	OPNKAGHI_00575	Putative HMP/thiamine permease protein YkoC (ykoC)	0
+565	NCBI_PGAP	OPNKAGHI_00576	Putative HMP/thiamine import ATP-binding protein YkoD (ykoD_2)	0
+566	NCBI_PGAP	OPNKAGHI_00577	Putative HMP/thiamine permease protein YkoE (ykoE)	0
+568	NCBI_PGAP	OPNKAGHI_00579	D-alanyl-D-alanine carboxypeptidase DacA (dacA_2)	0
+570	NCBI_PGAP	OPNKAGHI_00581	Chloramphenicol acetyltransferase (cat)	0
+573	NCBI_PGAP	OPNKAGHI_00584	Sugar phosphatase YbiV (ybiV_1)	0
+574	NCBI_PGAP	OPNKAGHI_00585	Lichenan permease IIC component (licC)	0
+576	NCBI_PGAP	OPNKAGHI_00587	Sugar phosphatase YidA (yidA_2)	0
+579	NCBI_PGAP	OPNKAGHI_00590	Pyrimidine-specific ribonucleoside hydrolase RihA (rihA_2)	0
+582	NCBI_PGAP	OPNKAGHI_00593	Ferredoxin--NADP reductase 2 (yumC)	0
+583	NCBI_PGAP	OPNKAGHI_00594	Lipoteichoic acid synthase 1 (ltaS1_1)	0
+584	NCBI_PGAP	OPNKAGHI_00595	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_3)	0
+585	NCBI_PGAP	OPNKAGHI_00596	Acetyltransferase	0
+588	NCBI_PGAP	OPNKAGHI_00599	HTH-type transcriptional activator RhaR (rhaR_3)	0
+591	NCBI_PGAP	OPNKAGHI_00602	Isoprimeverose transporter (xylP_2)	0
+593	NCBI_PGAP	OPNKAGHI_00604	Riboflavin transporter RibZ (ribZ_2)	0
+594	NCBI_PGAP	OPNKAGHI_00605	Putative membrane protein YdgH (ydgH)	0
+596	NCBI_PGAP	OPNKAGHI_00607	Diacetyl reductase [(S)-acetoin forming] (budC)	0
+597	NCBI_PGAP	OPNKAGHI_00608	Penicillin V acylase (yxeI_3)	0
+602	NCBI_PGAP	OPNKAGHI_00613	putative oxidoreductase YkwC (ykwC)	0
+604	NCBI_PGAP	OPNKAGHI_00615	Thiamine import ATP-binding protein ThiQ (thiQ)	0
+608	NCBI_PGAP	OPNKAGHI_00619	Protein DegV (degV_1)	0
+611	NCBI_PGAP	OPNKAGHI_00622	putative ABC transporter ATP-binding protein	0
+614	NCBI_PGAP	OPNKAGHI_00625	Virulence protein	0
+615	NCBI_PGAP	OPNKAGHI_00626	Energy-dependent translational throttle protein EttA (ettA_1)	0
+616	NCBI_PGAP	OPNKAGHI_00627	ATP-binding protein Uup (uup)	0
+617	NCBI_PGAP	OPNKAGHI_00628	Putative L,D-transpeptidase YciB (yciB)	0
+618	NCBI_PGAP	OPNKAGHI_00629	Proline iminopeptidase (fpaP)	0
+619	NCBI_PGAP	OPNKAGHI_00630	Xaa-Pro dipeptidyl-peptidase (pepX)	0
+620	NCBI_PGAP	OPNKAGHI_00631	Branched-chain amino acid permease BcaP (bcaP_1)	0
+622	NCBI_PGAP	OPNKAGHI_00633	Guanylate kinase (gmk_1)	0
+623	NCBI_PGAP	OPNKAGHI_00634	Zinc-specific metallo-regulatory protein (zur)	0
+626	NCBI_PGAP	OPNKAGHI_00637	Glutamine transport ATP-binding protein GlnQ (glnQ_1)	0
+627	NCBI_PGAP	OPNKAGHI_00638	ABC transporter glutamine-binding protein GlnH (glnH_1)	0
+628	NCBI_PGAP	OPNKAGHI_00639	putative glutamine ABC transporter permease protein GlnM (glnM)	0
+629	NCBI_PGAP	OPNKAGHI_00640	putative glutamine ABC transporter permease protein GlnP (glnP)	0
+630	NCBI_PGAP	OPNKAGHI_00641	GTPase HflX (hflX)	0
+632	NCBI_PGAP	OPNKAGHI_00643	Dipeptide-binding protein (dppA_8)	0
+633	NCBI_PGAP	OPNKAGHI_00644	Dipeptide-binding protein (dppA_9)	0
+634	NCBI_PGAP	OPNKAGHI_00645	Dipeptide transport system permease protein DppB (dppB)	0
+635	NCBI_PGAP	OPNKAGHI_00646	Dipeptide transport system permease protein DppC (dppC)	0
+636	NCBI_PGAP	OPNKAGHI_00647	Dipeptide transport ATP-binding protein DppD (dppD)	0
+637	NCBI_PGAP	OPNKAGHI_00648	Oligopeptide transport ATP-binding protein OppF (oppF)	0
+638	NCBI_PGAP	OPNKAGHI_00649	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_4)	0
+640	NCBI_PGAP	OPNKAGHI_00651	DNA helicase IV (helD_1)	0
+641	NCBI_PGAP	OPNKAGHI_00652	Pantothenate kinase (coaA)	0
+643	NCBI_PGAP	OPNKAGHI_00654	GMP synthase [glutamine-hydrolyzing] (guaA_2)	0
+645	NCBI_PGAP	OPNKAGHI_00656	Alpha-galactosidase AgaA (agaA_1)	0
+646	NCBI_PGAP	OPNKAGHI_00657	Alpha-galactosidase Mel36A (melA)	0
+647	NCBI_PGAP	OPNKAGHI_00658	Alpha-galactosidase AgaA (agaA_2)	0
+649	NCBI_PGAP	OPNKAGHI_00660	Aminopeptidase N (pepN_1)	0
+650	NCBI_PGAP	OPNKAGHI_00661	Aminopeptidase N (pepN_2)	0
+652	NCBI_PGAP	OPNKAGHI_00663	Arginine/ornithine antiporter ArcD1 (arcD1_2)	0
+653	NCBI_PGAP	OPNKAGHI_00664	Dipeptidase A (pepDA_1)	0
+655	NCBI_PGAP	OPNKAGHI_00666	Putative HTH-type transcriptional regulator YwnA (ywnA_2)	0
+656	NCBI_PGAP	OPNKAGHI_00667	ATP-dependent DNA helicase RecQ (recQ)	0
+657	NCBI_PGAP	OPNKAGHI_00668	Intracellular exo-alpha-(1->5)-L-arabinofuranosidase (abfA_2)	0
+658	NCBI_PGAP	OPNKAGHI_00669	Raffinose permease (rafB)	0
+659	NCBI_PGAP	OPNKAGHI_00670	Extracellular exo-alpha-(1->5)-L-arabinofuranosidase	0
+661	NCBI_PGAP	OPNKAGHI_00672	Maltose O-acetyltransferase (maa_2)	0
+662	NCBI_PGAP	OPNKAGHI_00673	Arabinose metabolism transcriptional repressor (araR)	0
+663	NCBI_PGAP	OPNKAGHI_00674	D-xylose transporter (xylT_2)	0
+664	NCBI_PGAP	OPNKAGHI_00675	Xylulose kinase (xylB_1)	0
+665	NCBI_PGAP	OPNKAGHI_00676	L-ribulose-5-phosphate 4-epimerase (araD)	0
+666	NCBI_PGAP	OPNKAGHI_00677	L-arabinose isomerase (araA)	0
+667	NCBI_PGAP	OPNKAGHI_00678	Maltose O-acetyltransferase (maa_3)	0
+670	NCBI_PGAP	OPNKAGHI_00681	Glycine cleavage system H protein (gcvH_2)	0
+671	NCBI_PGAP	OPNKAGHI_00682	Ribosomal large subunit pseudouridine synthase D (rluD_1)	0
+675	NCBI_PGAP	OPNKAGHI_00686	Spermidine/spermine N(1)-acetyltransferase (paiA)	0
+677	NCBI_PGAP	OPNKAGHI_00688	Enterobactin exporter EntS (entS)	0
+678	NCBI_PGAP	OPNKAGHI_00689	Uracil permease (pyrP)	0
+680	NCBI_PGAP	OPNKAGHI_00691	Inner membrane protein YgaZ (ygaZ_2)	0
+683	NCBI_PGAP	OPNKAGHI_00694	Multidrug export protein EmrB (emrB)	0
+686	NCBI_PGAP	OPNKAGHI_00697	Cadmium, cobalt and zinc/H(+)-K(+) antiporter (czcD)	0
+687	NCBI_PGAP	OPNKAGHI_00698	HTH-type transcriptional regulator MntR (mntR)	0
+693	NCBI_PGAP	OPNKAGHI_00704	Lysine-specific permease LysP (lysP)	0
+694	NCBI_PGAP	OPNKAGHI_00705	Deoxyguanosine kinase	0
+695	NCBI_PGAP	OPNKAGHI_00706	Serine--tRNA ligase (serS)	0
+696	NCBI_PGAP	OPNKAGHI_00715	Transcriptional regulator CtsR (ctsR)	0
+697	NCBI_PGAP	OPNKAGHI_00716	ATP-dependent Clp protease ATP-binding subunit ClpC (clpC)	0
+699	NCBI_PGAP	OPNKAGHI_00718	DNA-directed RNA polymerase subunit beta RpoB (rpoB)	0
+700	NCBI_PGAP	OPNKAGHI_00719	DNA-directed RNA polymerase subunit beta RpoC (rpoC)	0
+702	NCBI_PGAP	OPNKAGHI_00721	Small ribosomal subunit protein uS12 (rpsL)	0
+703	NCBI_PGAP	OPNKAGHI_00722	Small ribosomal subunit protein uS7 (rpsG)	0
+704	NCBI_PGAP	OPNKAGHI_00723	elongation factor G FusA (fusA)	0
+705	NCBI_PGAP	OPNKAGHI_00724	Multidrug export protein MepA (mepA_1)	0
+706	NCBI_PGAP	OPNKAGHI_00725	Multidrug export protein MepA (mepA_2)	0
+707	NCBI_PGAP	OPNKAGHI_00726	Small ribosomal subunit protein uS10 (rpsJ)	0
+708	NCBI_PGAP	OPNKAGHI_00727	Large ribosomal subunit protein uL3 (rplC)	0
+709	NCBI_PGAP	OPNKAGHI_00728	Large ribosomal subunit protein uL4 (rplD)	0
+710	NCBI_PGAP	OPNKAGHI_00729	Large ribosomal subunit protein uL23 (rplW)	0
+711	NCBI_PGAP	OPNKAGHI_00730	Large ribosomal subunit protein uL2 (rplB)	0
+712	NCBI_PGAP	OPNKAGHI_00731	Small ribosomal subunit protein uS19 (rpsS)	0
+713	NCBI_PGAP	OPNKAGHI_00732	Large ribosomal subunit protein uL22 (rplV)	0
+714	NCBI_PGAP	OPNKAGHI_00733	Small ribosomal subunit protein uS3 (rpsC)	0
+715	NCBI_PGAP	OPNKAGHI_00734	Large ribosomal subunit protein uL16 (rplP)	0
+716	NCBI_PGAP	OPNKAGHI_00735	Large ribosomal subunit protein uL29 (rpmC)	0
+717	NCBI_PGAP	OPNKAGHI_00736	Small ribosomal subunit protein uS17 (rpsQ)	0
+718	NCBI_PGAP	OPNKAGHI_00737	Large ribosomal subunit protein uL14 (rplN)	0
+719	NCBI_PGAP	OPNKAGHI_00738	Large ribosomal subunit protein uL24 (rplX)	0
+720	NCBI_PGAP	OPNKAGHI_00739	Large ribosomal subunit protein uL5 (rplE)	0
+721	NCBI_PGAP	OPNKAGHI_00740	Small ribosomal subunit protein uS8 (rpsH)	0
+722	NCBI_PGAP	OPNKAGHI_00741	Large ribosomal subunit protein uL6 (rplF)	0
+723	NCBI_PGAP	OPNKAGHI_00742	Large ribosomal subunit protein uL18 (rplR)	0
+724	NCBI_PGAP	OPNKAGHI_00743	Small ribosomal subunit protein uS5 (rpsE)	0
+725	NCBI_PGAP	OPNKAGHI_00744	Large ribosomal subunit protein uL30 (rpmD)	0
+726	NCBI_PGAP	OPNKAGHI_00745	Large ribosomal subunit protein uL15 (rplO)	0
+727	NCBI_PGAP	OPNKAGHI_00746	Protein translocase subunit SecY (secY)	0
+728	NCBI_PGAP	OPNKAGHI_00747	Adenylate kinase (adk)	0
+729	NCBI_PGAP	OPNKAGHI_00748	Translation initiation factor IF-1 (infA)	0
+730	NCBI_PGAP	OPNKAGHI_00749	Small ribosomal subunit protein uS13 (rpsM)	0
+731	NCBI_PGAP	OPNKAGHI_00750	Small ribosomal subunit protein uS11 (rpsK)	0
+732	NCBI_PGAP	OPNKAGHI_00751	DNA-directed RNA polymerase subunit alpha (rpoA)	0
+733	NCBI_PGAP	OPNKAGHI_00752	Large ribosomal subunit protein bL17 (rplQ)	0
+734	NCBI_PGAP	OPNKAGHI_00753	Energy-coupling factor transporter ATP-binding protein EcfA1 (ecfA1_1)	0
+735	NCBI_PGAP	OPNKAGHI_00754	Energy-coupling factor transporter transmembrane protein EcfT (ecfT_2)	0
+736	NCBI_PGAP	OPNKAGHI_00755	tRNA pseudouridine synthase A (truA)	0
+737	NCBI_PGAP	OPNKAGHI_00756	Large ribosomal subunit protein uL13 (rplM)	0
+738	NCBI_PGAP	OPNKAGHI_00757	Small ribosomal subunit protein uS9 (rpsI)	0
+739	NCBI_PGAP	OPNKAGHI_00758	Putative mannose-6-phosphate isomerase YvyI (yvyI_1)	0
+740	NCBI_PGAP	OPNKAGHI_00759	Putative mannose-6-phosphate isomerase YvyI (yvyI_2)	0
+741	NCBI_PGAP	OPNKAGHI_00760	Potassium/sodium uptake protein NtpJ (ntpJ)	0
+742	NCBI_PGAP	OPNKAGHI_00761	Ktr system potassium uptake protein C (ktrC)	0
+743	NCBI_PGAP	OPNKAGHI_00762	Aspartate--ammonia ligase (asnA)	0
+744	NCBI_PGAP	OPNKAGHI_00763	Branched-chain amino acid permease BcaP (bcaP_2)	0
+745	NCBI_PGAP	OPNKAGHI_00764	Branched-chain amino acid permease BcaP (bcaP_3)	0
+746	NCBI_PGAP	OPNKAGHI_00765	Lipoate-protein ligase LplJ (lplJ_1)	0
+747	NCBI_PGAP	OPNKAGHI_00766	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU (tagU_1)	0
+748	NCBI_PGAP	OPNKAGHI_00767	putative capsular polysaccharide biosynthesis protein YwqC (ywqC)	0
+749	NCBI_PGAP	OPNKAGHI_00768	Tyrosine-protein kinase YwqD (ywqD)	0
+750	NCBI_PGAP	OPNKAGHI_00769	Tyrosine-protein phosphatase YwqE (ywqE)	0
+751	NCBI_PGAP	OPNKAGHI_00770	Undecaprenyl-phosphate galactose phosphotransferase (rfbP)	0
+752	NCBI_PGAP	OPNKAGHI_00771	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase	0
+753	NCBI_PGAP	OPNKAGHI_00772	UDP-Gal:alpha-D-GlcNAc-diphosphoundecaprenol alpha-1,3-galactosyltransferase (wclR)	0
+754	NCBI_PGAP	OPNKAGHI_00773	IS256 family transposase IS1310	0
+755	NCBI_PGAP	OPNKAGHI_00774	Putative glycosyltransferase EpsF (epsF)	0
+758	NCBI_PGAP	OPNKAGHI_00777	IS30 family transposase ISSlu1	0
+761	NCBI_PGAP	OPNKAGHI_00780	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU (tagU_2)	0
+762	NCBI_PGAP	OPNKAGHI_00781	UDP-N-acetylglucosamine 2-epimerase (mnaA_1)	0
+763	NCBI_PGAP	OPNKAGHI_00782	dTDP-glucose 4,6-dehydratase (rmlB)	0
+764	NCBI_PGAP	OPNKAGHI_00783	Glyoxylate/hydroxypyruvate reductase A (ghrA)	0
+765	NCBI_PGAP	OPNKAGHI_00784	Cytochrome bd-II ubiquinol oxidase subunit 1 (appC)	0
+766	NCBI_PGAP	OPNKAGHI_00785	Cytochrome bd-I ubiquinol oxidase subunit 2 (cydB)	0
+767	NCBI_PGAP	OPNKAGHI_00786	Glutathione/L-cysteine transport system ATP-binding/permease protein CydD (cydD)	0
+768	NCBI_PGAP	OPNKAGHI_00787	Glutathione/L-cysteine transport system ATP-binding/permease protein CydC (cydC)	0
+769	NCBI_PGAP	OPNKAGHI_00788	Heptaprenyl diphosphate synthase component 2 (hepT)	0
+770	NCBI_PGAP	OPNKAGHI_00789	1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_1)	0
+771	NCBI_PGAP	OPNKAGHI_00790	1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_2)	0
+772	NCBI_PGAP	OPNKAGHI_00791	Xanthine phosphoribosyltransferase (xpt)	0
+773	NCBI_PGAP	OPNKAGHI_00792	N5-carboxyaminoimidazole ribonucleotide synthase (purK)	0
+774	NCBI_PGAP	OPNKAGHI_00793	ATP-dependent DNA helicase PcrA (pcrA)	0
+775	NCBI_PGAP	OPNKAGHI_00794	DNA ligase (ligA)	0
+776	NCBI_PGAP	OPNKAGHI_00795	putative lipoprotein YerH (yerH)	0
+777	NCBI_PGAP	OPNKAGHI_00796	Glutamyl-tRNA(Gln) amidotransferase subunit C (gatC)	0
+778	NCBI_PGAP	OPNKAGHI_00797	Glutamyl-tRNA(Gln) amidotransferase subunit A (gatA)	0
+779	NCBI_PGAP	OPNKAGHI_00798	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (gatB)	0
+780	NCBI_PGAP	OPNKAGHI_00799	Diacylglycerol kinase (dagK_1)	0
+781	NCBI_PGAP	OPNKAGHI_00800	putative RNA methyltransferase	0
+782	NCBI_PGAP	OPNKAGHI_00801	Propanediol utilization protein PduV (pduV)	0
+783	NCBI_PGAP	OPNKAGHI_00802	Glycerol uptake facilitator protein (glpF)	0
+784	NCBI_PGAP	OPNKAGHI_00803	HTH-type transcriptional activator RhaR (rhaR_4)	0
+785	NCBI_PGAP	OPNKAGHI_00804	Bacterial microcompartment shell protein PduA (pduA)	0
+786	NCBI_PGAP	OPNKAGHI_00805	Bacterial microcompartment shell protein PduB (pduB)	0
+787	NCBI_PGAP	OPNKAGHI_00806	Propanediol dehydratase large subunit (pduC)	0
+788	NCBI_PGAP	OPNKAGHI_00807	Propanediol dehydratase medium subunit (pduD)	0
+789	NCBI_PGAP	OPNKAGHI_00808	Propanediol dehydratase small subunit (pduE)	0
+790	NCBI_PGAP	OPNKAGHI_00809	Diol dehydratase-reactivating factor large subunit (ddrA)	0
+791	NCBI_PGAP	OPNKAGHI_00810	Diol dehydratase-reactivating factor small subunit (ddrB)	0
+792	NCBI_PGAP	OPNKAGHI_00811	Bacterial microcompartment shell protein PduK (pduK)	0
+793	NCBI_PGAP	OPNKAGHI_00812	Bacterial microcompartment shell protein PduJ (pduJ)	0
+794	NCBI_PGAP	OPNKAGHI_00813	Phosphate propanoyltransferase (pduL)	0
+796	NCBI_PGAP	OPNKAGHI_00815	Bacterial microcompartment shell vertex protein PduN (pduN_2)	0
+797	NCBI_PGAP	OPNKAGHI_00816	Corrinoid adenosyltransferase PduO (pduO_1)	0
+798	NCBI_PGAP	OPNKAGHI_00817	Corrinoid adenosyltransferase PduO (pduO_2)	0
+799	NCBI_PGAP	OPNKAGHI_00818	Propanal dehydrogenase (CoA-propanoylating) (pduP)	0
+800	NCBI_PGAP	OPNKAGHI_00819	1-propanol dehydrogenase PduQ (pduQ)	0
+801	NCBI_PGAP	OPNKAGHI_00820	Acetate kinase (ackA_1)	0
+802	NCBI_PGAP	OPNKAGHI_00821	Bacterial microcompartment shell protein EutS (eutS)	0
+803	NCBI_PGAP	OPNKAGHI_00822	NADH:acrylate oxidoreductase (ard_4)	0
+804	NCBI_PGAP	OPNKAGHI_00823	Triple specificity protein phosphatase PtpB (ptpB_1)	0
+807	NCBI_PGAP	OPNKAGHI_00826	Deoxyribose-phosphate aldolase (deoC)	0
+808	NCBI_PGAP	OPNKAGHI_00827	Phosphopentomutase (deoB_3)	0
+809	NCBI_PGAP	OPNKAGHI_00828	Purine nucleoside phosphorylase DeoD-type (deoD)	0
+810	NCBI_PGAP	OPNKAGHI_00829	Deoxyribonucleoside regulator (deoR)	0
+811	NCBI_PGAP	OPNKAGHI_00830	Pyrimidine-nucleoside phosphorylase (pdp)	0
+812	NCBI_PGAP	OPNKAGHI_00831	Glutathione biosynthesis bifunctional protein GshAB (gshAB)	0
+813	NCBI_PGAP	OPNKAGHI_00832	D-ribose pyranase (rbsD)	0
+814	NCBI_PGAP	OPNKAGHI_00833	L-fucose-proton symporter (fucP)	0
+815	NCBI_PGAP	OPNKAGHI_00834	Serine/threonine exchanger SteT (steT_2)	0
+817	NCBI_PGAP	OPNKAGHI_00836	High-affinity gluconate transporter (gntT_1)	0
+818	NCBI_PGAP	OPNKAGHI_00837	Xylulose kinase (xylB_2)	0
+819	NCBI_PGAP	OPNKAGHI_00838	Xylulose kinase (xylB_3)	0
+820	NCBI_PGAP	OPNKAGHI_00839	HTH-type transcriptional regulator HexR (hexR)	0
+823	NCBI_PGAP	OPNKAGHI_00842	scyllo-inositol 2-dehydrogenase (NADP(+)) IolU (iolU)	0
+824	NCBI_PGAP	OPNKAGHI_00843	putative ATP-dependent RNA helicase YfmL (yfmL)	0
+826	NCBI_PGAP	OPNKAGHI_00846	Putative universal stress protein	0
+827	NCBI_PGAP	OPNKAGHI_00847	High-affinity gluconate transporter (gntT_2)	0
+828	NCBI_PGAP	OPNKAGHI_00848	IS1182 family transposase ISSmi2	0
+829	NCBI_PGAP	OPNKAGHI_00849	IS1182 family transposase ISStin8	0
+830	NCBI_PGAP	OPNKAGHI_00850	putative glycosyltransferase	0
+831	NCBI_PGAP	OPNKAGHI_00851	UDP-N-acetylglucosamine 2-epimerase (mnaA_2)	0
+834	NCBI_PGAP	OPNKAGHI_00854	Flavodoxin	0
+835	NCBI_PGAP	OPNKAGHI_00855	Regulatory protein RecX (recX)	0
+836	NCBI_PGAP	OPNKAGHI_00856	Putative penicillin-binding protein PbpX (pbpX)	0
+838	NCBI_PGAP	OPNKAGHI_00858	Nucleoside triphosphate/diphosphate phosphatase	0
+839	NCBI_PGAP	OPNKAGHI_00859	Putative transport protein YhhT (yhhT)	0
+840	NCBI_PGAP	OPNKAGHI_00860	Glycerol-3-phosphate cytidylyltransferase (tagD)	0
+844	NCBI_PGAP	OPNKAGHI_00864	Peptide chain release factor 3 (prfC)	0
+846	NCBI_PGAP	OPNKAGHI_00866	NADH oxidase (nox_1)	0
+848	NCBI_PGAP	OPNKAGHI_00868	Dipeptidase A (pepDA_2)	0
+849	NCBI_PGAP	OPNKAGHI_00869	Calcium-transporting ATPase 1	0
+851	NCBI_PGAP	OPNKAGHI_00871	ATP-dependent Clp protease ATP-binding subunit ClpE (clpE)	0
+853	NCBI_PGAP	OPNKAGHI_00873	Phosphocarrier protein HPr (ptsH)	0
+854	NCBI_PGAP	OPNKAGHI_00874	Phosphoenolpyruvate-protein phosphotransferase (ptsI)	0
+855	NCBI_PGAP	OPNKAGHI_00875	Alpha-monoglucosyldiacylglycerol synthase	0
+856	NCBI_PGAP	OPNKAGHI_00876	Alpha-galactosylglucosyldiacylglycerol synthase (cpoA)	0
+859	NCBI_PGAP	OPNKAGHI_00879	putative protein YkuJ (ykuJ)	0
+860	NCBI_PGAP	OPNKAGHI_00880	Lipoteichoic acid synthase 1 (ltaS1_2)	0
+862	NCBI_PGAP	OPNKAGHI_00898	Tyrosine recombinase XerC (xerC_3)	0
+935	NCBI_PGAP	OPNKAGHI_00973	IS256 family transposase IS1310	0
+936	NCBI_PGAP	OPNKAGHI_00974	Cyclopropane-fatty-acyl-phospholipid synthase (cfa_2)	0
+937	NCBI_PGAP	OPNKAGHI_00975	Tyrosine recombinase XerC (xerC_4)	0
+1016	NCBI_PGAP	OPNKAGHI_01056	IS256 family transposase IS1310	0
+1017	NCBI_PGAP	OPNKAGHI_01057	Cyclopropane-fatty-acyl-phospholipid synthase (cfa_3)	0
+1024	NCBI_PGAP	OPNKAGHI_01064	S-adenosylmethionine synthase (metK)	0
+1025	NCBI_PGAP	OPNKAGHI_01065	Multidrug transporter protein MdtP (mdtP_2)	0
+1027	NCBI_PGAP	OPNKAGHI_01067	Deoxyguanosine kinase	0
+1028	NCBI_PGAP	OPNKAGHI_01068	Putative bifunctional phosphatase/peptidyl-prolyl cis-trans isomerase	0
+1029	NCBI_PGAP	OPNKAGHI_01069	Beta-phosphoglucomutase (ycjU)	0
+1030	NCBI_PGAP	OPNKAGHI_01070	Trehalose 6-phosphate phosphorylase (trePP)	0
+1031	NCBI_PGAP	OPNKAGHI_01071	Putative 2-hydroxyacid dehydrogenase	0
+1034	NCBI_PGAP	OPNKAGHI_01074	Organic hydroperoxide resistance transcriptional regulator (ohrR)	0
+1037	NCBI_PGAP	OPNKAGHI_01078	UvrABC system protein A (uvrA_1)	0
+1039	NCBI_PGAP	OPNKAGHI_01080	IS30 family transposase ISSlu1	0
+1044	NCBI_PGAP	OPNKAGHI_01085	Dipeptidase A (pepDA_3)	0
+1045	NCBI_PGAP	OPNKAGHI_01086	Anaerobic regulatory protein (fnr)	0
+1046	NCBI_PGAP	OPNKAGHI_01087	Asparagine synthetase [glutamine-hydrolyzing] 1 (asnB)	0
+1047	NCBI_PGAP	OPNKAGHI_01088	D-aspartate ligase	0
+1048	NCBI_PGAP	OPNKAGHI_01089	Aspartate racemase	0
+1050	NCBI_PGAP	OPNKAGHI_01091	putative protein YyaP (yyaP)	0
+1053	NCBI_PGAP	OPNKAGHI_01095	Arginine--tRNA ligase (argS)	0
+1054	NCBI_PGAP	OPNKAGHI_01096	Arginine repressor (argR_1)	0
+1055	NCBI_PGAP	OPNKAGHI_01097	Penicillin-binding protein 2a (pbp2a)	0
+1058	NCBI_PGAP	OPNKAGHI_01100	Chromosome partition protein Smc (smc_2)	0
+1059	NCBI_PGAP	OPNKAGHI_01101	3'-5' exoribonuclease YhaM (yhaM)	0
+1060	NCBI_PGAP	OPNKAGHI_01102	Foldase protein PrsA (prsA_2)	0
+1062	NCBI_PGAP	OPNKAGHI_01104	Protein hit (hit)	0
+1063	NCBI_PGAP	OPNKAGHI_01105	ABC-type transporter ATP-binding protein EcsA (ecsA)	0
+1065	NCBI_PGAP	OPNKAGHI_01107	Cell cycle regulator CcrZ (ccrZ)	0
+1066	NCBI_PGAP	OPNKAGHI_01108	tRNA (guanine-N(7)-)-methyltransferase (trmB)	0
+1068	NCBI_PGAP	OPNKAGHI_01110	Oligoendopeptidase F, plasmid (pepF1)	0
+1069	NCBI_PGAP	OPNKAGHI_01111	Protein DegV (degV_2)	0
+1070	NCBI_PGAP	OPNKAGHI_01112	ClpXP adapter protein SpxH (spxH)	0
+1071	NCBI_PGAP	OPNKAGHI_01113	GTP pyrophosphokinase YjbM (yjbM)	0
+1072	NCBI_PGAP	OPNKAGHI_01114	NAD kinase 1 (ppnKA)	0
+1076	NCBI_PGAP	OPNKAGHI_01118	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit (gtfA_1)	0
+1077	NCBI_PGAP	OPNKAGHI_01119	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit (gtfA_2)	0
+1079	NCBI_PGAP	OPNKAGHI_01121	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit (gtfA_3)	0
+1082	NCBI_PGAP	OPNKAGHI_01124	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase (dapH_1)	0
+1083	NCBI_PGAP	OPNKAGHI_01125	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase (dapH_2)	0
+1084	NCBI_PGAP	OPNKAGHI_01126	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit (gtfA_4)	0
+1085	NCBI_PGAP	OPNKAGHI_01127	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit (gtfA_5)	0
+1086	NCBI_PGAP	OPNKAGHI_01128	UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit (gtfA_6)	0
+1087	NCBI_PGAP	OPNKAGHI_01129	IS30 family transposase IS1070	0
+1092	NCBI_PGAP	OPNKAGHI_01134	PF03932 family protein CutC (cutC)	0
+1093	NCBI_PGAP	OPNKAGHI_01135	Putative transport protein	0
+1095	NCBI_PGAP	OPNKAGHI_01137	23S rRNA (guanine(745)-N(1))-methyltransferase (rlmA)	0
+1096	NCBI_PGAP	OPNKAGHI_01138	Putative tRNA (cytidine(34)-2'-O)-methyltransferase (cspR)	0
+1097	NCBI_PGAP	OPNKAGHI_01139	DNA translocase FtsK (ftsK)	0
+1100	NCBI_PGAP	OPNKAGHI_01142	Transcriptional regulator MraZ (mraZ)	0
+1101	NCBI_PGAP	OPNKAGHI_01143	Ribosomal RNA small subunit methyltransferase H (rsmH)	0
+1102	NCBI_PGAP	OPNKAGHI_01144	Cell division protein FtsL (ftsL)	0
+1103	NCBI_PGAP	OPNKAGHI_01145	Penicillin-binding protein 2B (pbpB)	0
+1104	NCBI_PGAP	OPNKAGHI_01146	Phospho-N-acetylmuramoyl-pentapeptide- transferase (mraY)	0
+1105	NCBI_PGAP	OPNKAGHI_01147	UDP-N-acetylmuramoylalanine--D-glutamate ligase (murD)	0
+1106	NCBI_PGAP	OPNKAGHI_01148	UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (murG)	0
+1107	NCBI_PGAP	OPNKAGHI_01149	Cell division protein DivIB (divIB)	0
+1108	NCBI_PGAP	OPNKAGHI_01150	Cell division protein FtsA (ftsA)	0
+1109	NCBI_PGAP	OPNKAGHI_01151	Cell division protein FtsZ (ftsZ)	0
+1110	NCBI_PGAP	OPNKAGHI_01152	Cell division protein SepF (sepF)	0
+1112	NCBI_PGAP	OPNKAGHI_01154	Ribosome-associated protein quality control protein P2 (rqcP2)	0
+1113	NCBI_PGAP	OPNKAGHI_01155	Cell cycle adapter protein GpsB (gpsB_1)	0
+1114	NCBI_PGAP	OPNKAGHI_01156	isoleucine--tRNA ligase IleS (ileS)	0
+1115	NCBI_PGAP	OPNKAGHI_01157	Cold shock protein CspB (cspB)	0
+1116	NCBI_PGAP	OPNKAGHI_01158	ADP-ribose pyrophosphatase (nudF)	0
+1118	NCBI_PGAP	OPNKAGHI_01160	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase (mtnN)	0
+1119	NCBI_PGAP	OPNKAGHI_01161	Cysteine desulfurase IscS (iscS_1)	0
+1122	NCBI_PGAP	OPNKAGHI_01164	tRNA-specific 2-thiouridylase MnmA (mnmA)	0
+1123	NCBI_PGAP	OPNKAGHI_01165	Phosphoserine phosphatase 1 (pspA)	0
+1125	NCBI_PGAP	OPNKAGHI_01167	ATP-dependent RecD2 DNA helicase (recD2)	0
+1126	NCBI_PGAP	OPNKAGHI_01168	Ribose-phosphate pyrophosphokinase (prs_1)	0
+1128	NCBI_PGAP	OPNKAGHI_01170	L-cystine transport system permease protein TcyB (tcyB)	0
+1129	NCBI_PGAP	OPNKAGHI_01171	putative ABC transporter extracellular-binding protein YckB (yckB)	0
+1130	NCBI_PGAP	OPNKAGHI_01172	Lipoamidase (lpa)	0
+1131	NCBI_PGAP	OPNKAGHI_01173	Dipeptide-binding protein (dppA_10)	0
+1132	NCBI_PGAP	OPNKAGHI_01174	N-acetylmuramic acid 6-phosphate etherase (murQ)	0
+1133	NCBI_PGAP	OPNKAGHI_01175	L-glyceraldehyde 3-phosphate reductase (gpr_2)	0
+1134	NCBI_PGAP	OPNKAGHI_01176	HTH-type transcriptional regulator MalR (malR_1)	0
+1135	NCBI_PGAP	OPNKAGHI_01177	HTH-type transcriptional regulator DegA (degA)	0
+1136	NCBI_PGAP	OPNKAGHI_01178	Ribokinase (rbsK)	0
+1138	NCBI_PGAP	OPNKAGHI_01180	Transketolase (tkt)	0
+1139	NCBI_PGAP	OPNKAGHI_01181	Gamma-D-glutamyl-L-lysine dipeptidyl-peptidase (ykfC)	0
+1140	NCBI_PGAP	OPNKAGHI_01182	putative protein YpuA (ypuA)	0
+1141	NCBI_PGAP	OPNKAGHI_01183	Cell division suppressor protein YneA (yneA)	0
+1143	NCBI_PGAP	OPNKAGHI_01185	Putative lipid kinase YtlR (ytlR)	0
+1144	NCBI_PGAP	OPNKAGHI_01186	Ribonuclease J1 (rnjA)	0
+1145	NCBI_PGAP	OPNKAGHI_01187	DNA-directed RNA polymerase subunit epsilon (rpoY)	0
+1147	NCBI_PGAP	OPNKAGHI_01189	Peptide deformylase (def_2)	0
+1148	NCBI_PGAP	OPNKAGHI_01190	Pyruvate dehydrogenase E1 component subunit alpha (pdhA)	0
+1149	NCBI_PGAP	OPNKAGHI_01191	Pyruvate dehydrogenase E1 component subunit beta (pdhB)	0
+1150	NCBI_PGAP	OPNKAGHI_01192	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex (pdhC)	0
+1151	NCBI_PGAP	OPNKAGHI_01193	Dihydrolipoyl dehydrogenase (pdhD_2)	0
+1152	NCBI_PGAP	OPNKAGHI_01194	L-lactate dehydrogenase (ldh_1)	0
+1154	NCBI_PGAP	OPNKAGHI_01196	Inositol-1-monophosphatase (suhB)	0
+1155	NCBI_PGAP	OPNKAGHI_01197	Large ribosomal subunit assembly factor BipA (bipA_1)	0
+1156	NCBI_PGAP	OPNKAGHI_01198	peptidoglycan glycosyltransferase FtsW (ftsW_1)	0
+1157	NCBI_PGAP	OPNKAGHI_01199	putative peptidoglycan glycosyltransferase FtsW (ftsW_2)	0
+1159	NCBI_PGAP	OPNKAGHI_01201	Ribosomal RNA small subunit methyltransferase D (rsmD)	0
+1160	NCBI_PGAP	OPNKAGHI_01202	Phosphopantetheine adenylyltransferase (coaD)	0
+1161	NCBI_PGAP	OPNKAGHI_01203	putative protein YlbL (ylbL)	0
+1163	NCBI_PGAP	OPNKAGHI_01205	tRNA-specific adenosine deaminase (tadA_1)	0
+1164	NCBI_PGAP	OPNKAGHI_01206	ComE operon protein 3 (comEC)	0
+1165	NCBI_PGAP	OPNKAGHI_01207	DNA polymerase III subunit delta (holA)	0
+1166	NCBI_PGAP	OPNKAGHI_01208	Small ribosomal subunit protein bS20 (rpsT)	0
+1167	NCBI_PGAP	OPNKAGHI_01209	Small ribosomal subunit protein uS15 (rpsO)	0
+1168	NCBI_PGAP	OPNKAGHI_01210	Ribonuclease J 2 (rnj2)	0
+1170	NCBI_PGAP	OPNKAGHI_01212	Elongation factor Tu (tuf)	0
+1171	NCBI_PGAP	OPNKAGHI_01213	Trigger factor (tig)	0
+1172	NCBI_PGAP	OPNKAGHI_01214	ATP-dependent Clp protease ATP-binding subunit ClpX (clpX)	0
+1173	NCBI_PGAP	OPNKAGHI_01215	putative GTP-binding protein EngB (engB)	0
+1176	NCBI_PGAP	OPNKAGHI_01218	UvrABC system protein C (uvrC)	0
+1177	NCBI_PGAP	OPNKAGHI_01219	GTPase Obg (obg)	0
+1180	NCBI_PGAP	OPNKAGHI_01222	Ribonuclease Z (rnz)	0
+1182	NCBI_PGAP	OPNKAGHI_01224	Single-stranded-DNA-specific exonuclease RecJ (recJ)	0
+1183	NCBI_PGAP	OPNKAGHI_01225	Adenine phosphoribosyltransferase (apt)	0
+1184	NCBI_PGAP	OPNKAGHI_01226	Putative universal stress protein	0
+1188	NCBI_PGAP	OPNKAGHI_01230	Diacylglycerol kinase (dagK_2)	0
+1192	NCBI_PGAP	OPNKAGHI_01235	IS30 family transposase ISLsa1	0
+1193	NCBI_PGAP	OPNKAGHI_01236	Nucleoside diphosphate kinase (ndk)	0
+1195	NCBI_PGAP	OPNKAGHI_01238	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_5)	0
+1196	NCBI_PGAP	OPNKAGHI_01239	ADP-polyphosphate phosphotransferase	0
+1197	NCBI_PGAP	OPNKAGHI_01240	Hydroxymethylglutaryl-CoA synthase (mvaS)	0
+1198	NCBI_PGAP	OPNKAGHI_01241	IS1182 family transposase ISStin8	0
+1201	NCBI_PGAP	OPNKAGHI_01244	LexA repressor (lexA)	0
+1204	NCBI_PGAP	OPNKAGHI_01247	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI (yheI)	0
+1205	NCBI_PGAP	OPNKAGHI_01248	putative multidrug resistance ABC transporter ATP-binding/permease protein YheH (yheH)	0
+1206	NCBI_PGAP	OPNKAGHI_01249	1-acyl-sn-glycerol-3-phosphate acyltransferase (plsC)	0
+1207	NCBI_PGAP	OPNKAGHI_01250	tRNA1(Val) (adenine(37)-N6)-methyltransferase (yfiC)	0
+1209	NCBI_PGAP	OPNKAGHI_01252	D-lactate/D-glycerate dehydrogenase (ldhD)	0
+1210	NCBI_PGAP	OPNKAGHI_01253	Phosphoserine phosphatase	0
+1211	NCBI_PGAP	OPNKAGHI_01254	Small ribosomal subunit protein uS2 (rpsB)	0
+1212	NCBI_PGAP	OPNKAGHI_01255	Elongation factor Ts (tsf)	0
+1213	NCBI_PGAP	OPNKAGHI_01256	Uridylate kinase (pyrH)	0
+1214	NCBI_PGAP	OPNKAGHI_01257	Ribosome-recycling factor (frr)	0
+1216	NCBI_PGAP	OPNKAGHI_01259	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) (uppS)	0
+1218	NCBI_PGAP	OPNKAGHI_01261	Regulator of sigma-W protease RasP (rasP)	0
+1219	NCBI_PGAP	OPNKAGHI_01262	Proline--tRNA ligase (proS)	0
+1220	NCBI_PGAP	OPNKAGHI_01263	DNA polymerase III PolC-type (polC_1)	0
+1222	NCBI_PGAP	OPNKAGHI_01265	Ribosome maturation factor RimP (rimP)	0
+1223	NCBI_PGAP	OPNKAGHI_01266	Transcription termination/antitermination protein NusA (nusA)	0
+1225	NCBI_PGAP	OPNKAGHI_01268	RNA-binding protein YlxQ (rulQ)	0
+1226	NCBI_PGAP	OPNKAGHI_01269	Large ribosomal subunit assembly factor BipA (bipA_2)	0
+1227	NCBI_PGAP	OPNKAGHI_01270	Ribosome-binding factor A (rbfA)	0
+1228	NCBI_PGAP	OPNKAGHI_01271	tRNA pseudouridine synthase B (truB)	0
+1229	NCBI_PGAP	OPNKAGHI_01272	Bifunctional riboflavin kinase/FMN adenylyltransferase (ribCF)	0
+1230	NCBI_PGAP	OPNKAGHI_01273	Heat-inducible transcription repressor HrcA (hrcA)	0
+1231	NCBI_PGAP	OPNKAGHI_01274	Protein GrpE (grpE)	0
+1232	NCBI_PGAP	OPNKAGHI_01275	Chaperone protein DnaK (dnaK)	0
+1233	NCBI_PGAP	OPNKAGHI_01276	Chaperone protein DnaJ (dnaJ)	0
+1235	NCBI_PGAP	OPNKAGHI_01278	D-alanine--D-alanyl carrier protein ligase (dltA)	0
+1236	NCBI_PGAP	OPNKAGHI_01279	Teichoic acid D-alanyltransferase (dltB)	0
+1237	NCBI_PGAP	OPNKAGHI_01280	D-alanyl carrier protein (dltC)	0
+1238	NCBI_PGAP	OPNKAGHI_01281	Protein DltD (dltD)	0
+1239	NCBI_PGAP	OPNKAGHI_01282	Elongation factor 4 (lepA)	0
+1245	NCBI_PGAP	OPNKAGHI_01288	Large-conductance mechanosensitive channel (mscL)	0
+1247	NCBI_PGAP	OPNKAGHI_01290	Ribosomal protein L11 methyltransferase (prmA)	0
+1248	NCBI_PGAP	OPNKAGHI_01291	Ribosomal RNA small subunit methyltransferase E (rsmE)	0
+1250	NCBI_PGAP	OPNKAGHI_01293	GTP pyrophosphokinase (relA)	0
+1251	NCBI_PGAP	OPNKAGHI_01294	D-aminoacyl-tRNA deacylase (dtd)	0
+1252	NCBI_PGAP	OPNKAGHI_01295	N-acetylmuramic acid 6-phosphate phosphatase (mupP)	0
+1253	NCBI_PGAP	OPNKAGHI_01296	putative ketoamine kinase	0
+1254	NCBI_PGAP	OPNKAGHI_01297	putative cell wall amidase LytH (lytH)	0
+1256	NCBI_PGAP	OPNKAGHI_01299	Histidine--tRNA ligase (hisS)	0
+1257	NCBI_PGAP	OPNKAGHI_01300	Aspartate--tRNA ligase (aspS)	0
+1258	NCBI_PGAP	OPNKAGHI_01301	Peptide methionine sulfoxide reductase MsrA (msrA_1)	0
+1261	NCBI_PGAP	OPNKAGHI_01304	Teichoic acid glycerol-phosphate primase (tagB)	0
+1262	NCBI_PGAP	OPNKAGHI_01305	Teichoic acid translocation permease protein TagG (tagG)	0
+1263	NCBI_PGAP	OPNKAGHI_01306	Teichoic acid poly(glycerol phosphate) polymerase (tarF)	0
+1264	NCBI_PGAP	OPNKAGHI_01307	putative endonuclease 4 (nfo)	0
+1265	NCBI_PGAP	OPNKAGHI_01308	Putative pyruvate, phosphate dikinase regulatory protein (yqfL)	0
+1266	NCBI_PGAP	OPNKAGHI_01309	Small ribosomal subunit protein bS21 (rpsU)	0
+1267	NCBI_PGAP	OPNKAGHI_01310	Zinc-type alcohol dehydrogenase-like protein	0
+1268	NCBI_PGAP	OPNKAGHI_01311	putative HTH-type transcriptional regulator YybR (yybR)	0
+1269	NCBI_PGAP	OPNKAGHI_01312	putative protein YqeY (yqeY)	0
+1270	NCBI_PGAP	OPNKAGHI_01313	PhoH-like protein	0
+1271	NCBI_PGAP	OPNKAGHI_01314	Endoribonuclease YbeY (ybeY)	0
+1272	NCBI_PGAP	OPNKAGHI_01315	Undecaprenol kinase (dgkA)	0
+1273	NCBI_PGAP	OPNKAGHI_01316	GTPase Era (era)	0
+1274	NCBI_PGAP	OPNKAGHI_01317	DNA repair protein RecO (recO)	0
+1275	NCBI_PGAP	OPNKAGHI_01318	Glycine--tRNA ligase alpha subunit (glyQ)	0
+1276	NCBI_PGAP	OPNKAGHI_01319	Glycine--tRNA ligase beta subunit (glyS)	0
+1277	NCBI_PGAP	OPNKAGHI_01320	DNA primase (dnaG)	0
+1278	NCBI_PGAP	OPNKAGHI_01321	RNA polymerase sigma factor SigA (sigA)	0
+1282	NCBI_PGAP	OPNKAGHI_01325	tRNA (adenine(22)-N(1))-methyltransferase (trmK)	0
+1283	NCBI_PGAP	OPNKAGHI_01326	GTP cyclohydrolase 1 type 2	0
+1284	NCBI_PGAP	OPNKAGHI_01327	Peptidase T (pepT)	0
+1285	NCBI_PGAP	OPNKAGHI_01328	Chaperone protein ClpB (clpB)	0
+1286	NCBI_PGAP	OPNKAGHI_01329	DNA polymerase III subunit alpha (dnaE)	0
+1287	NCBI_PGAP	OPNKAGHI_01330	Transaldolase (tal)	0
+1288	NCBI_PGAP	OPNKAGHI_01331	Pyruvate kinase (pyk)	0
+1289	NCBI_PGAP	OPNKAGHI_01332	Conserved virulence factor B (cvfB)	0
+1290	NCBI_PGAP	OPNKAGHI_01333	Tyrosine recombinase XerD (xerD)	0
+1292	NCBI_PGAP	OPNKAGHI_01335	Segregation and condensation protein A (scpA_1)	0
+1293	NCBI_PGAP	OPNKAGHI_01336	Segregation and condensation protein B (scpB)	0
+1294	NCBI_PGAP	OPNKAGHI_01337	Ribosomal large subunit pseudouridine synthase B (rluB)	0
+1295	NCBI_PGAP	OPNKAGHI_01338	Riboflavin transporter RibU (ribU)	0
+1297	NCBI_PGAP	OPNKAGHI_01340	putative ATP-dependent DNA helicase RecS (recS_1)	0
+1298	NCBI_PGAP	OPNKAGHI_01341	putative ATP-dependent DNA helicase RecS (recS_2)	0
+1300	NCBI_PGAP	OPNKAGHI_01343	Cytidylate kinase (cmk)	0
+1301	NCBI_PGAP	OPNKAGHI_01344	Small ribosomal subunit protein bS1 (rps1)	0
+1302	NCBI_PGAP	OPNKAGHI_01345	GTPase Der (der)	0
+1303	NCBI_PGAP	OPNKAGHI_01346	DNA-binding protein HU (hup)	0
+1304	NCBI_PGAP	OPNKAGHI_01347	TPR repeat-containing protein YpiA (ypiA)	0
+1306	NCBI_PGAP	OPNKAGHI_01349	CCA-adding enzyme (cca)	0
+1307	NCBI_PGAP	OPNKAGHI_01350	Energy-dependent translational throttle protein EttA (ettA_2)	0
+1308	NCBI_PGAP	OPNKAGHI_01351	Thymidylate synthase (thyA)	0
+1309	NCBI_PGAP	OPNKAGHI_01352	Dihydrofolate reductase (dfrA)	0
+1311	NCBI_PGAP	OPNKAGHI_01354	DegV domain-containing protein	0
+1318	NCBI_PGAP	OPNKAGHI_01361	Ribosome biogenesis GTPase A (rbgA)	0
+1319	NCBI_PGAP	OPNKAGHI_01362	Ribonuclease HII (rnhB)	0
+1321	NCBI_PGAP	OPNKAGHI_01364	DNA topoisomerase 1 (topA)	0
+1322	NCBI_PGAP	OPNKAGHI_01365	Tyrosine recombinase XerC (xerC_5)	0
+1323	NCBI_PGAP	OPNKAGHI_01366	ATP-dependent protease subunit HslV (hslV)	0
+1324	NCBI_PGAP	OPNKAGHI_01367	ATP-dependent protease ATPase subunit ClpY (clpY)	0
+1325	NCBI_PGAP	OPNKAGHI_01368	Protein LacX, plasmid (lacX_1)	0
+1326	NCBI_PGAP	OPNKAGHI_01369	Glycerol-3-phosphate acyltransferase (plsY_1)	0
+1327	NCBI_PGAP	OPNKAGHI_01370	Glycerol-3-phosphate acyltransferase (plsY_2)	0
+1328	NCBI_PGAP	OPNKAGHI_01371	DNA topoisomerase 4 subunit B (parE_1)	0
+1329	NCBI_PGAP	OPNKAGHI_01372	DNA topoisomerase 4 subunit B (parE_2)	0
+1330	NCBI_PGAP	OPNKAGHI_01373	DNA topoisomerase IV subunit A ParC (parC)	0
+1331	NCBI_PGAP	OPNKAGHI_01374	HTH-type transcriptional regulator HdfR (hdfR_2)	0
+1332	NCBI_PGAP	OPNKAGHI_01375	Manganese-dependent inorganic pyrophosphatase (ppaC)	0
+1334	NCBI_PGAP	OPNKAGHI_01377	Peptide methionine sulfoxide reductase MsrB (msrB)	0
+1335	NCBI_PGAP	OPNKAGHI_01378	Peptide methionine sulfoxide reductase MsrA (msrA_2)	0
+1338	NCBI_PGAP	OPNKAGHI_01381	Tyrosine recombinase XerS (xerS)	0
+1345	NCBI_PGAP	OPNKAGHI_01388	putative oxidoreductase	0
+1346	NCBI_PGAP	OPNKAGHI_01389	HTH-type transcriptional regulator HdfR (hdfR_3)	0
+1347	NCBI_PGAP	OPNKAGHI_01390	putative oxidoreductase	0
+1348	NCBI_PGAP	OPNKAGHI_01391	Putative acetyltransferase	0
+1349	NCBI_PGAP	OPNKAGHI_01392	HTH-type transcriptional regulator CynR (cynR_1)	0
+1352	NCBI_PGAP	OPNKAGHI_01395	3-ketodihydrosphingosine reductase (kdsr_2)	0
+1353	NCBI_PGAP	OPNKAGHI_01396	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE (ubiE_1)	0
+1357	NCBI_PGAP	OPNKAGHI_01400	Levodione reductase (lvr)	0
+1360	NCBI_PGAP	OPNKAGHI_01403	Acrylyl-CoA reductase AcuI (acuI)	0
+1361	NCBI_PGAP	OPNKAGHI_01404	Transcriptional regulator BrlR (brlR)	0
+1364	NCBI_PGAP	OPNKAGHI_01407	Endonuclease III (nth_1)	0
+1368	NCBI_PGAP	OPNKAGHI_01411	Folate transporter FolT (folT)	0
+1369	NCBI_PGAP	OPNKAGHI_01412	Protein DegV (degV_3)	0
+1372	NCBI_PGAP	OPNKAGHI_01415	Rqc2 RqcH (rqcH)	0
+1373	NCBI_PGAP	OPNKAGHI_01416	Formate-dependent phosphoribosylglycinamide formyltransferase (purT)	0
+1374	NCBI_PGAP	OPNKAGHI_01417	Carbamoyl phosphate synthase pyrimidine-specific small chain (pyrAA)	0
+1375	NCBI_PGAP	OPNKAGHI_01418	Bifunctional protein pyrR (pyrR)	0
+1376	NCBI_PGAP	OPNKAGHI_01419	Ribosomal large subunit pseudouridine synthase D (rluD_2)	0
+1377	NCBI_PGAP	OPNKAGHI_01420	Lipoprotein signal peptidase (lspA)	0
+1378	NCBI_PGAP	OPNKAGHI_01421	Formate--tetrahydrofolate ligase 1 (fhs1_1)	0
+1379	NCBI_PGAP	OPNKAGHI_01422	Formate--tetrahydrofolate ligase 1 (fhs1_2)	0
+1381	NCBI_PGAP	OPNKAGHI_01424	14.7 kDa ribonuclease H-like protein (rnhA_2)	0
+1382	NCBI_PGAP	OPNKAGHI_01425	Glycine oxidase (thiO)	0
+1384	NCBI_PGAP	OPNKAGHI_01427	Nucleoid occlusion factor SlmA (slmA)	0
+1389	NCBI_PGAP	OPNKAGHI_01432	Ammonium transporter (amt)	0
+1391	NCBI_PGAP	OPNKAGHI_01434	Putative RNA methyltransferase YpsC (ypsC)	0
+1393	NCBI_PGAP	OPNKAGHI_01436	Cell cycle protein GpsB (gpsB_2)	0
+1395	NCBI_PGAP	OPNKAGHI_01438	Holliday junction resolvase RecU (recU)	0
+1396	NCBI_PGAP	OPNKAGHI_01439	Penicillin-binding protein 1A (ponA)	0
+1399	NCBI_PGAP	OPNKAGHI_01442	Replicative helicase loading/DNA remodeling protein DnaD (dnaD)	0
+1400	NCBI_PGAP	OPNKAGHI_01443	Asparagine--oxo-acid transaminase (aspB)	0
+1401	NCBI_PGAP	OPNKAGHI_01444	Aspartate aminotransferase	0
+1403	NCBI_PGAP	OPNKAGHI_01446	3'-5' exonuclease DinG (dinG_2)	0
+1404	NCBI_PGAP	OPNKAGHI_01447	Galactokinase (galK_2)	0
+1405	NCBI_PGAP	OPNKAGHI_01448	Homoserine kinase (thrB_1)	0
+1406	NCBI_PGAP	OPNKAGHI_01449	Phosphomevalonate kinase	0
+1407	NCBI_PGAP	OPNKAGHI_01450	Isopentenyl-diphosphate delta-isomerase (fni)	0
+1408	NCBI_PGAP	OPNKAGHI_01451	Ribosomal RNA small subunit methyltransferase F (rsmF)	0
+1409	NCBI_PGAP	OPNKAGHI_01452	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YitU (yitU)	0
+1410	NCBI_PGAP	OPNKAGHI_01453	putative succinyl-diaminopimelate desuccinylase (dapE_1)	0
+1412	NCBI_PGAP	OPNKAGHI_01455	2,5-diketo-D-gluconic acid reductase A (dkgA)	0
+1413	NCBI_PGAP	OPNKAGHI_01456	Aldo-keto reductase/MSMEI_2347	0
+1414	NCBI_PGAP	OPNKAGHI_01457	Morphine 6-dehydrogenase (morA_1)	0
+1416	NCBI_PGAP	OPNKAGHI_01459	Alcohol dehydrogenase (adh_1)	0
+1418	NCBI_PGAP	OPNKAGHI_01461	Energy-coupling factor transporter ATP-binding protein EcfA1 (ecfA1_2)	0
+1421	NCBI_PGAP	OPNKAGHI_01464	2-haloacrylate reductase	0
+1422	NCBI_PGAP	OPNKAGHI_01465	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase (menH_2)	0
+1423	NCBI_PGAP	OPNKAGHI_01466	Low affinity potassium transport system protein Kup (kup_1)	0
+1424	NCBI_PGAP	OPNKAGHI_01467	putative transporter YycB (yycB_1)	0
+1425	NCBI_PGAP	OPNKAGHI_01468	Sodium, potassium, lithium and rubidium/H(+) antiporter (nhaK_2)	0
+1427	NCBI_PGAP	OPNKAGHI_01470	L-lactate oxidase (haox)	0
+1431	NCBI_PGAP	OPNKAGHI_01474	putative multidrug ABC transporter ATP-binding protein YbhF (ybhF)	0
+1436	NCBI_PGAP	OPNKAGHI_01479	Arsenate reductase (arsC)	0
+1437	NCBI_PGAP	OPNKAGHI_01480	HTH-type transcriptional regulator BetI (betI)	0
+1438	NCBI_PGAP	OPNKAGHI_01481	Macrolide export ATP-binding/permease protein MacB (macB)	0
+1440	NCBI_PGAP	OPNKAGHI_01483	IS30 family transposase ISLsa1	0
+1442	NCBI_PGAP	OPNKAGHI_01485	Oligosaccharides import ATP-binding protein MsmX (msmX)	0
+1443	NCBI_PGAP	OPNKAGHI_01486	ADPR responsive transcriptional repressor NtrR	0
+1444	NCBI_PGAP	OPNKAGHI_01487	Nicotinate phosphoribosyltransferase (pncB)	0
+1445	NCBI_PGAP	OPNKAGHI_01488	Nicotinamidase (pncA)	0
+1446	NCBI_PGAP	OPNKAGHI_01489	IS30 family transposase ISLsa1	0
+1452	NCBI_PGAP	OPNKAGHI_01495	Glycerol kinase (glpK_1)	0
+1453	NCBI_PGAP	OPNKAGHI_01496	putative tautomerase.1	0
+1455	NCBI_PGAP	OPNKAGHI_01498	Dipeptidase A (pepDA_4)	0
+1456	NCBI_PGAP	OPNKAGHI_01499	Inner membrane transporter YjeM (yjeM_1)	0
+1457	NCBI_PGAP	OPNKAGHI_01500	Inner membrane transporter YjeM (yjeM_2)	0
+1461	NCBI_PGAP	OPNKAGHI_01504	NADH peroxidase (npr_1)	0
+1464	NCBI_PGAP	OPNKAGHI_01507	Vegetative catalase (katA_1)	0
+1465	NCBI_PGAP	OPNKAGHI_01508	Vegetative catalase (katA_2)	0
+1466	NCBI_PGAP	OPNKAGHI_01509	IS1182 family transposase ISSmi2	0
+1467	NCBI_PGAP	OPNKAGHI_01510	1-deoxyxylulose-5-phosphate synthase YajO (yajO)	0
+1468	NCBI_PGAP	OPNKAGHI_01511	HTH-type transcriptional regulator AdhR (adhR_1)	0
+1469	NCBI_PGAP	OPNKAGHI_01512	ISL3 family transposase ISP1	0
+1470	NCBI_PGAP	OPNKAGHI_01513	ISL3 family transposase ISP1	0
+1471	NCBI_PGAP	OPNKAGHI_01514	HTH-type transcriptional regulator HdfR (hdfR_4)	0
+1472	NCBI_PGAP	OPNKAGHI_01515	Aryl-alcohol dehydrogenase (xylB_4)	0
+1474	NCBI_PGAP	OPNKAGHI_01517	putative protease YdeA (ydeA)	0
+1477	NCBI_PGAP	OPNKAGHI_01520	putative HTH-type transcriptional regulator	0
+1481	NCBI_PGAP	OPNKAGHI_01524	Transcriptional activator HlyU (hlyU)	0
+1484	NCBI_PGAP	OPNKAGHI_01527	Biotin transporter BioY (bioY)	0
+1485	NCBI_PGAP	OPNKAGHI_01528	Bifunctional ligase/repressor BirA (birA)	0
+1486	NCBI_PGAP	OPNKAGHI_01529	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI (fabI)	0
+1487	NCBI_PGAP	OPNKAGHI_01530	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (accA)	0
+1488	NCBI_PGAP	OPNKAGHI_01531	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta (accD)	0
+1489	NCBI_PGAP	OPNKAGHI_01532	2-oxoglutarate carboxylase small subunit (cfiB)	0
+1490	NCBI_PGAP	OPNKAGHI_01533	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (fabZ_1)	0
+1491	NCBI_PGAP	OPNKAGHI_01534	Biotin carboxyl carrier protein of acetyl-CoA carboxylase (accB)	0
+1492	NCBI_PGAP	OPNKAGHI_01535	3-oxoacyl-[acyl-carrier-protein] synthase 2 (fabF)	0
+1493	NCBI_PGAP	OPNKAGHI_01536	3-oxoacyl-[acyl-carrier-protein] reductase FabG (fabG)	0
+1494	NCBI_PGAP	OPNKAGHI_01537	Malonyl CoA-acyl carrier protein transacylase (fabD)	0
+1495	NCBI_PGAP	OPNKAGHI_01538	Acyl carrier protein (acpP_1)	0
+1496	NCBI_PGAP	OPNKAGHI_01539	Beta-ketoacyl-[acyl-carrier-protein] synthase III (fabH)	0
+1498	NCBI_PGAP	OPNKAGHI_01541	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ (fabZ_2)	0
+1499	NCBI_PGAP	OPNKAGHI_01542	Large ribosomal subunit protein bL19 (rplS)	0
+1500	NCBI_PGAP	OPNKAGHI_01543	tRNA (guanine-N(1)-)-methyltransferase (trmD)	0
+1501	NCBI_PGAP	OPNKAGHI_01544	Ribosome maturation factor RimM (rimM)	0
+1502	NCBI_PGAP	OPNKAGHI_01545	RNA-binding protein KhpA (khpA)	0
+1503	NCBI_PGAP	OPNKAGHI_01546	Small ribosomal subunit protein bS16 (rpsP)	0
+1507	NCBI_PGAP	OPNKAGHI_01550	Calcium-transporting ATPase 1	0
+1508	NCBI_PGAP	OPNKAGHI_01551	Calcium-transporting ATPase 1	0
+1509	NCBI_PGAP	OPNKAGHI_01552	Signal recognition particle protein (ffh)	0
+1511	NCBI_PGAP	OPNKAGHI_01554	Signal recognition particle receptor FtsY (ftsY)	0
+1512	NCBI_PGAP	OPNKAGHI_01555	Chromosome partition protein Smc (smc_3)	0
+1513	NCBI_PGAP	OPNKAGHI_01556	Chromosome partition protein Smc (smc_4)	0
+1514	NCBI_PGAP	OPNKAGHI_01557	Ribonuclease 3 (rnc)	0
+1515	NCBI_PGAP	OPNKAGHI_01558	Acyl carrier protein (acpP_2)	0
+1516	NCBI_PGAP	OPNKAGHI_01559	Phosphate acyltransferase (plsX)	0
+1517	NCBI_PGAP	OPNKAGHI_01560	ATP-dependent DNA helicase RecG (recG)	0
+1520	NCBI_PGAP	OPNKAGHI_01563	Large ribosomal subunit protein bL28 (rpmB)	0
+1521	NCBI_PGAP	OPNKAGHI_01564	Thiamine pyrophosphokinase (thiN)	0
+1522	NCBI_PGAP	OPNKAGHI_01565	Ribulose-phosphate 3-epimerase (rpe)	0
+1523	NCBI_PGAP	OPNKAGHI_01566	Small ribosomal subunit biogenesis GTPase RsgA (rsgA)	0
+1524	NCBI_PGAP	OPNKAGHI_01567	Serine/threonine-protein kinase PrkC (prkC)	0
+1525	NCBI_PGAP	OPNKAGHI_01568	Serine/threonine phosphatase stp (stp_2)	0
+1526	NCBI_PGAP	OPNKAGHI_01569	Ribosomal RNA small subunit methyltransferase B (rsmB)	0
+1527	NCBI_PGAP	OPNKAGHI_01570	Methionyl-tRNA formyltransferase (fmt)	0
+1528	NCBI_PGAP	OPNKAGHI_01571	Replication restart protein PriA (priA)	0
+1529	NCBI_PGAP	OPNKAGHI_01572	Coenzyme A biosynthesis bifunctional protein CoaBC (coaBC_1)	0
+1530	NCBI_PGAP	OPNKAGHI_01573	Coenzyme A biosynthesis bifunctional protein CoaBC (coaBC_2)	0
+1531	NCBI_PGAP	OPNKAGHI_01574	DNA-directed RNA polymerase subunit omega (rpoZ)	0
+1532	NCBI_PGAP	OPNKAGHI_01575	Guanylate kinase (gmk_2)	0
+1536	NCBI_PGAP	OPNKAGHI_01579	DNA repair protein RecN (recN)	0
+1537	NCBI_PGAP	OPNKAGHI_01580	Arginine repressor (argR_2)	0
+1539	NCBI_PGAP	OPNKAGHI_01582	Farnesyl diphosphate synthase	0
+1540	NCBI_PGAP	OPNKAGHI_01583	Exodeoxyribonuclease 7 small subunit (xseB)	0
+1541	NCBI_PGAP	OPNKAGHI_01584	Exodeoxyribonuclease 7 large subunit (xseA)	0
+1542	NCBI_PGAP	OPNKAGHI_01585	Bifunctional protein FolD protein (folD)	0
+1543	NCBI_PGAP	OPNKAGHI_01586	Transcription antitermination protein NusB (nusB)	0
+1545	NCBI_PGAP	OPNKAGHI_01588	Elongation factor P (efp)	0
+1546	NCBI_PGAP	OPNKAGHI_01589	Aminopeptidase YpdF (ypdF)	0
+1547	NCBI_PGAP	OPNKAGHI_01590	Large ribosomal subunit protein bL27 (rpmA)	0
+1549	NCBI_PGAP	OPNKAGHI_01592	Large ribosomal subunit protein bL21 (rplU)	0
+1554	NCBI_PGAP	OPNKAGHI_01597	Glutamine synthetase (glnA)	0
+1555	NCBI_PGAP	OPNKAGHI_01598	HTH-type transcriptional regulator GlnR (glnR)	0
+1556	NCBI_PGAP	OPNKAGHI_01599	tRNA dimethylallyltransferase (miaA)	0
+1557	NCBI_PGAP	OPNKAGHI_01600	Glycerophosphodiester phosphodiesterase (UgpQ)	0
+1559	NCBI_PGAP	OPNKAGHI_01602	putative protein YibN (yibN)	0
+1560	NCBI_PGAP	OPNKAGHI_01603	Glucokinase (glcK)	0
+1562	NCBI_PGAP	OPNKAGHI_01605	Rhomboid protease GluP (gluP)	0
+1563	NCBI_PGAP	OPNKAGHI_01606	putative protein YqgN (yqgN)	0
+1564	NCBI_PGAP	OPNKAGHI_01607	Large ribosomal subunit protein bL33A (rpmGA)	0
+1565	NCBI_PGAP	OPNKAGHI_01608	ISL3 family transposase ISP1	0
+1566	NCBI_PGAP	OPNKAGHI_01609	ISL3 family transposase ISP1	0
+1567	NCBI_PGAP	OPNKAGHI_01610	Penicillin-binding protein 2B (penA)	0
+1570	NCBI_PGAP	OPNKAGHI_01613	Pyruvate dehydrogenase inhibitor (pdhI)	0
+1571	NCBI_PGAP	OPNKAGHI_01614	Transcription elongation factor GreA (greA_1)	0
+1572	NCBI_PGAP	OPNKAGHI_01615	Uridine kinase (udk)	0
+1573	NCBI_PGAP	OPNKAGHI_01616	Endolytic murein transglycosylase (mltG)	0
+1574	NCBI_PGAP	OPNKAGHI_01617	Phenylalanine--tRNA ligase beta subunit (pheT_1)	0
+1575	NCBI_PGAP	OPNKAGHI_01618	Phenylalanine--tRNA ligase alpha subunit (pheS)	0
+1576	NCBI_PGAP	OPNKAGHI_01619	HTH-type transcriptional regulator YodB (yodB)	0
+1578	NCBI_PGAP	OPNKAGHI_01621	23S rRNA (guanosine(2553)-2'-O)-methyltransferase RlmP (rlmP)	0
+1579	NCBI_PGAP	OPNKAGHI_01622	Acylphosphatase (acyP)	0
+1580	NCBI_PGAP	OPNKAGHI_01623	Membrane protein insertase YidC (yidC)	0
+1581	NCBI_PGAP	OPNKAGHI_01624	IS1182 family transposase ISStin8	0
+1584	NCBI_PGAP	OPNKAGHI_01627	Adaptive-response sensory-kinase SasA (sasA_2)	0
+1585	NCBI_PGAP	OPNKAGHI_01628	Response regulator ArlR (arlR_1)	0
+1586	NCBI_PGAP	OPNKAGHI_01629	Alcohol dehydrogenase 1 (adhA_1)	0
+1588	NCBI_PGAP	OPNKAGHI_01631	HTH-type transcriptional repressor CzrA (czrA_1)	0
+1589	NCBI_PGAP	OPNKAGHI_01632	Sugar phosphatase YbiV (ybiV_2)	0
+1590	NCBI_PGAP	OPNKAGHI_01633	Large ribosomal subunit protein bL32C (rpmF3)	0
+1592	NCBI_PGAP	OPNKAGHI_01635	tRNA(Met) cytidine acetate ligase (tmcAL)	0
+1593	NCBI_PGAP	OPNKAGHI_01636	Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE (ubiE_2)	0
+1594	NCBI_PGAP	OPNKAGHI_01637	Ribosomal silencing factor RsfS (rsfS)	0
+1595	NCBI_PGAP	OPNKAGHI_01638	Bis(5'-nucleosyl)-tetraphosphatase, symmetrical	0
+1596	NCBI_PGAP	OPNKAGHI_01639	Nicotinate-nucleotide adenylyltransferase (nadD)	0
+1597	NCBI_PGAP	OPNKAGHI_01640	RNA-binding protein	0
+1598	NCBI_PGAP	OPNKAGHI_01641	putative protein YqeH (yqeH)	0
+1601	NCBI_PGAP	OPNKAGHI_01644	Large ribosomal subunit protein bL20 (rplT)	0
+1602	NCBI_PGAP	OPNKAGHI_01645	Large ribosomal subunit protein bL35 (rpmI)	0
+1603	NCBI_PGAP	OPNKAGHI_01646	Translation initiation factor IF-3 (infC)	0
+1604	NCBI_PGAP	OPNKAGHI_01647	Threonine--tRNA ligase (thrS)	0
+1605	NCBI_PGAP	OPNKAGHI_01648	Replicative helicase loader DnaI (dnaI)	0
+1606	NCBI_PGAP	OPNKAGHI_01649	Replicative helicase loading/DNA remodeling protein DnaB (dnaB)	0
+1607	NCBI_PGAP	OPNKAGHI_01650	Transcriptional repressor NrdR (nrdR)	0
+1608	NCBI_PGAP	OPNKAGHI_01651	Dephospho-CoA kinase (coaE)	0
+1609	NCBI_PGAP	OPNKAGHI_01652	Formamidopyrimidine-DNA glycosylase (mutM)	0
+1610	NCBI_PGAP	OPNKAGHI_01653	DNA polymerase I (polA)	0
+1611	NCBI_PGAP	OPNKAGHI_01654	Guanine deaminase (guaD)	0
+1612	NCBI_PGAP	OPNKAGHI_01655	Nucleobase transporter PlUacP	0
+1613	NCBI_PGAP	OPNKAGHI_01656	Inner membrane protein YbhL (ybhL)	0
+1614	NCBI_PGAP	OPNKAGHI_01657	Nicotinamide riboside transporter PnuC (pnuC_1)	0
+1615	NCBI_PGAP	OPNKAGHI_01658	UDP-N-acetylmuramate--L-alanine ligase (murC)	0
+1617	NCBI_PGAP	OPNKAGHI_01660	Phenylalanine--tRNA ligase beta subunit (pheT_2)	0
+1618	NCBI_PGAP	OPNKAGHI_01661	Thioredoxin-like protein YtpP (ytpP)	0
+1620	NCBI_PGAP	OPNKAGHI_01663	D-serine/D-alanine/glycine transporter (cycA_1)	0
+1621	NCBI_PGAP	OPNKAGHI_01664	D-serine/D-alanine/glycine transporter (cycA_2)	0
+1622	NCBI_PGAP	OPNKAGHI_01665	Alanine dehydrogenase (ald)	0
+1623	NCBI_PGAP	OPNKAGHI_01666	Putative universal stress protein	0
+1624	NCBI_PGAP	OPNKAGHI_01667	Putative dipeptidase	0
+1625	NCBI_PGAP	OPNKAGHI_01668	ADP-dependent (S)-NAD(P)H-hydrate dehydratase (nnrD)	0
+1628	NCBI_PGAP	OPNKAGHI_01671	Lipid II flippase MurJ (murJ_3)	0
+1632	NCBI_PGAP	OPNKAGHI_01675	Iron(3+)-hydroxamate import ATP-binding protein FhuC (fhuC)	0
+1634	NCBI_PGAP	OPNKAGHI_01677	Leucine--tRNA ligase (leuS)	0
+1635	NCBI_PGAP	OPNKAGHI_01678	Phosphatidylglycerophosphatase B (pgpB)	0
+1636	NCBI_PGAP	OPNKAGHI_01679	tRNA (mnm(5)s(2)U34)-methyltransferase (mnmM)	0
+1638	NCBI_PGAP	OPNKAGHI_01681	Poly-beta-1,6-N-acetyl-D-glucosamine synthase (icaA_1)	0
+1640	NCBI_PGAP	OPNKAGHI_01683	putative cyclic di-GMP phosphodiesterase PdeK (pdeK_1)	0
+1641	NCBI_PGAP	OPNKAGHI_01684	Adapter protein MecA (mecA)	0
+1642	NCBI_PGAP	OPNKAGHI_01685	Global transcriptional regulator Spx (spx_2)	0
+1646	NCBI_PGAP	OPNKAGHI_01710	General stress protein 13 (yugI)	0
+1647	NCBI_PGAP	OPNKAGHI_01711	Putative peptidyl-prolyl cis-trans isomerase	0
+1648	NCBI_PGAP	OPNKAGHI_01712	putative protein YpjQ (ypjQ)	0
+1649	NCBI_PGAP	OPNKAGHI_01713	DedA family protein (dedA_1)	0
+1650	NCBI_PGAP	OPNKAGHI_01714	putative HTH-type transcriptional regulator	0
+1652	NCBI_PGAP	OPNKAGHI_01716	putative oxidoreductase YtbE (ytbE_1)	0
+1653	NCBI_PGAP	OPNKAGHI_01717	(S)-1-Phenylethanol dehydrogenase (ped)	0
+1654	NCBI_PGAP	OPNKAGHI_01718	Branched-chain amino acid permease BcaP (bcaP_4)	0
+1660	NCBI_PGAP	OPNKAGHI_01724	5'-nucleotidase YutF (yutF)	0
+1664	NCBI_PGAP	OPNKAGHI_01728	Methylglyoxal reductase YeaE (yeaE)	0
+1665	NCBI_PGAP	OPNKAGHI_01729	D-serine/D-alanine/glycine transporter (cycA_3)	0
+1666	NCBI_PGAP	OPNKAGHI_01730	Acetate kinase (ackA_2)	0
+1673	NCBI_PGAP	OPNKAGHI_01737	Type IV pilus assembly protein PilC	0
+1674	NCBI_PGAP	OPNKAGHI_01738	Competence protein ComGA (comGA)	0
+1675	NCBI_PGAP	OPNKAGHI_01739	ISL3 family transposase ISP1	0
+1676	NCBI_PGAP	OPNKAGHI_01740	putative transcriptional regulatory protein YebC (yebC)	0
+1677	NCBI_PGAP	OPNKAGHI_01741	Membrane-bound lytic murein transglycosylase F (mltF)	0
+1678	NCBI_PGAP	OPNKAGHI_01742	Arginine transport ATP-binding protein ArtM (artM)	0
+1680	NCBI_PGAP	OPNKAGHI_01744	Catabolite control protein A (ccpA_3)	0
+1681	NCBI_PGAP	OPNKAGHI_01745	Xaa-Pro dipeptidase (pepQ)	0
+1684	NCBI_PGAP	OPNKAGHI_01748	putative MscS family protein YkuT (ykuT)	0
+1685	NCBI_PGAP	OPNKAGHI_01749	Drug efflux pump JefA (jefA)	0
+1688	NCBI_PGAP	OPNKAGHI_01752	Cyclic di-AMP receptor B (darB)	0
+1690	NCBI_PGAP	OPNKAGHI_01754	dITP/XTP pyrophosphatase (rdgB)	0
+1691	NCBI_PGAP	OPNKAGHI_01755	Glutamate racemase (murI)	0
+1693	NCBI_PGAP	OPNKAGHI_01757	Thioredoxin (trxA_1)	0
+1694	NCBI_PGAP	OPNKAGHI_01758	Putative endonuclease MutS2 (mutSB)	0
+1696	NCBI_PGAP	OPNKAGHI_01760	Cell division protein ZapA (zapA)	0
+1698	NCBI_PGAP	OPNKAGHI_01762	Putative pre-16S rRNA nuclease (yrrK)	0
+1700	NCBI_PGAP	OPNKAGHI_01764	Alanine--tRNA ligase (alaS)	0
+1701	NCBI_PGAP	OPNKAGHI_01765	DEAD-box ATP-dependent RNA helicase CshB (cshB_1)	0
+1702	NCBI_PGAP	OPNKAGHI_01766	DEAD-box ATP-dependent RNA helicase CshB (cshB_2)	0
+1703	NCBI_PGAP	OPNKAGHI_01767	putative bifunctional oligoribonuclease and PAP phosphatase NrnA (nrnA)	0
+1704	NCBI_PGAP	OPNKAGHI_01768	DNA polymerase IV (dinB_2)	0
+1706	NCBI_PGAP	OPNKAGHI_01770	Queuine tRNA-ribosyltransferase (tgt)	0
+1707	NCBI_PGAP	OPNKAGHI_01771	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (queA)	0
+1708	NCBI_PGAP	OPNKAGHI_01772	Holliday junction branch migration complex subunit RuvB (ruvB)	0
+1709	NCBI_PGAP	OPNKAGHI_01773	Holliday junction branch migration complex subunit RuvA (ruvA)	0
+1710	NCBI_PGAP	OPNKAGHI_01774	DNA mismatch repair protein MutL (mutL)	0
+1711	NCBI_PGAP	OPNKAGHI_01775	DNA mismatch repair protein MutS (mutS)	0
+1712	NCBI_PGAP	OPNKAGHI_01776	2',3'-cyclic-nucleotide 2'-phosphodiesterase (ymdB)	0
+1713	NCBI_PGAP	OPNKAGHI_01777	Ribonuclease Y (rny_2)	0
+1715	NCBI_PGAP	OPNKAGHI_01779	ISL3 family transposase ISP1	0
+1716	NCBI_PGAP	OPNKAGHI_01780	Protein RecA (recA)	0
+1717	NCBI_PGAP	OPNKAGHI_01781	Putative competence-damage inducible protein (cinA)	0
+1718	NCBI_PGAP	OPNKAGHI_01782	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (pgsA)	0
+1722	NCBI_PGAP	OPNKAGHI_01786	Glutamine-binding periplasmic protein (glnH_2)	0
+1723	NCBI_PGAP	OPNKAGHI_01787	Glutamine transport ATP-binding protein GlnQ (glnQ_2)	0
+1724	NCBI_PGAP	OPNKAGHI_01788	Arginine transport system permease protein ArtQ (artQ)	0
+1725	NCBI_PGAP	OPNKAGHI_01789	Septum site-determining protein MinD (minD)	0
+1726	NCBI_PGAP	OPNKAGHI_01790	septum site-determining protein MinC (minC)	0
+1728	NCBI_PGAP	OPNKAGHI_01792	Cell shape-determining protein MreC (mreC)	0
+1729	NCBI_PGAP	OPNKAGHI_01793	Cell shape-determining protein MreB (mreB)	0
+1731	NCBI_PGAP	OPNKAGHI_01795	Folylpolyglutamate synthase (fpgS)	0
+1732	NCBI_PGAP	OPNKAGHI_01796	Valine--tRNA ligase (valS)	0
+1733	NCBI_PGAP	OPNKAGHI_01797	Thiol peroxidase (tpx)	0
+1734	NCBI_PGAP	OPNKAGHI_01798	putative tRNA sulfurtransferase (thiI)	0
+1735	NCBI_PGAP	OPNKAGHI_01799	Cysteine desulfurase IscS (iscS_2)	0
+1736	NCBI_PGAP	OPNKAGHI_01800	Septation ring formation regulator EzrA (ezrA)	0
+1737	NCBI_PGAP	OPNKAGHI_01801	Free methionine-R-sulfoxide reductase (msrC)	0
+1738	NCBI_PGAP	OPNKAGHI_01802	Small ribosomal subunit protein uS4 (rpsD)	0
+1741	NCBI_PGAP	OPNKAGHI_01805	putative protein YueI (yueI)	0
+1742	NCBI_PGAP	OPNKAGHI_01806	Replication-associated recombination protein A (rarA_2)	0
+1744	NCBI_PGAP	OPNKAGHI_01808	Putative universal stress protein	0
+1748	NCBI_PGAP	OPNKAGHI_01812	D-alanine--D-alanine ligase (ddl)	0
+1751	NCBI_PGAP	OPNKAGHI_01815	Glycine cleavage system H protein (gcvH_3)	0
+1752	NCBI_PGAP	OPNKAGHI_01816	Peptidoglycan glycosyltransferase RodA (rodA)	0
+1754	NCBI_PGAP	OPNKAGHI_01818	Putative membrane protein insertion efficiency factor	0
+1755	NCBI_PGAP	OPNKAGHI_01819	Cell shape-determining protein Mbl (mbl)	0
+1756	NCBI_PGAP	OPNKAGHI_01820	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1 (murA1_1)	0
+1758	NCBI_PGAP	OPNKAGHI_01822	ATP synthase epsilon chain (atpC)	0
+1759	NCBI_PGAP	OPNKAGHI_01823	ATP synthase subunit beta (atpD)	0
+1760	NCBI_PGAP	OPNKAGHI_01824	ATP synthase gamma chain (atpG)	0
+1761	NCBI_PGAP	OPNKAGHI_01825	ATP synthase subunit alpha (atpA)	0
+1762	NCBI_PGAP	OPNKAGHI_01826	ATP synthase subunit delta (atpH)	0
+1763	NCBI_PGAP	OPNKAGHI_01827	ATP synthase subunit b (atpF)	0
+1764	NCBI_PGAP	OPNKAGHI_01828	ATP synthase subunit c (atpE)	0
+1765	NCBI_PGAP	OPNKAGHI_01829	ATP synthase subunit a (atpB)	0
+1766	NCBI_PGAP	OPNKAGHI_01830	Uracil phosphoribosyltransferase (upp)	0
+1767	NCBI_PGAP	OPNKAGHI_01831	Serine hydroxymethyltransferase (glyA)	0
+1768	NCBI_PGAP	OPNKAGHI_01832	Threonylcarbamoyl-AMP synthase (ywlC)	0
+1769	NCBI_PGAP	OPNKAGHI_01833	Release factor glutamine methyltransferase (prmC)	0
+1770	NCBI_PGAP	OPNKAGHI_01834	Peptide chain release factor 1 (prfA)	0
+1771	NCBI_PGAP	OPNKAGHI_01835	Thymidine kinase (tdk)	0
+1772	NCBI_PGAP	OPNKAGHI_01836	Lipid II isoglutaminyl synthase (glutamine-hydrolyzing) subunit MurT (murT)	0
+1773	NCBI_PGAP	OPNKAGHI_01837	Lipid II isoglutaminyl synthase (glutamine-hydrolyzing) subunit GatD (gatD)	0
+1774	NCBI_PGAP	OPNKAGHI_01838	Putative D-alanyl-D-alanine carboxypeptidase (yfeW)	0
+1775	NCBI_PGAP	OPNKAGHI_01839	Fatty acid ABC transporter ATP-binding/permease protein	0
+1776	NCBI_PGAP	OPNKAGHI_01840	putative ABC transporter ATP-binding protein	0
+1777	NCBI_PGAP	OPNKAGHI_01841	putative ABC transporter ATP-binding protein	0
+1781	NCBI_PGAP	OPNKAGHI_01845	putative cyclic di-GMP phosphodiesterase PdeK (pdeK_2)	0
+1782	NCBI_PGAP	OPNKAGHI_01846	Inner membrane protein YbiR (ybiR)	0
+1786	NCBI_PGAP	OPNKAGHI_01852	Glucose-6-phosphate isomerase (pgi)	0
+1787	NCBI_PGAP	OPNKAGHI_01853	putative glucose uptake protein GlcU (glcU)	0
+1788	NCBI_PGAP	OPNKAGHI_01854	Ribosomal RNA large subunit methyltransferase I (rlmI)	0
+1789	NCBI_PGAP	OPNKAGHI_01855	Sensor histidine kinase RcsC (rcsC)	0
+1790	NCBI_PGAP	OPNKAGHI_01856	Transcriptional regulatory protein SrrA (srrA)	0
+1802	NCBI_PGAP	OPNKAGHI_01869	Tyrosine recombinase XerC (xerC_6)	0
+1808	NCBI_PGAP	OPNKAGHI_01875	HTH-type transcriptional activator RhaR (rhaR_5)	0
+1809	NCBI_PGAP	OPNKAGHI_01876	Isoprimeverose transporter (xylP_3)	0
+1810	NCBI_PGAP	OPNKAGHI_01877	Cysteinylglycine-S-conjugate dipeptidase (tpdA)	0
+1811	NCBI_PGAP	OPNKAGHI_01878	Dipeptide-binding protein (dppA_11)	0
+1813	NCBI_PGAP	OPNKAGHI_01880	RNA polymerase sigma factor YlaC (ylaC)	0
+1814	NCBI_PGAP	OPNKAGHI_01881	Fumarate hydratase class II (fumC)	0
+1824	NCBI_PGAP	OPNKAGHI_01891	Guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase (gppA)	0
+1825	NCBI_PGAP	OPNKAGHI_01892	Polyphosphate kinase (ppk)	0
+1826	NCBI_PGAP	OPNKAGHI_01893	Exopolyphosphatase (ppx_1)	0
+1827	NCBI_PGAP	OPNKAGHI_01894	Fe(3+) dicitrate transport ATP-binding protein FecE (fecE)	0
+1828	NCBI_PGAP	OPNKAGHI_01895	putative heme-iron transport system permease protein IsdF (isdF)	0
+1829	NCBI_PGAP	OPNKAGHI_01896	Vitamin B12 import system permease protein BtuC (btuC)	0
+1830	NCBI_PGAP	OPNKAGHI_01897	High-affinity heme uptake system protein IsdE (isdE)	0
+1835	NCBI_PGAP	OPNKAGHI_01902	Vitamin B12 import ATP-binding protein BtuD (btuD_1)	0
+1836	NCBI_PGAP	OPNKAGHI_01903	Copper chaperone CopZ (copZ)	0
+1839	NCBI_PGAP	OPNKAGHI_01906	putative cadmium-transporting ATPase (cadA)	0
+1841	NCBI_PGAP	OPNKAGHI_01908	Glucosamine-6-phosphate deaminase (nagB)	0
+1843	NCBI_PGAP	OPNKAGHI_01910	ISL3 family transposase ISP1	0
+1844	NCBI_PGAP	OPNKAGHI_01911	ISL3 family transposase ISP1	0
+1845	NCBI_PGAP	OPNKAGHI_01912	Glutamine--fructose-6-phosphate aminotransferase [isomerizing] (glmS)	0
+1846	NCBI_PGAP	OPNKAGHI_01913	Phosphoglucosamine mutase (glmM)	0
+1847	NCBI_PGAP	OPNKAGHI_01914	CdaA regulatory protein CdaR (cdaR_1)	0
+1848	NCBI_PGAP	OPNKAGHI_01915	Cyclic di-AMP synthase CdaA (cdaA)	0
+1850	NCBI_PGAP	OPNKAGHI_01917	Sodium, potassium, lithium and rubidium/H(+) antiporter (nhaK_3)	0
+1851	NCBI_PGAP	OPNKAGHI_01918	UDP-N-acetylenolpyruvoylglucosamine reductase (murB_1)	0
+1852	NCBI_PGAP	OPNKAGHI_01919	UDP-N-acetylenolpyruvoylglucosamine reductase (murB_2)	0
+1853	NCBI_PGAP	OPNKAGHI_01920	Exodeoxyribonuclease (exoA)	0
+1854	NCBI_PGAP	OPNKAGHI_01921	DNA polymerase III PolC-type (polC_2)	0
+1855	NCBI_PGAP	OPNKAGHI_01922	L-glyceraldehyde 3-phosphate reductase (gpr_3)	0
+1856	NCBI_PGAP	OPNKAGHI_01923	Mycothiol acetyltransferase (mshD_1)	0
+1857	NCBI_PGAP	OPNKAGHI_01924	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE (tsaE)	0
+1858	NCBI_PGAP	OPNKAGHI_01925	Phosphate acetyltransferase (pta)	0
+1859	NCBI_PGAP	OPNKAGHI_01926	Uracil-DNA glycosylase (ung)	0
+1861	NCBI_PGAP	OPNKAGHI_01928	Glutamine transport ATP-binding protein GlnQ (glnQ_3)	0
+1862	NCBI_PGAP	OPNKAGHI_01929	SsrA-binding protein (smpB)	0
+1863	NCBI_PGAP	OPNKAGHI_01930	Ribonuclease R (rnr)	0
+1864	NCBI_PGAP	OPNKAGHI_01931	Carboxylesterase (est)	0
+1865	NCBI_PGAP	OPNKAGHI_01932	putative protein-export membrane protein SecG (secG)	0
+1866	NCBI_PGAP	OPNKAGHI_01933	H(+)/Cl(-) exchange transporter ClcA (clcA)	0
+1868	NCBI_PGAP	OPNKAGHI_01935	Enolase 1 (eno1)	0
+1869	NCBI_PGAP	OPNKAGHI_01936	Triosephosphate isomerase (tpiA)	0
+1870	NCBI_PGAP	OPNKAGHI_01937	Phosphoglycerate kinase (pgk)	0
+1871	NCBI_PGAP	OPNKAGHI_01938	Glyceraldehyde-3-phosphate dehydrogenase (gap)	0
+1872	NCBI_PGAP	OPNKAGHI_01939	Central glycolytic genes regulator (cggR)	0
+1875	NCBI_PGAP	OPNKAGHI_01944	putative HTH-type transcriptional regulator	0
+1876	NCBI_PGAP	OPNKAGHI_01945	ATP-dependent Clp protease proteolytic subunit (clpP)	0
+1877	NCBI_PGAP	OPNKAGHI_01946	putative cell division protein WhiA (whiA)	0
+1878	NCBI_PGAP	OPNKAGHI_01947	Putative gluconeogenesis factor	0
+1879	NCBI_PGAP	OPNKAGHI_01948	Nucleotide-binding protein YvcJ (yvcJ)	0
+1881	NCBI_PGAP	OPNKAGHI_01950	UvrABC system protein A (uvrA_2)	0
+1882	NCBI_PGAP	OPNKAGHI_01951	UvrABC system protein B (uvrB)	0
+1884	NCBI_PGAP	OPNKAGHI_01953	5'-deoxynucleotidase YfbR (yfbR)	0
+1886	NCBI_PGAP	OPNKAGHI_01955	Thioredoxin reductase (trxB)	0
+1887	NCBI_PGAP	OPNKAGHI_01956	UTP--glucose-1-phosphate uridylyltransferase (gtaB)	0
+1888	NCBI_PGAP	OPNKAGHI_01957	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (gpsA)	0
+1889	NCBI_PGAP	OPNKAGHI_01958	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase (lgt)	0
+1890	NCBI_PGAP	OPNKAGHI_01959	HPr kinase/phosphorylase (hprK)	0
+1893	NCBI_PGAP	OPNKAGHI_01962	Phosphate-specific transport system accessory protein PhoU (phoU)	0
+1894	NCBI_PGAP	OPNKAGHI_01963	Phosphate import ATP-binding protein PstB 3 (pstB3_2)	0
+1895	NCBI_PGAP	OPNKAGHI_01964	Phosphate import ATP-binding protein PstB 3 (pstB3_3)	0
+1897	NCBI_PGAP	OPNKAGHI_01966	Phosphate transport system permease protein PstC 1 (pstC1)	0
+1898	NCBI_PGAP	OPNKAGHI_01967	Phosphate-binding protein PstS 1 (pstS1_2)	0
+1899	NCBI_PGAP	OPNKAGHI_01968	Alkaline phosphatase synthesis sensor protein PhoR (phoR)	0
+1900	NCBI_PGAP	OPNKAGHI_01969	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP (phoP)	0
+1901	NCBI_PGAP	OPNKAGHI_01970	Cell division topological determinant MinJ (minJ)	0
+1903	NCBI_PGAP	OPNKAGHI_01972	Peptide chain release factor 2 (prfB)	0
+1904	NCBI_PGAP	OPNKAGHI_01973	Protein translocase subunit SecA (secA_1)	0
+1905	NCBI_PGAP	OPNKAGHI_01974	Protein translocase subunit SecA (secA_2)	0
+1906	NCBI_PGAP	OPNKAGHI_01975	Ribosome hibernation promotion factor (hpf)	0
+1907	NCBI_PGAP	OPNKAGHI_01976	Competence protein ComFC (comFC)	0
+1908	NCBI_PGAP	OPNKAGHI_01977	Competence protein ComFA (comFA)	0
+1910	NCBI_PGAP	OPNKAGHI_01979	putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (tagO)	0
+1911	NCBI_PGAP	OPNKAGHI_01980	Antiholin-like protein LrgA (lrgA)	0
+1912	NCBI_PGAP	OPNKAGHI_01981	Antiholin-like protein LrgB (lrgB)	0
+1913	NCBI_PGAP	OPNKAGHI_01982	Potassium transporter KimA (kimA)	0
+1914	NCBI_PGAP	OPNKAGHI_01983	IS30 family transposase IS1070	0
+1915	NCBI_PGAP	OPNKAGHI_01984	Chaperonin GroEL (groEL)	0
+1916	NCBI_PGAP	OPNKAGHI_01985	Co-chaperonin GroES (groES)	0
+1917	NCBI_PGAP	OPNKAGHI_01986	Redox-sensing transcriptional repressor Rex (rex)	0
+1918	NCBI_PGAP	OPNKAGHI_01987	putative ATP-binding protein YheS (yheS)	0
+1920	NCBI_PGAP	OPNKAGHI_01989	putative transporter YycB (yycB_2)	0
+1921	NCBI_PGAP	OPNKAGHI_01990	putative transporter YycB (yycB_3)	0
+1922	NCBI_PGAP	OPNKAGHI_01991	tRNA N6-adenosine threonylcarbamoyltransferase (tsaD)	0
+1923	NCBI_PGAP	OPNKAGHI_01992	[Ribosomal protein bS18]-alanine N-acetyltransferase (rimI)	0
+1924	NCBI_PGAP	OPNKAGHI_01993	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB (tsaB)	0
+1926	NCBI_PGAP	OPNKAGHI_01995	Ribosomal RNA small subunit methyltransferase I (rsmI)	0
+1927	NCBI_PGAP	OPNKAGHI_01996	Replication initiation control protein YabA (yabA)	0
+1928	NCBI_PGAP	OPNKAGHI_01997	DNA polymerase III subunit delta' (holB)	0
+1929	NCBI_PGAP	OPNKAGHI_01998	Cyclic di-AMP receptor A (darA)	0
+1930	NCBI_PGAP	OPNKAGHI_01999	Thymidylate kinase (tmk)	0
+1932	NCBI_PGAP	OPNKAGHI_02001	Recombination protein RecR (recR)	0
+1933	NCBI_PGAP	OPNKAGHI_02002	Nucleoid-associated protein	0
+1934	NCBI_PGAP	OPNKAGHI_02003	DNA polymerase III subunit tau (dnaX)	0
+1935	NCBI_PGAP	OPNKAGHI_02004	tRNA-specific adenosine deaminase (tadA_2)	0
+1936	NCBI_PGAP	OPNKAGHI_02005	Ribosomal RNA small subunit methyltransferase C (rsmC)	0
+1937	NCBI_PGAP	OPNKAGHI_02006	Glutaredoxin-like protein NrdH (nrdH)	0
+1938	NCBI_PGAP	OPNKAGHI_02007	Ribonucleoside-diphosphate reductase subunit alpha (nrdE)	0
+1939	NCBI_PGAP	OPNKAGHI_02008	Ribonucleoside-diphosphate reductase subunit beta nrdF2 (nrdF2)	0
+1940	NCBI_PGAP	OPNKAGHI_02009	3-hydroxybutyryl-CoA dehydrogenase	0
+1941	NCBI_PGAP	OPNKAGHI_02010	LOG family protein YvdD (yvdD)	0
+1942	NCBI_PGAP	OPNKAGHI_02011	Phosphatidylglycerol lysyltransferase (mprF)	0
+1943	NCBI_PGAP	OPNKAGHI_02012	Large ribosomal subunit protein bL12 (rplL)	0
+1944	NCBI_PGAP	OPNKAGHI_02013	Large ribosomal subunit protein uL10 (rplJ)	0
+1945	NCBI_PGAP	OPNKAGHI_02014	Large ribosomal subunit protein uL1 (rplA)	0
+1946	NCBI_PGAP	OPNKAGHI_02015	Large ribosomal subunit protein uL11 (rplK)	0
+1947	NCBI_PGAP	OPNKAGHI_02016	Transcription termination/antitermination protein NusG (nusG)	0
+1948	NCBI_PGAP	OPNKAGHI_02017	Protein translocase subunit SecE (secE)	0
+1951	NCBI_PGAP	OPNKAGHI_02020	Putative TrmH family tRNA/rRNA methyltransferase	0
+1952	NCBI_PGAP	OPNKAGHI_02021	Mini-ribonuclease 3 (mrnC)	0
+1953	NCBI_PGAP	OPNKAGHI_02022	Cysteine--tRNA ligase (cysS)	0
+1954	NCBI_PGAP	OPNKAGHI_02023	Glutamate--tRNA ligase (gltX_2)	0
+1955	NCBI_PGAP	OPNKAGHI_02024	putative PIN and TRAM-domain containing protein YacL (yacL)	0
+1956	NCBI_PGAP	OPNKAGHI_02025	DNA repair protein RadA (radA)	0
+1957	NCBI_PGAP	OPNKAGHI_02026	Deoxyuridine 5'-triphosphate nucleotidohydrolase (dut)	0
+1959	NCBI_PGAP	OPNKAGHI_02028	Ribose-5-phosphate isomerase A (rpiA)	0
+1961	NCBI_PGAP	OPNKAGHI_02030	Aminopeptidase C (pepC)	0
+1963	NCBI_PGAP	OPNKAGHI_02032	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_6)	0
+1967	NCBI_PGAP	OPNKAGHI_02036	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU (tagU_3)	0
+1970	NCBI_PGAP	OPNKAGHI_02039	Chromosome partition protein Smc (smc_5)	0
+1972	NCBI_PGAP	OPNKAGHI_02041	putative cyclic di-GMP phosphodiesterase PdeD (pdeD)	0
+1975	NCBI_PGAP	OPNKAGHI_02044	PTS system mannose-specific EIID component (manZ)	0
+1976	NCBI_PGAP	OPNKAGHI_02045	PTS system mannose-specific EIIC component (manY)	0
+1977	NCBI_PGAP	OPNKAGHI_02046	PTS system mannose-specific EIIAB component (manX)	0
+1979	NCBI_PGAP	OPNKAGHI_02048	Pyrophosphatase PpaX (ppaX)	0
+1980	NCBI_PGAP	OPNKAGHI_02049	Multidrug export protein MepA (mepA_3)	0
+1984	NCBI_PGAP	OPNKAGHI_02053	putative hydrolase	0
+1985	NCBI_PGAP	OPNKAGHI_02054	Gamma-resorcylate decarboxylase (graF)	0
+1986	NCBI_PGAP	OPNKAGHI_02056	Homoserine kinase (thrB_2)	0
+1987	NCBI_PGAP	OPNKAGHI_02057	Protein SprT-like protein	0
+1988	NCBI_PGAP	OPNKAGHI_02058	Protein YhgF (yhgF)	0
+1990	NCBI_PGAP	OPNKAGHI_02060	NH(3)-dependent NAD(+) synthetase (nadE)	0
+1991	NCBI_PGAP	OPNKAGHI_02061	Nicotinate phosphoribosyltransferase pncB2 (pncB2)	0
+1992	NCBI_PGAP	OPNKAGHI_02062	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase (tarA)	0
+1993	NCBI_PGAP	OPNKAGHI_02063	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase (tagA)	0
+1994	NCBI_PGAP	OPNKAGHI_02064	Mycothiol acetyltransferase (mshD_2)	0
+1995	NCBI_PGAP	OPNKAGHI_02065	HTH-type transcriptional repressor NagR (nagR_1)	0
+1996	NCBI_PGAP	OPNKAGHI_02066	N-acetylglucosamine-6-phosphate deacetylase (nagA)	0
+1997	NCBI_PGAP	OPNKAGHI_02067	Pyrroline-5-carboxylate reductase (proC)	0
+1999	NCBI_PGAP	OPNKAGHI_02071	Di-/tripeptide transporter (dtpT)	0
+2001	NCBI_PGAP	OPNKAGHI_02080	tRNA-dihydrouridine synthase B (dusB)	0
+2002	NCBI_PGAP	OPNKAGHI_02081	33 kDa chaperonin (hslO)	0
+2003	NCBI_PGAP	OPNKAGHI_02082	ATP-dependent zinc metalloprotease FtsH (ftsH)	0
+2004	NCBI_PGAP	OPNKAGHI_02083	Hypoxanthine-guanine phosphoribosyltransferase (hpt)	0
+2005	NCBI_PGAP	OPNKAGHI_02084	tRNA(Ile)-lysidine synthase (tilS)	0
+2006	NCBI_PGAP	OPNKAGHI_02085	Polyribonucleotide nucleotidyltransferase (pnp)	0
+2008	NCBI_PGAP	OPNKAGHI_02087	RQC P-site tRNA stabilizing factor (rqcP)	0
+2009	NCBI_PGAP	OPNKAGHI_02088	lipid II flippase MurJ (murJ_4)	0
+2010	NCBI_PGAP	OPNKAGHI_02089	Transcription-repair-coupling factor (mfd)	0
+2011	NCBI_PGAP	OPNKAGHI_02090	Peptidyl-tRNA hydrolase (pth)	0
+2012	NCBI_PGAP	OPNKAGHI_02091	L-lactate dehydrogenase (ldh_2)	0
+2016	NCBI_PGAP	OPNKAGHI_02095	Endoribonuclease EndoA (ndoA)	0
+2018	NCBI_PGAP	OPNKAGHI_02097	Alanine racemase (alr)	0
+2019	NCBI_PGAP	OPNKAGHI_02098	Holo-[acyl-carrier-protein] synthase (acpS)	0
+2021	NCBI_PGAP	OPNKAGHI_02100	ATP-dependent RNA helicase CshA (cshA)	0
+2022	NCBI_PGAP	OPNKAGHI_02101	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase (murF)	0
+2024	NCBI_PGAP	OPNKAGHI_02103	Protease HtpX (htpX)	0
+2025	NCBI_PGAP	OPNKAGHI_02104	Protein LemA (lemA)	0
+2026	NCBI_PGAP	OPNKAGHI_02105	Low molecular weight protein-tyrosine-phosphatase YfkJ (yfkJ)	0
+2040	NCBI_PGAP	OPNKAGHI_02119	Sortase A (strA)	0
+2041	NCBI_PGAP	OPNKAGHI_02120	Large ribosomal subunit protein bL31B (rpmE2)	0
+2042	NCBI_PGAP	OPNKAGHI_02121	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (murA1_2)	0
+2044	NCBI_PGAP	OPNKAGHI_02123	Alpha-acetolactate decarboxylase (aldC)	0
+2045	NCBI_PGAP	OPNKAGHI_02124	Acetolactate synthase (alsS)	0
+2051	NCBI_PGAP	OPNKAGHI_02130	CTP synthase (pyrG)	0
+2052	NCBI_PGAP	OPNKAGHI_02131	DNA-directed RNA polymerase subunit delta (rpoE)	0
+2053	NCBI_PGAP	OPNKAGHI_02132	putative beta-barrel protein YwiB (ywiB)	0
+2054	NCBI_PGAP	OPNKAGHI_02133	Octanoyl-[GcvH]:protein N-octanoyltransferase (lipL)	0
+2056	NCBI_PGAP	OPNKAGHI_02135	Sugar phosphatase YidA (yidA_3)	0
+2057	NCBI_PGAP	OPNKAGHI_02136	Xylulose-5-phosphate phosphoketolase (xpkA)	0
+2058	NCBI_PGAP	OPNKAGHI_02137	HTH-type transcriptional regulator GmuR (gmuR)	0
+2060	NCBI_PGAP	OPNKAGHI_02139	ISL3 family transposase ISP1	0
+2061	NCBI_PGAP	OPNKAGHI_02140	ISL3 family transposase ISP1	0
+2063	NCBI_PGAP	OPNKAGHI_02142	Ribose-phosphate pyrophosphokinase (prs_2)	0
+2064	NCBI_PGAP	OPNKAGHI_02143	Bifunctional protein GlmU (glmU)	0
+2065	NCBI_PGAP	OPNKAGHI_02144	Purine biosynthesis transcriptional repressor PurR (purR)	0
+2068	NCBI_PGAP	OPNKAGHI_02147	High-affinity zinc uptake system membrane protein ZnuB (znuB)	0
+2069	NCBI_PGAP	OPNKAGHI_02148	Manganese transport system ATP-binding protein MntB (mntB)	0
+2070	NCBI_PGAP	OPNKAGHI_02149	Manganese-binding lipoprotein MntA (mntA)	0
+2073	NCBI_PGAP	OPNKAGHI_02152	Fluoroquinolones export ATP-binding protein	0
+2077	NCBI_PGAP	OPNKAGHI_02156	Beta-glucoside kinase (bglK_2)	0
+2078	NCBI_PGAP	OPNKAGHI_02157	Aryl-phospho-beta-D-glucosidase BglA (bglA_1)	0
+2079	NCBI_PGAP	OPNKAGHI_02158	Aryl-phospho-beta-D-glucosidase BglA (bglA_2)	0
+2080	NCBI_PGAP	OPNKAGHI_02159	N-acetylmannosamine kinase (nanK)	0
+2081	NCBI_PGAP	OPNKAGHI_02160	Isoprimeverose transporter (xylP_4)	0
+2082	NCBI_PGAP	OPNKAGHI_02161	Alpha-xylosidase XylQ (xylQ)	0
+2084	NCBI_PGAP	OPNKAGHI_02163	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (ispE)	0
+2085	NCBI_PGAP	OPNKAGHI_02164	Protein Veg (veg)	0
+2086	NCBI_PGAP	OPNKAGHI_02165	Ribosomal RNA small subunit methyltransferase A (rsmA)	0
+2087	NCBI_PGAP	OPNKAGHI_02166	Ribonuclease M5 (rnmV)	0
+2088	NCBI_PGAP	OPNKAGHI_02167	D-aminoacyl-tRNA deacylase (dtd3)	0
+2089	NCBI_PGAP	OPNKAGHI_02168	Methionine--tRNA ligase (metG_1)	0
+2090	NCBI_PGAP	OPNKAGHI_02169	Methionine--tRNA ligase (metG_2)	0
+2093	NCBI_PGAP	OPNKAGHI_02172	NAD-dependent protein deacetylase (cobB)	0
+2095	NCBI_PGAP	OPNKAGHI_02174	3-hydroxy-3-methylglutaryl-coenzyme A reductase (mvaA)	0
+2096	NCBI_PGAP	OPNKAGHI_02175	Exopolyphosphatase (ppx_2)	0
+2097	NCBI_PGAP	OPNKAGHI_02176	Tryptophan--tRNA ligase 2 (trpS2)	0
+2098	NCBI_PGAP	OPNKAGHI_02177	DNA helicase IV (helD_2)	0
+2101	NCBI_PGAP	OPNKAGHI_02180	HTH-type transcriptional regulator KdgR (kdgR_1)	0
+2102	NCBI_PGAP	OPNKAGHI_02181	3-hexulose-6-phosphate isomerase (hxlB)	0
+2103	NCBI_PGAP	OPNKAGHI_02182	3-hexulose-6-phosphate synthase (rmpA)	0
+2104	NCBI_PGAP	OPNKAGHI_02183	2-dehydro-3-deoxygluconokinase (kdgK_1)	0
+2108	NCBI_PGAP	OPNKAGHI_02187	Na(+)/H(+) antiporter (napA_1)	0
+2111	NCBI_PGAP	OPNKAGHI_02190	Dihydrolipoyl dehydrogenase (pdhD_3)	0
+2112	NCBI_PGAP	OPNKAGHI_02191	Glutathione amide reductase (garB)	0
+2117	NCBI_PGAP	OPNKAGHI_02196	Isopentenyl-diphosphate Delta-isomerase (idi)	0
+2118	NCBI_PGAP	OPNKAGHI_02201	Tyrosine--tRNA ligase (tyrS)	0
+2119	NCBI_PGAP	OPNKAGHI_02202	Divalent metal cation transporter MntH (mntH_1)	0
+2125	NCBI_PGAP	OPNKAGHI_02208	Allantoin permease (pucI)	0
+2129	NCBI_PGAP	OPNKAGHI_02212	Glycerate 3-kinase (glxK)	0
+2131	NCBI_PGAP	OPNKAGHI_02214	Carbohydrate diacid regulator (cdaR_2)	0
+2133	NCBI_PGAP	OPNKAGHI_02216	ABC transporter ATP-binding protein YtrB (ytrB_2)	0
+2134	NCBI_PGAP	OPNKAGHI_02217	HTH-type transcriptional repressor YtrA (ytrA)	0
+2140	NCBI_PGAP	OPNKAGHI_02223	Non-specific ribonucleoside hydrolase RihC (rihC_2)	0
+2142	NCBI_PGAP	OPNKAGHI_02225	putative ATP-binding protein YbiT (ybiT)	0
+2143	NCBI_PGAP	OPNKAGHI_02226	HTH-type transcriptional activator RhaS (rhaS)	0
+2144	NCBI_PGAP	OPNKAGHI_02227	Quinolone resistance protein NorA (norA)	0
+2145	NCBI_PGAP	OPNKAGHI_02228	HTH-type transcriptional regulator CysL (cysL)	0
+2148	NCBI_PGAP	OPNKAGHI_02231	HTH-type transcriptional repressor CzrA (czrA_2)	0
+2149	NCBI_PGAP	OPNKAGHI_02232	Multicopper oxidase mco (mco_1)	0
+2151	NCBI_PGAP	OPNKAGHI_02234	Zinc-transporting ATPase (zosA)	0
+2156	NCBI_PGAP	OPNKAGHI_02239	ABC transporter permease protein YxdM (yxdM)	0
+2157	NCBI_PGAP	OPNKAGHI_02240	Bacitracin export ATP-binding protein BceA (bceA)	0
+2158	NCBI_PGAP	OPNKAGHI_02241	6-dehydroglucose reductase (smoB)	0
+2159	NCBI_PGAP	OPNKAGHI_02242	Inner membrane transport protein YdhP (ydhP)	0
+2160	NCBI_PGAP	OPNKAGHI_02243	putative HTH-type transcriptional regulator YtcD (ytcD_2)	0
+2164	NCBI_PGAP	OPNKAGHI_02247	Teichoic acid poly(glycerol phosphate) polymerase (tagF)	0
+2165	NCBI_PGAP	OPNKAGHI_02248	Putative HTH-type transcriptional regulator YwnA (ywnA_3)	0
+2166	NCBI_PGAP	OPNKAGHI_02249	Quinone oxidoreductase 2 (qorB_2)	0
+2167	NCBI_PGAP	OPNKAGHI_02250	3beta-hydroxysteroid dehydrogenase 2	0
+2168	NCBI_PGAP	OPNKAGHI_02251	3alpha-hydroxysteroid dehydrogenase (baiA)	0
+2174	NCBI_PGAP	OPNKAGHI_02257	Global transcriptional regulator Spx (spx_3)	0
+2175	NCBI_PGAP	OPNKAGHI_02258	IS30 family transposase IS1070	0
+2178	NCBI_PGAP	OPNKAGHI_02261	Sugar phosphatase YbiV (ybiV_3)	0
+2180	NCBI_PGAP	OPNKAGHI_02263	Maltose epimerase	0
+2181	NCBI_PGAP	OPNKAGHI_02264	Small ribosomal subunit protein uS14A (rpsN2)	0
+2183	NCBI_PGAP	OPNKAGHI_02266	Maltose phosphorylase (malP)	0
+2185	NCBI_PGAP	OPNKAGHI_02268	HTH-type transcriptional regulator MalR (malR_2)	0
+2186	NCBI_PGAP	OPNKAGHI_02269	Adaptive-response sensory-kinase SasA (sasA_3)	0
+2187	NCBI_PGAP	OPNKAGHI_02270	Response regulator ArlR (arlR_2)	0
+2190	NCBI_PGAP	OPNKAGHI_02273	Na(+)/H(+) antiporter (napA_2)	0
+2192	NCBI_PGAP	OPNKAGHI_02275	GTP pyrophosphokinase YwaC (ywaC)	0
+2193	NCBI_PGAP	OPNKAGHI_02276	Staphyloferrin B transporter (sbnD_1)	0
+2194	NCBI_PGAP	OPNKAGHI_02277	NADP-dependent (R)-specific alcohol dehydrogenase (adh_2)	0
+2197	NCBI_PGAP	OPNKAGHI_02280	HTH-type transcriptional regulator CatM (catM)	0
+2201	NCBI_PGAP	OPNKAGHI_02284	S-ribosylhomocysteine lyase (luxS)	0
+2202	NCBI_PGAP	OPNKAGHI_02285	putative carboxylic ester hydrolase LipM (lipM)	0
+2204	NCBI_PGAP	OPNKAGHI_02287	Fluoride-specific ion channel FluC 2 (fluC2)	0
+2205	NCBI_PGAP	OPNKAGHI_02288	Fluoride-specific ion channel FluC 1 (fluC1)	0
+2207	NCBI_PGAP	OPNKAGHI_02290	Thioredoxin (trxA_2)	0
+2208	NCBI_PGAP	OPNKAGHI_02291	NADH oxidase (nox_2)	0
+2209	NCBI_PGAP	OPNKAGHI_02292	NADH oxidase (nox_3)	0
+2210	NCBI_PGAP	OPNKAGHI_02293	Protein DegV (degV_4)	0
+2211	NCBI_PGAP	OPNKAGHI_02294	Divalent metal cation transporter MntH (mntH_2)	0
+2212	NCBI_PGAP	OPNKAGHI_02295	Divalent metal cation transporter MntH (mntH_3)	0
+2213	NCBI_PGAP	OPNKAGHI_02296	NADP-dependent (R)-specific alcohol dehydrogenase (adh_3)	0
+2215	NCBI_PGAP	OPNKAGHI_02298	2-dehydro-3-deoxy-phosphogluconate aldolase (kdgA)	0
+2216	NCBI_PGAP	OPNKAGHI_02299	2-dehydro-3-deoxygluconokinase (kdgK_2)	0
+2217	NCBI_PGAP	OPNKAGHI_02300	2-keto-3-deoxygluconate permease (kdgT)	0
+2218	NCBI_PGAP	OPNKAGHI_02301	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase (kduD_1)	0
+2219	NCBI_PGAP	OPNKAGHI_02302	4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase 1 (kduI1_1)	0
+2220	NCBI_PGAP	OPNKAGHI_02303	4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase (kduI)	0
+2222	NCBI_PGAP	OPNKAGHI_02305	HTH-type transcriptional regulator KdgR (kdgR_2)	0
+2223	NCBI_PGAP	OPNKAGHI_02306	Succinate-semialdehyde dehydrogenase [NADP(+)] 1 (gabD1)	0
+2225	NCBI_PGAP	OPNKAGHI_02308	Methylated-DNA--protein-cysteine methyltransferase (ogt)	0
+2226	NCBI_PGAP	OPNKAGHI_02309	Type II NADH:quinone oxidoreductase	0
+2227	NCBI_PGAP	OPNKAGHI_02310	putative sugar epimerase YhfK (yhfK_3)	0
+2229	NCBI_PGAP	OPNKAGHI_02312	Transcriptional regulatory protein TrcR (trcR)	0
+2230	NCBI_PGAP	OPNKAGHI_02313	Adaptive-response sensory-kinase SasA (sasA_4)	0
+2233	NCBI_PGAP	OPNKAGHI_02316	Pyruvate oxidase (pox5)	0
+2235	NCBI_PGAP	OPNKAGHI_02318	Nicotinamide riboside transporter PnuC (pnuC_2)	0
+2237	NCBI_PGAP	OPNKAGHI_02320	Oligo-1,6-glucosidase (malL_2)	0
+2238	NCBI_PGAP	OPNKAGHI_02321	putative ABC transporter ATP-binding protein	0
+2243	NCBI_PGAP	OPNKAGHI_02326	putative glycosyltransferase YkoT (ykoT_1)	0
+2246	NCBI_PGAP	OPNKAGHI_02329	Cystathionine beta-lyase PatB (patB)	0
+2247	NCBI_PGAP	OPNKAGHI_02330	Dye-decolorizing peroxidase (dyp)	0
+2248	NCBI_PGAP	OPNKAGHI_02331	Staphyloferrin B transporter (sbnD_2)	0
+2250	NCBI_PGAP	OPNKAGHI_02333	Carnitine transport ATP-binding protein OpuCA (opuCA)	0
+2251	NCBI_PGAP	OPNKAGHI_02334	Carnitine transport permease protein OpuCB (opuCB)	0
+2252	NCBI_PGAP	OPNKAGHI_02335	Glycine betaine/carnitine/choline-binding protein OpuCC (opuCC)	0
+2253	NCBI_PGAP	OPNKAGHI_02336	Glycine betaine/carnitine/choline transport system permease protein OpuCD (opuCD)	0
+2257	NCBI_PGAP	OPNKAGHI_02340	UvrABC system protein A (uvrA_3)	0
+2258	NCBI_PGAP	OPNKAGHI_02341	UvrABC system protein A (uvrA_4)	0
+2260	NCBI_PGAP	OPNKAGHI_02343	Inner membrane protein YagU (yagU)	0
+2261	NCBI_PGAP	OPNKAGHI_02344	Isoprimeverose transporter (xylP_5)	0
+2264	NCBI_PGAP	OPNKAGHI_02347	Cytidine deaminase (cdd)	0
+2265	NCBI_PGAP	OPNKAGHI_02348	Signal peptidase IB (spsB_1)	0
+2266	NCBI_PGAP	OPNKAGHI_02349	Linoleate hydratase (cla-hy)	0
+2268	NCBI_PGAP	OPNKAGHI_02351	O-acetyltransferase OatA (oatA_1)	0
+2269	NCBI_PGAP	OPNKAGHI_02352	Peptidoglycan O-acetyltransferase OatA (oatA_2)	0
+2271	NCBI_PGAP	OPNKAGHI_02354	Adenosine deaminase (add)	0
+2272	NCBI_PGAP	OPNKAGHI_02355	Tyrosine recombinase XerC (xerC_7)	0
+2273	NCBI_PGAP	OPNKAGHI_02356	Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase (icaB_1)	0
+2276	NCBI_PGAP	OPNKAGHI_02359	putative copper-transporting ATPase PacS (pacS)	0
+2277	NCBI_PGAP	OPNKAGHI_02360	putative oxidoreductase YtbE (ytbE_2)	0
+2279	NCBI_PGAP	OPNKAGHI_02362	Transcriptional repressor CopY (copY)	0
+2280	NCBI_PGAP	OPNKAGHI_02363	Copper-exporting P-type ATPase B (copB)	0
+2281	NCBI_PGAP	OPNKAGHI_02364	putative inner membrane transporter YicL (yicL_2)	0
+2283	NCBI_PGAP	OPNKAGHI_02366	Maltose O-acetyltransferase (maa_4)	0
+2285	NCBI_PGAP	OPNKAGHI_02368	Dipeptidase A (pepDA_5)	0
+2291	NCBI_PGAP	OPNKAGHI_02374	putative cation-transporting ATPase F (ctpF_1)	0
+2293	NCBI_PGAP	OPNKAGHI_02376	putative cation-transporting ATPase F (ctpF_2)	0
+2298	NCBI_PGAP	OPNKAGHI_02381	putative ergothioneine transporter EgtUBC (egtUBC)	0
+2299	NCBI_PGAP	OPNKAGHI_02382	Vitamin B12 import ATP-binding protein BtuD (btuD_2)	0
+2301	NCBI_PGAP	OPNKAGHI_02384	Alcohol dehydrogenase 1 (adhA_2)	0
+2302	NCBI_PGAP	OPNKAGHI_02385	putative succinyl-diaminopimelate desuccinylase (dapE_2)	0
+2306	NCBI_PGAP	OPNKAGHI_02389	Threonine/serine transporter ThrP (thrP)	0
+2308	NCBI_PGAP	OPNKAGHI_02391	Flavodoxin	0
+2309	NCBI_PGAP	OPNKAGHI_02392	Enoyl-[acyl-carrier-protein] reductase [NADH] (fabV_1)	0
+2310	NCBI_PGAP	OPNKAGHI_02393	Enoyl-[acyl-carrier-protein] reductase [NADH] (fabV_2)	0
+2311	NCBI_PGAP	OPNKAGHI_02394	putative tRNA-dihydrouridine synthase (dus)	0
+2315	NCBI_PGAP	OPNKAGHI_02398	Triuret hydrolase TrtA (trtA)	0
+2318	NCBI_PGAP	OPNKAGHI_02401	Putative aliphatic sulfonates transport permease protein SsuC (ssuC)	0
+2319	NCBI_PGAP	OPNKAGHI_02402	Aliphatic sulfonates import ATP-binding protein SsuB (ssuB)	0
+2321	NCBI_PGAP	OPNKAGHI_02404	Glycerol kinase (glpK_2)	0
+2322	NCBI_PGAP	OPNKAGHI_02405	Glycerol kinase (glpK_3)	0
+2323	NCBI_PGAP	OPNKAGHI_02406	Endonuclease III (nth_2)	0
+2325	NCBI_PGAP	OPNKAGHI_02408	Putative glutamine amidotransferase	0
+2327	NCBI_PGAP	OPNKAGHI_02410	Kumamolisin-As (scpA_2)	0
+2328	NCBI_PGAP	OPNKAGHI_02411	Monoterpene epsilon-lactone hydrolase (mlhB)	0
+2329	NCBI_PGAP	OPNKAGHI_02412	Triple specificity protein phosphatase PtpB (ptpB_2)	0
+2330	NCBI_PGAP	OPNKAGHI_02413	2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase (menH_3)	0
+2331	NCBI_PGAP	OPNKAGHI_02414	Fatty acid metabolism regulator protein (fadR)	0
+2333	NCBI_PGAP	OPNKAGHI_02416	Adenylosuccinate lyase (purB)	0
+2334	NCBI_PGAP	OPNKAGHI_02417	Adenylosuccinate synthetase (purA)	0
+2335	NCBI_PGAP	OPNKAGHI_02418	GMP reductase (guaC)	0
+2336	NCBI_PGAP	OPNKAGHI_02419	Divalent metal cation transporter MntH (mntH_4)	0
+2337	NCBI_PGAP	OPNKAGHI_02420	Putative universal stress protein	0
+2353	NCBI_PGAP	OPNKAGHI_02436	Protein ElaA (elaA_2)	0
+2354	NCBI_PGAP	OPNKAGHI_02437	Negative transcriptional regulator PadR (padR)	0
+2355	NCBI_PGAP	OPNKAGHI_02438	Phenolic acid decarboxylase PadC (padC)	0
+2360	NCBI_PGAP	OPNKAGHI_02443	Oxygen sensor protein DosP (dosP)	0
+2364	NCBI_PGAP	OPNKAGHI_02447	Transcriptional regulatory protein DcuR (dcuR)	0
+2365	NCBI_PGAP	OPNKAGHI_02448	Sensor histidine kinase DcuS (dcuS)	0
+2366	NCBI_PGAP	OPNKAGHI_02449	(R)-2-hydroxyglutarate dehydrogenase (hgdH)	0
+2368	NCBI_PGAP	OPNKAGHI_02451	Na(+)/H(+) antiporter NhaC (nhaC)	0
+2369	NCBI_PGAP	OPNKAGHI_02452	IS30 family transposase ISSlu1	0
+2372	NCBI_PGAP	OPNKAGHI_02455	Morphine 6-dehydrogenase (morA_2)	0
+2373	NCBI_PGAP	OPNKAGHI_02456	Aldo-keto reductase/MSMEI_2347	0
+2376	NCBI_PGAP	OPNKAGHI_02459	putative succinyl-diaminopimelate desuccinylase (dapE_3)	0
+2378	NCBI_PGAP	OPNKAGHI_02461	Putative universal stress protein	0
+2380	NCBI_PGAP	OPNKAGHI_02463	Intracellular iron chaperone frataxin (fra)	0
+2381	NCBI_PGAP	OPNKAGHI_02464	Diacetyl reductase [(S)-acetoin forming] (butA)	0
+2382	NCBI_PGAP	OPNKAGHI_02465	D-xylose transporter (xylT_3)	0
+2383	NCBI_PGAP	OPNKAGHI_02466	Xylulose kinase (xylB_5)	0
+2384	NCBI_PGAP	OPNKAGHI_02467	Xylose isomerase (xylA)	0
+2389	NCBI_PGAP	OPNKAGHI_02472	Lipoate-protein ligase LplJ (lplJ_2)	0
+2391	NCBI_PGAP	OPNKAGHI_02474	Oligopeptide transport ATP-binding protein OppD (oppD_1)	0
+2392	NCBI_PGAP	OPNKAGHI_02475	Oligopeptide transport ATP-binding protein OppD (oppD_2)	0
+2394	NCBI_PGAP	OPNKAGHI_02477	Oligopeptide transport system permease protein OppB (oppB)	0
+2395	NCBI_PGAP	OPNKAGHI_02478	Oligopeptide transport system permease protein OppC (oppC)	0
+2396	NCBI_PGAP	OPNKAGHI_02479	Oligopeptide-binding protein OppA (oppA)	0
+2398	NCBI_PGAP	OPNKAGHI_02481	Multidrug resistance protein Stp (stp_3)	0
+2400	NCBI_PGAP	OPNKAGHI_02483	Manganese efflux system protein MneS (mneS_2)	0
+2401	NCBI_PGAP	OPNKAGHI_02484	Putative universal stress protein	0
+2402	NCBI_PGAP	OPNKAGHI_02485	Ribosomal large subunit pseudouridine synthase D (rluD_3)	0
+2404	NCBI_PGAP	OPNKAGHI_02487	NADP-dependent (R)-specific alcohol dehydrogenase (adh_4)	0
+2407	NCBI_PGAP	OPNKAGHI_02490	Accessory gene regulator A (agrA)	0
+2409	NCBI_PGAP	OPNKAGHI_02492	Transcription elongation factor GreA (greA_2)	0
+2411	NCBI_PGAP	OPNKAGHI_02494	HTH-type transcriptional repressor NagR (nagR_2)	0
+2417	NCBI_PGAP	OPNKAGHI_02500	putative transport protein HsrA (hsrA)	0
+2420	NCBI_PGAP	OPNKAGHI_02503	Uronate isomerase (uxaC_1)	0
+2421	NCBI_PGAP	OPNKAGHI_02504	Tagaturonate/fructuronate epimerase (uxaE)	0
+2422	NCBI_PGAP	OPNKAGHI_02505	putative symporter YjmB (yjmB_1)	0
+2423	NCBI_PGAP	OPNKAGHI_02506	putative HTH-type transcriptional repressor ExuR (exuR)	0
+2424	NCBI_PGAP	OPNKAGHI_02507	Mannonate dehydratase (uxuA_1)	0
+2425	NCBI_PGAP	OPNKAGHI_02508	HTH-type transcriptional repressor RspR (rspR)	0
+2426	NCBI_PGAP	OPNKAGHI_02509	6-phosphogluconate dehydrogenase, NAD(+)-dependent, decarboxylating	0
+2427	NCBI_PGAP	OPNKAGHI_02510	Xylulose kinase (xylB_6)	0
+2428	NCBI_PGAP	OPNKAGHI_02511	Hydroxypyruvate reductase	0
+2429	NCBI_PGAP	OPNKAGHI_02512	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase (gpmA_7)	0
+2430	NCBI_PGAP	OPNKAGHI_02513	Protein LacX, plasmid (lacX_2)	0
+2431	NCBI_PGAP	OPNKAGHI_02514	D-mannonate oxidoreductase (uxuB)	0
+2432	NCBI_PGAP	OPNKAGHI_02515	Beta-glucuronidase (bglR)	0
+2433	NCBI_PGAP	OPNKAGHI_02516	Oligosaccharide 4-alpha-D-glucosyltransferase	0
+2434	NCBI_PGAP	OPNKAGHI_02517	Glucuronide carrier protein (uidB)	0
+2435	NCBI_PGAP	OPNKAGHI_02518	Uronate isomerase (uxaC_2)	0
+2438	NCBI_PGAP	OPNKAGHI_02521	putative protein YedJ (yedJ)	0
+2439	NCBI_PGAP	OPNKAGHI_02522	Multidrug efflux system ATP-binding protein	0
+2440	NCBI_PGAP	OPNKAGHI_02523	Multidrug efflux system permease protein	0
+2442	NCBI_PGAP	OPNKAGHI_02525	Acetate kinase (ackA_3)	0
+2443	NCBI_PGAP	OPNKAGHI_02526	2-dehydro-3-deoxygluconokinase (kdgK_3)	0
+2444	NCBI_PGAP	OPNKAGHI_02527	4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase 1 (kduI1_2)	0
+2449	NCBI_PGAP	OPNKAGHI_02532	Melibiose permease (melB)	0
+2450	NCBI_PGAP	OPNKAGHI_02533	Unsaturated rhamnogalacturonyl hydrolase YteR (yteR)	0
+2455	NCBI_PGAP	OPNKAGHI_02538	Aldehyde-alcohol dehydrogenase (adhE)	0
+2460	NCBI_PGAP	OPNKAGHI_02543	Calcium-transporting ATPase CtpE (ctpE)	0
+2462	NCBI_PGAP	OPNKAGHI_02545	Glyoxal reductase (yvgN_2)	0
+2463	NCBI_PGAP	OPNKAGHI_02546	Inner membrane transporter YjeM (yjeM_3)	0
+2464	NCBI_PGAP	OPNKAGHI_02547	Inner membrane transporter YjeM (yjeM_4)	0
+2465	NCBI_PGAP	OPNKAGHI_02548	Acid shock protein	0
+2468	NCBI_PGAP	OPNKAGHI_02551	HTH-type transcriptional regulator KdgR (kdgR_3)	0
+2469	NCBI_PGAP	OPNKAGHI_02552	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase (kduD_2)	0
+2471	NCBI_PGAP	OPNKAGHI_02554	Fatty acid resistance protein FarB (farB)	0
+2472	NCBI_PGAP	OPNKAGHI_02555	Ribosome protection protein VmlR (vmlR_2)	0
+2473	NCBI_PGAP	OPNKAGHI_02556	Putative NrdI-like protein	0
+2474	NCBI_PGAP	OPNKAGHI_02557	FMN reductase (NADPH) (nfrA1)	0
+2475	NCBI_PGAP	OPNKAGHI_02558	Phosphoglycerate transporter protein (pgtP)	0
+2478	NCBI_PGAP	OPNKAGHI_02561	Pyridoxine 4-dehydrogenase (pdxI)	0
+2479	NCBI_PGAP	OPNKAGHI_02562	Coniferyl aldehyde dehydrogenase (calB_1)	0
+2480	NCBI_PGAP	OPNKAGHI_02563	Coniferyl aldehyde dehydrogenase (calB_2)	0
+2488	NCBI_PGAP	OPNKAGHI_02571	3-alpha-(or 20-beta)-hydroxysteroid dehydrogenase (fabG3)	0
+2492	NCBI_PGAP	OPNKAGHI_02575	Haloalkane dehalogenase (dhmA)	0
+2494	NCBI_PGAP	OPNKAGHI_02577	Alcohol dehydrogenase (adh_5)	0
+2496	NCBI_PGAP	OPNKAGHI_02579	HTH-type transcriptional regulator AdhR (adhR_2)	0
+2501	NCBI_PGAP	OPNKAGHI_02584	HTH-type transcriptional regulator CueR (cueR)	0
+2504	NCBI_PGAP	OPNKAGHI_02587	Beta-galactosidase small subunit (lacM)	0
+2505	NCBI_PGAP	OPNKAGHI_02588	Beta-galactosidase large subunit (lacL)	0
+2506	NCBI_PGAP	OPNKAGHI_02589	Putative HTH-type transcriptional regulator YwnA (ywnA_4)	0
+2507	NCBI_PGAP	OPNKAGHI_02590	Quinone oxidoreductase 2 (qorB_3)	0
+2509	NCBI_PGAP	OPNKAGHI_02592	HTH-type transcriptional activator RhaR (rhaR_6)	0
+2511	NCBI_PGAP	OPNKAGHI_02594	ATP-dependent helicase/nuclease subunit A (addA)	0
+2512	NCBI_PGAP	OPNKAGHI_02595	ATP-dependent helicase/deoxyribonuclease subunit B (addB)	0
+2513	NCBI_PGAP	OPNKAGHI_02596	putative succinyl-diaminopimelate desuccinylase (dapE_4)	0
+2517	NCBI_PGAP	OPNKAGHI_02600	Aldo-keto reductase IolS (iolS_2)	0
+2518	NCBI_PGAP	OPNKAGHI_02601	Guanine/hypoxanthine permease PbuG (pbuG)	0
+2522	NCBI_PGAP	OPNKAGHI_02605	IS1182 family transposase ISStin8	0
+2524	NCBI_PGAP	OPNKAGHI_02607	Daunorubicin resistance ATP-binding protein DrrA1 (drrA1)	0
+2525	NCBI_PGAP	OPNKAGHI_02608	Daunorubicin resistance ABC transporter permease protein DrrB1 (drrB1)	0
+2526	NCBI_PGAP	OPNKAGHI_02609	HTH-type transcriptional regulator CynR (cynR_2)	0
+2527	NCBI_PGAP	OPNKAGHI_02610	putative membrane protein YdfK (ydfK)	0
+2528	NCBI_PGAP	OPNKAGHI_02611	1,4-dihydroxy-2-naphthoate octaprenyltransferase (menA_3)	0
+2530	NCBI_PGAP	OPNKAGHI_02613	Queuosine precursor transporter QueT (queT)	0
+2536	NCBI_PGAP	OPNKAGHI_02619	Beta-xylosidase (xynB_1)	0
+2537	NCBI_PGAP	OPNKAGHI_02620	Isoprimeverose transporter (xylP_6)	0
+2538	NCBI_PGAP	OPNKAGHI_02621	HTH-type transcriptional regulator ExsA (exsA)	0
+2539	NCBI_PGAP	OPNKAGHI_02622	IS30 family transposase IS1070	0
+2541	NCBI_PGAP	OPNKAGHI_02624	Major cardiolipin synthase ClsA (clsA)	0
+2547	NCBI_PGAP	OPNKAGHI_02630	Mannonate dehydratase (uxuA_2)	0
+2548	NCBI_PGAP	OPNKAGHI_02631	Beta-xylosidase (xynB_2)	0
+2550	NCBI_PGAP	OPNKAGHI_02633	putative symporter YjmB (yjmB_2)	0
+2551	NCBI_PGAP	OPNKAGHI_02634	Xylan alpha-(1->2)-glucuronosidase (aguA_3)	0
+2554	NCBI_PGAP	OPNKAGHI_02637	putative phosphatase IndB (indB)	0
+2555	NCBI_PGAP	OPNKAGHI_02638	Aminopeptidase E (pepE)	0
+2557	NCBI_PGAP	OPNKAGHI_02640	Signal peptidase IB (spsB_2)	0
+2558	NCBI_PGAP	OPNKAGHI_02641	Bicyclomycin resistance protein (bcr)	0
+2564	NCBI_PGAP	OPNKAGHI_02647	Branched-chain amino acid permease BrnQ (brnQ_2)	0
+2565	NCBI_PGAP	OPNKAGHI_02648	Branched-chain amino acid permease BrnQ (brnQ_3)	0
+2567	NCBI_PGAP	OPNKAGHI_02650	Pyrimidine 5'-nucleotidase PynA (pynA)	0
+2570	NCBI_PGAP	OPNKAGHI_02653	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG (mnmG)	0
+2571	NCBI_PGAP	OPNKAGHI_02654	tRNA modification GTPase MnmE (mnmE)	0
+2572	NCBI_PGAP	OPNKAGHI_02655	RNA-binding protein KhpB (khpB)	0
+2573	NCBI_PGAP	OPNKAGHI_02656	Membrane protein insertase YidC 2 (yidC2)	0
+2574	NCBI_PGAP	OPNKAGHI_02657	Ribonuclease P protein component (rnpA)	0
+2575	NCBI_PGAP	OPNKAGHI_02658	Large ribosomal subunit protein bL34 (rpmH)	0
+2578	NCBI_PGAP	OPNKAGHI_02661	IS30 family transposase IS1070	0
+2579	NCBI_PGAP	OPNKAGHI_02662	Serine recombinase PinR (pinR)	0
+2580	NCBI_PGAP	OPNKAGHI_02663	Low affinity potassium transport system protein Kup (kup_2)	0
+2581	NCBI_PGAP	OPNKAGHI_02664	Transcriptional regulatory protein KdpE (kdpE)	0
+2582	NCBI_PGAP	OPNKAGHI_02665	Sensor histidine kinase KdpD (kdpD)	0
+2583	NCBI_PGAP	OPNKAGHI_02666	IS30 family transposase ISLpl1	0
+2584	NCBI_PGAP	OPNKAGHI_02667	Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase (icaB_2)	0
+2586	NCBI_PGAP	OPNKAGHI_02669	Poly-beta-1,6-N-acetyl-D-glucosamine synthase (icaA_2)	0
+2588	NCBI_PGAP	OPNKAGHI_02671	Poly(ribitol-phosphate) alpha-N-acetylglucosaminyltransferase (tarM)	0
+2589	NCBI_PGAP	OPNKAGHI_02672	IS3 family transposase IS1163	0
+2593	NCBI_PGAP	OPNKAGHI_02676	DNA topoisomerase 3 (topB)	0
+2622	NCBI_PGAP	OPNKAGHI_02705	IS5 family transposase ISCaa8	0
+2624	NCBI_PGAP	OPNKAGHI_02707	Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit (pyrK)	0
+2631	NCBI_PGAP	OPNKAGHI_02714	putative glycosyltransferase YkoT (ykoT_2)	0
+2633	NCBI_PGAP	OPNKAGHI_02716	DedA family protein (dedA_2)	0
+2634	NCBI_PGAP	OPNKAGHI_02717	Adaptive-response sensory-kinase SasA (sasA_5)	0
+2635	NCBI_PGAP	OPNKAGHI_02718	Transcriptional regulatory protein WalR (walR_2)	0
+2636	NCBI_PGAP	OPNKAGHI_02719	IS30 family transposase IS1070	0
+2637	NCBI_PGAP	OPNKAGHI_02720	Zinc-transporting ATPase (ziaA)	0
+2639	NCBI_PGAP	OPNKAGHI_02722	IS30 family transposase ISLpl1	0
+2644	NCBI_PGAP	OPNKAGHI_02727	Putative transposon Tn552 DNA-invertase bin3 (bin3_1)	0
+2645	NCBI_PGAP	OPNKAGHI_02728	IS30 family transposase IS1070	0
+2646	NCBI_PGAP	OPNKAGHI_02729	Anthranilate 1,2-dioxygenase system ferredoxin--NAD(+) reductase component (andAa)	0
+2647	NCBI_PGAP	OPNKAGHI_02730	NADH peroxidase (npr_2)	0
+2649	NCBI_PGAP	OPNKAGHI_02732	Riboflavin transporter RibZ (ribZ_3)	0
+2650	NCBI_PGAP	OPNKAGHI_02733	Multicopper oxidase mco (mco_2)	0
+2653	NCBI_PGAP	OPNKAGHI_02736	IS30 family transposase ISLpl1	0
+2656	NCBI_PGAP	OPNKAGHI_02739	IS256 family transposase IS1310	0
+2663	NCBI_PGAP	OPNKAGHI_02746	Sporulation initiation inhibitor protein Soj (soj_2)	0
+2665	NCBI_PGAP	OPNKAGHI_02748	IS30 family transposase ISLpl1	0
+2666	NCBI_PGAP	OPNKAGHI_02749	Cytosine deaminase (codA_2)	0
+2668	NCBI_PGAP	OPNKAGHI_02751	Multidrug resistance ABC transporter ATP-binding and permease protein (lmrA_2)	0
+2670	NCBI_PGAP	OPNKAGHI_02753	General stress protein A (gspA)	0
+2672	NCBI_PGAP	OPNKAGHI_02755	IS30 family transposase ISLpl1	0
+2673	NCBI_PGAP	OPNKAGHI_02756	Protein DegV (degV_5)	0
+2674	NCBI_PGAP	OPNKAGHI_02757	Putative transposon Tn552 DNA-invertase bin3 (bin3_2)	0
+2677	NCBI_PGAP	OPNKAGHI_02760	IS256 family transposase IS1310	0
+2678	NCBI_PGAP	OPNKAGHI_02761	Maltose regulon regulatory protein MalI (malI)	0
+2681	NCBI_PGAP	OPNKAGHI_02764	IS5 family transposase ISCaa8	0
+2684	NCBI_PGAP	OPNKAGHI_02767	IS30 family transposase ISLpl1	0
+2685	NCBI_PGAP	OPNKAGHI_02768	Type I restriction enzyme SauN315I endonuclease subunit (hsdR)	0
+2686	NCBI_PGAP	OPNKAGHI_02769	Type I restriction enzyme EcoR124I/EcoR124II methylase subunit (hsdM)	0
+2693	NCBI_PGAP	OPNKAGHI_02776	IS256 family transposase IS1310	0
+2697	NCBI_PGAP	OPNKAGHI_02780	Putative transposon Tn552 DNA-invertase bin3 (bin3_3)	0
+2698	NCBI_PGAP	OPNKAGHI_02781	Protein DegV (degV_6)	0
+2699	NCBI_PGAP	OPNKAGHI_02782	IS30 family transposase ISLpl1	0
+2705	NCBI_PGAP	OPNKAGHI_02788	IS30 family transposase ISHahy9	0
