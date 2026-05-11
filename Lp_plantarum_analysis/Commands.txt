@@ -1,0 +1,278 @@
+To annotate with prokka:
+$ for fasta in FastaFiles/*.fasta; do
+  strain=$(basename $fasta .fasta)
+  echo "Annotating: $strain"
+  prokka --outdir prokka_output/$strain \
+  --prefix $strain \
+  --genus Lactiplantibacillus \
+  --species plantarum \
+  --kingdom Bacteria \
+  --usegenus \
+  --cpus 8 \
+  $fasta
+done
+
+To make a combined summary file: 
+$ for txt in prokka_output/*/*.txt; do
+  strain=$(basename $txt .txt)
+  contigs=$(grep "contigs:" $txt | awk '{print $2}')
+  bases=$(grep "bases:" $txt | awk '{print $2}')
+  cds=$(grep "CDS:" $txt | awk '{print $2}')
+  echo "$strain: contigs=$contigs, bases=$bases, CDS=$cds"
+  echo ""
+done > prokka_summary.txt
+
+
+To execute the Panaroo analysis:
+$ panaroo -i prokka_output/*/*.gff \
+  -o panaroo_output \
+  --clean-mode strict \
+  -t 10 \
+  --alignment core \
+  --aligner mafft 
+
+To create the newick files: 
+FastTree -nt -gtr panaroo_output/core_gene_alignment_filtered.aln > panaroo_output/tree.newick
+
+
+To reformat the fasta files:
+For fasta in FastaFiles/*.fasta; do
+  strain=$(basename $fasta .fasta)
+  echo "Reformatting: $strain"
+  anvi-script-reformat-fasta \
+  $fasta \
+  -o FastaFiles_reformatted/${strain}_reformatted.fasta \
+  --simplify-names
+done
+
+
+To create the contigs databases:
+$ for fasta in FastaFiles_reformatted/*_reformatted.fasta; do
+  strain=$(basename $fasta _reformatted.fasta)
+  echo "Processing: $strain"
+  anvi-gen-contigs-database \
+  -f $fasta \
+  -o ${strain}.db \
+  -n $strain
+done
+
+To delete existing HMMs (Otherwise you need to specify which HMM to use + some of the HMMs will not be used anymore):
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Deleting HMMs: $strain"
+  anvi-delete-hmms -c ${strain}.db --just-do-it
+  done
+
+  
+To run HMMs on the databases:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Running HMMs: $strain"
+  anvi-run-hmms \
+  -c ${strain}.db \
+  -I Bacteria_71,Ribosomal_RNA_16S \
+  --num-threads 10
+  done
+  
+
+To create external-functions files:
+$ for strain_dir in prokka_output/*/; do
+  strain=$(basename $strain_dir)
+  echo "Processing: $strain"
+  anvi-script-process-genbank \
+  -i prokka_output/${strain}/${strain}.gbk \
+  -O ${strain}_prokka
+  done
+  
+To create external-functions files for Reference and Type Strain:
+$ anvi-script-process-genbank \
+  -i prokka_output/Reference/Reference.gbk \
+  -O Reference_reformatted_prokka
+
+$ anvi-script-process-genbank \
+  -i prokka_output/Type_Strain/Type_Strain.gbk \
+  -O Type_Strain_reformatted_prokka
+  
+
+To import the prokka annotations:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Importing Prokka annotations: $strain"
+  anvi-import-functions \
+  -c ${strain}.db \
+  -i ${strain}_prokka-external-functions.txt
+  done
+
+
+To create the genomes.txt file:
+$ echo -e "name\tcontigs_db_path" > genomes.txt
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo -e "$strain\t$(pwd)/$db"
+  done >> genomes.txt
+
+
+To create a genome storage:
+$ anvi-gen-genomes-storage \
+  -e genomes.txt \
+  -o Lp_plantarum-GENOMES.db
+
+
+To execute the pangenome analysis:
+$ anvi-pan-genome \
+  -g Lp_plantarum-GENOMES.db \
+  -o pangenome_output \
+  -n Lp_plantarum \
+  --num-threads 10
+
+
+To calculate the ANI scores:
+$ anvi-compute-genome-similarity \
+  -e genomes.txt \
+  -o ANI_output \
+  --program pyANI \
+  --num-threads 10 \
+  --pan-db pangenome_output/Lp_plantarum-PAN.db
+
+
+To create a default collection:
+$ anvi-script-add-default-collection \
+  -p pangenome_output/Lp_plantarum-PAN.db 
+$ gunzip Lp_plantarum_gene_clusters_summary.txt.gz
+
+To make a summary (comparable to Roary and Panaroo):
+$ anvi-summarize \
+  -p pangenome_output/Lp_plantarum-PAN.db \
+  -g Lp_plantarum-GENOMES.db \
+  -C DEFAULT \
+  -o pangenome_summary
+
+
+To create a summary comparable to Roary and Panaroo:
+python3 << 'EOF'
+import pandas as pd
+
+# Load the file
+df = pd.read_csv('pangenome_summary/Lp_plantarum_gene_clusters_summary.txt',
+                 sep='\t',
+                 usecols=['gene_cluster_id', 'num_genomes_gene_cluster_has_hits'])
+
+# Delete duplicates
+df = df.drop_duplicates(subset='gene_cluster_id')
+
+total_genomes = 42
+
+# Calculate the percentage presence
+df['percentage'] = df['num_genomes_gene_cluster_has_hits'] / total_genomes * 100
+
+# Categorize like Roary and Panaroo
+core = len(df[df['percentage'] >= 99])
+soft_core = len(df[(df['percentage'] >= 95) & (df['percentage'] < 99)])
+shell = len(df[(df['percentage'] >= 15) & (df['percentage'] < 95)])
+cloud = len(df[df['percentage'] < 15])
+total = len(df)
+
+# Write to file
+with open('anvio_pangenome_summary.txt', 'w') as f:
+    f.write("=== Pangenome Summary (Anvi'o) ===\n\n")
+    f.write(f"Core genes    (99% <= strains <= 100%)  {core}\n\n")
+    f.write(f"Soft core     (95% <= strains < 99%)    {soft_core}\n\n")
+    f.write(f"Shell genes   (15% <= strains < 95%)    {shell}\n\n")
+    f.write(f"Cloud genes   (0%  <= strains < 15%)    {cloud}\n\n")
+    f.write(f"Total genes   (0%  <= strains <= 100%)  {total}\n")
+
+print("Summary saved to anvio_pangenome_summary.txt")
+EOF
+
+
+To extract the unique genes:
+$ anvi-get-sequences-for-gene-clusters \
+  -p pangenome_output/Lp_plantarum-PAN.db \
+  -g Lp_plantarum-GENOMES.db \
+  --max-num-genomes-gene-cluster-occurs 1 \
+  --min-num-genomes-gene-cluster-occurs 1 \
+  -o unique_genes_all_raw.fasta
+
+To put them in a file with a fasta header that doesn't have any ":":
+$ sed 's/:/\_/g' unique_genes_all_raw.fasta > unique_genes_all.fasta 
+
+
+To see the amount of unique genes per strain:
+python3 << 'EOF'
+from collections import defaultdict
+
+counts = defaultdict(int)
+
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        if line.startswith('>'):
+            parts = line.strip().split('|')
+            for part in parts:
+                if 'genome_name_' in part:
+                    genome = part.replace('genome_name_', '').strip()
+                    counts[genome] += 1
+
+for genome, count in sorted(counts.items()):
+    print(f"{genome}: {count} unique genes")
+EOF
+
+
+
+To make FASTA files for the unique genes of each strain:
+python3 << 'EOF'
+from collections import defaultdict
+
+# Read all sequences
+sequences = {}
+current_header = None
+current_genome = None
+
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            current_header = line
+            for part in line.split('|'):
+                if 'genome_name_' in part:
+                    current_genome = part.replace('genome_name_', '').strip()
+            sequences[current_header] = {'genome': current_genome, 'seq': ''}
+        else:
+            sequences[current_header]['seq'] += line
+
+# Group by strain
+genomes = defaultdict(list)
+for header, data in sequences.items():
+    genomes[data['genome']].append((header, data['seq']))
+
+# Write separate FASTA file per strain in Unique_genes directory
+for genome, genes in genomes.items():
+    filename = f"Unique_genes/unique_genes_{genome}.fasta"
+    with open(filename, 'w') as f:
+        for header, seq in genes:
+            f.write(f"{header}\n{seq}\n")
+    print(f"{genome}: {len(genes)} unique genes → {filename}")
+EOF
+
+
+
+To look at the names of the unique genes per strain:
+$ for fasta in Unique_genes/unique_genes_*.fasta; do
+> strain=$(basename $fasta .fasta | sed 's/unique_genes_//')
+> echo "=== $strain ==="
+> grep ">" $fasta
+> echo ""
+> done
+
+
+To run blast with the unique genes: 
+blastp -query ~/Lp_plantarum_analysis/unique_genes_all_blast.fasta \
+       -db ~/blast_db/swissprot \
+       -out ~/Lp_plantarum_analysis/blast_results.txt \
+       -outfmt 6 \
+       -num_threads 8 \
+       -evalue 0.001 \
+       -max_target_seqs 5
+
+
+To view the pangenome: 
+
