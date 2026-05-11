@@ -1,0 +1,98 @@
+To annotate with prokka:
+$ for fasta in FastaFiles/*.fasta; do
+  strain=$(basename $fasta .fasta)
+  echo "Annotating: $strain"
+  prokka --outdir prokka_output/$strain \
+  --prefix $strain \
+  --genus Levilactobacillus \
+  --species brevis \
+  --kingdom Bacteria \
+  --usegenus \
+  --cpus 10 \
+  $fasta
+done
+
+To make a combined summary file: 
+$ for txt in prokka_output/*/*.txt; do
+  strain=$(basename $txt .txt)
+  contigs=$(grep "contigs:" $txt | awk '{print $2}')
+  bases=$(grep "bases:" $txt | awk '{print $2}')
+  cds=$(grep "CDS:" $txt | awk '{print $2}')
+  echo "$strain: contigs=$contigs, bases=$bases, CDS=$cds"
+  echo ""
+done > prokka_summary.txt
+
+To execute the Panaroo analysis:
+$ panaroo -i prokka_output/*/*.gff \
+  -o panaroo_output \
+  --clean-mode strict \
+  -t 10 \
+  --alignment core \
+  --aligner mafft 
+  
+To create the newick file:
+$ FastTree -nt -gtr panaroo_output/core_gene_alignment_filtered.aln > panaroo_output/tree.newick
+
+ 
+To reformat the fasta files:
+$ for fasta in FastaFiles/*.fasta; do
+  strain=$(basename $fasta .fasta)
+  echo "Reformatting: $strain"
+  anvi-script-reformat-fasta \
+  $fasta \
+  -o FastaFiles_reformatted/${strain}_reformatted.fasta \
+  --simplify-names
+done
+
+
+To create the contigs databases:
+$ for fasta in FastaFiles_reformatted/*_reformatted.fasta; do
+  strain=$(basename $fasta _reformatted.fasta)
+  echo "Processing: $strain"
+  anvi-gen-contigs-database \
+  -f $fasta \
+  -o ${strain}.db \
+  -n $strain
+done
+
+To run HMMs on the databases:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Running HMMs: $strain"
+  anvi-run-hmms \
+  -c ${strain}.db \
+  -I Bacteria_71,Ribosomal_RNA_16S \
+  --num-threads 10
+  done
+  
+To create external-functions files:
+$ for strain_dir in prokka_output/*/; do
+  strain=$(basename $strain_dir)
+  echo "Processing: $strain"
+  anvi-script-process-genbank \
+  -i prokka_output/${strain}/${strain}.gbk \
+  -O ${strain}_prokka
+  done
+
+To import the prokka annotations:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Importing Prokka annotations: $strain"
+  anvi-import-functions \
+  -c ${strain}.db \
+  -i ${strain}_prokka-external-functions.txt
+  done
+  
+To create the genomes.txt file:
+$ echo -e "name\tcontigs_db_path" > genomes.txt
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo -e "$strain\t$(pwd)/$db"
+  done >> genomes.txt
+
+
+STILL TO DO:
+To create a genome storage:
+$ anvi-gen-genomes-storage \
+  -e genomes.txt \
+  -o Lp_plantarum-GENOMES.db

@@ -32,11 +32,14 @@ $ panaroo -i prokka_output/*/*.gff \
   --aligner mafft 
 
 To create the newick files: 
-FastTree -nt -gtr panaroo_output/core_gene_alignment_filtered.aln > panaroo_output/tree.newick
+$ FastTree -nt -gtr panaroo_output/core_gene_alignment_filtered.aln > panaroo_output/tree.newick
+
+To find the most variable genes:
+$ sort -t',' -k2 -nr alignment_entropy.csv | head -20
 
 
 To reformat the fasta files:
-For fasta in FastaFiles/*.fasta; do
+$ for fasta in FastaFiles/*.fasta; do
   strain=$(basename $fasta .fasta)
   echo "Reformatting: $strain"
   anvi-script-reformat-fasta \
@@ -264,6 +267,34 @@ $ for fasta in Unique_genes/unique_genes_*.fasta; do
 > done
 
 
+To create an easier to interpret version of the gene cluster summary:
+python3 << 'EOF'
+import pandas as pd
+
+df = pd.read_csv('pangenome_summary/Lp_plantarum_gene_clusters_summary.txt',
+                 sep='\t',
+                 usecols=['gene_cluster_id', 'genome_name', 
+                          'num_genomes_gene_cluster_has_hits',
+                          'num_genes_in_gene_cluster',
+                          'max_num_paralogs',
+                          'SCG',
+                          'functional_homogeneity_index',
+                          'geometric_homogeneity_index',
+                          'combined_homogeneity_index',
+                          'AAI_avg',
+                          'NCBI_PGAP'])
+
+# Remove duplicates per gene cluster
+df_unique = df.drop_duplicates(subset='gene_cluster_id')
+
+# Save to file
+df_unique.to_csv('pangenome_summary/gene_clusters_overview.csv', index=False)
+print(f"Total gene clusters: {len(df_unique)}")
+print(df_unique.head(10).to_string(index=False))
+EOF
+
+
+
 To run blast with the unique genes: 
 blastp -query ~/Lp_plantarum_analysis/unique_genes_all_blast.fasta \
        -db ~/blast_db/swissprot \
@@ -274,5 +305,10 @@ blastp -query ~/Lp_plantarum_analysis/unique_genes_all_blast.fasta \
        -max_target_seqs 5
 
 
-To view the pangenome: 
 
+To visualize the contigs database: 
+$ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") 
+Or in the commandline:
+$ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") --report-as-text -o contigs_stats.txt
+
+column -t -s $'\t' contigs_stats.txt | less -S
