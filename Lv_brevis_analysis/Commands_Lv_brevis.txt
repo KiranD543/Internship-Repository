@@ -358,18 +358,31 @@ To visualize the contigs database:
 $ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") 
 Or in the commandline:
 $ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") --report-as-text -o contigs_stats.txt
-
-column -t -s $'\t' contigs_stats.txt | less -S
+$ column -t -s $'\t' contigs_stats.txt | less -S
 
 
 To view the pangenome: 
 $ anvi-display-pan \
-  -g Lp_plantarum-GENOMES.db \
-  -p pangenome_output/Lp_plantarum-PAN.db \
+  -g Lv_brevis-GENOMES.db \
+  -p pangenome_output/Lv_brevis-PAN.db \
   --server-only
 
 
 
+To export the gene clusters summary to csv: 
+python3 << 'EOF'
+import pandas as pd
+
+# Load the gene clusters summary
+df = pd.read_csv('pangenome_summary/Lv_brevis_gene_clusters_summary.txt', sep='\t')
+
+# Save to CSV
+df.to_csv('gene_clusters_summary.csv', index=False)
+print(f"Saved: gene_clusters_summary.csv")
+print(f"Total rows: {len(df)}")
+print(f"Total columns: {len(df.columns)}")
+print(f"Columns: {df.columns.tolist()}")
+EOF
 
 
 
