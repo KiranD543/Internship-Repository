@@ -1,0 +1,11 @@
+query,genome,gene_cluster,gene_callers_id,subject,pident,alignment_length,evalue,bitscore,function
+00000042|gene_cluster_GC_00003012|genome_name_P2763_Cocoa_VN|gene_callers_id_1820,P2763_Cocoa_VN,GC_00003012,1820,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000077|gene_cluster_GC_00002558|genome_name_P2763_Cocoa_VN|gene_callers_id_1829,P2763_Cocoa_VN,GC_00002558,1829,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000124|gene_cluster_GC_00003107|genome_name_P2763_Cocoa_VN|gene_callers_id_1790,P2763_Cocoa_VN,GC_00003107,1790,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000205|gene_cluster_GC_00002407|genome_name_P2763_Cocoa_VN|gene_callers_id_1828,P2763_Cocoa_VN,GC_00002407,1828,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000206|gene_cluster_GC_00002407|genome_name_P2763_Cocoa_VN|gene_callers_id_1827,P2763_Cocoa_VN,GC_00002407,1827,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000272|gene_cluster_GC_00002691|genome_name_P2763_Cocoa_VN|gene_callers_id_1758,P2763_Cocoa_VN,GC_00002691,1758,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000319|gene_cluster_GC_00002852|genome_name_P2763_Cocoa_VN|gene_callers_id_300,P2763_Cocoa_VN,GC_00002852,300,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000330|gene_cluster_GC_00002669|genome_name_P2763_Cocoa_VN|gene_callers_id_1761,P2763_Cocoa_VN,GC_00002669,1761,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000363|gene_cluster_GC_00002902|genome_name_P2763_Cocoa_VN|gene_callers_id_1766,P2763_Cocoa_VN,GC_00002902,1766,sp|A0A0H2URB1|GLYD_STRPN,34.483,261.0,4.13e-39,149.0,sp|A0A0H2URB1|GLYD_STRPN Glycosyltransferase GlyD OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=glyD PE=1 SV=1
+00000615|gene_cluster_GC_00002623|genome_name_P2763_Cocoa_VN|gene_callers_id_1223,P2763_Cocoa_VN,GC_00002623,1223,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

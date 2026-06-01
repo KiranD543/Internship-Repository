@@ -1,0 +1,20 @@
+query,genome,gene_cluster,gene_callers_id,subject,pident,alignment_length,evalue,bitscore,function
+00000006|gene_cluster_GC_00002886|genome_name_P2746_Cocoa_VN|gene_callers_id_1796,P2746_Cocoa_VN,GC_00002886,1796,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000026|gene_cluster_GC_00003095|genome_name_P2746_Cocoa_VN|gene_callers_id_1842,P2746_Cocoa_VN,GC_00003095,1842,sp|P39850|CAPA_STAAU,30.935,139.0,3.54e-07,52.4,sp|P39850|CAPA_STAAU Capsular polysaccharide biosynthesis protein CapA OS=Staphylococcus aureus OX=1280 GN=capA PE=3 SV=1
+00000029|gene_cluster_GC_00002999|genome_name_P2746_Cocoa_VN|gene_callers_id_200,P2746_Cocoa_VN,GC_00002999,200,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000095|gene_cluster_GC_00002715|genome_name_P2746_Cocoa_VN|gene_callers_id_171,P2746_Cocoa_VN,GC_00002715,171,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000134|gene_cluster_GC_00002841|genome_name_P2746_Cocoa_VN|gene_callers_id_1226,P2746_Cocoa_VN,GC_00002841,1226,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000135|gene_cluster_GC_00002578|genome_name_P2746_Cocoa_VN|gene_callers_id_1797,P2746_Cocoa_VN,GC_00002578,1797,sp|P71057|EPSH_BACSU,25.974,231.0,1.99e-22,99.4,sp|P71057|EPSH_BACSU Putative glycosyltransferase EpsH OS=Bacillus subtilis (strain 168) OX=224308 GN=epsH PE=2 SV=1
+00000141|gene_cluster_GC_00002897|genome_name_P2746_Cocoa_VN|gene_callers_id_213,P2746_Cocoa_VN,GC_00002897,213,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000221|gene_cluster_GC_00003118|genome_name_P2746_Cocoa_VN|gene_callers_id_220,P2746_Cocoa_VN,GC_00003118,220,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000306|gene_cluster_GC_00002562|genome_name_P2746_Cocoa_VN|gene_callers_id_1363,P2746_Cocoa_VN,GC_00002562,1363,sp|A0R628|GLFT2_MYCS2,24.895,237.0,6.43e-06,51.2,sp|A0R628|GLFT2_MYCS2 Galactofuranosyltransferase GlfT2 OS=Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) OX=246196 GN=glfT2 PE=3 SV=1
+00000364|gene_cluster_GC_00002942|genome_name_P2746_Cocoa_VN|gene_callers_id_381,P2746_Cocoa_VN,GC_00002942,381,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000369|gene_cluster_GC_00002772|genome_name_P2746_Cocoa_VN|gene_callers_id_207,P2746_Cocoa_VN,GC_00002772,207,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000414|gene_cluster_GC_00003023|genome_name_P2746_Cocoa_VN|gene_callers_id_730,P2746_Cocoa_VN,GC_00003023,730,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000483|gene_cluster_GC_00002656|genome_name_P2746_Cocoa_VN|gene_callers_id_1800,P2746_Cocoa_VN,GC_00002656,1800,sp|P27127|WAAB_ECOLI,38.7,323.0,1.88e-64,211.0,"sp|P27127|WAAB_ECOLI Lipopolysaccharide 1,6-galactosyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=waaB PE=1 SV=2"
+00000508|gene_cluster_GC_00002665|genome_name_P2746_Cocoa_VN|gene_callers_id_1869,P2746_Cocoa_VN,GC_00002665,1869,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000520|gene_cluster_GC_00003043|genome_name_P2746_Cocoa_VN|gene_callers_id_1860,P2746_Cocoa_VN,GC_00003043,1860,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000525|gene_cluster_GC_00002949|genome_name_P2746_Cocoa_VN|gene_callers_id_219,P2746_Cocoa_VN,GC_00002949,219,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000581|gene_cluster_GC_00002749|genome_name_P2746_Cocoa_VN|gene_callers_id_1740,P2746_Cocoa_VN,GC_00002749,1740,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000632|gene_cluster_GC_00002925|genome_name_P2746_Cocoa_VN|gene_callers_id_725,P2746_Cocoa_VN,GC_00002925,725,sp|Q58926|T1SX_METJA,24.727,275.0,2.8e-11,68.6,sp|Q58926|T1SX_METJA Putative type I restriction enzyme MjaX specificity subunit OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1531 PE=3 SV=1
+00000637|gene_cluster_GC_00003000|genome_name_P2746_Cocoa_VN|gene_callers_id_217,P2746_Cocoa_VN,GC_00003000,217,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

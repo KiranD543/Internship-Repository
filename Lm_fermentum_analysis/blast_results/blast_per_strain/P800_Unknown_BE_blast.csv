@@ -1,0 +1,37 @@
+query,genome,gene_cluster,gene_callers_id,subject,pident,alignment_length,evalue,bitscore,function
+00000013|gene_cluster_GC_00002647|genome_name_P800_Unknown_BE|gene_callers_id_1253,P800_Unknown_BE,GC_00002647,1253,sp|P37782|RFBF_SHIFL,31.559,263.0,2.55e-20,91.7,sp|P37782|RFBF_SHIFL dTDP-rhamnosyl transferase RfbF OS=Shigella flexneri OX=623 GN=rfbF PE=3 SV=2
+00000027|gene_cluster_GC_00002919|genome_name_P800_Unknown_BE|gene_callers_id_665,P800_Unknown_BE,GC_00002919,665,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000045|gene_cluster_GC_00003085|genome_name_P800_Unknown_BE|gene_callers_id_633,P800_Unknown_BE,GC_00003085,633,sp|P55500|Y4IQ_SINFN,27.602,221.0,9.32e-07,52.8,sp|P55500|Y4IQ_SINFN Putative insertion sequence ATP-binding protein y4iQ/y4nD/y4sD OS=Sinorhizobium fredii (strain NBRC 101917 / NGR234) OX=394 GN=NGR_a03160 PE=3 SV=1
+00000060|gene_cluster_GC_00003155|genome_name_P800_Unknown_BE|gene_callers_id_345,P800_Unknown_BE,GC_00003155,345,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000070|gene_cluster_GC_00002892|genome_name_P800_Unknown_BE|gene_callers_id_1971,P800_Unknown_BE,GC_00002892,1971,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000071|gene_cluster_GC_00002769|genome_name_P800_Unknown_BE|gene_callers_id_1954,P800_Unknown_BE,GC_00002769,1954,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000087|gene_cluster_GC_00002592|genome_name_P800_Unknown_BE|gene_callers_id_639,P800_Unknown_BE,GC_00002592,639,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000126|gene_cluster_GC_00002648|genome_name_P800_Unknown_BE|gene_callers_id_1945,P800_Unknown_BE,GC_00002648,1945,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000146|gene_cluster_GC_00002698|genome_name_P800_Unknown_BE|gene_callers_id_1857,P800_Unknown_BE,GC_00002698,1857,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000175|gene_cluster_GC_00003080|genome_name_P800_Unknown_BE|gene_callers_id_1250,P800_Unknown_BE,GC_00003080,1250,sp|P46918|GGAB_BACSU,28.362,409.0,3.09e-37,147.0,sp|P46918|GGAB_BACSU Minor teichoic acid biosynthesis protein GgaB OS=Bacillus subtilis (strain 168) OX=224308 GN=ggaB PE=3 SV=1
+00000176|gene_cluster_GC_00002670|genome_name_P800_Unknown_BE|gene_callers_id_1249,P800_Unknown_BE,GC_00002670,1249,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000214|gene_cluster_GC_00002765|genome_name_P800_Unknown_BE|gene_callers_id_1261,P800_Unknown_BE,GC_00002765,1261,sp|O58525|Y795_PYRHO,36.207,58.0,0.004,39.3,sp|O58525|Y795_PYRHO UPF0148 protein PH0795 OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3) OX=70601 GN=PH0795 PE=3 SV=1
+00000217|gene_cluster_GC_00002596|genome_name_P800_Unknown_BE|gene_callers_id_1843,P800_Unknown_BE,GC_00002596,1843,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000238|gene_cluster_GC_00002977|genome_name_P800_Unknown_BE|gene_callers_id_1444,P800_Unknown_BE,GC_00002977,1444,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000243|gene_cluster_GC_00002618|genome_name_P800_Unknown_BE|gene_callers_id_1925,P800_Unknown_BE,GC_00002618,1925,sp|Q0W4J1|RL40_METAR,57.576,33.0,0.000315,40.8,sp|Q0W4J1|RL40_METAR Large ribosomal subunit protein eL40 OS=Methanocella arvoryzae (strain DSM 22066 / NBRC 105507 / MRE50) OX=351160 GN=rpl40e PE=3 SV=1
+00000247|gene_cluster_GC_00002878|genome_name_P800_Unknown_BE|gene_callers_id_635,P800_Unknown_BE,GC_00002878,635,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000260|gene_cluster_GC_00002725|genome_name_P800_Unknown_BE|gene_callers_id_656,P800_Unknown_BE,GC_00002725,656,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000264|gene_cluster_GC_00003001|genome_name_P800_Unknown_BE|gene_callers_id_1251,P800_Unknown_BE,GC_00003001,1251,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000265|gene_cluster_GC_00002718|genome_name_P800_Unknown_BE|gene_callers_id_622,P800_Unknown_BE,GC_00002718,622,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000269|gene_cluster_GC_00003101|genome_name_P800_Unknown_BE|gene_callers_id_1951,P800_Unknown_BE,GC_00003101,1951,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000298|gene_cluster_GC_00002661|genome_name_P800_Unknown_BE|gene_callers_id_1890,P800_Unknown_BE,GC_00002661,1890,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000347|gene_cluster_GC_00003050|genome_name_P800_Unknown_BE|gene_callers_id_625,P800_Unknown_BE,GC_00003050,625,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000357|gene_cluster_GC_00002906|genome_name_P800_Unknown_BE|gene_callers_id_1881,P800_Unknown_BE,GC_00002906,1881,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000362|gene_cluster_GC_00002564|genome_name_P800_Unknown_BE|gene_callers_id_1262,P800_Unknown_BE,GC_00002564,1262,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000386|gene_cluster_GC_00002814|genome_name_P800_Unknown_BE|gene_callers_id_632,P800_Unknown_BE,GC_00002814,632,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000391|gene_cluster_GC_00002903|genome_name_P800_Unknown_BE|gene_callers_id_1855,P800_Unknown_BE,GC_00002903,1855,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000393|gene_cluster_GC_00002742|genome_name_P800_Unknown_BE|gene_callers_id_1252,P800_Unknown_BE,GC_00002742,1252,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000415|gene_cluster_GC_00003036|genome_name_P800_Unknown_BE|gene_callers_id_858,P800_Unknown_BE,GC_00003036,858,sp|P71276|RT48_ECOLX,27.407,135.0,0.000557,46.2,sp|P71276|RT48_ECOLX Retron Ec48 reverse transcriptase OS=Escherichia coli OX=562 GN=ret PE=1 SV=2
+00000462|gene_cluster_GC_00002974|genome_name_P800_Unknown_BE|gene_callers_id_636,P800_Unknown_BE,GC_00002974,636,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000499|gene_cluster_GC_00002630|genome_name_P800_Unknown_BE|gene_callers_id_664,P800_Unknown_BE,GC_00002630,664,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000518|gene_cluster_GC_00003132|genome_name_P800_Unknown_BE|gene_callers_id_1254,P800_Unknown_BE,GC_00003132,1254,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000556|gene_cluster_GC_00002777|genome_name_P800_Unknown_BE|gene_callers_id_642,P800_Unknown_BE,GC_00002777,642,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000612|gene_cluster_GC_00003017|genome_name_P800_Unknown_BE|gene_callers_id_663,P800_Unknown_BE,GC_00003017,663,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000634|gene_cluster_GC_00002712|genome_name_P800_Unknown_BE|gene_callers_id_621,P800_Unknown_BE,GC_00002712,621,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000662|gene_cluster_GC_00002837|genome_name_P800_Unknown_BE|gene_callers_id_637,P800_Unknown_BE,GC_00002837,637,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000672|gene_cluster_GC_00002616|genome_name_P800_Unknown_BE|gene_callers_id_1916,P800_Unknown_BE,GC_00002616,1916,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

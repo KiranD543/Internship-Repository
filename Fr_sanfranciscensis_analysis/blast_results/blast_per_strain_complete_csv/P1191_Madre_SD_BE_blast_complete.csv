@@ -1,0 +1,4 @@
+query,genome,gene_cluster,gene_callers_id,subject,%pident,alignment_length,e-value,bitscore,function
+00000014|gene_cluster_GC_00001445|genome_name_P1191_Madre_SD_BE|gene_callers_id_1260,P1191_Madre_SD_BE,GC_00001445,1260,sp|C0SPA8|YOBH_BACSU,42.424,66.0,1.69e-06,47.0,sp|C0SPA8|YOBH_BACSU DNA repair protein homolog YobH OS=Bacillus subtilis (strain 168) OX=224308 GN=yobH PE=5 SV=1
+00000060|gene_cluster_GC_00001579|genome_name_P1191_Madre_SD_BE|gene_callers_id_1261,P1191_Madre_SD_BE,GC_00001579,1261,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000152|gene_cluster_GC_00001492|genome_name_P1191_Madre_SD_BE|gene_callers_id_1283,P1191_Madre_SD_BE,GC_00001492,1283,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

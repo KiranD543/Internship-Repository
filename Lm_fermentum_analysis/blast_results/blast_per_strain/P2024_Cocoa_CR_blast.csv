@@ -1,0 +1,10 @@
+query,genome,gene_cluster,gene_callers_id,subject,pident,alignment_length,evalue,bitscore,function
+00000127|gene_cluster_GC_00002544|genome_name_P2024_Cocoa_CR|gene_callers_id_1831,P2024_Cocoa_CR,GC_00002544,1831,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000152|gene_cluster_GC_00002677|genome_name_P2024_Cocoa_CR|gene_callers_id_1578,P2024_Cocoa_CR,GC_00002677,1578,sp|P0ADI3|TNR3_KLEPN,52.941,34.0,0.004,40.4,sp|P0ADI3|TNR3_KLEPN Transposon Tn3 resolvase OS=Klebsiella pneumoniae OX=573 GN=tnpR PE=3 SV=1
+00000187|gene_cluster_GC_00002839|genome_name_P2024_Cocoa_CR|gene_callers_id_1663,P2024_Cocoa_CR,GC_00002839,1663,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000313|gene_cluster_GC_00003148|genome_name_P2024_Cocoa_CR|gene_callers_id_1780,P2024_Cocoa_CR,GC_00003148,1780,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000476|gene_cluster_GC_00002627|genome_name_P2024_Cocoa_CR|gene_callers_id_972,P2024_Cocoa_CR,GC_00002627,972,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000529|gene_cluster_GC_00002678|genome_name_P2024_Cocoa_CR|gene_callers_id_1448,P2024_Cocoa_CR,GC_00002678,1448,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000538|gene_cluster_GC_00002959|genome_name_P2024_Cocoa_CR|gene_callers_id_1577,P2024_Cocoa_CR,GC_00002959,1577,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000572|gene_cluster_GC_00002881|genome_name_P2024_Cocoa_CR|gene_callers_id_1250,P2024_Cocoa_CR,GC_00002881,1250,sp|B3WE58|RL32_LACCB,73.585,53.0,6.18e-22,82.0,sp|B3WE58|RL32_LACCB Large ribosomal subunit protein bL32 OS=Lacticaseibacillus casei (strain BL23) OX=543734 GN=rpmF PE=3 SV=1
+00000640|gene_cluster_GC_00002890|genome_name_P2024_Cocoa_CR|gene_callers_id_1898,P2024_Cocoa_CR,GC_00002890,1898,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

@@ -1,0 +1,43 @@
+query,genome,gene_cluster,gene_callers_id,subject,%pident,alignment_length,e-value,bitscore,function
+00000008|gene_cluster_GC_00001519|genome_name_P515_SD_Italy|gene_callers_id_1146,P515_SD_Italy,GC_00001519,1146,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000016|gene_cluster_GC_00001460|genome_name_P515_SD_Italy|gene_callers_id_1129,P515_SD_Italy,GC_00001460,1129,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000021|gene_cluster_GC_00001552|genome_name_P515_SD_Italy|gene_callers_id_259,P515_SD_Italy,GC_00001552,259,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000024|gene_cluster_GC_00001430|genome_name_P515_SD_Italy|gene_callers_id_262,P515_SD_Italy,GC_00001430,262,sp|P57134|DNAC_BUCAI,26.316,247.0,4.71e-12,67.8,sp|P57134|DNAC_BUCAI Replicative helicase loader DnaC OS=Buchnera aphidicola subsp. Acyrthosiphon pisum (strain APS) OX=107806 GN=dnaC PE=3 SV=1
+00000027|gene_cluster_GC_00001598|genome_name_P515_SD_Italy|gene_callers_id_261,P515_SD_Italy,GC_00001598,261,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000028|gene_cluster_GC_00001558|genome_name_P515_SD_Italy|gene_callers_id_264,P515_SD_Italy,GC_00001558,264,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000045|gene_cluster_GC_00001502|genome_name_P515_SD_Italy|gene_callers_id_1220,P515_SD_Italy,GC_00001502,1220,sp|Q9P793|CHD1C_SCHPO,23.009,452.0,4.64e-11,68.6,sp|Q9P793|CHD1C_SCHPO ATP-dependent chromatin remodeler mit1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=mit1 PE=1 SV=1
+00000048|gene_cluster_GC_00001469|genome_name_P515_SD_Italy|gene_callers_id_1218,P515_SD_Italy,GC_00001469,1218,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000051|gene_cluster_GC_00001567|genome_name_P515_SD_Italy|gene_callers_id_1128,P515_SD_Italy,GC_00001567,1128,sp|O21871|ENDON_BPLSK,31.25,80.0,2.73e-05,44.3,sp|O21871|ENDON_BPLSK Probable HNH endonuclease OS=Lactococcus phage SK1 OX=2905675 PE=3 SV=1
+00000055|gene_cluster_GC_00001479|genome_name_P515_SD_Italy|gene_callers_id_1144,P515_SD_Italy,GC_00001479,1144,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000057|gene_cluster_GC_00001408|genome_name_P515_SD_Italy|gene_callers_id_1145,P515_SD_Italy,GC_00001408,1145,sp|P34020|LYS_CLOAB,30.601,183.0,8.75e-10,63.9,sp|P34020|LYS_CLOAB Autolytic lysozyme OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / IAM 19013 / LMG 5710 / NBRC 13948 / NRRL B-527 / VKM B-1787 / 2291 / W) OX=272562 GN=lyc PE=1 SV=1
+00000070|gene_cluster_GC_00001556|genome_name_P515_SD_Italy|gene_callers_id_1127,P515_SD_Italy,GC_00001556,1127,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000085|gene_cluster_GC_00001588|genome_name_P515_SD_Italy|gene_callers_id_1131,P515_SD_Italy,GC_00001588,1131,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000089|gene_cluster_GC_00001466|genome_name_P515_SD_Italy|gene_callers_id_1150,P515_SD_Italy,GC_00001466,1150,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000101|gene_cluster_GC_00001526|genome_name_P515_SD_Italy|gene_callers_id_1148,P515_SD_Italy,GC_00001526,1148,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000102|gene_cluster_GC_00001401|genome_name_P515_SD_Italy|gene_callers_id_1219,P515_SD_Italy,GC_00001401,1219,sp|P15895|ORF4_SPV1R,31.111,90.0,0.008,37.0,sp|P15895|ORF4_SPV1R Uncharacterized protein ORF4 OS=Spiroplasma virus SpV1-R8A2 B OX=10854 GN=ORF4 PE=3 SV=2
+00000116|gene_cluster_GC_00001561|genome_name_P515_SD_Italy|gene_callers_id_1136,P515_SD_Italy,GC_00001561,1136,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000119|gene_cluster_GC_00001589|genome_name_P515_SD_Italy|gene_callers_id_1222,P515_SD_Italy,GC_00001589,1222,sp|P77174|YBDM_ECOLI,47.879,165.0,3.55e-47,155.0,sp|P77174|YBDM_ECOLI Uncharacterized protein YbdM OS=Escherichia coli (strain K12) OX=83333 GN=ybdM PE=1 SV=1
+00000120|gene_cluster_GC_00001523|genome_name_P515_SD_Italy|gene_callers_id_1140,P515_SD_Italy,GC_00001523,1140,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000123|gene_cluster_GC_00001417|genome_name_P515_SD_Italy|gene_callers_id_1151,P515_SD_Italy,GC_00001417,1151,sp|P19385|LYS_BPCP7,32.11,218.0,4.82e-25,107.0,sp|P19385|LYS_BPCP7 Lysozyme OS=Streptococcus phage Cp-7 OX=10748 GN=CPL7 PE=1 SV=2
+00000124|gene_cluster_GC_00001580|genome_name_P515_SD_Italy|gene_callers_id_1139,P515_SD_Italy,GC_00001580,1139,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000125|gene_cluster_GC_00001409|genome_name_P515_SD_Italy|gene_callers_id_1132,P515_SD_Italy,GC_00001409,1132,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000127|gene_cluster_GC_00001413|genome_name_P515_SD_Italy|gene_callers_id_1143,P515_SD_Italy,GC_00001413,1143,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000134|gene_cluster_GC_00001511|genome_name_P515_SD_Italy|gene_callers_id_1223,P515_SD_Italy,GC_00001511,1223,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000135|gene_cluster_GC_00001424|genome_name_P515_SD_Italy|gene_callers_id_1138,P515_SD_Italy,GC_00001424,1138,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000136|gene_cluster_GC_00001497|genome_name_P515_SD_Italy|gene_callers_id_1152,P515_SD_Italy,GC_00001497,1152,sp|A2AX52|CO6A4_MOUSE,47.561,82.0,1.37e-13,77.4,sp|A2AX52|CO6A4_MOUSE Collagen alpha-4(VI) chain OS=Mus musculus OX=10090 GN=Col6a4 PE=1 SV=2
+00000137|gene_cluster_GC_00001534|genome_name_P515_SD_Italy|gene_callers_id_1147,P515_SD_Italy,GC_00001534,1147,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000139|gene_cluster_GC_00001528|genome_name_P515_SD_Italy|gene_callers_id_256,P515_SD_Italy,GC_00001528,256,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000148|gene_cluster_GC_00001533|genome_name_P515_SD_Italy|gene_callers_id_1137,P515_SD_Italy,GC_00001533,1137,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000151|gene_cluster_GC_00001542|genome_name_P515_SD_Italy|gene_callers_id_1221,P515_SD_Italy,GC_00001542,1221,sp|P77216|YBDN_ECOLI,32.289,415.0,7.05e-69,227.0,sp|P77216|YBDN_ECOLI Uncharacterized protein YbdN OS=Escherichia coli (strain K12) OX=83333 GN=ybdN PE=4 SV=1
+00000154|gene_cluster_GC_00001593|genome_name_P515_SD_Italy|gene_callers_id_254,P515_SD_Italy,GC_00001593,254,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000155|gene_cluster_GC_00001499|genome_name_P515_SD_Italy|gene_callers_id_1337,P515_SD_Italy,GC_00001499,1337,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000157|gene_cluster_GC_00001506|genome_name_P515_SD_Italy|gene_callers_id_1141,P515_SD_Italy,GC_00001506,1141,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000165|gene_cluster_GC_00001415|genome_name_P515_SD_Italy|gene_callers_id_1135,P515_SD_Italy,GC_00001415,1135,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000168|gene_cluster_GC_00001541|genome_name_P515_SD_Italy|gene_callers_id_1149,P515_SD_Italy,GC_00001541,1149,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000191|gene_cluster_GC_00001590|genome_name_P515_SD_Italy|gene_callers_id_1134,P515_SD_Italy,GC_00001590,1134,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000195|gene_cluster_GC_00001480|genome_name_P515_SD_Italy|gene_callers_id_1130,P515_SD_Italy,GC_00001480,1130,sp|P59217|TERL_BPSF5,22.553,470.0,4.6e-19,94.7,sp|P59217|TERL_BPSF5 Putative terminase large subunit OS=Shigella phage SfV OX=55884 GN=2 PE=3 SV=1
+00000199|gene_cluster_GC_00001414|genome_name_P515_SD_Italy|gene_callers_id_1142,P515_SD_Italy,GC_00001414,1142,sp|P45931|YQBO_BACSU,32.114,246.0,5.72e-14,81.3,sp|P45931|YQBO_BACSU Phage tape measure protein-like protein YqbO OS=Bacillus subtilis (strain 168) OX=224308 GN=yqbO PE=1 SV=2
+00000213|gene_cluster_GC_00001435|genome_name_P515_SD_Italy|gene_callers_id_1133,P515_SD_Italy,GC_00001435,1133,sp|Q5L6P3|CLPP1_CHLAB,28.177,181.0,4.77e-12,66.2,sp|Q5L6P3|CLPP1_CHLAB ATP-dependent Clp protease proteolytic subunit 1 OS=Chlamydia abortus (strain DSM 27085 / S26/3) OX=218497 GN=clpP1 PE=3 SV=1
+00000215|gene_cluster_GC_00001487|genome_name_P515_SD_Italy|gene_callers_id_263,P515_SD_Italy,GC_00001487,263,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000222|gene_cluster_GC_00001607|genome_name_P515_SD_Italy|gene_callers_id_257,P515_SD_Italy,GC_00001607,257,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000233|gene_cluster_GC_00001596|genome_name_P515_SD_Italy|gene_callers_id_1217,P515_SD_Italy,GC_00001596,1217,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

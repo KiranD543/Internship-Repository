@@ -1,0 +1,1044 @@
+To rename the fasta files ("-" => "_"):
+$ for fasta in FastaFiles/*.fasta; do
+  new_name=$(echo $fasta | sed 's/-/_/g')
+  if [ "$fasta" != "$new_name" ]; then
+  echo "Renaming: $fasta => $new_name"
+  mv $fasta $new_name
+  fi
+  done
+  
+  
+
+To annotate with prokka:
+$ for fasta in FastaFiles/*.fasta; do
+  strain=$(basename $fasta .fasta)
+  echo "Annotating: $strain"
+  prokka --outdir prokka_output/$strain \
+  --prefix $strain \
+  --genus Lactobacillus \
+  --species fermentum \
+  --kingdom Bacteria \
+  --usegenus \
+  --cpus 8 \
+  $fasta
+done
+
+
+To make a combined summary file: 
+$ for txt in prokka_output/*/*.txt; do
+  strain=$(basename $txt .txt)
+  contigs=$(grep "contigs:" $txt | awk '{print $2}')
+  bases=$(grep "bases:" $txt | awk '{print $2}')
+  cds=$(grep "CDS:" $txt | awk '{print $2}')
+  echo "$strain: contigs=$contigs, bases=$bases, CDS=$cds"
+  echo ""
+done > prokka_summary.txt
+
+
+To execute the Panaroo analysis:
+$ panaroo -i prokka_output/*/*.gff \
+  -o panaroo_output \
+  --clean-mode strict \
+  -t 8 \
+  --alignment core \
+  --aligner mafft 
+
+
+
+To create the newick file:
+$ FastTree -nt -gtr panaroo_output/core_gene_alignment_filtered.aln > panaroo_output/tree.newick
+
+
+
+To reformat the fasta files:
+$ for fasta in FastaFiles/*.fasta; do
+  strain=$(basename $fasta .fasta)
+  echo "Reformatting: $strain"
+  anvi-script-reformat-fasta \
+  $fasta \
+  -o FastaFiles_reformatted/${strain}_reformatted.fasta \
+  --simplify-names
+done
+
+
+To create the contigs databases:
+$ for fasta in FastaFiles_reformatted/*_reformatted.fasta; do
+  strain=$(basename $fasta _reformatted.fasta)
+  echo "Processing: $strain"
+  anvi-gen-contigs-database \
+  -f $fasta \
+  -o ${strain}.db \
+  -n $strain
+done
+
+
+
+
+To run HMMs on the databases:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Running HMMs: $strain"
+  anvi-run-hmms \
+  -c ${strain}.db \
+  -I Bacteria_71,Ribosomal_RNA_16S \
+  --num-threads 10
+  done
+
+
+
+To add KEGG annotations for all strains:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Running KEGG: $strain"
+  anvi-run-kegg-kofams \
+  -c $db \
+  --num-threads 10
+  done
+
+
+
+To add COG annotations for all strains:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Running COG: $strain"
+  anvi-run-ncbi-cogs \
+  -c $db \
+  --num-threads 10
+  done
+
+
+To create external-functions files:
+$ for strain_dir in prokka_output/*/; do
+  strain=$(basename $strain_dir)
+  echo "Processing: $strain"
+  anvi-script-process-genbank \
+  -i prokka_output/${strain}/${strain}.gbk \
+  -O ${strain}_prokka
+  done
+
+
+
+
+To import the prokka annotations:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Importing Prokka annotations: $strain"
+  anvi-import-functions \
+  -c ${strain}.db \
+  -i ${strain}_prokka-external-functions.txt
+  done
+
+
+
+
+To create the genomes.txt file:
+$ echo -e "name\tcontigs_db_path" > genomes.txt
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo -e "$strain\t$(pwd)/$db"
+  done >> genomes.txt
+
+
+
+To create a genome storage:
+$ anvi-gen-genomes-storage \
+  -e genomes.txt \
+  -o Lm_fermentum-GENOMES.db
+  
+  
+
+To execute the pangenome analysis:
+$ anvi-pan-genome \
+  -g Lm_fermentum-GENOMES.db \
+  -o pangenome_output \
+  -n Lm_fermentum \
+  --num-threads 8
+
+
+
+To calculate the ANI scores:
+$ anvi-compute-genome-similarity \
+  -e genomes.txt \
+  -o ANI_output \
+  --program pyANI \
+  --num-threads 8 \
+  --pan-db pangenome_output/Lm_fermentum-PAN.db
+
+
+To create a default collection:
+$ anvi-script-add-default-collection \
+  -p pangenome_output/Lm_fermentum-PAN.db
+
+
+To make a summary (comparable to Roary and Panaroo):
+$ anvi-summarize \
+  -p pangenome_output/Lm_fermentum-PAN.db \
+  -g Lm_fermentum-GENOMES.db \
+  -C DEFAULT \
+  -o pangenome_summary
+$ gunzip pangenome_summary/Lm_fermentum_gene_clusters_summary.txt.gz
+
+
+
+To create a summary comparable to Roary and Panaroo:
+python3 << 'EOF'
+import pandas as pd
+
+# Load the file
+df = pd.read_csv('pangenome_summary/Lm_fermentum_gene_clusters_summary.txt',
+                 sep='\t',
+                 usecols=['gene_cluster_id', 'num_genomes_gene_cluster_has_hits'])
+
+# Delete duplicates
+df = df.drop_duplicates(subset='gene_cluster_id')
+
+total_genomes = 18
+
+# Calculate the percentage presence
+df['percentage'] = df['num_genomes_gene_cluster_has_hits'] / total_genomes * 100
+
+# Categorize like Roary and Panaroo
+core = len(df[df['percentage'] >= 99])
+soft_core = len(df[(df['percentage'] >= 95) & (df['percentage'] < 99)])
+shell = len(df[(df['percentage'] >= 15) & (df['percentage'] < 95)])
+cloud = len(df[df['percentage'] < 15])
+total = len(df)
+
+# Write to file
+with open('anvio_pangenome_summary.txt', 'w') as f:
+    f.write("=== Pangenome Summary (Anvi'o) ===\n\n")
+    f.write(f"Core genes    (99% <= strains <= 100%)  {core}\n\n")
+    f.write(f"Soft core     (95% <= strains < 99%)    {soft_core}\n\n")
+    f.write(f"Shell genes   (15% <= strains < 95%)    {shell}\n\n")
+    f.write(f"Cloud genes   (0%  <= strains < 15%)    {cloud}\n\n")
+    f.write(f"Total genes   (0%  <= strains <= 100%)  {total}\n")
+
+print("Summary saved to anvio_pangenome_summary.txt")
+EOF
+
+
+
+
+To extract the unique genes:
+$ anvi-get-sequences-for-gene-clusters \
+  -p pangenome_output/Lm_fermentum-PAN.db \
+  -g Lm_fermentum-GENOMES.db \
+  --max-num-genomes-gene-cluster-occurs 1 \
+  --min-num-genomes-gene-cluster-occurs 1 \
+  -o unique_genes_all_raw.fasta
+
+To put them in a file with a fasta header that doesn't have any ":":
+$ sed 's/:/\_/g' unique_genes_all_raw.fasta > unique_genes_all.fasta 
+
+
+
+
+To see the amount of unique genes per strain:
+python3 << 'EOF'
+from collections import defaultdict
+
+counts = defaultdict(int)
+
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        if line.startswith('>'):
+            parts = line.strip().split('|')
+            for part in parts:
+                if 'genome_name_' in part:
+                    genome = part.replace('genome_name_', '').strip()
+                    counts[genome] += 1
+
+for genome, count in sorted(counts.items()):
+    print(f"{genome}: {count} unique genes")
+EOF
+
+
+
+
+
+To make FASTA files for the unique genes of each strain:
+$ mkdir Unique_genes
+
+python3 << 'EOF'
+from collections import defaultdict
+
+# Read all sequences
+sequences = {}
+current_header = None
+current_genome = None
+
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            current_header = line
+            for part in line.split('|'):
+                if 'genome_name_' in part:
+                    current_genome = part.replace('genome_name_', '').strip()
+            sequences[current_header] = {'genome': current_genome, 'seq': ''}
+        else:
+            sequences[current_header]['seq'] += line
+
+# Group by strain
+genomes = defaultdict(list)
+for header, data in sequences.items():
+    genomes[data['genome']].append((header, data['seq']))
+
+# Write separate FASTA file per strain in Unique_genes directory
+for genome, genes in genomes.items():
+    filename = f"Unique_genes/unique_genes_{genome}.fasta"
+    with open(filename, 'w') as f:
+        for header, seq in genes:
+            f.write(f"{header}\n{seq}\n")
+    print(f"{genome}: {len(genes)} unique genes → {filename}")
+EOF
+
+
+
+
+
+Simplified BLAST: 
+To run the BLAST:
+$ awk '/^>/ {print} !/^>/ {gsub(/-/, ""); print}' unique_genes_all.fasta > unique_genes_all_blast.fasta
+
+blastp -query unique_genes_all_blast.fasta \
+       -db ~/blast_db/swissprot \
+       -out blast_results_raw.txt \
+       -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore stitle" \
+       -num_threads 8 \
+       -evalue 0.01 \
+       -max_target_seqs 5
+
+
+
+To create csv files for each strain and all strains together:
+python3 << 'EOF'
+import pandas as pd
+import os
+
+# Read all unique gene headers
+unique_genes = []
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        if line.startswith('>'):
+            header = line.strip().lstrip('>')
+            genome = ''
+            gene_caller = ''
+            gene_cluster = ''
+            for part in header.split('|'):
+                if 'genome_name_' in part:
+                    genome = part.replace('genome_name_', '')
+                if 'gene_callers_id_' in part:
+                    gene_caller = part.replace('gene_callers_id_', '')
+                if 'gene_cluster_' in part:
+                    gene_cluster = part.replace('gene_cluster_', '')
+            unique_genes.append({
+                'query': header,
+                'genome': genome,
+                'gene_cluster': gene_cluster,
+                'gene_callers_id': gene_caller
+            })
+
+df_genes = pd.DataFrame(unique_genes)
+
+# Load BLAST results
+df_blast = pd.read_csv('blast_results_raw.txt', sep='\t', header=None,
+                       names=['query', 'subject', 'pident', 'alignment_length',
+                              'mismatches', 'gap_opens', 'qstart', 'qend',
+                              'sstart', 'send', 'evalue', 'bitscore', 'function'])
+
+# Keep only best hit per query
+df_best = df_blast.sort_values('evalue').groupby('query').first().reset_index()
+
+# Merge with unique genes
+df_merged = df_genes.merge(df_best[['query', 'subject', 'pident',
+                                     'alignment_length', 'evalue',
+                                     'bitscore', 'function']],
+                            on='query', how='left')
+
+# Fill unknown
+df_merged['subject'] = df_merged['subject'].fillna('Unknown')
+df_merged['function'] = df_merged['function'].fillna('Unknown - no BLAST hit found')
+df_merged['pident'] = df_merged['pident'].fillna(0)
+df_merged['evalue'] = df_merged['evalue'].fillna('-')
+df_merged['bitscore'] = df_merged['bitscore'].fillna(0)
+df_merged['alignment_length'] = df_merged['alignment_length'].fillna(0)
+
+# Save combined CSV
+df_merged.to_csv('blast_results_complete.csv', index=False)
+print(f"Saved: blast_results_complete.csv")
+print(f"Total unique genes: {len(df_merged)}")
+print(f"Genes with BLAST hit: {df_merged['subject'].ne('Unknown').sum()}")
+print(f"Genes without BLAST hit: {df_merged['subject'].eq('Unknown').sum()}")
+
+# Save per strain CSV
+os.makedirs('blast_per_strain', exist_ok=True)
+for genome, group in df_merged.groupby('genome'):
+    filename = f"blast_per_strain/{genome}_blast.csv"
+    group.to_csv(filename, index=False)
+    hits = group['subject'].ne('Unknown').sum()
+    no_hits = group['subject'].eq('Unknown').sum()
+    print(f"{genome}: {hits} hits, {no_hits} unknown → {filename}")
+EOF
+
+
+
+
+To add the phylogenetic tree from panaroo to the pangenome analysis of anvi'o:
+$ sed 's/-/_/g' panaroo_output/tree.newick > panaroo_output/tree_fixed.newick
+$ echo -e "item_name\tdata_type\tdata_value" > panaroo_tree_layer_order.txt
+$ echo -e "Panaroo_tree\tnewick\t$(cat panaroo_output/tree_fixed.newick)" >> panaroo_tree_layer_order.txt 
+$ anvi-import-misc-data \
+  panaroo_tree_layer_order.txt \
+  -p pangenome_output/Lm_fermentum-PAN.db \
+  -t layer_orders 
+  
+  
+
+
+
+To visualize the contigs database: 
+$ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") 
+Or in the commandline:
+$ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") --report-as-text -o contigs_stats.txt
+column -t -s $'\t' contigs_stats.txt | less -S
+
+
+
+To view the pangenome: 
+$ anvi-display-pan \
+  -g Lm_fermentum-GENOMES.db \
+  -p pangenome_output/Lm_fermentum-PAN.db \
+  --server-only
+  
+  
+  
+
+To export the gene clusters summary to csv: 
+python3 << 'EOF'
+import pandas as pd
+
+# Load the gene clusters summary
+df = pd.read_csv('pangenome_summary/Lm_fermentum_gene_clusters_summary.txt', sep='\t')
+
+# Save to CSV
+df.to_csv('gene_clusters_summary.csv', index=False)
+print(f"Saved: gene_clusters_summary.csv")
+print(f"Total rows: {len(df)}")
+print(f"Total columns: {len(df.columns)}")
+print(f"Columns: {df.columns.tolist()}")
+EOF
+
+
+
+To export the ANI results to csv:
+python3 << 'EOF'
+import pandas as pd
+
+# Full percentage identity
+df_full = pd.read_csv('ANI_output/ANIb_full_percentage_identity.txt', sep='\t', index_col=0)
+df_full.to_csv('ANI_full_percentage_identity.csv')
+print(f"Saved: ANI_full_percentage_identity.csv")
+
+# All ANI files combined
+ani_files = {
+    'percentage_identity': 'ANI_output/ANIb_percentage_identity.txt',
+    'full_percentage_identity': 'ANI_output/ANIb_full_percentage_identity.txt',
+    'alignment_coverage': 'ANI_output/ANIb_alignment_coverage.txt',
+    'hadamard': 'ANI_output/ANIb_hadamard.txt',
+    'alignment_lengths': 'ANI_output/ANIb_alignment_lengths.txt',
+    'similarity_errors': 'ANI_output/ANIb_similarity_errors.txt'
+}
+
+dfs = []
+for name, filepath in ani_files.items():
+    df = pd.read_csv(filepath, sep='\t', index_col=0)
+    df.columns = [f"{name}_{col}" for col in df.columns]
+    dfs.append(df)
+
+df_combined = pd.concat(dfs, axis=1)
+df_combined.to_csv('ANI_all_results.csv')
+print(f"Saved: ANI_all_results.csv")
+EOF
+
+
+
+
+
+
+
+
+
+
+
+To extract the unique genes as a nucleotide sequence:
+$ anvi-get-sequences-for-gene-clusters \
+  -p pangenome_output/Lm_fermentum-PAN.db \
+  -g Lm_fermentum-GENOMES.db \
+  --max-num-genomes-gene-cluster-occurs 1 \
+  --min-num-genomes-gene-cluster-occurs 1 \
+  --report-DNA-sequences \
+  -o unique_genes_nucleotide_all_raw.fasta
+
+To put them in a file with a fasta header that doesn't have any ":":
+$ sed 's/:/\_/g' unique_genes_nucleotide_all_raw.fasta > unique_genes_nucleotide_all.fasta 
+
+
+
+
+To make FASTA files for the unique genes of each strain (nucleotide):
+$ mkdir Unique_genes_nucleotide
+
+python3 << 'EOF'
+from collections import defaultdict
+
+# Read all sequences
+sequences = {}
+current_header = None
+current_genome = None
+
+with open('unique_genes_nucleotide_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            current_header = line
+            for part in line.split('|'):
+                if 'genome_name_' in part:
+                    current_genome = part.replace('genome_name_', '').strip()
+            sequences[current_header] = {'genome': current_genome, 'seq': ''}
+        else:
+            sequences[current_header]['seq'] += line
+
+# Group by strain
+genomes = defaultdict(list)
+for header, data in sequences.items():
+    genomes[data['genome']].append((header, data['seq']))
+
+# Write separate FASTA file per strain in Unique_genes directory
+for genome, genes in genomes.items():
+    filename = f"Unique_genes_nucleotide/unique_genes_nucleotide_{genome}.fasta"
+    with open(filename, 'w') as f:
+        for header, seq in genes:
+            f.write(f"{header}\n{seq}\n")
+    print(f"{genome}: {len(genes)} unique genes → {filename}")
+EOF
+
+
+
+
+
+
+
+To add the prokka annotation to the unique gene files:
+python3 << 'EOF'
+import os
+import pandas as pd
+
+# Load gene_data.csv
+print("Loading gene_data.csv...")
+df = pd.read_csv('panaroo_output/gene_data.csv')
+annotation_to_desc = dict(zip(df['annotation_id'], df['description']))
+print(f"Loaded {len(annotation_to_desc)} annotations")
+
+def get_gene_descriptions(strain):
+    gene_calls_file = f"{strain}_prokka-external-gene-calls.txt"
+    gff_file = f"prokka_output/{strain}/{strain}.gff"
+
+    if not os.path.exists(gene_calls_file) or not os.path.exists(gff_file):
+        print(f"  Warning: files not found for {strain}")
+        return {}
+
+    gene_calls = pd.read_csv(gene_calls_file, sep='\t')
+
+    locus_tags = []
+    with open(gff_file, 'r') as f:
+        for line in f:
+            if '\tCDS\t' in line:
+                attrs = line.strip().split('\t')[8]
+                for attr in attrs.split(';'):
+                    if attr.startswith('locus_tag='):
+                        locus_tags.append(attr.replace('locus_tag=', ''))
+                        break
+
+    descriptions = {}
+    for i, row in gene_calls.iterrows():
+        gene_callers_id = row['gene_callers_id']
+        if i < len(locus_tags):
+            locus_tag = locus_tags[i]
+            desc = annotation_to_desc.get(locus_tag, 'hypothetical protein')
+            descriptions[gene_callers_id] = desc
+
+    return descriptions
+
+def add_functions_to_fasta(input_dir, output_dir, prefix):
+    os.makedirs(output_dir, exist_ok=True)
+
+    for filename in os.listdir(input_dir):
+        if not filename.endswith('.fasta'):
+            continue
+
+        strain = filename.replace(prefix, '').replace('.fasta', '')
+        print(f"Processing: {strain}")
+
+        descriptions = get_gene_descriptions(strain)
+
+        input_path = os.path.join(input_dir, filename)
+        output_path = os.path.join(output_dir, filename)
+
+        with open(input_path, 'r') as fin, open(output_path, 'w') as fout:
+            for line in fin:
+                if line.startswith('>'):
+                    header = line.strip().lstrip('>')
+                    gene_callers_id = None
+                    for part in header.split('|'):
+                        if 'gene_callers_id_' in part:
+                            try:
+                                gene_callers_id = int(part.replace('gene_callers_id_', ''))
+                            except:
+                                pass
+
+                    desc = descriptions.get(gene_callers_id, 'hypothetical protein')
+                    fout.write(f">{header}|function_{desc}\n")
+                else:
+                    fout.write(line)
+
+        print(f"  Saved: {output_path}")
+
+# Verwerk aminozuur sequenties
+print("\n=== Processing amino acid sequences ===")
+add_functions_to_fasta(
+    'Unique_genes',
+    'Unique_genes_annotated',
+    'unique_genes_'
+)
+
+# Verwerk nucleotide sequenties
+print("\n=== Processing nucleotide sequences ===")
+add_functions_to_fasta(
+    'Unique_genes_nucleotide',
+    'Unique_genes_nucleotide_annotated',
+    'unique_genes_nucleotide_'
+)
+
+print("\nDone!")
+EOF
+
+
+
+
+
+
+
+To extract the unique genes:
+$ anvi-get-sequences-for-gene-clusters \
+  -p pangenome_output/Lm_fermentum-PAN.db \
+  -g Lm_fermentum-GENOMES.db \
+  --max-num-genomes-gene-cluster-occurs 1 \
+  --min-num-genomes-gene-cluster-occurs 1 \
+  -o unique_genes_all_raw.fasta
+
+ 
+
+To put them in a file with a fasta header that doesn't have any ":":
+$ sed 's/:/\_/g' unique_genes_all_raw.fasta > unique_genes_all.fasta
+
+ 
+
+ 
+
+ 
+
+To make FASTA files for the unique genes of each strain:
+$ mkdir Unique_genes
+
+python3 << 'EOF'
+from collections import defaultdict
+
+# Read all sequences
+sequences = {}
+current_header = None
+current_genome = None
+
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            current_header = line
+            for part in line.split('|'):
+                if 'genome_name_' in part:
+                    current_genome = part.replace('genome_name_', '').strip()
+            sequences[current_header] = {'genome': current_genome, 'seq': ''}
+        else:
+            sequences[current_header]['seq'] += line
+
+# Group by strain
+genomes = defaultdict(list)
+for header, data in sequences.items():
+    genomes[data['genome']].append((header, data['seq']))
+
+# Write separate FASTA file per strain in Unique_genes directory
+for genome, genes in genomes.items():
+    filename = f"Unique_genes/unique_genes_{genome}.fasta"
+    with open(filename, 'w') as f:
+        for header, seq in genes:
+            f.write(f"{header}\n{seq}\n")
+    print(f"{genome}: {len(genes)} unique genes → {filename}")
+EOF
+
+ 
+
+ 
+
+To extract the unique genes as a nucleotide sequence:
+$ anvi-get-sequences-for-gene-clusters \
+  -p pangenome_output/Lm_fermentum-PAN.db \
+  -g Lm_fermentum-GENOMES.db \
+  --max-num-genomes-gene-cluster-occurs 1 \
+  --min-num-genomes-gene-cluster-occurs 1 \
+  --report-DNA-sequences \
+  -o unique_genes_nucleotide_all_raw.fasta
+
+To put them in a file with a fasta header that doesn't have any ":":
+$ sed 's/:/\_/g' unique_genes_nucleotide_all_raw.fasta > unique_genes_nucleotide_all.fasta
+
+To make FASTA files for the unique genes of each strain (nucleotide):
+$ mkdir Unique_genes_nucleotide
+
+
+python3 << 'EOF'
+from collections import defaultdict
+
+# Read all sequences
+sequences = {}
+current_header = None
+current_genome = None
+
+with open('unique_genes_nucleotide_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            current_header = line
+            for part in line.split('|'):
+                if 'genome_name_' in part:
+                    current_genome = part.replace('genome_name_', '').strip()
+            sequences[current_header] = {'genome': current_genome, 'seq': ''}
+        else:
+            sequences[current_header]['seq'] += line
+
+# Group by strain
+genomes = defaultdict(list)
+for header, data in sequences.items():
+    genomes[data['genome']].append((header, data['seq']))
+
+# Write separate FASTA file per strain in Unique_genes directory
+for genome, genes in genomes.items():
+    filename = f"Unique_genes_nucleotide/unique_genes_nucleotide_{genome}.fasta"
+    with open(filename, 'w') as f:
+        for header, seq in genes:
+            f.write(f"{header}\n{seq}\n")
+    print(f"{genome}: {len(genes)} unique genes → {filename}")
+EOF
+
+ 
+
+ 
+
+ 
+
+To add the prokka annotation to the unique gene files:
+python3 << 'EOF'
+import os
+import pandas as pd
+
+# Load gene_data.csv
+print("Loading gene_data.csv...")
+df = pd.read_csv('panaroo_output/gene_data.csv')
+annotation_to_desc = dict(zip(df['annotation_id'], df['description']))
+print(f"Loaded {len(annotation_to_desc)} annotations")
+
+def get_gene_descriptions(strain):
+    gene_calls_file = f"{strain}_prokka-external-gene-calls.txt"
+    gff_file = f"prokka_output/{strain}/{strain}.gff"
+
+    if not os.path.exists(gene_calls_file) or not os.path.exists(gff_file):
+        print(f"  Warning: files not found for {strain}")
+        return {}
+
+    gene_calls = pd.read_csv(gene_calls_file, sep='\t')
+
+    locus_tags = []
+    with open(gff_file, 'r') as f:
+        for line in f:
+            if '\tCDS\t' in line:
+                attrs = line.strip().split('\t')[8]
+                for attr in attrs.split(';'):
+                    if attr.startswith('locus_tag='):
+                        locus_tags.append(attr.replace('locus_tag=', ''))
+                        break
+
+    descriptions = {}
+    for i, row in gene_calls.iterrows():
+        gene_callers_id = row['gene_callers_id']
+        if i < len(locus_tags):
+            locus_tag = locus_tags[i]
+            desc = annotation_to_desc.get(locus_tag, 'hypothetical protein')
+            descriptions[gene_callers_id] = desc
+
+    return descriptions
+
+def add_functions_to_fasta(input_dir, output_dir, prefix):
+    os.makedirs(output_dir, exist_ok=True)
+
+    for filename in os.listdir(input_dir):
+        if not filename.endswith('.fasta'):
+            continue
+
+        strain = filename.replace(prefix, '').replace('.fasta', '')
+        print(f"Processing: {strain}")
+
+        descriptions = get_gene_descriptions(strain)
+
+        input_path = os.path.join(input_dir, filename)
+        output_path = os.path.join(output_dir, filename)
+
+        with open(input_path, 'r') as fin, open(output_path, 'w') as fout:
+            for line in fin:
+                if line.startswith('>'):
+                    header = line.strip().lstrip('>')
+                    gene_callers_id = None
+                    for part in header.split('|'):
+                        if 'gene_callers_id_' in part:
+                            try:
+                                gene_callers_id = int(part.replace('gene_callers_id_', ''))
+                            except:
+                                pass
+
+                    desc = descriptions.get(gene_callers_id, 'hypothetical protein')
+                    fout.write(f">{header}|function_{desc}\n")
+                else:
+                    fout.write(line)
+
+        print(f"  Saved: {output_path}")
+
+# Processing amino acid sequences
+print("\n=== Processing amino acid sequences ===")
+add_functions_to_fasta(
+    'Unique_genes',
+    'Unique_genes_annotated',
+    'unique_genes_'
+)
+
+# processing nucleotide sequences
+print("\n=== Processing nucleotide sequences ===")
+add_functions_to_fasta(
+    'Unique_genes_nucleotide',
+    'Unique_genes_nucleotide_annotated',
+    'unique_genes_nucleotide_'
+)
+
+print("\nDone!")
+EOF
+
+
+
+
+
+
+
+
+
+
+To extract the unique genes with annotations, simplified:
+$ anvi-get-sequences-for-gene-clusters \
+    -p pangenome_output/Lm_fermentum-PAN.db \
+    -g Lm_fermentum-GENOMES.db \
+    --max-num-genomes-gene-cluster-occurs 1 \
+    --min-num-genomes-gene-cluster-occurs 1 \
+    -o unique_genes_all_raw.fasta
+
+$ sed 's/:/\_/g' unique_genes_all_raw.fasta > unique_genes_all.fasta
+
+$ mkdir -p Unique_genes_annotated
+
+
+python3 << 'EOF'
+import os
+import pandas as pd
+from collections import defaultdict
+
+# Load gene_data.csv
+print("Loading gene_data.csv...")
+df = pd.read_csv('panaroo_output/gene_data.csv')
+annotation_to_desc = dict(zip(df['annotation_id'], df['description']))
+print(f"Loaded {len(annotation_to_desc)} annotations")
+
+def get_gene_descriptions(strain):
+    gene_calls_file = f"{strain}_prokka-external-gene-calls.txt"
+    gff_file = f"prokka_output/{strain}/{strain}.gff"
+
+    if not os.path.exists(gene_calls_file) or not os.path.exists(gff_file):
+        print(f"  Warning: files not found for {strain}")
+        return {}
+
+    gene_calls = pd.read_csv(gene_calls_file, sep='\t')
+
+    locus_tags = []
+    with open(gff_file, 'r') as f:
+        for line in f:
+            if '\tCDS\t' in line:
+                attrs = line.strip().split('\t')[8]
+                for attr in attrs.split(';'):
+                    if attr.startswith('locus_tag='):
+                        locus_tags.append(attr.replace('locus_tag=', ''))
+                        break
+
+    descriptions = {}
+    for i, row in gene_calls.iterrows():
+        gene_callers_id = row['gene_callers_id']
+        if i < len(locus_tags):
+            locus_tag = locus_tags[i]
+            desc = annotation_to_desc.get(locus_tag, 'hypothetical protein')
+            descriptions[gene_callers_id] = desc
+
+    return descriptions
+
+# Read all sequences
+sequences = {}
+current_header = None
+current_genome = None
+
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            current_header = line
+            for part in line.split('|'):
+                if 'genome_name_' in part:
+                    current_genome = part.replace('genome_name_', '').strip()
+            sequences[current_header] = {'genome': current_genome, 'seq': ''}
+        else:
+            sequences[current_header]['seq'] += line
+
+# Group by strain
+genomes = defaultdict(list)
+for header, data in sequences.items():
+    genomes[data['genome']].append((header, data['seq']))
+
+# Write separate FASTA file per strain with annotations
+for genome, genes in genomes.items():
+    descriptions = get_gene_descriptions(genome)
+    filename = f"Unique_genes_annotated/unique_genes_{genome}.fasta"
+    with open(filename, 'w') as f:
+        for header, seq in genes:
+            gene_callers_id = None
+            for part in header.lstrip('>').split('|'):
+                if 'gene_callers_id_' in part:
+                    try:
+                        gene_callers_id = int(part.replace('gene_callers_id_', ''))
+                    except:
+                        pass
+            desc = descriptions.get(gene_callers_id, 'hypothetical protein')
+            f.write(f"{header}|function_{desc}\n{seq}\n")
+    print(f"{genome}: {len(genes)} unique genes → {filename}")
+
+print("\nDone!")
+EOF
+
+
+
+To extract the nucleotide sequence of the unique genes, simplifie:
+$ anvi-get-sequences-for-gene-clusters \
+    -p pangenome_output/Lm_fermentum-PAN.db \
+    -g Lm_fermentum-GENOMES.db \
+    --max-num-genomes-gene-cluster-occurs 1 \
+    --min-num-genomes-gene-cluster-occurs 1 \
+    --report-DNA-sequences \
+    -o unique_genes_nucleotide_all_raw.fasta
+
+$ sed 's/:/\_/g' unique_genes_nucleotide_all_raw.fasta > unique_genes_nucleotide_all.fasta
+
+$ mkdir -p Unique_genes_nucleotide_annotated
+
+ 
+python3 << 'EOF'
+import os
+import pandas as pd
+from collections import defaultdict
+
+# Load gene_data.csv
+print("Loading gene_data.csv...")
+df = pd.read_csv('panaroo_output/gene_data.csv')
+annotation_to_desc = dict(zip(df['annotation_id'], df['description']))
+print(f"Loaded {len(annotation_to_desc)} annotations")
+
+def get_gene_descriptions(strain):
+    gene_calls_file = f"{strain}_prokka-external-gene-calls.txt"
+    gff_file = f"prokka_output/{strain}/{strain}.gff"
+
+    if not os.path.exists(gene_calls_file) or not os.path.exists(gff_file):
+        print(f"  Warning: files not found for {strain}")
+        return {}
+
+    gene_calls = pd.read_csv(gene_calls_file, sep='\t')
+
+    locus_tags = []
+    with open(gff_file, 'r') as f:
+        for line in f:
+            if '\tCDS\t' in line:
+                attrs = line.strip().split('\t')[8]
+                for attr in attrs.split(';'):
+                    if attr.startswith('locus_tag='):
+                        locus_tags.append(attr.replace('locus_tag=', ''))
+                        break
+
+    descriptions = {}
+    for i, row in gene_calls.iterrows():
+        gene_callers_id = row['gene_callers_id']
+        if i < len(locus_tags):
+            locus_tag = locus_tags[i]
+            desc = annotation_to_desc.get(locus_tag, 'hypothetical protein')
+            descriptions[gene_callers_id] = desc
+
+    return descriptions
+
+# Read all sequences
+sequences = {}
+current_header = None
+current_genome = None
+
+with open('unique_genes_nucleotide_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            current_header = line
+            for part in line.split('|'):
+                if 'genome_name_' in part:
+                    current_genome = part.replace('genome_name_', '').strip()
+            sequences[current_header] = {'genome': current_genome, 'seq': ''}
+        else:
+            sequences[current_header]['seq'] += line
+
+# Group by strain
+genomes = defaultdict(list)
+for header, data in sequences.items():
+    genomes[data['genome']].append((header, data['seq']))
+
+# Write separate FASTA file per strain with annotations
+for genome, genes in genomes.items():
+    descriptions = get_gene_descriptions(genome)
+    filename = f"Unique_genes_nucleotide_annotated/unique_genes_nucleotide_{genome}.fasta"
+    with open(filename, 'w') as f:
+        for header, seq in genes:
+            gene_callers_id = None
+            for part in header.lstrip('>').split('|'):
+                if 'gene_callers_id_' in part:
+                    try:
+                        gene_callers_id = int(part.replace('gene_callers_id_', ''))
+                    except:
+                        pass
+            desc = descriptions.get(gene_callers_id, 'hypothetical protein')
+            f.write(f"{header}|function_{desc}\n{seq}\n")
+    print(f"{genome}: {len(genes)} unique genes → {filename}")
+
+print("\nDone!")
+EOF

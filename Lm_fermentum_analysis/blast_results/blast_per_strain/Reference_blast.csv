@@ -1,0 +1,14 @@
+query,genome,gene_cluster,gene_callers_id,subject,pident,alignment_length,evalue,bitscore,function
+00000009|gene_cluster_GC_00002898|genome_name_Reference|gene_callers_id_705,Reference,GC_00002898,705,sp|P29284|FLP_LACCA,40.553,217.0,9.42e-55,177.0,sp|P29284|FLP_LACCA Probable transcriptional regulator flp OS=Lacticaseibacillus casei OX=1582 GN=flp PE=4 SV=1
+00000081|gene_cluster_GC_00003060|genome_name_Reference|gene_callers_id_699,Reference,GC_00003060,699,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000088|gene_cluster_GC_00002879|genome_name_Reference|gene_callers_id_704,Reference,GC_00002879,704,sp|Q5HR69|SCDA_STAEQ,24.528,106.0,0.004,37.7,sp|Q5HR69|SCDA_STAEQ Iron-sulfur cluster repair protein ScdA OS=Staphylococcus epidermidis (strain ATCC 35984 / DSM 28319 / BCRC 17069 / CCUG 31568 / BM 3577 / RP62A) OX=176279 GN=scdA PE=3 SV=1
+00000128|gene_cluster_GC_00002767|genome_name_Reference|gene_callers_id_160,Reference,GC_00002767,160,sp|Q7WTB0|LACR_LACHE,41.141,333.0,3.86e-86,265.0,sp|Q7WTB0|LACR_LACHE HTH-type transcriptional regulator LacR OS=Lactobacillus helveticus OX=1587 GN=lacR PE=2 SV=1
+00000168|gene_cluster_GC_00003110|genome_name_Reference|gene_callers_id_1492,Reference,GC_00003110,1492,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000183|gene_cluster_GC_00002548|genome_name_Reference|gene_callers_id_209,Reference,GC_00002548,209,sp|Q4K0S9|WCWK3_STREE,33.841,328.0,3.02e-57,191.0,sp|Q4K0S9|WCWK3_STREE Capsular polysaccharide phosphotransferase WcwK OS=Streptococcus pneumoniae OX=1313 GN=wcwK PE=3 SV=1
+00000211|gene_cluster_GC_00002597|genome_name_Reference|gene_callers_id_703,Reference,GC_00002597,703,sp|O32221|COPZ_BACSU,33.803,71.0,9.16e-10,52.4,sp|O32221|COPZ_BACSU Copper chaperone CopZ OS=Bacillus subtilis (strain 168) OX=224308 GN=copZ PE=1 SV=1
+00000213|gene_cluster_GC_00002559|genome_name_Reference|gene_callers_id_698,Reference,GC_00002559,698,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000430|gene_cluster_GC_00003009|genome_name_Reference|gene_callers_id_1454,Reference,GC_00003009,1454,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000501|gene_cluster_GC_00003087|genome_name_Reference|gene_callers_id_207,Reference,GC_00003087,207,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000502|gene_cluster_GC_00003026|genome_name_Reference|gene_callers_id_210,Reference,GC_00003026,210,sp|Q0P9C6|PGLI_CAMJE,24.88,209.0,0.000592,44.7,"sp|Q0P9C6|PGLI_CAMJE GalNAc(5)-diNAcBac-PP-undecaprenol beta-1,3-glucosyltransferase OS=Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168) OX=192222 GN=pglI PE=1 SV=1"
+00000552|gene_cluster_GC_00002580|genome_name_Reference|gene_callers_id_763,Reference,GC_00002580,763,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000562|gene_cluster_GC_00003088|genome_name_Reference|gene_callers_id_211,Reference,GC_00003088,211,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

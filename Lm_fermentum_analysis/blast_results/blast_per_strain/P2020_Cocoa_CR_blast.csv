@@ -1,0 +1,29 @@
+query,genome,gene_cluster,gene_callers_id,subject,pident,alignment_length,evalue,bitscore,function
+00000014|gene_cluster_GC_00002791|genome_name_P2020_Cocoa_CR|gene_callers_id_921,P2020_Cocoa_CR,GC_00002791,921,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000021|gene_cluster_GC_00003072|genome_name_P2020_Cocoa_CR|gene_callers_id_341,P2020_Cocoa_CR,GC_00003072,341,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000024|gene_cluster_GC_00002963|genome_name_P2020_Cocoa_CR|gene_callers_id_1193,P2020_Cocoa_CR,GC_00002963,1193,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000100|gene_cluster_GC_00002756|genome_name_P2020_Cocoa_CR|gene_callers_id_1183,P2020_Cocoa_CR,GC_00002756,1183,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000111|gene_cluster_GC_00002534|genome_name_P2020_Cocoa_CR|gene_callers_id_1207,P2020_Cocoa_CR,GC_00002534,1207,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000151|gene_cluster_GC_00002591|genome_name_P2020_Cocoa_CR|gene_callers_id_1184,P2020_Cocoa_CR,GC_00002591,1184,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000185|gene_cluster_GC_00002533|genome_name_P2020_Cocoa_CR|gene_callers_id_1206,P2020_Cocoa_CR,GC_00002533,1206,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000186|gene_cluster_GC_00002786|genome_name_P2020_Cocoa_CR|gene_callers_id_342,P2020_Cocoa_CR,GC_00002786,342,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000198|gene_cluster_GC_00002655|genome_name_P2020_Cocoa_CR|gene_callers_id_1848,P2020_Cocoa_CR,GC_00002655,1848,sp|Q6YRM6|Y8219_ORYSJ,31.724,145.0,1.53e-12,72.0,sp|Q6YRM6|Y8219_ORYSJ Glycosyltransferase family 92 protein Os08g0121900 OS=Oryza sativa subsp. japonica OX=39947 GN=Os08g0121900 PE=2 SV=1
+00000207|gene_cluster_GC_00002831|genome_name_P2020_Cocoa_CR|gene_callers_id_1189,P2020_Cocoa_CR,GC_00002831,1189,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000227|gene_cluster_GC_00002807|genome_name_P2020_Cocoa_CR|gene_callers_id_1746,P2020_Cocoa_CR,GC_00002807,1746,sp|P37783|RFBG_SHIFL,28.968,252.0,1.77e-20,92.4,sp|P37783|RFBG_SHIFL dTDP-rhamnosyl transferase RfbG OS=Shigella flexneri OX=623 GN=rfbG PE=3 SV=1
+00000229|gene_cluster_GC_00002572|genome_name_P2020_Cocoa_CR|gene_callers_id_1747,P2020_Cocoa_CR,GC_00002572,1747,sp|P37782|RFBF_SHIFL,30.208,288.0,2.3599999999999998e-23,100.0,sp|P37782|RFBF_SHIFL dTDP-rhamnosyl transferase RfbF OS=Shigella flexneri OX=623 GN=rfbF PE=3 SV=2
+00000279|gene_cluster_GC_00002885|genome_name_P2020_Cocoa_CR|gene_callers_id_922,P2020_Cocoa_CR,GC_00002885,922,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000286|gene_cluster_GC_00002996|genome_name_P2020_Cocoa_CR|gene_callers_id_1205,P2020_Cocoa_CR,GC_00002996,1205,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000302|gene_cluster_GC_00002700|genome_name_P2020_Cocoa_CR|gene_callers_id_1749,P2020_Cocoa_CR,GC_00002700,1749,sp|P9WMY3|WBBL_MYCTU,26.8,250.0,7.5e-13,70.5,sp|P9WMY3|WBBL_MYCTU N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=wbbL PE=1 SV=2
+00000309|gene_cluster_GC_00002927|genome_name_P2020_Cocoa_CR|gene_callers_id_1849,P2020_Cocoa_CR,GC_00002927,1849,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000382|gene_cluster_GC_00002560|genome_name_P2020_Cocoa_CR|gene_callers_id_1855,P2020_Cocoa_CR,GC_00002560,1855,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000411|gene_cluster_GC_00002738|genome_name_P2020_Cocoa_CR|gene_callers_id_1815,P2020_Cocoa_CR,GC_00002738,1815,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000421|gene_cluster_GC_00003144|genome_name_P2020_Cocoa_CR|gene_callers_id_1195,P2020_Cocoa_CR,GC_00003144,1195,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000431|gene_cluster_GC_00002703|genome_name_P2020_Cocoa_CR|gene_callers_id_967,P2020_Cocoa_CR,GC_00002703,967,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000443|gene_cluster_GC_00002615|genome_name_P2020_Cocoa_CR|gene_callers_id_1748,P2020_Cocoa_CR,GC_00002615,1748,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000479|gene_cluster_GC_00002726|genome_name_P2020_Cocoa_CR|gene_callers_id_1793,P2020_Cocoa_CR,GC_00002726,1793,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000528|gene_cluster_GC_00002960|genome_name_P2020_Cocoa_CR|gene_callers_id_1398,P2020_Cocoa_CR,GC_00002960,1398,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000551|gene_cluster_GC_00002933|genome_name_P2020_Cocoa_CR|gene_callers_id_1937,P2020_Cocoa_CR,GC_00002933,1937,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000567|gene_cluster_GC_00002649|genome_name_P2020_Cocoa_CR|gene_callers_id_1745,P2020_Cocoa_CR,GC_00002649,1745,sp|P37746|RFBX_ECOLI,26.781,407.0,5.77e-20,95.5,sp|P37746|RFBX_ECOLI Putative O-antigen transporter OS=Escherichia coli (strain K12) OX=83333 GN=rfbX PE=1 SV=4
+00000606|gene_cluster_GC_00002854|genome_name_P2020_Cocoa_CR|gene_callers_id_1817,P2020_Cocoa_CR,GC_00002854,1817,sp|P0DXG8|DRRA1_STRC4,35.179,307.0,1.51e-50,172.0,sp|P0DXG8|DRRA1_STRC4 Daunorubicin resistance ATP-binding protein DrrA1 OS=Streptomyces coeruleorubidus OX=116188 GN=drrA1 PE=1 SV=1
+00000645|gene_cluster_GC_00003141|genome_name_P2020_Cocoa_CR|gene_callers_id_1816,P2020_Cocoa_CR,GC_00003141,1816,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000648|gene_cluster_GC_00002975|genome_name_P2020_Cocoa_CR|gene_callers_id_1190,P2020_Cocoa_CR,GC_00002975,1190,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

@@ -1,0 +1,67 @@
+query,genome,gene_cluster,gene_callers_id,subject,pident,alignment_length,evalue,bitscore,function
+00000003|gene_cluster_GC_00003075|genome_name_P815_Cocoa_CR|gene_callers_id_841,P815_Cocoa_CR,GC_00003075,841,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000016|gene_cluster_GC_00002530|genome_name_P815_Cocoa_CR|gene_callers_id_99,P815_Cocoa_CR,GC_00002530,99,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000031|gene_cluster_GC_00002950|genome_name_P815_Cocoa_CR|gene_callers_id_96,P815_Cocoa_CR,GC_00002950,96,sp|O34469|YEEB_BACSU,61.526,603.0,0.0,781.0,sp|O34469|YEEB_BACSU Putative ATP-dependent helicase YeeB OS=Bacillus subtilis (strain 168) OX=224308 GN=yeeB PE=3 SV=2
+00000035|gene_cluster_GC_00002965|genome_name_P815_Cocoa_CR|gene_callers_id_111,P815_Cocoa_CR,GC_00002965,111,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000068|gene_cluster_GC_00003111|genome_name_P815_Cocoa_CR|gene_callers_id_843,P815_Cocoa_CR,GC_00003111,843,sp|A6NMZ7|CO6A6_HUMAN,31.25,144.0,7.39e-07,53.5,sp|A6NMZ7|CO6A6_HUMAN Collagen alpha-6(VI) chain OS=Homo sapiens OX=9606 GN=COL6A6 PE=1 SV=2
+00000093|gene_cluster_GC_00002802|genome_name_P815_Cocoa_CR|gene_callers_id_71,P815_Cocoa_CR,GC_00002802,71,sp|Q47MU2|CLPP2_THEFY,31.325,166.0,1.07e-17,81.3,sp|Q47MU2|CLPP2_THEFY ATP-dependent Clp protease proteolytic subunit 2 OS=Thermobifida fusca (strain YX) OX=269800 GN=clpP2 PE=3 SV=1
+00000097|gene_cluster_GC_00002723|genome_name_P815_Cocoa_CR|gene_callers_id_84,P815_Cocoa_CR,GC_00002723,84,sp|Q5UQ22|YL207_MIMIV,30.0,160.0,6.04e-13,76.3,sp|Q5UQ22|YL207_MIMIV Putative helicase L207/L206 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L206 PE=4 SV=2
+00000121|gene_cluster_GC_00003150|genome_name_P815_Cocoa_CR|gene_callers_id_1876,P815_Cocoa_CR,GC_00003150,1876,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000122|gene_cluster_GC_00002751|genome_name_P815_Cocoa_CR|gene_callers_id_78,P815_Cocoa_CR,GC_00002751,78,sp|Q9S4X2|YUBD_ECOLI,28.194,227.0,1.49e-15,79.0,sp|Q9S4X2|YUBD_ECOLI Putative methylase YubD OS=Escherichia coli (strain K12) OX=83333 GN=yubD PE=3 SV=1
+00000133|gene_cluster_GC_00002722|genome_name_P815_Cocoa_CR|gene_callers_id_75,P815_Cocoa_CR,GC_00002722,75,sp|Q9MCT1|TERL_BPHK7,32.794,494.0,5.37e-75,249.0,"sp|Q9MCT1|TERL_BPHK7 Terminase, large subunit OS=Enterobacteria phage HK97 OX=2681617 GN=2 PE=1 SV=1"
+00000136|gene_cluster_GC_00002624|genome_name_P815_Cocoa_CR|gene_callers_id_89,P815_Cocoa_CR,GC_00002624,89,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000144|gene_cluster_GC_00002758|genome_name_P815_Cocoa_CR|gene_callers_id_838,P815_Cocoa_CR,GC_00002758,838,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000153|gene_cluster_GC_00002983|genome_name_P815_Cocoa_CR|gene_callers_id_66,P815_Cocoa_CR,GC_00002983,66,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000166|gene_cluster_GC_00002537|genome_name_P815_Cocoa_CR|gene_callers_id_77,P815_Cocoa_CR,GC_00002537,77,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000174|gene_cluster_GC_00002671|genome_name_P815_Cocoa_CR|gene_callers_id_92,P815_Cocoa_CR,GC_00002671,92,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000180|gene_cluster_GC_00002907|genome_name_P815_Cocoa_CR|gene_callers_id_83,P815_Cocoa_CR,GC_00002907,83,sp|Q9T1Q4|VP44_BPAPS,46.067,89.0,1.91e-18,75.9,sp|Q9T1Q4|VP44_BPAPS Putative nuclease p44 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=2682836 GN=44 PE=3 SV=1
+00000194|gene_cluster_GC_00002971|genome_name_P815_Cocoa_CR|gene_callers_id_68,P815_Cocoa_CR,GC_00002971,68,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000197|gene_cluster_GC_00002855|genome_name_P815_Cocoa_CR|gene_callers_id_1081,P815_Cocoa_CR,GC_00002855,1081,sp|Q88XJ7|CPS2G_LACPL,48.624,327.0,1.8699999999999998e-108,322.0,sp|Q88XJ7|CPS2G_LACPL Exopolysaccharide phosphotransferase cps2G OS=Lactiplantibacillus plantarum (strain ATCC BAA-793 / NCIMB 8826 / WCFS1) OX=220668 GN=cps2G PE=3 SV=1
+00000208|gene_cluster_GC_00002962|genome_name_P815_Cocoa_CR|gene_callers_id_85,P815_Cocoa_CR,GC_00002962,85,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000209|gene_cluster_GC_00002662|genome_name_P815_Cocoa_CR|gene_callers_id_45,P815_Cocoa_CR,GC_00002662,45,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000248|gene_cluster_GC_00002991|genome_name_P815_Cocoa_CR|gene_callers_id_74,P815_Cocoa_CR,GC_00002991,74,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000249|gene_cluster_GC_00003127|genome_name_P815_Cocoa_CR|gene_callers_id_81,P815_Cocoa_CR,GC_00003127,81,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000256|gene_cluster_GC_00002743|genome_name_P815_Cocoa_CR|gene_callers_id_98,P815_Cocoa_CR,GC_00002743,98,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000258|gene_cluster_GC_00002896|genome_name_P815_Cocoa_CR|gene_callers_id_76,P815_Cocoa_CR,GC_00002896,76,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000261|gene_cluster_GC_00002476|genome_name_P815_Cocoa_CR|gene_callers_id_1960,P815_Cocoa_CR,GC_00002476,1960,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000262|gene_cluster_GC_00002476|genome_name_P815_Cocoa_CR|gene_callers_id_1966,P815_Cocoa_CR,GC_00002476,1966,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000263|gene_cluster_GC_00002867|genome_name_P815_Cocoa_CR|gene_callers_id_1084,P815_Cocoa_CR,GC_00002867,1084,sp|P71055|EPSF_BACSU,28.415,366.0,3.69e-36,138.0,sp|P71055|EPSF_BACSU Putative glycosyltransferase EpsF OS=Bacillus subtilis (strain 168) OX=224308 GN=epsF PE=2 SV=1
+00000270|gene_cluster_GC_00002628|genome_name_P815_Cocoa_CR|gene_callers_id_875,P815_Cocoa_CR,GC_00002628,875,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000293|gene_cluster_GC_00003015|genome_name_P815_Cocoa_CR|gene_callers_id_849,P815_Cocoa_CR,GC_00003015,849,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000310|gene_cluster_GC_00002642|genome_name_P815_Cocoa_CR|gene_callers_id_82,P815_Cocoa_CR,GC_00002642,82,sp|Q9T1Q7|VP41_BPAPS,36.923,455.0,2.31e-93,292.0,sp|Q9T1Q7|VP41_BPAPS Putative protein p41 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=2682836 GN=41 PE=4 SV=1
+00000311|gene_cluster_GC_00003092|genome_name_P815_Cocoa_CR|gene_callers_id_1083,P815_Cocoa_CR,GC_00003092,1083,sp|P37783|RFBG_SHIFL,26.891,238.0,5.66e-11,65.9,sp|P37783|RFBG_SHIFL dTDP-rhamnosyl transferase RfbG OS=Shigella flexneri OX=623 GN=rfbG PE=3 SV=1
+00000312|gene_cluster_GC_00002520|genome_name_P815_Cocoa_CR|gene_callers_id_1953,P815_Cocoa_CR,GC_00002520,1953,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000323|gene_cluster_GC_00002926|genome_name_P815_Cocoa_CR|gene_callers_id_69,P815_Cocoa_CR,GC_00002926,69,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000327|gene_cluster_GC_00002815|genome_name_P815_Cocoa_CR|gene_callers_id_72,P815_Cocoa_CR,GC_00002815,72,sp|Q9ZXB2|PORTL_BPPHC,35.62,379.0,4.2e-63,213.0,sp|Q9ZXB2|PORTL_BPPHC Probable portal protein OS=Streptomyces phage phiC31 OX=10719 GN=34 PE=3 SV=1
+00000370|gene_cluster_GC_00003124|genome_name_P815_Cocoa_CR|gene_callers_id_117,P815_Cocoa_CR,GC_00003124,117,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000407|gene_cluster_GC_00002664|genome_name_P815_Cocoa_CR|gene_callers_id_872,P815_Cocoa_CR,GC_00002664,872,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000435|gene_cluster_GC_00002862|genome_name_P815_Cocoa_CR|gene_callers_id_80,P815_Cocoa_CR,GC_00002862,80,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000445|gene_cluster_GC_00002846|genome_name_P815_Cocoa_CR|gene_callers_id_86,P815_Cocoa_CR,GC_00002846,86,sp|P06225|DPOL_BPSP2,52.469,648.0,0.0,688.0,sp|P06225|DPOL_BPSP2 DNA polymerase OS=Bacillus phage SP02 OX=10723 GN=L PE=3 SV=1
+00000458|gene_cluster_GC_00003008|genome_name_P815_Cocoa_CR|gene_callers_id_88,P815_Cocoa_CR,GC_00003008,88,sp|Q9T1P7|VP51_BPAPS,29.63,432.0,2.57e-37,142.0,sp|Q9T1P7|VP51_BPAPS Putative protein p51 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=2682836 GN=51 PE=4 SV=1
+00000484|gene_cluster_GC_00003146|genome_name_P815_Cocoa_CR|gene_callers_id_137,P815_Cocoa_CR,GC_00003146,137,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000488|gene_cluster_GC_00002706|genome_name_P815_Cocoa_CR|gene_callers_id_1430,P815_Cocoa_CR,GC_00002706,1430,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000493|gene_cluster_GC_00002778|genome_name_P815_Cocoa_CR|gene_callers_id_836,P815_Cocoa_CR,GC_00002778,836,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000503|gene_cluster_GC_00003048|genome_name_P815_Cocoa_CR|gene_callers_id_73,P815_Cocoa_CR,GC_00003048,73,sp|O33348|RELG_MYCTU,33.696,92.0,1.81e-07,47.8,sp|O33348|RELG_MYCTU Toxin RelG OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=relG PE=1 SV=1
+00000505|gene_cluster_GC_00003013|genome_name_P815_Cocoa_CR|gene_callers_id_132,P815_Cocoa_CR,GC_00003013,132,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000507|gene_cluster_GC_00003121|genome_name_P815_Cocoa_CR|gene_callers_id_844,P815_Cocoa_CR,GC_00003121,844,sp|Q5UQ13|COLL2_MIMIV,36.905,168.0,3.22e-08,57.8,sp|Q5UQ13|COLL2_MIMIV Collagen-like protein 2 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R196 PE=4 SV=1
+00000509|gene_cluster_GC_00002850|genome_name_P815_Cocoa_CR|gene_callers_id_862,P815_Cocoa_CR,GC_00002850,862,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000534|gene_cluster_GC_00002798|genome_name_P815_Cocoa_CR|gene_callers_id_848,P815_Cocoa_CR,GC_00002798,848,sp|E7DNB6|TMP_BPDP1,26.14,329.0,4.43e-14,81.3,sp|E7DNB6|TMP_BPDP1 Tape measure protein OS=Pneumococcus phage Dp-1 OX=59241 GN=TMP PE=4 SV=1
+00000543|gene_cluster_GC_00003156|genome_name_P815_Cocoa_CR|gene_callers_id_1082,P815_Cocoa_CR,GC_00003156,1082,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000554|gene_cluster_GC_00002565|genome_name_P815_Cocoa_CR|gene_callers_id_90,P815_Cocoa_CR,GC_00002565,90,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000565|gene_cluster_GC_00002948|genome_name_P815_Cocoa_CR|gene_callers_id_91,P815_Cocoa_CR,GC_00002948,91,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000566|gene_cluster_GC_00002976|genome_name_P815_Cocoa_CR|gene_callers_id_136,P815_Cocoa_CR,GC_00002976,136,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000577|gene_cluster_GC_00002510|genome_name_P815_Cocoa_CR|gene_callers_id_87,P815_Cocoa_CR,GC_00002510,87,sp|Q9T1P8|VP50_BPAPS,29.05,179.0,4.51e-20,85.9,sp|Q9T1P8|VP50_BPAPS Putative protein p50 OS=Acyrthosiphon pisum secondary endosymbiont phage 1 OX=2682836 GN=50 PE=4 SV=1
+00000585|gene_cluster_GC_00002843|genome_name_P815_Cocoa_CR|gene_callers_id_70,P815_Cocoa_CR,GC_00002843,70,sp|Q6UAX6|CAPSD_BPKO2,23.342,377.0,6.27e-13,73.2,sp|Q6UAX6|CAPSD_BPKO2 Major capsid protein OS=Klebsiella oxytoca phage phiKO2 OX=255431 GN=6 PE=1 SV=1
+00000588|gene_cluster_GC_00002910|genome_name_P815_Cocoa_CR|gene_callers_id_842,P815_Cocoa_CR,GC_00002910,842,sp|P20849|CO9A1_HUMAN,61.538,39.0,6.64e-07,51.6,sp|P20849|CO9A1_HUMAN Collagen alpha-1(IX) chain OS=Homo sapiens OX=9606 GN=COL9A1 PE=1 SV=3
+00000598|gene_cluster_GC_00003003|genome_name_P815_Cocoa_CR|gene_callers_id_1433,P815_Cocoa_CR,GC_00003003,1433,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000601|gene_cluster_GC_00002783|genome_name_P815_Cocoa_CR|gene_callers_id_837,P815_Cocoa_CR,GC_00002783,837,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000614|gene_cluster_GC_00002611|genome_name_P815_Cocoa_CR|gene_callers_id_8,P815_Cocoa_CR,GC_00002611,8,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000619|gene_cluster_GC_00002964|genome_name_P815_Cocoa_CR|gene_callers_id_62,P815_Cocoa_CR,GC_00002964,62,sp|Q4WAZ8|PSOB_ASPFU,25.355,422.0,2.68e-31,126.0,sp|Q4WAZ8|PSOB_ASPFU Alpha/beta hydrolase psoB OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) OX=330879 GN=psoB PE=2 SV=1
+00000621|gene_cluster_GC_00003086|genome_name_P815_Cocoa_CR|gene_callers_id_839,P815_Cocoa_CR,GC_00003086,839,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000625|gene_cluster_GC_00002720|genome_name_P815_Cocoa_CR|gene_callers_id_61,P815_Cocoa_CR,GC_00002720,61,sp|Q00713|STCQ_EMENI,27.551,196.0,4.89e-06,49.7,sp|Q00713|STCQ_EMENI Oxidoreductase stcQ OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=stcQ PE=2 SV=1
+00000646|gene_cluster_GC_00002941|genome_name_P815_Cocoa_CR|gene_callers_id_97,P815_Cocoa_CR,GC_00002941,97,sp|O34352|YEEC_BACSU,44.125,383.0,4.6199999999999997e-94,290.0,sp|O34352|YEEC_BACSU Uncharacterized protein YeeC OS=Bacillus subtilis (strain 168) OX=224308 GN=yeeC PE=4 SV=2
+00000653|gene_cluster_GC_00002601|genome_name_P815_Cocoa_CR|gene_callers_id_79,P815_Cocoa_CR,GC_00002601,79,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000658|gene_cluster_GC_00002521|genome_name_P815_Cocoa_CR|gene_callers_id_63,P815_Cocoa_CR,GC_00002521,63,sp|P46330|YXBF_BACSU,38.298,47.0,0.000122,45.4,sp|P46330|YXBF_BACSU Uncharacterized HTH-type transcriptional regulator YxbF OS=Bacillus subtilis (strain 168) OX=224308 GN=yxbF PE=4 SV=1
+00000669|gene_cluster_GC_00002682|genome_name_P815_Cocoa_CR|gene_callers_id_1840,P815_Cocoa_CR,GC_00002682,1840,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000671|gene_cluster_GC_00002853|genome_name_P815_Cocoa_CR|gene_callers_id_840,P815_Cocoa_CR,GC_00002853,840,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000687|gene_cluster_GC_00003076|genome_name_P815_Cocoa_CR|gene_callers_id_147,P815_Cocoa_CR,GC_00003076,147,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

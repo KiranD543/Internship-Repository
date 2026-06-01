@@ -1,0 +1,10 @@
+query,genome,gene_cluster,gene_callers_id,subject,pident,alignment_length,evalue,bitscore,function
+00000106|gene_cluster_GC_00002308|genome_name_P360_Cocoa_CR|gene_callers_id_1889,P360_Cocoa_CR,GC_00002308,1889,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000107|gene_cluster_GC_00002308|genome_name_P360_Cocoa_CR|gene_callers_id_1890,P360_Cocoa_CR,GC_00002308,1890,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000110|gene_cluster_GC_00002840|genome_name_P360_Cocoa_CR|gene_callers_id_1497,P360_Cocoa_CR,GC_00002840,1497,sp|B7IE18|MURJ_THEAB,25.806,465.0,4.6800000000000005e-21,99.4,sp|B7IE18|MURJ_THEAB Lipid II flippase MurJ OS=Thermosipho africanus (strain TCF52B) OX=484019 GN=murJ PE=1 SV=1
+00000119|gene_cluster_GC_00002587|genome_name_P360_Cocoa_CR|gene_callers_id_1826,P360_Cocoa_CR,GC_00002587,1826,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000289|gene_cluster_GC_00002713|genome_name_P360_Cocoa_CR|gene_callers_id_1651,P360_Cocoa_CR,GC_00002713,1651,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000341|gene_cluster_GC_00003145|genome_name_P360_Cocoa_CR|gene_callers_id_1644,P360_Cocoa_CR,GC_00003145,1644,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000410|gene_cluster_GC_00002690|genome_name_P360_Cocoa_CR|gene_callers_id_1847,P360_Cocoa_CR,GC_00002690,1847,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000442|gene_cluster_GC_00002702|genome_name_P360_Cocoa_CR|gene_callers_id_1912,P360_Cocoa_CR,GC_00002702,1912,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000676|gene_cluster_GC_00002513|genome_name_P360_Cocoa_CR|gene_callers_id_1799,P360_Cocoa_CR,GC_00002513,1799,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

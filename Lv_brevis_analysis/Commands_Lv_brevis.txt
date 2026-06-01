@@ -389,7 +389,268 @@ EOF
 
 
 
+To create BLAST files, including the genes with no hit: 
+python3 << 'EOF'
+import pandas as pd
 
-  
+# Read all unique gene headers
+unique_genes = []
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        if line.startswith('>'):
+            header = line.strip().lstrip('>')
+            parts = header.split('|')
+            genome = ''
+            gene_caller = ''
+            gene_cluster = ''
+            for part in parts:
+                if 'genome_name_' in part:
+                    genome = part.replace('genome_name_', '')
+                if 'gene_callers_id_' in part:
+                    gene_caller = part.replace('gene_callers_id_', '')
+                if 'gene_cluster_' in part:
+                    gene_cluster = part.replace('gene_cluster_', '')
+            unique_genes.append({
+                'query': header,
+                'genome': genome,
+                'gene_cluster': gene_cluster,
+                'gene_callers_id': gene_caller
+            })
+
+df_genes = pd.DataFrame(unique_genes)
+print(f"Total unique genes in FASTA: {len(df_genes)}")
+
+# Load BLAST results
+df_blast = pd.read_csv('blast_results_header.txt', sep='\t')
+print(f"Total BLAST hits: {len(df_blast)}")
+
+# Keep only best hit per query
+df_best = df_blast.sort_values('e-value').groupby('query').first().reset_index()
+print(f"Unique genes with BLAST hit: {len(df_best)}")
+
+# Merge unique genes with BLAST results
+df_merged = df_genes.merge(df_best[['query', 'subject', '%pident',
+                                     'alignment_length', 'e-value',
+                                     'bitscore', 'function']],
+                            on='query',
+                            how='left')
+
+# Fill unknown for genes without BLAST hit
+df_merged['subject'] = df_merged['subject'].fillna('Unknown')
+df_merged['function'] = df_merged['function'].fillna('Unknown - no BLAST hit found')
+df_merged['%pident'] = df_merged['%pident'].fillna(0)
+df_merged['e-value'] = df_merged['e-value'].fillna('-')
+df_merged['bitscore'] = df_merged['bitscore'].fillna(0)
+df_merged['alignment_length'] = df_merged['alignment_length'].fillna(0)
+
+# Save combined file
+df_merged.to_csv('blast_results_complete.txt', sep='\t', index=False)
+print(f"\nTotal unique genes: {len(df_merged)}")
+print(f"Genes with BLAST hit: {df_merged['subject'].ne('Unknown').sum()}")
+print(f"Genes without BLAST hit: {df_merged['subject'].eq('Unknown').sum()}")
+
+# Save per strain
+import os
+os.makedirs('blast_per_strain_complete', exist_ok=True)
+for genome, group in df_merged.groupby('genome'):
+    filename = f"blast_per_strain_complete/{genome}_blast_complete.txt"
+    group.to_csv(filename, sep='\t', index=False)
+    hits = group['subject'].ne('Unknown').sum()
+    no_hits = group['subject'].eq('Unknown').sum()
+    print(f"{genome}: {hits} hits, {no_hits} unknown → {filename}")
+
+EOF
 
 
+
+
+
+
+To extract the unique genes as a nucleotide sequence:
+$ anvi-get-sequences-for-gene-clusters \
+  -p pangenome_output/Lv_brevis-PAN.db \
+  -g Lv_brevis-GENOMES.db \
+  --max-num-genomes-gene-cluster-occurs 1 \
+  --min-num-genomes-gene-cluster-occurs 1 \
+  --report-DNA-sequences \
+  -o unique_genes_nucleotide_all_raw.fasta
+
+To put them in a file with a fasta header that doesn't have any ":":
+$ sed 's/:/\_/g' unique_genes_nucleotide_all_raw.fasta > unique_genes_nucleotide_all.fasta 
+
+
+
+To make FASTA files for the unique genes of each strain:
+$ mkdir Unique_genes_nucleotide
+
+python3 << 'EOF'
+from collections import defaultdict
+
+# Read all sequences
+sequences = {}
+current_header = None
+current_genome = None
+
+with open('unique_genes_nucleotide_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            current_header = line
+            for part in line.split('|'):
+                if 'genome_name_' in part:
+                    current_genome = part.replace('genome_name_', '').strip()
+            sequences[current_header] = {'genome': current_genome, 'seq': ''}
+        else:
+            sequences[current_header]['seq'] += line
+
+# Group by strain
+genomes = defaultdict(list)
+for header, data in sequences.items():
+    genomes[data['genome']].append((header, data['seq']))
+
+# Write separate FASTA file per strain in Unique_genes directory
+for genome, genes in genomes.items():
+    filename = f"Unique_genes_nucleotide/unique_genes_nucleotide_{genome}.fasta"
+    with open(filename, 'w') as f:
+        for header, seq in genes:
+            f.write(f"{header}\n{seq}\n")
+    print(f"{genome}: {len(genes)} unique genes → {filename}")
+EOF
+
+
+
+
+To export the blast results of each strain to a csv file:
+python3 << 'EOF'
+import pandas as pd
+import os
+
+# Convert all blast files in blast_per_strain_complete to CSV
+input_dir = 'blast_per_strain_complete'
+output_dir = 'blast_per_strain_complete_csv'
+os.makedirs(output_dir, exist_ok=True)
+
+for filename in os.listdir(input_dir):
+    if filename.endswith('.txt'):
+        input_path = os.path.join(input_dir, filename)
+        output_filename = filename.replace('.txt', '.csv')
+        output_path = os.path.join(output_dir, output_filename)
+
+        df = pd.read_csv(input_path, sep='\t')
+        df.to_csv(output_path, index=False)
+        print(f"Converted: {filename} → {output_filename}")
+
+print("\nDone!")
+EOF
+
+
+
+To export the blast file with all the results to csv:
+python3 << 'EOF'
+import pandas as pd
+
+df = pd.read_csv('blast_results_complete.txt', sep='\t')
+df.to_csv('blast_results_complete.csv', index=False)
+print(f"Saved: blast_results_complete.csv")
+print(f"Total rows: {len(df)}")
+EOF
+
+
+
+
+
+
+
+To add the prokka annotations to the unique genes files:
+python3 << 'EOF'
+import os
+import pandas as pd
+
+# Load gene_data.csv
+print("Loading gene_data.csv...")
+df = pd.read_csv('panaroo_output/gene_data.csv')
+annotation_to_desc = dict(zip(df['annotation_id'], df['description']))
+print(f"Loaded {len(annotation_to_desc)} annotations")
+
+def get_gene_descriptions(strain):
+    gene_calls_file = f"{strain}_prokka-external-gene-calls.txt"
+    gff_file = f"prokka_output/{strain}/{strain}.gff"
+
+    if not os.path.exists(gene_calls_file) or not os.path.exists(gff_file):
+        print(f"  Warning: files not found for {strain}")
+        return {}
+
+    gene_calls = pd.read_csv(gene_calls_file, sep='\t')
+
+    locus_tags = []
+    with open(gff_file, 'r') as f:
+        for line in f:
+            if '\tCDS\t' in line:
+                attrs = line.strip().split('\t')[8]
+                for attr in attrs.split(';'):
+                    if attr.startswith('locus_tag='):
+                        locus_tags.append(attr.replace('locus_tag=', ''))
+                        break
+
+    descriptions = {}
+    for i, row in gene_calls.iterrows():
+        gene_callers_id = row['gene_callers_id']
+        if i < len(locus_tags):
+            locus_tag = locus_tags[i]
+            desc = annotation_to_desc.get(locus_tag, 'hypothetical protein')
+            descriptions[gene_callers_id] = desc
+
+    return descriptions
+
+def add_functions_to_fasta(input_dir, output_dir, prefix):
+    os.makedirs(output_dir, exist_ok=True)
+
+    for filename in os.listdir(input_dir):
+        if not filename.endswith('.fasta'):
+            continue
+
+        strain = filename.replace(prefix, '').replace('.fasta', '')
+        print(f"Processing: {strain}")
+
+        descriptions = get_gene_descriptions(strain)
+
+        input_path = os.path.join(input_dir, filename)
+        output_path = os.path.join(output_dir, filename)
+
+        with open(input_path, 'r') as fin, open(output_path, 'w') as fout:
+            for line in fin:
+                if line.startswith('>'):
+                    header = line.strip().lstrip('>')
+                    gene_callers_id = None
+                    for part in header.split('|'):
+                        if 'gene_callers_id_' in part:
+                            try:
+                                gene_callers_id = int(part.replace('gene_callers_id_', ''))
+                            except:
+                                pass
+
+                    desc = descriptions.get(gene_callers_id, 'hypothetical protein')
+                    fout.write(f">{header}|function_{desc}\n")
+                else:
+                    fout.write(line)
+
+        print(f"  Saved: {output_path}")
+
+# Processing amino acid sequences
+print("\n=== Processing amino acid sequences ===")
+add_functions_to_fasta(
+    'Unique_genes',
+    'Unique_genes_annotated',
+    'unique_genes_'
+)
+
+# processing nucleotide sequences
+print("\n=== Processing nucleotide sequences ===")
+add_functions_to_fasta(
+    'Unique_genes_nucleotide',
+    'Unique_genes_nucleotide_annotated',
+    'unique_genes_nucleotide_'
+)
+
+print("\nDone!")
+EOF

@@ -1,0 +1,20 @@
+query,genome,gene_cluster,gene_callers_id,subject,%pident,alignment_length,e-value,bitscore,function
+00000011|gene_cluster_GC_00001454|genome_name_Type_strain|gene_callers_id_1082,Type_strain,GC_00001454,1082,sp|Q06126|TNPA_BORPP,24.332,374.0,2.42e-14,78.2,sp|Q06126|TNPA_BORPP Transposase for insertion sequence element IS1001 OS=Bordetella parapertussis OX=519 GN=tnpA PE=3 SV=1
+00000013|gene_cluster_GC_00001429|genome_name_Type_strain|gene_callers_id_907,Type_strain,GC_00001429,907,sp|P0AC68|NRDH_SHIFL,37.333,75.0,6.76e-16,68.6,sp|P0AC68|NRDH_SHIFL Glutaredoxin-like protein NrdH OS=Shigella flexneri OX=623 GN=nrdH PE=3 SV=1
+00000019|gene_cluster_GC_00001507|genome_name_Type_strain|gene_callers_id_783,Type_strain,GC_00001507,783,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000041|gene_cluster_GC_00001397|genome_name_Type_strain|gene_callers_id_1093,Type_strain,GC_00001397,1093,sp|P0A1R8|DBHB_SALTY,35.227,88.0,7.16e-11,57.0,sp|P0A1R8|DBHB_SALTY DNA-binding protein HU-beta OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=hupB PE=3 SV=1
+00000068|gene_cluster_GC_00001491|genome_name_Type_strain|gene_callers_id_1013,Type_strain,GC_00001491,1013,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000086|gene_cluster_GC_00001428|genome_name_Type_strain|gene_callers_id_1159,Type_strain,GC_00001428,1159,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000090|gene_cluster_GC_00001419|genome_name_Type_strain|gene_callers_id_1090,Type_strain,GC_00001419,1090,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000103|gene_cluster_GC_00001458|genome_name_Type_strain|gene_callers_id_257,Type_strain,GC_00001458,257,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000111|gene_cluster_GC_00001574|genome_name_Type_strain|gene_callers_id_1091,Type_strain,GC_00001574,1091,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000115|gene_cluster_GC_00001412|genome_name_Type_strain|gene_callers_id_906,Type_strain,GC_00001412,906,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000118|gene_cluster_GC_00001476|genome_name_Type_strain|gene_callers_id_910,Type_strain,GC_00001476,910,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000131|gene_cluster_GC_00001416|genome_name_Type_strain|gene_callers_id_1011,Type_strain,GC_00001416,1011,sp|Q7CXI0|ATSE_AGRFC,25.243,103.0,1.03e-09,56.6,sp|Q7CXI0|ATSE_AGRFC Acetyltransferase Atu2258 OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu2258 PE=1 SV=2
+00000138|gene_cluster_GC_00001545|genome_name_Type_strain|gene_callers_id_335,Type_strain,GC_00001545,335,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000161|gene_cluster_GC_00001525|genome_name_Type_strain|gene_callers_id_1092,Type_strain,GC_00001525,1092,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000187|gene_cluster_GC_00001431|genome_name_Type_strain|gene_callers_id_1149,Type_strain,GC_00001431,1149,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000188|gene_cluster_GC_00001524|genome_name_Type_strain|gene_callers_id_1010,Type_strain,GC_00001524,1010,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000208|gene_cluster_GC_00001591|genome_name_Type_strain|gene_callers_id_409,Type_strain,GC_00001591,409,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000220|gene_cluster_GC_00001538|genome_name_Type_strain|gene_callers_id_909,Type_strain,GC_00001538,909,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000228|gene_cluster_GC_00001536|genome_name_Type_strain|gene_callers_id_1009,Type_strain,GC_00001536,1009,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

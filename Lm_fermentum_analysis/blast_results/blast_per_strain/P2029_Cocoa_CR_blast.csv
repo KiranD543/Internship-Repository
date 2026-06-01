@@ -1,0 +1,19 @@
+query,genome,gene_cluster,gene_callers_id,subject,pident,alignment_length,evalue,bitscore,function
+00000011|gene_cluster_GC_00002525|genome_name_P2029_Cocoa_CR|gene_callers_id_1424,P2029_Cocoa_CR,GC_00002525,1424,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000072|gene_cluster_GC_00003154|genome_name_P2029_Cocoa_CR|gene_callers_id_656,P2029_Cocoa_CR,GC_00003154,656,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000089|gene_cluster_GC_00002509|genome_name_P2029_Cocoa_CR|gene_callers_id_1759,P2029_Cocoa_CR,GC_00002509,1759,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000114|gene_cluster_GC_00002779|genome_name_P2029_Cocoa_CR|gene_callers_id_1422,P2029_Cocoa_CR,GC_00002779,1422,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000155|gene_cluster_GC_00002516|genome_name_P2029_Cocoa_CR|gene_callers_id_467,P2029_Cocoa_CR,GC_00002516,467,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000162|gene_cluster_GC_00002687|genome_name_P2029_Cocoa_CR|gene_callers_id_469,P2029_Cocoa_CR,GC_00002687,469,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000167|gene_cluster_GC_00003047|genome_name_P2029_Cocoa_CR|gene_callers_id_655,P2029_Cocoa_CR,GC_00003047,655,sp|P0DW60|THSA_ENTFC,35.294,102.0,1.98e-07,57.4,sp|P0DW60|THSA_ENTFC NAD(+) hydrolase ThsA OS=Enterococcus faecium OX=1352 GN=thsA PE=1 SV=1
+00000275|gene_cluster_GC_00002439|genome_name_P2029_Cocoa_CR|gene_callers_id_1923,P2029_Cocoa_CR,GC_00002439,1923,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000276|gene_cluster_GC_00002439|genome_name_P2029_Cocoa_CR|gene_callers_id_1922,P2029_Cocoa_CR,GC_00002439,1922,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000324|gene_cluster_GC_00002884|genome_name_P2029_Cocoa_CR|gene_callers_id_1758,P2029_Cocoa_CR,GC_00002884,1758,sp|P15005|MCRB_ECOLI,23.529,170.0,3.42e-05,50.4,sp|P15005|MCRB_ECOLI Type IV methyl-directed restriction enzyme EcoKMcrB subunit OS=Escherichia coli (strain K12) OX=83333 GN=mcrB PE=1 SV=3
+00000358|gene_cluster_GC_00002981|genome_name_P2029_Cocoa_CR|gene_callers_id_470,P2029_Cocoa_CR,GC_00002981,470,sp|P75452|TRRMC_MYCPN,26.295,502.0,2.42e-34,145.0,sp|P75452|TRRMC_MYCPN Putative type II restriction enzyme and methyltransferase RM.MpnORF110P C-terminus OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129 / Subtype 1) OX=272634 GN=MPN_110 PE=5 SV=1
+00000491|gene_cluster_GC_00002909|genome_name_P2029_Cocoa_CR|gene_callers_id_1378,P2029_Cocoa_CR,GC_00002909,1378,sp|A0A0H2UR96|GLYG_STRPN,29.302,215.0,2.47e-22,98.2,sp|A0A0H2UR96|GLYG_STRPN Glycosyltransferase GlyG OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=glyG PE=1 SV=1
+00000504|gene_cluster_GC_00002858|genome_name_P2029_Cocoa_CR|gene_callers_id_468,P2029_Cocoa_CR,GC_00002858,468,sp|P0DW40|HAMB_BACCE,25.29,431.0,9.85e-29,128.0,sp|P0DW40|HAMB_BACCE Hachiman protein HamB OS=Bacillus cereus OX=1396 GN=hamB PE=3 SV=1
+00000555|gene_cluster_GC_00002762|genome_name_P2029_Cocoa_CR|gene_callers_id_1423,P2029_Cocoa_CR,GC_00002762,1423,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000583|gene_cluster_GC_00002542|genome_name_P2029_Cocoa_CR|gene_callers_id_1757,P2029_Cocoa_CR,GC_00002542,1757,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000626|gene_cluster_GC_00003032|genome_name_P2029_Cocoa_CR|gene_callers_id_1639,P2029_Cocoa_CR,GC_00003032,1639,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found
+00000667|gene_cluster_GC_00002784|genome_name_P2029_Cocoa_CR|gene_callers_id_471,P2029_Cocoa_CR,GC_00002784,471,sp|P75451|Y111_MYCPN,37.838,111.0,2.7e-13,73.6,sp|P75451|Y111_MYCPN Uncharacterized adenine-specific methylase MPN_111 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129 / Subtype 1) OX=272634 GN=MPN_111 PE=3 SV=1
+00000674|gene_cluster_GC_00002733|genome_name_P2029_Cocoa_CR|gene_callers_id_1914,P2029_Cocoa_CR,GC_00002733,1914,Unknown,0.0,0.0,-,0.0,Unknown - no BLAST hit found

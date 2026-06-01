@@ -1,16 +1,28 @@
+To rename the fasta files ("-" => "_"):
+$ for fasta in *.fasta; do
+  new_name=$(echo $fasta | sed 's/-/_/g')
+  if [ "$fasta" != "$new_name" ]; then
+  echo "Renaming: $fasta => $new_name"
+  mv $fasta $new_name
+  fi
+  done
+  
+
+ 
 To annotate with prokka:
 $ for fasta in FastaFiles/*.fasta; do
   strain=$(basename $fasta .fasta)
   echo "Annotating: $strain"
   prokka --outdir prokka_output/$strain \
   --prefix $strain \
-  --genus Lactiplantibacillus \
-  --species plantarum \
+  --genus Fructilactobacillus \
+  --species sanfranciscensis \
   --kingdom Bacteria \
   --usegenus \
   --cpus 8 \
   $fasta
 done
+
 
 To make a combined summary file: 
 $ for txt in prokka_output/*/*.txt; do
@@ -27,15 +39,14 @@ To execute the Panaroo analysis:
 $ panaroo -i prokka_output/*/*.gff \
   -o panaroo_output \
   --clean-mode strict \
-  -t 10 \
+  -t 8 \
   --alignment core \
   --aligner mafft 
-
-To create the newick files: 
+  
+  
+To create the newick file:
 $ FastTree -nt -gtr panaroo_output/core_gene_alignment_filtered.aln > panaroo_output/tree.newick
-
-To find the most variable genes:
-$ sort -t',' -k2 -nr alignment_entropy.csv | head -20
+  
 
 
 To reformat the fasta files:
@@ -59,14 +70,8 @@ $ for fasta in FastaFiles_reformatted/*_reformatted.fasta; do
   -n $strain
 done
 
-To delete existing HMMs (Otherwise you need to specify which HMM to use + some of the HMMs will not be used anymore):
-$ for db in *.db; do
-  strain=$(basename $db .db)
-  echo "Deleting HMMs: $strain"
-  anvi-delete-hmms -c ${strain}.db --just-do-it
-  done
 
-  
+
 To run HMMs on the databases:
 $ for db in *.db; do
   strain=$(basename $db .db)
@@ -77,7 +82,29 @@ $ for db in *.db; do
   --num-threads 10
   done
   
+  
 
+To add KEGG annotations for all strains:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Running KEGG: $strain"
+  anvi-run-kegg-kofams \
+  -c $db \
+  --num-threads 10
+  done
+
+
+
+To add COG annotations for all strains:
+$ for db in *.db; do
+  strain=$(basename $db .db)
+  echo "Running COG: $strain"
+  anvi-run-ncbi-cogs \
+  -c $db \
+  --num-threads 10
+  done
+  
+  
 To create external-functions files:
 $ for strain_dir in prokka_output/*/; do
   strain=$(basename $strain_dir)
@@ -86,16 +113,8 @@ $ for strain_dir in prokka_output/*/; do
   -i prokka_output/${strain}/${strain}.gbk \
   -O ${strain}_prokka
   done
-  
-To create external-functions files for Reference and Type Strain:
-$ anvi-script-process-genbank \
-  -i prokka_output/Reference/Reference.gbk \
-  -O Reference_reformatted_prokka
 
-$ anvi-script-process-genbank \
-  -i prokka_output/Type_Strain/Type_Strain.gbk \
-  -O Type_Strain_reformatted_prokka
-  
+
 
 To import the prokka annotations:
 $ for db in *.db; do
@@ -107,6 +126,7 @@ $ for db in *.db; do
   done
 
 
+
 To create the genomes.txt file:
 $ echo -e "name\tcontigs_db_path" > genomes.txt
 $ for db in *.db; do
@@ -115,18 +135,22 @@ $ for db in *.db; do
   done >> genomes.txt
 
 
+
 To create a genome storage:
 $ anvi-gen-genomes-storage \
   -e genomes.txt \
-  -o Lp_plantarum-GENOMES.db
+  -o Fr_sanfranciscensis-GENOMES.db
+
 
 
 To execute the pangenome analysis:
 $ anvi-pan-genome \
-  -g Lp_plantarum-GENOMES.db \
+  -g Fr_sanfranciscensis-GENOMES.db \
   -o pangenome_output \
-  -n Lp_plantarum \
-  --num-threads 10
+  -n Fr_sanfranciscensis \
+  --num-threads 8
+
+
 
 
 To calculate the ANI scores:
@@ -134,35 +158,39 @@ $ anvi-compute-genome-similarity \
   -e genomes.txt \
   -o ANI_output \
   --program pyANI \
-  --num-threads 10 \
-  --pan-db pangenome_output/Lp_plantarum-PAN.db
+  --num-threads 8 \
+  --pan-db pangenome_output/Fr_sanfranciscensis-PAN.db
+
 
 
 To create a default collection:
 $ anvi-script-add-default-collection \
-  -p pangenome_output/Lp_plantarum-PAN.db 
+  -p pangenome_output/Fr_sanfranciscensis-PAN.db
+  
 
 To make a summary (comparable to Roary and Panaroo):
 $ anvi-summarize \
-  -p pangenome_output/Lp_plantarum-PAN.db \
-  -g Lp_plantarum-GENOMES.db \
+  -p pangenome_output/Fr_sanfranciscensis-PAN.db \
+  -g Fr_sanfranciscensis-GENOMES.db \
   -C DEFAULT \
   -o pangenome_summary
-$ gunzip Lp_plantarum_gene_clusters_summary.txt.gz
+$ gunzip pangenome_summary/Fr_sanfranciscensis_gene_clusters_summary.txt.gz
+
+
 
 To create a summary comparable to Roary and Panaroo:
 python3 << 'EOF'
 import pandas as pd
 
 # Load the file
-df = pd.read_csv('pangenome_summary/Lp_plantarum_gene_clusters_summary.txt',
+df = pd.read_csv('pangenome_summary/Fr_sanfranciscensis_gene_clusters_summary.txt',
                  sep='\t',
                  usecols=['gene_cluster_id', 'num_genomes_gene_cluster_has_hits'])
 
 # Delete duplicates
 df = df.drop_duplicates(subset='gene_cluster_id')
 
-total_genomes = 42
+total_genomes = 18
 
 # Calculate the percentage presence
 df['percentage'] = df['num_genomes_gene_cluster_has_hits'] / total_genomes * 100
@@ -187,16 +215,19 @@ print("Summary saved to anvio_pangenome_summary.txt")
 EOF
 
 
+
 To extract the unique genes:
 $ anvi-get-sequences-for-gene-clusters \
-  -p pangenome_output/Lp_plantarum-PAN.db \
-  -g Lp_plantarum-GENOMES.db \
+  -p pangenome_output/Fr_sanfranciscensis-PAN.db \
+  -g Fr_sanfranciscensis-GENOMES.db \
   --max-num-genomes-gene-cluster-occurs 1 \
   --min-num-genomes-gene-cluster-occurs 1 \
   -o unique_genes_all_raw.fasta
 
 To put them in a file with a fasta header that doesn't have any ":":
 $ sed 's/:/\_/g' unique_genes_all_raw.fasta > unique_genes_all.fasta 
+
+
 
 
 To see the amount of unique genes per strain:
@@ -220,7 +251,10 @@ EOF
 
 
 
+
 To make FASTA files for the unique genes of each strain:
+$ mkdir Unique_genes
+
 python3 << 'EOF'
 from collections import defaultdict
 
@@ -257,136 +291,29 @@ EOF
 
 
 
-To look at the names of the unique genes per strain:
-$ for fasta in Unique_genes/unique_genes_*.fasta; do
-> strain=$(basename $fasta .fasta | sed 's/unique_genes_//')
-> echo "=== $strain ==="
-> grep ">" $fasta
-> echo ""
-> done
-
-
-To create an easier to interpret version of the gene cluster summary:
-python3 << 'EOF'
-import pandas as pd
-
-df = pd.read_csv('pangenome_summary/Lp_plantarum_gene_clusters_summary.txt',
-                 sep='\t',
-                 usecols=['gene_cluster_id', 'genome_name', 
-                          'num_genomes_gene_cluster_has_hits',
-                          'num_genes_in_gene_cluster',
-                          'max_num_paralogs',
-                          'SCG',
-                          'functional_homogeneity_index',
-                          'geometric_homogeneity_index',
-                          'combined_homogeneity_index',
-                          'AAI_avg',
-                          'NCBI_PGAP'])
-
-# Remove duplicates per gene cluster
-df_unique = df.drop_duplicates(subset='gene_cluster_id')
-
-# Save to file
-df_unique.to_csv('pangenome_summary/gene_clusters_overview.csv', index=False)
-print(f"Total gene clusters: {len(df_unique)}")
-print(df_unique.head(10).to_string(index=False))
-EOF
-
-
-
 To run blast with the unique genes: 
-blastp -query ~/Lp_plantarum_analysis/unique_genes_all_blast.fasta \
+$ awk '/^>/ {print} !/^>/ {gsub(/-/, ""); print}' unique_genes_all.fasta > unique_genes_all_blast.fasta
+$ blastp -query ~/Fr_sanfranciscensis/unique_genes_all_blast.fasta \
        -db ~/blast_db/swissprot \
-       -out ~/Lp_plantarum_analysis/blast_results.txt \
-       -outfmt 6 \
+       -out ~/Fr_sanfranciscensis/blast_results.txt \
+       -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore stitle" \
        -num_threads 8 \
-       -evalue 0.001 \
+       -evalue 0.01 \
        -max_target_seqs 5
        
+       
+
+
 To create a blast results file with a header:
-$ echo -e "query\tsubject\t%ID\talignment_length\tmismatches\tgap_opens\tqstart\tqend\tsstart\tsend\te-value\tbitscore" > blast_results_header.txt
+$ echo -e "query\tsubject\t%pident\talignment_length\tmismatches\tgap_opens\tqstart\tqend\tsstart\tsend\te-value\tbitscore\tfunction" > blast_results_header.txt
 $ cat blast_results.txt >> blast_results_header.txt
-       
-       
 
 
-
-To visualize the contigs database: 
-$ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") 
-Or in the commandline:
-$ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") --report-as-text -o contigs_stats.txt
-
-column -t -s $'\t' contigs_stats.txt | less -S
-
-
-To add the phylogenetic tree from panaroo to the pangenome analysis of anvi'o:
-$ echo -e "item_name\tdata_type\tdata_value" > panaroo_tree_layer_order.txt
-$ echo -e "Panaroo_tree\tnewick\t$(cat panaroo_output/tree.newick)" >> panaroo_tree_layer_order.txt 
-$ anvi-import-misc-data \
-  panaroo_tree_layer_order.txt \
-  -p pangenome_output/Lp_plantarum-PAN.db \
-  -t layer_orders 
-
-
-
-
-
-
-To view the pangenome: 
-$ anvi-display-pan \
-  -g Lp_plantarum-GENOMES.db \
-  -p pangenome_output/Lp_plantarum-PAN.db \
-  --server-only
-  
-  
-To add SCG taxonomy for all strains:
-$ for db in $(ls *.db | grep -v "GENOMES"); do
-  strain=$(basename $db .db)
-  echo "Running SCG taxonomy: $strain"
-  anvi-run-scg-taxonomy \
-  -c $db \
-  --num-threads 10
-  done
-
-
-To add KEGG annotations for all strains:
-$ for db in $(ls *.db | grep -v "GENOMES"); do
-  strain=$(basename $db .db)
-  echo "Running KEGG: $strain"
-  anvi-run-kegg-kofams \
-  -c $db \
-  --num-threads 10
-  done
-
-
-To add COG annotations for all strains:
-$ for db in $(ls *.db | grep -v "GENOMES"); do
-  strain=$(basename $db .db)
-  echo "Running COG: $strain"
-  anvi-run-ncbi-cogs \
-  -c $db \
-  --num-threads 10
-  done
-  
-  
-
-
-
-To run BLAST and have the function name in the output:
-$ blastp -query unique_genes_all_blast.fasta \
-  -db ~/blast_db/swissprot \
-  -out blast_results.txt \
-  -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore stitle" \
-  -num_threads 8 \
-  -evalue 0.01 \
-  -max_target_seqs 5
-
-To create a text file with the results of blast with a header:
-$ echo -e "query\tsubject\tpident\talignment_length\tmismatches\tgap_opens\tqstart\tqend\tsstart\tsend\tevalue\tbitscore\tfunction" > blast_results_header.txt
-$ cat blast_results.txt >> blast_results_header.txt 
 
 
 To create a separate file of the BLAST results for each strain: 
+$ mkdir blast_per_strain
+
 python3 << 'EOF'
 import pandas as pd
 import os
@@ -395,10 +322,7 @@ import os
 df = pd.read_csv('blast_results_header.txt', sep='\t')
 
 # Extract genome name
-df['genome'] = df['query'].str.extract(r'genome_name:(.+)\|gene_callers')
-
-# Create output directory
-os.makedirs('blast_per_strain', exist_ok=True)
+df['genome'] = df['query'].str.extract(r'genome_name_(.+)\|gene_callers_id')
 
 # Write separate file per strain
 for genome, group in df.groupby('genome'):
@@ -407,7 +331,6 @@ for genome, group in df.groupby('genome'):
     print(f"{genome}: {len(group)} hits → {filename}")
 
 EOF
-
 
 
 
@@ -445,11 +368,55 @@ EOF
 
 
 
+To add the phylogenetic tree from panaroo to the pangenome analysis of anvi'o:
+$ sed 's/-/_/g' panaroo_output/tree.newick > panaroo_output/tree_fixed.newick
+$ echo -e "item_name\tdata_type\tdata_value" > panaroo_tree_layer_order.txt
+$ echo -e "Panaroo_tree\tnewick\t$(cat panaroo_output/tree_fixed.newick)" >> panaroo_tree_layer_order.txt 
+$ anvi-import-misc-data \
+  panaroo_tree_layer_order.txt \
+  -p pangenome_output/Fr_sanfranciscensis-PAN.db \
+  -t layer_orders 
+  
+
+
+To visualize the contigs database: 
+$ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") 
+Or in the commandline:
+$ anvi-display-contigs-stats $(ls *.db | grep -v "GENOMES") --report-as-text -o contigs_stats.txt
+column -t -s $'\t' contigs_stats.txt | less -S
+
+
+
+
+To view the pangenome: 
+$ anvi-display-pan \
+  -g Fr_sanfranciscensis-GENOMES.db \
+  -p pangenome_output/Fr_sanfranciscensis-PAN.db \
+  --server-only
+
+
+
+To export the gene clusters summary to csv: 
+python3 << 'EOF'
+import pandas as pd
+
+# Load the gene clusters summary
+df = pd.read_csv('pangenome_summary/Fr_sanfranciscensis_gene_clusters_summary.txt', sep='\t')
+
+# Save to CSV
+df.to_csv('gene_clusters_summary.csv', index=False)
+print(f"Saved: gene_clusters_summary.csv")
+print(f"Total rows: {len(df)}")
+print(f"Total columns: {len(df.columns)}")
+print(f"Columns: {df.columns.tolist()}")
+EOF
+
+
+
 
 To create BLAST files, including the genes with no hit: 
 python3 << 'EOF'
 import pandas as pd
-import os
 
 # Read all unique gene headers
 unique_genes = []
@@ -457,16 +424,17 @@ with open('unique_genes_all.fasta', 'r') as f:
     for line in f:
         if line.startswith('>'):
             header = line.strip().lstrip('>')
+            parts = header.split('|')
             genome = ''
             gene_caller = ''
             gene_cluster = ''
-            for part in header.split('|'):
-                if 'genome_name:' in part:
-                    genome = part.replace('genome_name:', '')
-                if 'gene_callers_id:' in part:
-                    gene_caller = part.replace('gene_callers_id:', '')
-                if 'gene_cluster:' in part:
-                    gene_cluster = part.replace('gene_cluster:', '')
+            for part in parts:
+                if 'genome_name_' in part:
+                    genome = part.replace('genome_name_', '')
+                if 'gene_callers_id_' in part:
+                    gene_caller = part.replace('gene_callers_id_', '')
+                if 'gene_cluster_' in part:
+                    gene_cluster = part.replace('gene_cluster_', '')
             unique_genes.append({
                 'query': header,
                 'genome': genome,
@@ -482,12 +450,12 @@ df_blast = pd.read_csv('blast_results_header.txt', sep='\t')
 print(f"Total BLAST hits: {len(df_blast)}")
 
 # Keep only best hit per query
-df_best = df_blast.sort_values('evalue').groupby('query').first().reset_index()
+df_best = df_blast.sort_values('e-value').groupby('query').first().reset_index()
 print(f"Unique genes with BLAST hit: {len(df_best)}")
 
 # Merge unique genes with BLAST results
-df_merged = df_genes.merge(df_best[['query', 'subject', 'pident',
-                                     'alignment_length', 'evalue',
+df_merged = df_genes.merge(df_best[['query', 'subject', '%pident',
+                                     'alignment_length', 'e-value',
                                      'bitscore', 'function']],
                             on='query',
                             how='left')
@@ -495,8 +463,8 @@ df_merged = df_genes.merge(df_best[['query', 'subject', 'pident',
 # Fill unknown for genes without BLAST hit
 df_merged['subject'] = df_merged['subject'].fillna('Unknown')
 df_merged['function'] = df_merged['function'].fillna('Unknown - no BLAST hit found')
-df_merged['pident'] = df_merged['pident'].fillna(0)
-df_merged['evalue'] = df_merged['evalue'].fillna('-')
+df_merged['%pident'] = df_merged['%pident'].fillna(0)
+df_merged['e-value'] = df_merged['e-value'].fillna('-')
 df_merged['bitscore'] = df_merged['bitscore'].fillna(0)
 df_merged['alignment_length'] = df_merged['alignment_length'].fillna(0)
 
@@ -507,6 +475,7 @@ print(f"Genes with BLAST hit: {df_merged['subject'].ne('Unknown').sum()}")
 print(f"Genes without BLAST hit: {df_merged['subject'].eq('Unknown').sum()}")
 
 # Save per strain
+import os
 os.makedirs('blast_per_strain_complete', exist_ok=True)
 for genome, group in df_merged.groupby('genome'):
     filename = f"blast_per_strain_complete/{genome}_blast_complete.txt"
@@ -514,16 +483,18 @@ for genome, group in df_merged.groupby('genome'):
     hits = group['subject'].ne('Unknown').sum()
     no_hits = group['subject'].eq('Unknown').sum()
     print(f"{genome}: {hits} hits, {no_hits} unknown → {filename}")
-    
+
 EOF
+
+
 
 
 
 
 To extract the unique genes as a nucleotide sequence:
 $ anvi-get-sequences-for-gene-clusters \
-  -p pangenome_output/Lp_plantarum-PAN.db \
-  -g Lp_plantarum-GENOMES.db \
+  -p pangenome_output/Fr_sanfranciscensis-PAN.db \
+  -g Fr_sanfranciscensis-GENOMES.db \
   --max-num-genomes-gene-cluster-occurs 1 \
   --min-num-genomes-gene-cluster-occurs 1 \
   --report-DNA-sequences \
@@ -534,7 +505,7 @@ $ sed 's/:/\_/g' unique_genes_nucleotide_all_raw.fasta > unique_genes_nucleotide
 
 
 
-To make FASTA files for the unique genes of each strain:
+To make FASTA files for the unique genes of each strain (nucleotide):
 $ mkdir Unique_genes_nucleotide
 
 python3 << 'EOF'
@@ -610,6 +581,120 @@ df.to_csv('blast_results_complete.csv', index=False)
 print(f"Saved: blast_results_complete.csv")
 print(f"Total rows: {len(df)}")
 EOF
+
+
+
+
+
+
+
+
+
+
+
+Simplified BLAST: 
+To run the BLAST:
+awk '/^>/ {print} !/^>/ {gsub(/-/, ""); print}' unique_genes_all.fasta > unique_genes_all_blast.fasta
+
+blastp -query unique_genes_all_blast.fasta \
+       -db ~/blast_db/swissprot \
+       -out blast_results_raw.txt \
+       -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore stitle" \
+       -num_threads 8 \
+       -evalue 0.01 \
+       -max_target_seqs 5
+
+
+
+To create csv files for each strain and all strains together:
+python3 << 'EOF'
+import pandas as pd
+import os
+
+# Read all unique gene headers
+unique_genes = []
+with open('unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        if line.startswith('>'):
+            header = line.strip().lstrip('>')
+            genome = ''
+            gene_caller = ''
+            gene_cluster = ''
+            for part in header.split('|'):
+                if 'genome_name_' in part:
+                    genome = part.replace('genome_name_', '')
+                if 'gene_callers_id_' in part:
+                    gene_caller = part.replace('gene_callers_id_', '')
+                if 'gene_cluster_' in part:
+                    gene_cluster = part.replace('gene_cluster_', '')
+            unique_genes.append({
+                'query': header,
+                'genome': genome,
+                'gene_cluster': gene_cluster,
+                'gene_callers_id': gene_caller
+            })
+
+df_genes = pd.DataFrame(unique_genes)
+
+# Load BLAST results
+df_blast = pd.read_csv('blast_results_raw.txt', sep='\t', header=None,
+                       names=['query', 'subject', 'pident', 'alignment_length',
+                              'mismatches', 'gap_opens', 'qstart', 'qend',
+                              'sstart', 'send', 'evalue', 'bitscore', 'function'])
+
+# Keep only best hit per query
+df_best = df_blast.sort_values('evalue').groupby('query').first().reset_index()
+
+# Merge with unique genes
+df_merged = df_genes.merge(df_best[['query', 'subject', 'pident',
+                                     'alignment_length', 'evalue',
+                                     'bitscore', 'function']],
+                            on='query', how='left')
+
+# Fill unknown
+df_merged['subject'] = df_merged['subject'].fillna('Unknown')
+df_merged['function'] = df_merged['function'].fillna('Unknown - no BLAST hit found')
+df_merged['pident'] = df_merged['pident'].fillna(0)
+df_merged['evalue'] = df_merged['evalue'].fillna('-')
+df_merged['bitscore'] = df_merged['bitscore'].fillna(0)
+df_merged['alignment_length'] = df_merged['alignment_length'].fillna(0)
+
+# Save combined CSV
+df_merged.to_csv('blast_results_complete.csv', index=False)
+print(f"Saved: blast_results_complete.csv")
+print(f"Total unique genes: {len(df_merged)}")
+print(f"Genes with BLAST hit: {df_merged['subject'].ne('Unknown').sum()}")
+print(f"Genes without BLAST hit: {df_merged['subject'].eq('Unknown').sum()}")
+
+# Save per strain CSV
+os.makedirs('blast_per_strain', exist_ok=True)
+for genome, group in df_merged.groupby('genome'):
+    filename = f"blast_per_strain/{genome}_blast.csv"
+    group.to_csv(filename, index=False)
+    hits = group['subject'].ne('Unknown').sum()
+    no_hits = group['subject'].eq('Unknown').sum()
+    print(f"{genome}: {hits} hits, {no_hits} unknown → {filename}")
+EOF
+
+
+
+
+
+To blast the nucleotide sequences:
+$ awk '/^>/ {gsub(/:/, "_"); print} !/^>/ {gsub(/-/, ""); print}' \
+    unique_genes_nucleotide_all_raw.fasta > unique_genes_nucleotide_blast.fasta
+
+$ blastn -query unique_genes_nucleotide_blast.fasta \
+  -db nt \
+  -out blast_nucleotide_results.txt \
+  -outfmt "6 qseqid sseqid length evalue bitscore stitle" \
+  -evalue 0.01 \
+  -max_target_seqs 5 \
+  -remote
+
+
+
+
 
 
 
