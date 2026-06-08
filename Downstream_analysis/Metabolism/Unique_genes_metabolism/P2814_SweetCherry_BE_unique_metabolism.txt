@@ -1,0 +1,78 @@
+=== Metabolism for unique genes: P2814_SweetCherry_BE ===
+
+Total unique enzymes: 13
+Modules supported by unique genes: 1
+
+--- Enzymes from unique genes ---
+  Gene ID: 3041
+  Enzyme: K00549
+  Function: 5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]
+  Modules: M00017
+
+  Gene ID: 3044
+  Enzyme: K19158
+  Function: toxin YoeB [EC:3.1.-.-]
+  Modules: nan
+
+  Gene ID: 3042
+  Enzyme: K14052
+  Function: putrescine importer
+  Modules: nan
+
+  Gene ID: 2967
+  Enzyme: K06884
+  Function: uncharacterized protein
+  Modules: nan
+
+  Gene ID: 2989
+  Enzyme: K13292
+  Function: phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]
+  Modules: nan
+
+  Gene ID: 3078
+  Enzyme: K07483
+  Function: transposase
+  Modules: nan
+
+  Gene ID: 3079
+  Enzyme: K07497
+  Function: putative transposase
+  Modules: nan
+
+  Gene ID: 1836
+  Enzyme: K01154
+  Function: type I restriction enzyme, S subunit [EC:3.1.21.3]
+  Modules: nan
+
+  Gene ID: 2743
+  Enzyme: K07271
+  Function: lipopolysaccharide cholinephosphotransferase [EC:2.7.8.-]
+  Modules: nan
+
+  Gene ID: 627
+  Enzyme: K01358
+  Function: ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]
+  Modules: nan
+
+  Gene ID: 2740
+  Enzyme: K12990
+  Function: rhamnosyltransferase [EC:2.4.1.-]
+  Modules: nan
+
+  Gene ID: 2910
+  Enzyme: K12972
+  Function: glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81]
+  Modules: nan
+
+  Gene ID: 3045
+  Enzyme: K19159
+  Function: antitoxin YefM
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00017 - Methionine biosynthesis, aspartate => homoserine => methionine
+  Category: Amino acid metabolism
+  Completeness: 0.86
+  Complete: True
+

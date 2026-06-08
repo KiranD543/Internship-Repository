@@ -1,0 +1,37 @@
+ClusterBlast scores for P2538_1
+
+Table of genes, locations, strands and annotations of query cluster:
+CNPPIAOH_00124	139274	139478	-	hypothetical protein	
+CNPPIAOH_00125	139615	140302	-	hypothetical protein	
+CNPPIAOH_00126	140395	141076	-	hypothetical protein	
+CNPPIAOH_00127	141162	141831	-	hypothetical protein	
+CNPPIAOH_00128	141897	142443	-	hypothetical protein	
+CNPPIAOH_00129	142677	144054	-	Lactococcin A secretion protein LcnD	
+CNPPIAOH_00130	144069	146220	-	Transport/processing ATP-binding protein ComA	
+CNPPIAOH_00131	146441	147665	+	Putative transposase for insertion sequence element IS5376	
+CNPPIAOH_00132	147674	148412	+	IS21 family transposase IS712	
+CNPPIAOH_00133	148625	148796	+	hypothetical protein	
+CNPPIAOH_00134	148820	148979	+	hypothetical protein	
+CNPPIAOH_00135	149077	149851	+	hypothetical protein	
+CNPPIAOH_00136	150155	150899	-	Accessory gene regulator A	
+
+
+Significant hits: 
+1. BGC0000607.5	micrococcin P1
+
+
+Details:
+
+>>
+1. BGC0000607.5
+Source: micrococcin P1
+Type: ribosomal:RiPP:Thiopeptide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 594.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+CNPPIAOH_00131	AIU53930.1	52	348	83.53808353808354	2.12e-117
+CNPPIAOH_00132	AIU53931.1	51	246	100.0	8.35e-82
+

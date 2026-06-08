@@ -1,0 +1,28 @@
+=== Metabolism for unique genes: P3340_RedCowpea_BE ===
+
+Total unique enzymes: 3
+Modules supported by unique genes: 1
+
+--- Enzymes from unique genes ---
+  Gene ID: 2648
+  Enzyme: K01200
+  Function: pullulanase [EC:3.2.1.41]
+  Modules: M00855
+
+  Gene ID: 2741
+  Enzyme: K07316
+  Function: adenine-specific DNA-methyltransferase [EC:2.1.1.72]
+  Modules: nan
+
+  Gene ID: 2751
+  Enzyme: K01156
+  Function: type III restriction enzyme [EC:3.1.21.5]
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00855 - Glycogen degradation, glycogen => glucose-6P
+  Category: Carbohydrate metabolism
+  Completeness: 0.67
+  Complete: False
+

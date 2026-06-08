@@ -850,8 +850,8 @@ EOF
 
 To extract the unique genes with annotations, simplified:
 $ anvi-get-sequences-for-gene-clusters \
-    -p pangenome_output/Lm_fermentum-PAN.db \
-    -g Lm_fermentum-GENOMES.db \
+    -p pangenome_output/Lm_brevis-PAN.db \
+    -g Lv_brevis-GENOMES.db \
     --max-num-genomes-gene-cluster-occurs 1 \
     --min-num-genomes-gene-cluster-occurs 1 \
     -o unique_genes_all_raw.fasta

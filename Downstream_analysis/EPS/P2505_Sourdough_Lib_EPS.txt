@@ -1,0 +1,21 @@
+=== EPS analysis: P2505_Sourdough_Lib ===
+
+Total EPS-related genes: 2
+Categories present: 2/4
+
+--- Biosynthesis (0 genes) ---
+  Not found in unique genes
+
+--- Modification (1 genes) ---
+  Gene ID: 2785
+  Function: putative colanic acid biosynthesis glycosyltransferase WcaC [EC:2.4.-.-]
+  E-value: 1.8e-116
+
+--- Transport (0 genes) ---
+  Not found in unique genes
+
+--- Regulation (1 genes) ---
+  Gene ID: 2413
+  Function: two-component system, LytTR family, sensor histidine kinase AgrC [EC:2.7.13.3]
+  E-value: 9.1e-80
+

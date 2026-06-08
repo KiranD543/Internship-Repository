@@ -1,0 +1,45 @@
+ClusterBlast scores for P2538_1
+
+Table of genes, locations, strands and annotations of query cluster:
+CNPPIAOH_00578	625733	626159	+	Putative HTH-type transcriptional regulator YwnA	
+CNPPIAOH_00579	626246	627995	+	Pyruvate oxidase	
+CNPPIAOH_00580	628021	629122	+	L-lactate oxidase	
+CNPPIAOH_00581	629758	629992	+	hypothetical protein	
+CNPPIAOH_00582	630335	631559	+	Putative transposase for insertion sequence element IS5376	
+CNPPIAOH_00583	631568	632306	+	IS21 family transposase IS712	
+CNPPIAOH_00584	632523	634638	+	ATP-dependent protease ClpL	
+CNPPIAOH_00585	635005	635602	+	Accessory gene regulator protein B	
+CNPPIAOH_00586	635582	635711	+	hypothetical protein	
+CNPPIAOH_00587	635720	636983	+	hypothetical protein	
+CNPPIAOH_00588	636975	637719	+	Accessory gene regulator A	
+CNPPIAOH_00589	638074	638512	+	Global transcriptional regulator Spx	
+CNPPIAOH_00590	638669	639191	-	Vegetative catalase	
+CNPPIAOH_00591	639245	640124	-	Vegetative catalase	
+CNPPIAOH_00592	640469	640715	+	hypothetical protein	
+CNPPIAOH_00593	640731	640866	+	hypothetical protein	
+CNPPIAOH_00594	641060	641609	+	Folate transporter FolT	
+CNPPIAOH_00595	641804	642176	-	hypothetical protein	
+CNPPIAOH_00596	642643	643849	+	Anthranilate 1,2-dioxygenase system ferredoxin--NAD(+) reductase component	
+CNPPIAOH_00597	643987	644674	-	Putative N-acetylmannosamine-6-phosphate 2-epimerase	
+CNPPIAOH_00598	644707	645586	-	N-acetylneuraminate lyase	
+
+
+Significant hits: 
+1. BGC0000607.5	micrococcin P1
+
+
+Details:
+
+>>
+1. BGC0000607.5
+Source: micrococcin P1
+Type: ribosomal:RiPP:Thiopeptide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 594.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+CNPPIAOH_00582	AIU53930.1	52	348	83.53808353808354	2.12e-117
+CNPPIAOH_00583	AIU53931.1	51	246	100.0	8.35e-82
+

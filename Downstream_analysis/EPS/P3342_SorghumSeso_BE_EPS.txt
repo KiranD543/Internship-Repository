@@ -1,0 +1,33 @@
+=== EPS analysis: P3342_SorghumSeso_BE ===
+
+Total EPS-related genes: 6
+Categories present: 2/4
+
+--- Biosynthesis (2 genes) ---
+  Gene ID: 1569
+  Function: exopolysaccharide biosynthesis glucuronosyltransferase PssE
+  E-value: 1.9e-36
+  Gene ID: 1587
+  Function: glycosyltransferase EpsE [EC:2.4.-.-]
+  E-value: 1.3e-92
+
+--- Modification (4 genes) ---
+  Gene ID: 1572
+  Function: glycosyltransferase EpsF [EC:2.4.-.-]
+  E-value: 6e-96
+  Gene ID: 1586
+  Function: glycosyltransferase EpsF [EC:2.4.-.-]
+  E-value: 1.1e-70
+  Gene ID: 1587
+  Function: glycosyltransferase EpsE [EC:2.4.-.-]
+  E-value: 1.3e-92
+  Gene ID: 2837
+  Function: amylovoran biosynthesis glycosyltransferase AmsE [EC:2.4.-.-]
+  E-value: 6.5e-90
+
+--- Transport (0 genes) ---
+  Not found in unique genes
+
+--- Regulation (0 genes) ---
+  Not found in unique genes
+

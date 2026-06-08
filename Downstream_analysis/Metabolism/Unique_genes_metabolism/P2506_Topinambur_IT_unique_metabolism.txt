@@ -1,0 +1,158 @@
+=== Metabolism for unique genes: P2506_Topinambur_IT ===
+
+Total unique enzymes: 27
+Modules supported by unique genes: 3
+
+--- Enzymes from unique genes ---
+  Gene ID: 3019
+  Enzyme: K16649
+  Function: rhamnopyranosyl-N-acetylglucosaminyl-diphospho-decaprenol beta-1,3/1,4-galactofuranosyltransferase [EC:2.4.1.287]
+  Modules: M00888
+
+  Gene ID: 2953
+  Enzyme: K00278
+  Function: L-aspartate oxidase [EC:1.4.3.16]
+  Modules: M00115
+
+  Gene ID: 2954
+  Enzyme: K03517
+  Function: quinolinate synthase [EC:2.5.1.72]
+  Modules: M00115
+
+  Gene ID: 2958
+  Enzyme: K00767
+  Function: nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19]
+  Modules: M00115,M00912
+
+  Gene ID: 3024
+  Enzyme: K02030
+  Function: polar amino acid transport system substrate-binding protein
+  Modules: nan
+
+  Gene ID: 2955
+  Enzyme: K04487
+  Function: cysteine desulfurase [EC:2.8.1.7]
+  Modules: nan
+
+  Gene ID: 1658
+  Enzyme: K03496
+  Function: chromosome partitioning protein
+  Modules: nan
+
+  Gene ID: 2686
+  Enzyme: K03496
+  Function: chromosome partitioning protein
+  Modules: nan
+
+  Gene ID: 3000
+  Enzyme: K22106
+  Function: TetR/AcrR family transcriptional regulator, repressor of fatR-cypB operon
+  Modules: nan
+
+  Gene ID: 3037
+  Enzyme: K08177
+  Function: MFS transporter, OFA family, oxalate/formate antiporter
+  Modules: nan
+
+  Gene ID: 2840
+  Enzyme: K07497
+  Function: putative transposase
+  Modules: nan
+
+  Gene ID: 3077
+  Enzyme: K07078
+  Function: uncharacterized protein
+  Modules: nan
+
+  Gene ID: 2999
+  Enzyme: K06889
+  Function: uncharacterized protein
+  Modules: nan
+
+  Gene ID: 3026
+  Enzyme: K02029
+  Function: polar amino acid transport system permease protein
+  Modules: nan
+
+  Gene ID: 3027
+  Enzyme: K02029
+  Function: polar amino acid transport system permease protein
+  Modules: nan
+
+  Gene ID: 2448
+  Enzyme: K21745
+  Function: MerR family transcriptional regulator, aldehyde-responsive regulator
+  Modules: nan
+
+  Gene ID: 2654
+  Enzyme: K07729
+  Function: putative transcriptional regulator
+  Modules: nan
+
+  Gene ID: 2849
+  Enzyme: K07316
+  Function: adenine-specific DNA-methyltransferase [EC:2.1.1.72]
+  Modules: nan
+
+  Gene ID: 2628
+  Enzyme: K00571
+  Function: site-specific DNA-methyltransferase (adenine-specific) [EC:2.1.1.72]
+  Modules: nan
+
+  Gene ID: 2629
+  Enzyme: K00571
+  Function: site-specific DNA-methyltransferase (adenine-specific) [EC:2.1.1.72]
+  Modules: nan
+
+  Gene ID: 2625
+  Enzyme: K06909
+  Function: phage terminase large subunit
+  Modules: nan
+
+  Gene ID: 2668
+  Enzyme: K07486
+  Function: transposase
+  Modules: nan
+
+  Gene ID: 2848
+  Enzyme: K01156
+  Function: type III restriction enzyme [EC:3.1.21.5]
+  Modules: nan
+
+  Gene ID: 593
+  Enzyme: K07341
+  Function: death on curing protein
+  Modules: nan
+
+  Gene ID: 3017
+  Enzyme: K19420
+  Function: protein tyrosine kinase modulator
+  Modules: nan
+
+  Gene ID: 2655
+  Enzyme: K22299
+  Function: HTH-type transcriptional regulator, competence development regulator
+  Modules: nan
+
+  Gene ID: 2965
+  Enzyme: K09813
+  Function: hemin transport system permease protein
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00888 - Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5
+  Category: Glycan metabolism
+  Completeness: 0.50
+  Complete: False
+
+  Module: M00115 - NAD biosynthesis, aspartate => quinolinate => NAD
+  Category: Metabolism of cofactors and vitamins
+  Completeness: 1.00
+  Complete: True
+
+  Module: M00912 - NAD biosynthesis, tryptophan => quinolinate => NAD
+  Category: Metabolism of cofactors and vitamins
+  Completeness: 0.38
+  Complete: False
+

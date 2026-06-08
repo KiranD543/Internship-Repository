@@ -1,0 +1,73 @@
+=== Metabolism for unique genes: P2811_SweetCherry_BE ===
+
+Total unique enzymes: 9
+Modules supported by unique genes: 4
+
+--- Enzymes from unique genes ---
+  Gene ID: 3076
+  Enzyme: K04041
+  Function: fructose-1,6-bisphosphatase III [EC:3.1.3.11]
+  Modules: M00003,M00611,M00612
+
+  Gene ID: 2804
+  Enzyme: K16870
+  Function: N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase [EC:2.4.1.289]
+  Modules: M00888
+
+  Gene ID: 3105
+  Enzyme: K00661
+  Function: maltose O-acetyltransferase [EC:2.3.1.79]
+  Modules: nan
+
+  Gene ID: 2814
+  Enzyme: K07459
+  Function: putative ATP-dependent endonuclease of the OLD family
+  Modules: nan
+
+  Gene ID: 3066
+  Enzyme: K22580
+  Function: teichoic acid D-alanine hydrolase [EC:3.1.1.103]
+  Modules: nan
+
+  Gene ID: 438
+  Enzyme: K07729
+  Function: putative transcriptional regulator
+  Modules: nan
+
+  Gene ID: 2810
+  Enzyme: K07483
+  Function: transposase
+  Modules: nan
+
+  Gene ID: 3073
+  Enzyme: K16710
+  Function: colanic acid/amylovoran biosynthesis protein WcaK/AmsJ
+  Modules: nan
+
+  Gene ID: 2805
+  Enzyme: K16710
+  Function: colanic acid/amylovoran biosynthesis protein WcaK/AmsJ
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00003 - Gluconeogenesis, oxaloacetate => fructose-6P
+  Category: Carbohydrate metabolism
+  Completeness: 1.00
+  Complete: True
+
+  Module: M00888 - Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5
+  Category: Glycan metabolism
+  Completeness: 0.75
+  Complete: True
+
+  Module: M00611 - Oxygenic photosynthesis in plants and cyanobacteria
+  Category: Module set
+  Completeness: 0.00
+  Complete: False
+
+  Module: M00612 - Anoxygenic photosynthesis in purple bacteria
+  Category: Module set
+  Completeness: 0.00
+  Complete: False
+

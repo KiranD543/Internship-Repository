@@ -1,0 +1,198 @@
+=== Metabolism for unique genes: P3342_SorghumSeso_BE ===
+
+Total unique enzymes: 32
+Modules supported by unique genes: 6
+
+--- Enzymes from unique genes ---
+  Gene ID: 2332
+  Enzyme: K01785
+  Function: aldose 1-epimerase [EC:5.1.3.3]
+  Modules: M00632
+
+  Gene ID: 2993
+  Enzyme: K04708
+  Function: 3-dehydrosphinganine reductase [EC:1.1.1.102]
+  Modules: M00094,M00099
+
+  Gene ID: 2996
+  Enzyme: K03465
+  Function: thymidylate synthase (FAD) [EC:2.1.1.148]
+  Modules: M00938
+
+  Gene ID: 2995
+  Enzyme: K00287
+  Function: dihydrofolate reductase [EC:1.5.1.3]
+  Modules: M00126,M00840
+
+  Gene ID: 2950
+  Enzyme: K18220
+  Function: ribosomal protection tetracycline resistance protein
+  Modules: nan
+
+  Gene ID: 2981
+  Enzyme: K19271
+  Function: chloramphenicol O-acetyltransferase type A [EC:2.3.1.28]
+  Modules: nan
+
+  Gene ID: 1592
+  Enzyme: K01953
+  Function: asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]
+  Modules: nan
+
+  Gene ID: 2978
+  Enzyme: K05593
+  Function: aminoglycoside 6-adenylyltransferase [EC:2.7.7.-]
+  Modules: nan
+
+  Gene ID: 2840
+  Enzyme: K16710
+  Function: colanic acid/amylovoran biosynthesis protein WcaK/AmsJ
+  Modules: nan
+
+  Gene ID: 1575
+  Enzyme: K16710
+  Function: colanic acid/amylovoran biosynthesis protein WcaK/AmsJ
+  Modules: nan
+
+  Gene ID: 2842
+  Enzyme: K07497
+  Function: putative transposase
+  Modules: nan
+
+  Gene ID: 2325
+  Enzyme: K02774
+  Function: galactitol PTS system EIIB component [EC:2.7.1.200]
+  Modules: nan
+
+  Gene ID: 2328
+  Enzyme: K02775
+  Function: galactitol PTS system EIIC component
+  Modules: nan
+
+  Gene ID: 2326
+  Enzyme: K02773
+  Function: galactitol PTS system EIIA component [EC:2.7.1.200]
+  Modules: nan
+
+  Gene ID: 1387
+  Enzyme: K15580
+  Function: oligopeptide transport system substrate-binding protein
+  Modules: nan
+
+  Gene ID: 200
+  Enzyme: K03292
+  Function: glycoside/pentoside/hexuronide:cation symporter, GPH family
+  Modules: nan
+
+  Gene ID: 199
+  Enzyme: K03292
+  Function: glycoside/pentoside/hexuronide:cation symporter, GPH family
+  Modules: nan
+
+  Gene ID: 1127
+  Enzyme: K07727
+  Function: putative transcriptional regulator
+  Modules: nan
+
+  Gene ID: 1570
+  Enzyme: K00980
+  Function: glycerol-3-phosphate cytidylyltransferase [EC:2.7.7.39]
+  Modules: nan
+
+  Gene ID: 1591
+  Enzyme: K00980
+  Function: glycerol-3-phosphate cytidylyltransferase [EC:2.7.7.39]
+  Modules: nan
+
+  Gene ID: 1586
+  Enzyme: K19424
+  Function: glycosyltransferase EpsF [EC:2.4.-.-]
+  Modules: nan
+
+  Gene ID: 1572
+  Enzyme: K19424
+  Function: glycosyltransferase EpsF [EC:2.4.-.-]
+  Modules: nan
+
+  Gene ID: 1569
+  Enzyme: K25904
+  Function: exopolysaccharide biosynthesis glucuronosyltransferase PssE
+  Modules: nan
+
+  Gene ID: 1587
+  Enzyme: K19423
+  Function: glycosyltransferase EpsE [EC:2.4.-.-]
+  Modules: nan
+
+  Gene ID: 905
+  Enzyme: K01154
+  Function: type I restriction enzyme, S subunit [EC:3.1.21.3]
+  Modules: nan
+
+  Gene ID: 906
+  Enzyme: K01154
+  Function: type I restriction enzyme, S subunit [EC:3.1.21.3]
+  Modules: nan
+
+  Gene ID: 2331
+  Enzyme: K00917
+  Function: tagatose 6-phosphate kinase [EC:2.7.1.144]
+  Modules: nan
+
+  Gene ID: 2330
+  Enzyme: K01635
+  Function: tagatose 1,6-diphosphate aldolase [EC:4.1.2.40]
+  Modules: nan
+
+  Gene ID: 202
+  Enzyme: K02099
+  Function: AraC family transcriptional regulator, arabinose operon regulatory protein
+  Modules: nan
+
+  Gene ID: 207
+  Enzyme: K02466
+  Function: glucitol operon activator protein
+  Modules: nan
+
+  Gene ID: 2837
+  Enzyme: K16702
+  Function: amylovoran biosynthesis glycosyltransferase AmsE [EC:2.4.-.-]
+  Modules: nan
+
+  Gene ID: 2997
+  Enzyme: K00561
+  Function: 23S rRNA (adenine-N6)-dimethyltransferase [EC:2.1.1.184]
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00632 - Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
+  Category: Carbohydrate metabolism
+  Completeness: 0.75
+  Complete: True
+
+  Module: M00094 - Ceramide biosynthesis
+  Category: Lipid metabolism
+  Completeness: 0.25
+  Complete: False
+
+  Module: M00099 - Sphingosine biosynthesis
+  Category: Lipid metabolism
+  Completeness: 0.20
+  Complete: False
+
+  Module: M00938 - Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+  Category: Nucleotide metabolism
+  Completeness: 1.00
+  Complete: True
+
+  Module: M00126 - Tetrahydrofolate biosynthesis, GTP => THF
+  Category: Metabolism of cofactors and vitamins
+  Completeness: 0.80
+  Complete: True
+
+  Module: M00840 - Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF
+  Category: Metabolism of cofactors and vitamins
+  Completeness: 0.43
+  Complete: False
+

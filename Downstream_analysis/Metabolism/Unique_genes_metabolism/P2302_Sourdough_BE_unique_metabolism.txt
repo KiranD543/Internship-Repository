@@ -1,0 +1,113 @@
+=== Metabolism for unique genes: P2302_Sourdough_BE ===
+
+Total unique enzymes: 10
+Modules supported by unique genes: 11
+
+--- Enzymes from unique genes ---
+  Gene ID: 3108
+  Enzyme: K00134
+  Function: glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]
+  Modules: M00001,M00002,M00003,M00308,M00552,M00165,M00611,M00612
+
+  Gene ID: 3108
+  Enzyme: K05298
+  Function: glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating) [EC:1.2.1.13]
+  Modules: M00165,M00611,M00612
+
+  Gene ID: 3114
+  Enzyme: K08967
+  Function: 1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase [EC:1.13.11.53 1.13.11.54]
+  Modules: M00034
+
+  Gene ID: 3107
+  Enzyme: K03146
+  Function: cysteine-dependent adenosine diphosphate thiazole synthase [EC:2.4.2.60]
+  Modules: M00897,M00898
+
+  Gene ID: 3099
+  Enzyme: K08912
+  Function: light-harvesting complex II chlorophyll a/b binding protein 1
+  Modules: nan
+
+  Gene ID: 3113
+  Enzyme: K08910
+  Function: light-harvesting complex I chlorophyll a/b binding protein 4
+  Modules: nan
+
+  Gene ID: 3119
+  Enzyme: K08915
+  Function: light-harvesting complex II chlorophyll a/b binding protein 4
+  Modules: nan
+
+  Gene ID: 3100
+  Enzyme: K08916
+  Function: light-harvesting complex II chlorophyll a/b binding protein 5
+  Modules: nan
+
+  Gene ID: 3113
+  Enzyme: K08908
+  Function: light-harvesting complex I chlorophyll a/b binding protein 2
+  Modules: nan
+
+  Gene ID: 3115
+  Enzyme: K02716
+  Function: photosystem II oxygen-evolving enhancer protein 1
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00001 - Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
+  Category: Carbohydrate metabolism
+  Completeness: 0.89
+  Complete: True
+
+  Module: M00002 - Glycolysis, core module involving three-carbon compounds
+  Category: Carbohydrate metabolism
+  Completeness: 1.00
+  Complete: True
+
+  Module: M00003 - Gluconeogenesis, oxaloacetate => fructose-6P
+  Category: Carbohydrate metabolism
+  Completeness: 0.86
+  Complete: True
+
+  Module: M00308 - Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P
+  Category: Carbohydrate metabolism
+  Completeness: 0.50
+  Complete: False
+
+  Module: M00552 - D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P
+  Category: Carbohydrate metabolism
+  Completeness: 0.40
+  Complete: False
+
+  Module: M00165 - Reductive pentose phosphate cycle (Calvin cycle)
+  Category: Energy metabolism
+  Completeness: 0.64
+  Complete: False
+
+  Module: M00034 - Methionine salvage pathway
+  Category: Amino acid metabolism
+  Completeness: 0.38
+  Complete: False
+
+  Module: M00897 - Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP
+  Category: Metabolism of cofactors and vitamins
+  Completeness: 0.40
+  Complete: False
+
+  Module: M00898 - Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP
+  Category: Metabolism of cofactors and vitamins
+  Completeness: 0.33
+  Complete: False
+
+  Module: M00611 - Oxygenic photosynthesis in plants and cyanobacteria
+  Category: Module set
+  Completeness: 0.00
+  Complete: False
+
+  Module: M00612 - Anoxygenic photosynthesis in purple bacteria
+  Category: Module set
+  Completeness: 0.00
+  Complete: False
+

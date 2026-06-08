@@ -1,0 +1,50 @@
+strain,module,module_name,module_category,completeness,is_complete,unique_enzymes_count
+P2302_Sourdough_BE,M00001,"Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate",Carbohydrate metabolism,0.8888888888888888,True,10
+P2302_Sourdough_BE,M00002,"Glycolysis, core module involving three-carbon compounds",Carbohydrate metabolism,1.0,True,10
+P2302_Sourdough_BE,M00003,"Gluconeogenesis, oxaloacetate => fructose-6P",Carbohydrate metabolism,0.8571428571428571,True,10
+P2302_Sourdough_BE,M00308,"Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P",Carbohydrate metabolism,0.5,False,10
+P2302_Sourdough_BE,M00552,"D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P",Carbohydrate metabolism,0.4,False,10
+P2302_Sourdough_BE,M00165,Reductive pentose phosphate cycle (Calvin cycle),Energy metabolism,0.6363636363636364,False,10
+P2302_Sourdough_BE,M00034,Methionine salvage pathway,Amino acid metabolism,0.375,False,10
+P2302_Sourdough_BE,M00897,"Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP",Metabolism of cofactors and vitamins,0.4,False,10
+P2302_Sourdough_BE,M00898,"Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP",Metabolism of cofactors and vitamins,0.3333333333333333,False,10
+P2302_Sourdough_BE,M00611,Oxygenic photosynthesis in plants and cyanobacteria,Module set,0.0,False,10
+P2302_Sourdough_BE,M00612,Anoxygenic photosynthesis in purple bacteria,Module set,0.0,False,10
+P2505_Sourdough_Lib,M00632,"Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P",Carbohydrate metabolism,0.75,True,16
+P2505_Sourdough_Lib,M00116,"Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol",Metabolism of cofactors and vitamins,0.5555555555555556,False,16
+P2505_Sourdough_Lib,M00932,"Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol",Metabolism of cofactors and vitamins,0.4285714285714285,False,16
+P2506_Topinambur_IT,M00888,"Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5",Glycan metabolism,0.5,False,27
+P2506_Topinambur_IT,M00115,"NAD biosynthesis, aspartate => quinolinate => NAD",Metabolism of cofactors and vitamins,1.0,True,27
+P2506_Topinambur_IT,M00912,"NAD biosynthesis, tryptophan => quinolinate => NAD",Metabolism of cofactors and vitamins,0.375,False,27
+P2538_Sourdough_Lib,M00888,"Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5",Glycan metabolism,0.5,False,8
+P2584_Sourdough_BE,M00001,"Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate",Carbohydrate metabolism,0.8888888888888888,True,2
+P2584_Sourdough_BE,M00002,"Glycolysis, core module involving three-carbon compounds",Carbohydrate metabolism,1.0,True,2
+P2584_Sourdough_BE,M00003,"Gluconeogenesis, oxaloacetate => fructose-6P",Carbohydrate metabolism,0.8571428571428571,True,2
+P2584_Sourdough_BE,M00308,"Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P",Carbohydrate metabolism,0.5,False,2
+P2584_Sourdough_BE,M00552,"D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P",Carbohydrate metabolism,0.4,False,2
+P2584_Sourdough_BE,M00532,Photorespiration,Carbohydrate metabolism,0.2,False,2
+P2584_Sourdough_BE,M00165,Reductive pentose phosphate cycle (Calvin cycle),Energy metabolism,0.6363636363636364,False,2
+P2584_Sourdough_BE,M00611,Oxygenic photosynthesis in plants and cyanobacteria,Module set,0.0,False,2
+P2584_Sourdough_BE,M00612,Anoxygenic photosynthesis in purple bacteria,Module set,0.0,False,2
+P2811_SweetCherry_BE,M00003,"Gluconeogenesis, oxaloacetate => fructose-6P",Carbohydrate metabolism,1.0,True,9
+P2811_SweetCherry_BE,M00888,"Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5",Glycan metabolism,0.75,True,9
+P2811_SweetCherry_BE,M00611,Oxygenic photosynthesis in plants and cyanobacteria,Module set,0.0,False,9
+P2811_SweetCherry_BE,M00612,Anoxygenic photosynthesis in purple bacteria,Module set,0.0,False,9
+P2814_SweetCherry_BE,M00017,"Methionine biosynthesis, aspartate => homoserine => methionine",Amino acid metabolism,0.8571428571428571,True,13
+P2918_Fermented_IQF_Mango_BE,M00079,Keratan sulfate degradation,Glycan metabolism,0.2,False,32
+P2918_Fermented_IQF_Mango_BE,M00705,"Multidrug resistance, efflux pump MepA",Gene set,0.5,False,32
+P331_Cacoa_CR,M00888,"Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5",Glycan metabolism,0.5,False,12
+P3337_BambaraGroudhut_BE,M00986,"Sulfur reduction, sulfur => sulfide",Energy metabolism,1.0,True,23
+P3337_BambaraGroudhut_BE,M00956,"Lysine degradation, bacteria, L-lysine => succinate",Amino acid metabolism,0.1428571428571428,False,23
+P3337_BambaraGroudhut_BE,M00957,"Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA",Amino acid metabolism,0.2,False,23
+P3337_BambaraGroudhut_BE,M00027,GABA (gamma-Aminobutyrate) shunt,Amino acid metabolism,0.6666666666666666,False,23
+P3337_BambaraGroudhut_BE,M00909,"UDP-GlcNAc biosynthesis, prokaryotes, Fru-6P => UDP-GlcNAc",Glycan metabolism,1.0,True,23
+P3337_BambaraGroudhut_BE,M00995,"UDP-MurNAc biosynthesis, Fru-6P => UDP-MurNAc",Glycan metabolism,1.0,True,23
+P3338_BambaraGroudhut_BE,M00888,"Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5",Glycan metabolism,0.75,True,8
+P3340_RedCowpea_BE,M00855,"Glycogen degradation, glycogen => glucose-6P",Carbohydrate metabolism,0.6666666666666666,False,3
+P3342_SorghumSeso_BE,M00632,"Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P",Carbohydrate metabolism,0.75,True,32
+P3342_SorghumSeso_BE,M00094,Ceramide biosynthesis,Lipid metabolism,0.25,False,32
+P3342_SorghumSeso_BE,M00099,Sphingosine biosynthesis,Lipid metabolism,0.2,False,32
+P3342_SorghumSeso_BE,M00938,"Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP",Nucleotide metabolism,1.0,True,32
+P3342_SorghumSeso_BE,M00126,"Tetrahydrofolate biosynthesis, GTP => THF",Metabolism of cofactors and vitamins,0.8,True,32
+P3342_SorghumSeso_BE,M00840,"Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF",Metabolism of cofactors and vitamins,0.4285714285714285,False,32

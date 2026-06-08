@@ -1,0 +1,1785 @@
+gene_callers_id	source	accession	function	e_value
+0	KOfam	K04567	lysyl-tRNA synthetase, class II [EC:6.1.1.6]	1.3e-227
+1	KOfam	K05540	tRNA-dihydrouridine synthase B [EC:1.-.-.-]	4.8e-126
+2	KOfam	K04083	molecular chaperone Hsp33	2.7e-97
+3	KOfam	K03798	cell division protease FtsH [EC:3.4.24.-]	1.7e-274
+4	KOfam	K00760	hypoxanthine phosphoribosyltransferase [EC:2.4.2.8]	1.5e-65
+5	KOfam	K04075	tRNA(Ile)-lysidine synthase [EC:6.3.4.19]	2.1e-80
+6	KOfam	K07571	S1 RNA binding domain protein	8.3e-59
+7	KOfam	K13052	cell division protein DivIC	1.6e-27
+8	KOfam	K04762	ribosome-associated heat shock protein Hsp15	1.5e-15
+9	KOfam	K03328	polysaccharide transporter, PST family	3.6e-95
+10	KOfam	K03723	transcription-repair coupling factor (superfamily II helicase) [EC:5.6.2.4]	0
+11	KOfam	K01056	peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]	1e-77
+12	KOfam	K00016	L-lactate dehydrogenase [EC:1.1.1.27]	1.3e-115
+16	KOfam	K00611	ornithine carbamoyltransferase [EC:2.1.3.3]	1.4e-133
+18	KOfam	K00930	acetylglutamate kinase [EC:2.7.2.8]	3.7e-68
+19	KOfam	K00620	glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]	2e-155
+20	KOfam	K00145	N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	3.9e-108
+21	KOfam	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	8.8e-140
+22	KOfam	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	0
+23	KOfam	K15555	sulfonate transport system ATP-binding protein [EC:7.6.2.14]	1.2e-102
+24	KOfam	K02050	NitT/TauT family transport system permease protein	3e-53
+25	KOfam	K02051	NitT/TauT family transport system substrate-binding protein	1.8e-52
+26	KOfam	K03549	KUP system potassium uptake protein	4.6e-168
+27	KOfam	K07171	mRNA interferase MazF [EC:3.1.-.-]	2.1e-44
+28	KOfam	K01775	alanine racemase [EC:5.1.1.1]	4.8e-131
+29	KOfam	K00997	holo-[acyl-carrier protein] synthase [EC:2.7.8.7]	1.5e-34
+30	KOfam	K05592	ATP-dependent RNA helicase DeaD [EC:5.6.2.7]	6e-196
+31	KOfam	K01929	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [EC:6.3.2.10]	1.2e-150
+33	KOfam	K03799	heat shock protein HtpX [EC:3.4.24.-]	2e-86
+34	KOfam	K03744	LemA protein	5.8e-73
+35	KOfam	K07284	sortase A [EC:3.4.22.70]	8.5e-43
+37	KOfam	K02909	large subunit ribosomal protein L31	3.3e-25
+38	KOfam	K03628	transcription termination factor Rho	3.4e-204
+39	KOfam	K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]	2e-162
+42	KOfam	K01752	L-serine dehydratase [EC:4.3.1.17]	2.6e-90
+43	KOfam	K01752	L-serine dehydratase [EC:4.3.1.17]	8e-32
+44	KOfam	K03837	serine transporter	2.4e-172
+45	KOfam	K01875	seryl-tRNA synthetase [EC:6.1.1.11]	6.7e-179
+46	KOfam	K01937	CTP synthase [EC:6.3.4.2]	5.2e-264
+47	KOfam	K03048	DNA-directed RNA polymerase subunit delta	8.1e-58
+49	KOfam	K16869	octanoyl-[GcvH]:protein N-octanoyltransferase [EC:2.3.1.204]	9.8e-84
+50	KOfam	K06885	uncharacterized protein	1.2e-137
+51	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	5.7e-60
+54	KOfam	K00948	ribose-phosphate pyrophosphokinase [EC:2.7.6.1]	1.1e-145
+55	KOfam	K17836	beta-lactamase class A [EC:3.5.2.6]	1e-36
+56	KOfam	K04042	bifunctional UDP-N-acetylglucosamine pyrophosphorylase / glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.3.1.157]	2.3e-197
+57	KOfam	K09685	HTH-type transcriptional regulator, purine operon repressor	7.5e-125
+60	KOfam	K02075	zinc/manganese transport system permease protein	4.4e-70
+62	KOfam	K06889	uncharacterized protein	2.6e-36
+63	KOfam	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	3.3e-79
+65	KOfam	K02528	16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase [EC:2.1.1.182]	1.9e-106
+66	KOfam	K05985	ribonuclease M5 [EC:3.1.26.8]	5.6e-86
+67	KOfam	K03424	TatD DNase family protein [EC:3.1.21.-]	6.8e-85
+68	KOfam	K07552	MFS transporter, DHA1 family, multidrug resistance protein	1.8e-78
+69	KOfam	K01874	methionyl-tRNA synthetase [EC:6.1.1.10]	4.7e-191
+70	KOfam	K03574	8-oxo-dGTP diphosphatase [EC:3.6.1.55]	3.3e-16
+72	KOfam	K12410	NAD-dependent protein deacetylase/lipoamidase [EC:2.3.1.286 2.3.1.313]	1.3e-68
+74	KOfam	K00054	hydroxymethylglutaryl-CoA reductase [EC:1.1.1.88]	5.5e-187
+75	KOfam	K01524	exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase [EC:3.6.1.11 3.6.1.40]	6.2e-78
+81	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	4.5e-229
+82	KOfam	K02761	cellobiose PTS system EIIC component	2.4e-140
+85	KOfam	K02761	cellobiose PTS system EIIC component	4.9e-143
+86	KOfam	K03489	GntR family transcriptional regulator, transcriptional regulator of bglA	2.9e-62
+87	KOfam	K01867	tryptophanyl-tRNA synthetase [EC:6.1.1.2]	4e-98
+90	KOfam	K21498	antitoxin HigA-1	1.2e-24
+91	KOfam	K07052	CAAX protease family protein	5.5e-14
+92	KOfam	K07052	CAAX protease family protein	9.9e-12
+93	KOfam	K07052	CAAX protease family protein	3e-19
+94	KOfam	K07052	CAAX protease family protein	4.2e-16
+95	KOfam	K20345	membrane fusion protein, peptide pheromone/bacteriocin exporter	5.5e-94
+96	KOfam	K20344	ATP-binding cassette, subfamily C, bacteriocin exporter	1.1e-284
+99	KOfam	K07052	CAAX protease family protein	2.2e-18
+100	KOfam	K07707	two-component system, LytTR family, response regulator AgrA	2.3e-71
+101	KOfam	K07706	two-component system, LytTR family, sensor histidine kinase AgrC [EC:2.7.13.3]	6.1e-75
+103	KOfam	K07052	CAAX protease family protein	5.4e-18
+114	KOfam	K26730	Na+:H+ antiporter	1.2e-119
+115	KOfam	K03311	branched-chain amino acid:cation transporter, LIVCS family	4.5e-153
+116	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	1.6e-58
+120	KOfam	K00633	galactoside O-acetyltransferase [EC:2.3.1.18]	6.8e-99
+120	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	6.7e-71
+133	KOfam	K02440	glycerol uptake facilitator	4.4e-110
+134	KOfam	K00111	glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]	5.1e-143
+134	KOfam	K00105	alpha-glycerophosphate oxidase [EC:1.1.3.21]	0
+135	KOfam	K00864	glycerol kinase [EC:2.7.1.30]	8.3e-220
+136	KOfam	K00383	glutathione reductase (NADPH) [EC:1.8.1.7]	6.3e-125
+137	KOfam	K05847	osmoprotectant transport system ATP-binding protein [EC:7.6.2.9]	5.9e-126
+138	KOfam	K05845	osmoprotectant transport system substrate-binding protein	2e-91
+138	KOfam	K05846	osmoprotectant transport system permease protein	8.4e-95
+142	KOfam	K02160	acetyl-CoA carboxylase biotin carboxyl carrier protein	4.7e-38
+145	KOfam	K09384	uncharacterized protein	1.7e-123
+147	KOfam	K08987	putative membrane protein	5.7e-39
+149	KOfam	K01807	ribose 5-phosphate isomerase A [EC:5.3.1.6]	6.4e-48
+152	KOfam	K00016	L-lactate dehydrogenase [EC:1.1.1.27]	2.2e-75
+153	KOfam	K03320	ammonium transporter, Amt family	2.5e-134
+157	KOfam	K09693	teichoic acid transport system ATP-binding protein [EC:7.5.2.4]	8.1e-117
+158	KOfam	K09692	teichoic acid transport system permease protein	1.4e-73
+160	KOfam	K08969	L-glutamine---4-(methylsulfanyl)-2-oxobutanoate aminotransferase [EC:2.6.1.117]	3.7e-193
+161	KOfam	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	3.9e-65
+162	KOfam	K02072	D-methionine transport system permease protein	3e-82
+163	KOfam	K02071	D-methionine transport system ATP-binding protein	7.4e-133
+164	KOfam	K02073	D-methionine transport system substrate-binding protein	2.4e-86
+165	KOfam	K03524	BirA family transcriptional regulator, biotin operon repressor / biotin---[acetyl-CoA-carboxylase] ligase [EC:6.3.4.15]	9.7e-62
+166	KOfam	K03523	biotin transport system substrate-specific component	6.6e-45
+168	KOfam	K08659	dipeptidase [EC:3.4.-.-]	4.5e-177
+170	KOfam	K04088	modulator of FtsH protease HflK	6.4e-37
+171	KOfam	K03292	glycoside/pentoside/hexuronide:cation symporter, GPH family	2.4e-101
+172	KOfam	K01624	fructose-bisphosphate aldolase, class II [EC:4.1.2.13]	8.2e-105
+173	KOfam	K04072	acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1]	2.8e-198
+174	KOfam	K16919	acetoin utilization transport system permease protein	3.8e-27
+175	KOfam	K16921	acetoin utilization transport system ATP-binding protein	1.2e-100
+176	KOfam	K07979	GntR family transcriptional regulator	2.2e-39
+182	KOfam	K11072	spermidine/putrescine transport system ATP-binding protein [EC:7.6.2.11]	8.5e-165
+182	KOfam	K02010	iron(III) transport system ATP-binding protein [EC:7.2.2.7]	9.5e-134
+183	KOfam	K11071	spermidine/putrescine transport system permease protein	2.8e-88
+184	KOfam	K11070	spermidine/putrescine transport system permease protein	8e-96
+185	KOfam	K11069	spermidine/putrescine transport system substrate-binding protein	1.7e-118
+186	KOfam	K03071	preprotein translocase subunit SecB	5.8e-13
+190	KOfam	K03885	NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9]	5.4e-101
+192	KOfam	K02348	ElaA protein	9.7e-53
+193	KOfam	K00925	acetate kinase [EC:2.7.2.1]	1.3e-169
+195	KOfam	K10844	DNA excision repair protein ERCC-2 [EC:5.6.2.3]	1e-140
+198	KOfam	K02437	glycine cleavage system H protein	5.4e-13
+201	KOfam	K07052	CAAX protease family protein	2.1e-19
+202	KOfam	K07052	CAAX protease family protein	3.4e-19
+204	KOfam	K02004	putative ABC transport system permease protein	8.2e-19
+206	KOfam	K01246	DNA-3-methyladenine glycosylase I [EC:3.2.2.20]	9.6e-85
+207	KOfam	K06994	putative drug exporter of the RND superfamily	1.4e-141
+209	KOfam	K07816	GTP pyrophosphokinase [EC:2.7.6.5]	1e-72
+211	KOfam	K00104	glycolate dehydrogenase FAD-linked subunit [EC:1.1.99.14]	2.8e-145
+212	KOfam	K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]	7.4e-87
+215	KOfam	K02761	cellobiose PTS system EIIC component	6e-157
+218	KOfam	K02483	two-component system, OmpR family, response regulator	6.8e-77
+220	KOfam	K21745	MerR family transcriptional regulator, aldehyde-responsive regulator	3.1e-26
+221	KOfam	K08169	MFS transporter, DHA2 family, multidrug resistance protein	3.3e-87
+225	KOfam	K03322	manganese transport protein	2.2e-172
+227	KOfam	K19587	Rrf2 family transcriptional regulator, repressor of oqxAB	4.7e-24
+228	KOfam	K22960	gallate decarboxylase subunit D	3.5e-45
+229	KOfam	K22959	gallate decarboxylase subunit B	4e-104
+229	KOfam	K03186	flavin prenyltransferase [EC:2.5.1.129]	1.4e-96
+231	KOfam	K02757	beta-glucoside PTS system EIICBA component [EC:2.7.1.-]	3e-217
+231	KOfam	K02777	sugar PTS system EIIA component [EC:2.7.1.-]	1.2e-80
+232	KOfam	K02757	beta-glucoside PTS system EIICBA component [EC:2.7.1.-]	3.1e-232
+232	KOfam	K02777	sugar PTS system EIIA component [EC:2.7.1.-]	7.7e-83
+233	KOfam	K01226	trehalose-6-phosphate hydrolase [EC:3.2.1.93]	5.3e-255
+234	KOfam	K03486	GntR family transcriptional regulator, trehalose operon transcriptional repressor	3.1e-91
+237	KOfam	K03811	nicotinamide mononucleotide transporter	3.7e-32
+238	KOfam	K01265	methionyl aminopeptidase [EC:3.4.11.18]	1.1e-85
+241	KOfam	K00640	serine O-acetyltransferase [EC:2.3.1.30]	8.5e-65
+242	KOfam	K00874	2-dehydro-3-deoxygluconokinase [EC:2.7.1.45]	2.8e-58
+243	KOfam	K17463	2-dehydro-3-deoxy-phosphogluconate aldolase [EC:4.1.2.14]	7.9e-81
+244	KOfam	K01042	L-seryl-tRNA(Ser) seleniumtransferase [EC:2.9.1.1]	4.3e-64
+246	KOfam	K09963	uncharacterized protein	6.9e-118
+248	KOfam	K02761	cellobiose PTS system EIIC component	1.1e-142
+249	KOfam	K03710	GntR family transcriptional regulator	1.2e-48
+250	KOfam	K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)	8.1e-65
+252	KOfam	K00940	nucleoside-diphosphate kinase [EC:2.7.4.6]	4.3e-52
+256	KOfam	K03671	thioredoxin	9.6e-37
+258	KOfam	K00009	mannitol-1-phosphate 5-dehydrogenase [EC:1.1.1.17]	1.2e-158
+259	KOfam	K02798	mannitol PTS system EIIA component [EC:2.7.1.197]	1.9e-54
+260	KOfam	K03483	mannitol operon transcriptional activator	1.9e-161
+261	KOfam	K02800	mannitol PTS system EIICBA or EIICB component [EC:2.7.1.197]	7.9e-252
+262	KOfam	K08659	dipeptidase [EC:3.4.-.-]	2e-177
+264	KOfam	K02564	glucosamine-6-phosphate deaminase [EC:3.5.99.6]	5.9e-85
+266	KOfam	K03624	transcription elongation factor GreA	2.7e-48
+267	KOfam	K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]	1.3e-108
+268	KOfam	K00432	glutathione peroxidase [EC:1.11.1.9]	1.9e-65
+269	KOfam	K16925	energy-coupling factor transport system permease protein	4.8e-55
+270	KOfam	K01552	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]	2.9e-130
+271	KOfam	K16785	energy-coupling factor transport system permease protein	4.2e-32
+272	KOfam	K18231	macrolide transport system ATP-binding/permease protein	1e-147
+273	KOfam	K06199	fluoride exporter	2e-18
+274	KOfam	K06199	fluoride exporter	5.5e-22
+276	KOfam	K00925	acetate kinase [EC:2.7.2.1]	5.3e-162
+278	KOfam	K05937	uncharacterized protein	2.1e-15
+280	KOfam	K19265	L-glyceraldehyde 3-phosphate reductase [EC:1.1.1.-]	2.8e-152
+281	KOfam	K02226	alpha-ribazole phosphatase [EC:3.1.3.73]	8.7e-38
+282	KOfam	K00831	phosphoserine aminotransferase [EC:2.6.1.52]	7.2e-146
+283	KOfam	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	6.7e-93
+284	KOfam	K03826	putative acetyltransferase [EC:2.3.1.-]	6.8e-48
+285	KOfam	K02035	peptide/nickel transport system substrate-binding protein	3.3e-88
+285	KOfam	K15580	oligopeptide transport system substrate-binding protein	3.6e-149
+286	KOfam	K02035	peptide/nickel transport system substrate-binding protein	1e-86
+286	KOfam	K15580	oligopeptide transport system substrate-binding protein	9.5e-150
+287	KOfam	K20391	HTH-type transcriptional regulator, pleiotropic regulator of extracellular virulence genes	3.1e-29
+291	KOfam	K01182	oligo-1,6-glucosidase [EC:3.2.1.10]	6.4e-271
+292	KOfam	K03315	Na+:H+ antiporter, NhaC family	1.6e-167
+294	KOfam	K01182	oligo-1,6-glucosidase [EC:3.2.1.10]	4.8e-280
+295	KOfam	K03484	LacI family transcriptional regulator, sucrose operon repressor	2.6e-115
+295	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	1.2e-86
+296	KOfam	K01193	beta-fructofuranosidase [EC:3.2.1.26]	1.4e-117
+297	KOfam	K02810	sucrose PTS system EIIBCA or EIIBC component [EC:2.7.1.211]	2e-220
+299	KOfam	K01227	mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase [EC:3.2.1.96]	1.2e-78
+300	KOfam	K00691	maltose phosphorylase [EC:2.4.1.8]	0
+301	KOfam	K10112	multiple sugar transport system ATP-binding protein [EC:7.5.2.-]	3.5e-165
+302	KOfam	K16147	starch synthase (maltosyl-transferring) [EC:2.4.99.16]	2.6e-65
+304	KOfam	K15772	arabinogalactan oligomer / maltooligosaccharide transport system permease protein	7.2e-99
+305	KOfam	K15771	arabinogalactan oligomer / maltooligosaccharide transport system permease protein	1.3e-127
+306	KOfam	K15770	arabinogalactan oligomer / maltooligosaccharide transport system substrate-binding protein	2e-106
+307	KOfam	K01187	alpha-glucosidase [EC:3.2.1.20]	8.1e-62
+308	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	1.6e-70
+309	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	1.7e-72
+310	KOfam	K02440	glycerol uptake facilitator	4.5e-94
+311	KOfam	K05881	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaM [EC:2.7.1.121]	5.8e-37
+312	KOfam	K05879	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaL [EC:2.7.1.121]	5.1e-74
+313	KOfam	K05878	phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK [EC:2.7.1.121]	5.6e-147
+319	KOfam	K25149	polyether ionophore transport system permease protein	4.1e-138
+320	KOfam	K01990	ABC-2 type transport system ATP-binding protein	1.3e-85
+320	KOfam	K25150	polyether ionophore transport system ATP-binding protein	1.2e-139
+321	KOfam	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	4.1e-62
+326	KOfam	K03492	GntR family transcriptional regulator, regulator of glucomannan utilization	2.2e-84
+328	KOfam	K16924	energy-coupling factor transport system substrate-specific component	1.1e-58
+329	KOfam	K01552	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]	4.8e-179
+330	KOfam	K16785	energy-coupling factor transport system permease protein	1.9e-47
+334	KOfam	K10254	oleate hydratase [EC:4.2.1.53]	1e-186
+336	KOfam	K05275	pyridoxine 4-dehydrogenase [EC:1.1.1.65]	7.7e-99
+337	KOfam	K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]	8.3e-97
+339	KOfam	K03449	MFS transporter, CP family, cyanate transporter	1.2e-95
+341	KOfam	K08161	MFS transporter, DHA1 family, multidrug resistance protein	5.2e-162
+343	KOfam	K13993	HSP20 family protein	8.7e-31
+349	KOfam	K00433	non-heme chloroperoxidase [EC:1.11.1.10]	2.8e-54
+351	KOfam	K03293	amino acid transporter, AAT family	4.1e-174
+354	KOfam	K07010	putative glutamine amidotransferase	8.9e-83
+356	KOfam	K00788	thiamine-phosphate pyrophosphorylase [EC:2.5.1.3]	3.7e-58
+357	KOfam	K00941	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [EC:2.7.1.49 2.7.4.7]	3.6e-104
+358	KOfam	K00878	hydroxyethylthiazole kinase [EC:2.7.1.50]	2.8e-90
+359	KOfam	K00344	NADPH:quinone reductase [EC:1.6.5.5]	3.2e-80
+360	KOfam	K06864	cysteine-dependent pyridinium-3,5-bisthiocarboxylic acid mononucleotide synthase [EC:4.4.1.37 4.4.1.45]	1.4e-93
+361	KOfam	K02440	glycerol uptake facilitator	2.9e-73
+362	KOfam	K09121	pyridinium-3,5-bisthiocarboxylic acid mononucleotide nickel chelatase [EC:4.99.1.12]	2.9e-53
+363	KOfam	K09121	pyridinium-3,5-bisthiocarboxylic acid mononucleotide nickel chelatase [EC:4.99.1.12]	1.3e-98
+364	KOfam	K06898	pyridinium-3,5-biscarboxylic acid mononucleotide synthase [EC:2.5.1.143]	4.5e-115
+365	KOfam	K22373	lactate racemase [EC:5.1.2.1]	1.8e-158
+367	KOfam	K02007	cobalt/nickel transport system permease protein	2.9e-76
+368	KOfam	K02008	cobalt/nickel transport system permease protein	3.6e-35
+374	KOfam	K15580	oligopeptide transport system substrate-binding protein	1.1e-134
+376	KOfam	K09861	uncharacterized protein	3.1e-64
+377	KOfam	K01259	proline iminopeptidase [EC:3.4.11.5]	1e-41
+378	KOfam	K26937	MATE family, multidrug efflux pump	1.8e-105
+379	KOfam	K03892	ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor	6.1e-21
+380	KOfam	K23164	reticulon-4-interacting protein 1, mitochondrial	9.9e-85
+385	KOfam	K18220	ribosomal protection tetracycline resistance protein	1.6e-254
+387	KOfam	K01118	FMN-dependent NADH-azoreductase [EC:1.7.1.17]	8.6e-50
+389	KOfam	K01951	GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]	1.6e-24
+391	KOfam	K00483	4-hydroxyphenylacetate 3-monooxygenase [EC:1.14.14.9]	1.1e-142
+392	KOfam	K01104	protein-tyrosine phosphatase [EC:3.1.3.48]	2.9e-31
+394	KOfam	K24041	penicillin V amidase [EC:3.5.1.11]	7e-116
+395	KOfam	K01838	beta-phosphoglucomutase [EC:5.4.2.6]	1.5e-87
+396	KOfam	K09684	PucR family transcriptional regulator, purine catabolism regulatory protein	8.6e-44
+397	KOfam	K15976	putative NAD(P)H nitroreductase [EC:1.-.-.-]	1.6e-35
+399	KOfam	K04708	3-dehydrosphinganine reductase [EC:1.1.1.102]	3.2e-51
+400	KOfam	K03741	arsenate reductase (thioredoxin) [EC:1.20.4.4]	1.2e-47
+403	KOfam	K03319	divalent anion:Na+ symporter, DASS family	4.7e-167
+404	KOfam	K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)	1.3e-41
+406	KOfam	K01737	6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]	1.5e-15
+410	KOfam	K00154	coniferyl-aldehyde dehydrogenase [EC:1.2.1.68]	1e-165
+412	KOfam	K00783	23S rRNA (pseudouridine1915-N3)-methyltransferase [EC:2.1.1.177]	1.8e-61
+413	KOfam	K04771	serine protease Do [EC:3.4.21.107]	5.8e-86
+417	KOfam	K07636	two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]	1.3e-102
+417	KOfam	K07652	two-component system, OmpR family, sensor histidine kinase VicK [EC:2.7.13.3]	9.9e-209
+418	KOfam	K02483	two-component system, OmpR family, response regulator	6.2e-80
+418	KOfam	K07668	two-component system, OmpR family, response regulator VicR	1.3e-122
+419	KOfam	K03704	cold shock protein	6.1e-35
+423	KOfam	K06904	Escherichia/Staphylococcus phage prohead protease	4.3e-50
+428	KOfam	K07451	5-methylcytosine-specific restriction enzyme A [EC:3.1.21.-]	1.2e-12
+438	KOfam	K07729	putative transcriptional regulator	9e-14
+439	KOfam	K14059	integrase	6.3e-57
+441	KOfam	K03704	cold shock protein	3.4e-35
+443	KOfam	K10231	kojibiose phosphorylase [EC:2.4.1.230]	1.7e-176
+444	KOfam	K01838	beta-phosphoglucomutase [EC:5.4.2.6]	1.4e-86
+447	KOfam	K01208	cyclomaltodextrinase / maltogenic alpha-amylase / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1.135]	2.8e-139
+448	KOfam	K00688	glycogen phosphorylase [EC:2.4.1.1]	1e-290
+449	KOfam	K00703	starch synthase [EC:2.4.1.21]	1.4e-179
+450	KOfam	K00975	glucose-1-phosphate adenylyltransferase [EC:2.7.7.27]	3.6e-65
+451	KOfam	K00975	glucose-1-phosphate adenylyltransferase [EC:2.7.7.27]	7.3e-136
+452	KOfam	K00700	1,4-alpha-glucan branching enzyme [EC:2.4.1.18]	1e-244
+453	KOfam	K02035	peptide/nickel transport system substrate-binding protein	4.8e-85
+453	KOfam	K15580	oligopeptide transport system substrate-binding protein	2.2e-134
+454	KOfam	K00147	glutamate-5-semialdehyde dehydrogenase [EC:1.2.1.41]	1.5e-199
+455	KOfam	K00931	glutamate 5-kinase [EC:2.7.2.11]	7.5e-105
+457	KOfam	K02314	replicative DNA helicase [EC:5.6.2.3]	5e-189
+458	KOfam	K02939	large subunit ribosomal protein L9	6.5e-38
+459	KOfam	K22927	cyclic-di-AMP phosphodiesterase [EC:3.1.4.59]	1.9e-258
+460	KOfam	K02963	small subunit ribosomal protein S18	3.8e-30
+461	KOfam	K03111	single-strand DNA-binding protein	2.4e-47
+462	KOfam	K02990	small subunit ribosomal protein S6	1.2e-26
+463	KOfam	K02469	DNA gyrase subunit A [EC:5.6.2.2]	0
+464	KOfam	K02470	DNA gyrase subunit B [EC:5.6.2.2]	0
+465	KOfam	K03629	DNA replication and repair protein RecF	7.1e-128
+466	KOfam	K14761	ribosome-associated protein	1e-27
+467	KOfam	K02338	DNA polymerase III subunit beta [EC:2.7.7.7]	1e-113
+468	KOfam	K02313	chromosomal replication initiator protein	3.8e-180
+469	KOfam	K02914	large subunit ribosomal protein L34	4.6e-19
+470	KOfam	K03536	ribonuclease P protein component [EC:3.1.26.5]	1.9e-29
+471	KOfam	K03217	YidC/Oxa1 family membrane protein insertase	7.6e-75
+472	KOfam	K15580	oligopeptide transport system substrate-binding protein	4.3e-120
+474	KOfam	K06346	spoIIIJ-associated protein	6.3e-69
+475	KOfam	K03650	tRNA modification GTPase [EC:3.6.-.-]	3.9e-171
+476	KOfam	K03495	tRNA uridine 5-carboxymethylaminomethyl modification enzyme	2e-293
+481	KOfam	K03100	signal peptidase I [EC:3.4.21.89]	2.1e-49
+483	KOfam	K01372	bleomycin hydrolase [EC:3.4.22.40]	9e-166
+484	KOfam	K22300	HTH-type transcriptional regulator, cell division transcriptional repressor	2.8e-18
+485	KOfam	K25232	fatty acid kinase fatty acid binding subunit	3.3e-86
+488	KOfam	K13727	phenacrylate decarboxylase [EC:4.1.1.102]	2e-88
+489	KOfam	K26739	PadR family transcriptional regulator, phenolic acid-responsive transcriptional regulator	1.5e-69
+491	KOfam	K04072	acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1]	0
+492	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	1.2e-98
+493	KOfam	K00852	ribokinase [EC:2.7.1.15]	7e-112
+494	KOfam	K06726	D-ribose pyranase [EC:5.4.99.62]	3.8e-58
+495	KOfam	K06216	putative ribose uptake protein	8.3e-138
+496	KOfam	K00068	sorbitol-6-phosphate 2-dehydrogenase [EC:1.1.1.140]	3e-94
+499	KOfam	K02783	glucitol/sorbitol PTS system EIIC component	9.5e-82
+500	KOfam	K02782	glucitol/sorbitol PTS system EIIB component [EC:2.7.1.198]	6.6e-159
+501	KOfam	K02781	glucitol/sorbitol PTS system EIIA component [EC:2.7.1.198]	9.9e-40
+503	KOfam	K02103	GntR family transcriptional regulator, arabinose operon transcriptional repressor	1.6e-78
+504	KOfam	K06147	ATP-binding cassette, subfamily B, bacterial	2.8e-191
+504	KOfam	K18890	ATP-binding cassette, subfamily B, multidrug efflux pump	2.8e-228
+505	KOfam	K18889	ATP-binding cassette, subfamily B, multidrug efflux pump	6.4e-218
+507	KOfam	K12373	hexosaminidase [EC:3.2.1.52]	2.9e-28
+508	KOfam	K17319	putative aldouronate transport system permease protein	3.9e-106
+509	KOfam	K17320	putative aldouronate transport system permease protein	7.6e-104
+510	KOfam	K17318	putative aldouronate transport system substrate-binding protein	2.6e-65
+513	KOfam	K07718	two-component system, sensor histidine kinase YesM [EC:2.7.13.3]	2.9e-92
+514	KOfam	K07720	two-component system, response regulator YesN	8.2e-91
+516	KOfam	K10112	multiple sugar transport system ATP-binding protein [EC:7.5.2.-]	2e-174
+518	KOfam	K02103	GntR family transcriptional regulator, arabinose operon transcriptional repressor	8.2e-94
+519	KOfam	K09704	uncharacterized protein	9.8e-161
+520	KOfam	K15524	2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate hydrolase [EC:3.2.1.-]	1.5e-229
+522	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	7.2e-144
+523	KOfam	K01182	oligo-1,6-glucosidase [EC:3.2.1.10]	2.9e-272
+524	KOfam	K16211	maltose/moltooligosaccharide transporter	4e-129
+525	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	1e-84
+526	KOfam	K01232	maltose-6'-phosphate glucosidase [EC:3.2.1.122]	5.8e-229
+527	KOfam	K02750	alpha-glucoside PTS system EIICB component [EC:2.7.1.208 2.7.1.-]	1.4e-260
+530	KOfam	K01232	maltose-6'-phosphate glucosidase [EC:3.2.1.122]	4.7e-230
+531	KOfam	K02750	alpha-glucoside PTS system EIICB component [EC:2.7.1.208 2.7.1.-]	1.1e-255
+532	KOfam	K03481	RpiR family transcriptional regulator, glv operon transcriptional regulator	1.1e-59
+536	KOfam	K02777	sugar PTS system EIIA component [EC:2.7.1.-]	7.5e-55
+539	KOfam	K02775	galactitol PTS system EIIC component	1.2e-166
+540	KOfam	K02774	galactitol PTS system EIIB component [EC:2.7.1.200]	1.1e-20
+541	KOfam	K02773	galactitol PTS system EIIA component [EC:2.7.1.200]	1.2e-47
+542	KOfam	K22103	DeoR family transcriptional regulator, carbon catabolite repression regulator	1.7e-59
+544	KOfam	K06610	MFS transporter, SP family, inositol transporter	7.5e-170
+545	KOfam	K00848	rhamnulokinase [EC:2.7.1.5]	1.7e-188
+546	KOfam	K03534	L-rhamnose mutarotase [EC:5.1.3.32]	8.3e-35
+547	KOfam	K01813	L-rhamnose isomerase [EC:5.3.1.14]	3.7e-198
+548	KOfam	K01629	rhamnulose-1-phosphate aldolase [EC:4.1.2.19]	3.2e-112
+549	KOfam	K07149	uncharacterized protein	1.6e-34
+551	KOfam	K00158	pyruvate oxidase [EC:1.2.3.3]	2.1e-244
+552	KOfam	K19587	Rrf2 family transcriptional regulator, repressor of oqxAB	2.1e-21
+553	KOfam	K00158	pyruvate oxidase [EC:1.2.3.3]	1.3e-229
+554	KOfam	K10530	L-lactate oxidase [EC:1.1.3.2]	1.3e-170
+556	KOfam	K04086	ATP-dependent Clp protease ATP-binding subunit ClpL	0
+557	KOfam	K07813	accessory gene regulator B	6.4e-40
+558	KOfam	K07800	AgrD protein	2.6e-06
+559	KOfam	K07706	two-component system, LytTR family, sensor histidine kinase AgrC [EC:2.7.13.3]	5.6e-84
+560	KOfam	K07707	two-component system, LytTR family, response regulator AgrA	2.5e-79
+561	KOfam	K16509	regulatory protein spx	6.9e-49
+562	KOfam	K03781	catalase [EC:1.11.1.6]	8.5e-240
+567	KOfam	K00529	3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase component [EC:1.18.1.3]	9.7e-102
+568	KOfam	K01788	N-acylglucosamine-6-phosphate 2-epimerase [EC:5.1.3.9]	2.7e-99
+569	KOfam	K02103	GntR family transcriptional regulator, arabinose operon transcriptional repressor	2.2e-133
+572	KOfam	K03077	L-ribulose-5-phosphate 4-epimerase [EC:5.1.3.4]	1.7e-97
+573	KOfam	K01804	L-arabinose isomerase [EC:5.3.1.4]	1e-192
+574	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	1.2e-78
+576	KOfam	K01621	xylulose-5-phosphate/fructose-6-phosphate phosphoketolase [EC:4.1.2.9 4.1.2.22]	0
+578	KOfam	K02773	galactitol PTS system EIIA component [EC:2.7.1.200]	8.2e-54
+579	KOfam	K02774	galactitol PTS system EIIB component [EC:2.7.1.200]	1.7e-33
+580	KOfam	K02775	galactitol PTS system EIIC component	3.8e-164
+582	KOfam	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	1.3e-34
+584	KOfam	K02821	ascorbate PTS system EIIA or EIIAB component [EC:2.7.1.194]	1.4e-40
+585	KOfam	K02822	ascorbate PTS system EIIB component [EC:2.7.1.194]	1.1e-24
+586	KOfam	K03475	ascorbate PTS system EIIC component	1.5e-166
+587	KOfam	K00616	transaldolase [EC:2.2.1.2]	2.6e-54
+588	KOfam	K00615	transketolase [EC:2.2.1.1]	1.6e-184
+589	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	1.6e-57
+590	KOfam	K01442	choloylglycine hydrolase [EC:3.5.1.24]	1.3e-122
+593	KOfam	K16211	maltose/moltooligosaccharide transporter	3.5e-149
+594	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	5.9e-80
+597	KOfam	K03488	beta-glucoside operon transcriptional antiterminator	9.2e-93
+598	KOfam	K02757	beta-glucoside PTS system EIICBA component [EC:2.7.1.-]	3.2e-259
+598	KOfam	K02777	sugar PTS system EIIA component [EC:2.7.1.-]	5.7e-78
+599	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	8.4e-229
+600	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	2.1e-226
+601	KOfam	K03488	beta-glucoside operon transcriptional antiterminator	1.3e-101
+602	KOfam	K02757	beta-glucoside PTS system EIICBA component [EC:2.7.1.-]	9.3e-256
+603	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	2.8e-221
+604	KOfam	K09963	uncharacterized protein	3.6e-127
+605	KOfam	K18676	glucosamine kinase [EC:2.7.1.8]	1.7e-43
+606	KOfam	K07106	N-acetylmuramic acid 6-phosphate etherase [EC:4.2.1.126]	4.5e-146
+607	KOfam	K02761	cellobiose PTS system EIIC component	6.4e-142
+609	KOfam	K03930	putative tributyrin esterase [EC:3.1.1.-]	5.4e-80
+611	KOfam	K26745	MFS transporter, AAHS family, multidrug transporter	7.3e-115
+616	KOfam	K00014	shikimate dehydrogenase [EC:1.1.1.25]	1.8e-81
+617	KOfam	K26745	MFS transporter, AAHS family, multidrug transporter	4.9e-116
+618	KOfam	K11921	LysR family transcriptional regulator, cyn operon transcriptional activator	8.3e-64
+619	KOfam	K00014	shikimate dehydrogenase [EC:1.1.1.25]	1.6e-78
+620	KOfam	K03785	3-dehydroquinate dehydratase I [EC:4.2.1.10]	2.1e-88
+621	KOfam	K03734	FAD:protein FMN transferase [EC:2.7.1.180]	6.9e-89
+622	KOfam	K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)	1.2e-53
+624	KOfam	K19265	L-glyceraldehyde 3-phosphate reductase [EC:1.1.1.-]	4.1e-162
+625	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	1.2e-71
+626	KOfam	K01785	aldose 1-epimerase [EC:5.1.3.3]	1.5e-77
+627	KOfam	K16209	lactose/raffinose/galactose permease	1.2e-247
+628	KOfam	K07407	alpha-galactosidase [EC:3.2.1.22]	6e-54
+630	KOfam	K01190	beta-galactosidase [EC:3.2.1.23]	8.3e-155
+631	KOfam	K00849	galactokinase [EC:2.7.1.6]	6.4e-129
+632	KOfam	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	4.6e-133
+634	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	1.3e-66
+635	KOfam	K07726	putative transcriptional regulator	1.7e-21
+636	KOfam	K04095	cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]	3.5e-22
+638	KOfam	K06610	MFS transporter, SP family, inositol transporter	8.7e-129
+639	KOfam	K05989	alpha-L-rhamnosidase [EC:3.2.1.40]	1.8e-43
+640	KOfam	K06610	MFS transporter, SP family, inositol transporter	2.4e-120
+641	KOfam	K05989	alpha-L-rhamnosidase [EC:3.2.1.40]	1.3e-67
+643	KOfam	K12308	beta-galactosidase [EC:3.2.1.23]	3.6e-138
+644	KOfam	K16209	lactose/raffinose/galactose permease	9.3e-234
+645	KOfam	K03311	branched-chain amino acid:cation transporter, LIVCS family	5.4e-156
+646	KOfam	K03688	ubiquinone biosynthesis protein	5.5e-158
+657	KOfam	K17869	NADH oxidase (H2O-forming) [EC:1.6.3.4]	5.3e-203
+659	KOfam	K07386	putative endopeptidase [EC:3.4.24.-]	3e-203
+660	KOfam	K10914	CRP/FNR family transcriptional regulator, cyclic AMP receptor protein	3.3e-45
+660	KOfam	K21562	CRP/FNR family transcriptional regulator, anaerobic regulatory protein	3.7e-79
+664	KOfam	K21600	CsoR family transcriptional regulator, copper-sensing transcriptional repressor	4.3e-18
+665	KOfam	K03671	thioredoxin	2.1e-32
+666	KOfam	K02440	glycerol uptake facilitator	5.6e-94
+667	KOfam	K01534	Zn2+/Cd2+-exporting ATPase [EC:7.2.2.12 7.2.2.21]	2.1e-206
+670	KOfam	K15256	tRNA (cmo5U34)-methyltransferase [EC:2.1.1.-]	1.7e-31
+670	KOfam	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]	9.5e-96
+671	KOfam	K07223	porphyrinogen peroxidase [EC:1.11.1.-]	8.2e-102
+673	KOfam	K07045	uncharacterized protein	9.3e-38
+679	KOfam	K21471	peptidoglycan DL-endopeptidase CwlO [EC:3.4.-.-]	9.7e-39
+680	KOfam	K01580	glutamate decarboxylase [EC:4.1.1.15]	2.2e-108
+682	KOfam	K01610	phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49]	1.6e-46
+692	KOfam	K23518	O-acetyl-ADP-ribose deacetylase [EC:3.1.1.106]	8.3e-83
+693	KOfam	K06153	undecaprenyl-diphosphatase [EC:3.6.1.27]	3.3e-97
+697	KOfam	K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]	8.2e-118
+698	KOfam	K13936	malonate transporter and related proteins	2.6e-45
+699	KOfam	K01119	2',3'-cyclic-nucleotide 2'-phosphodiesterase / 3'-nucleotidase [EC:3.1.4.16 3.1.3.6]	5e-138
+703	KOfam	K06889	uncharacterized protein	9.2e-41
+704	KOfam	K08161	MFS transporter, DHA1 family, multidrug resistance protein	2.2e-161
+705	KOfam	K03457	nucleobase:cation symporter-1, NCS1 family	1.5e-74
+712	KOfam	K02171	BlaI family transcriptional regulator, penicillinase repressor	7.7e-31
+714	KOfam	K24041	penicillin V amidase [EC:3.5.1.11]	2.1e-125
+715	KOfam	K22736	vacuolar iron transporter family protein	4.2e-61
+716	KOfam	K22736	vacuolar iron transporter family protein	2.2e-51
+718	KOfam	K02348	ElaA protein	2.7e-46
+722	KOfam	K13993	HSP20 family protein	1.5e-32
+725	KOfam	K03575	A/G-specific adenine glycosylase [EC:3.2.2.31]	2.6e-121
+727	KOfam	K21929	uracil-DNA glycosylase [EC:3.2.2.27]	1.3e-24
+728	KOfam	K16509	regulatory protein spx	5.9e-46
+729	KOfam	K18909	MarR family transcriptional regulator, repressor for mepA	8.8e-26
+730	KOfam	K19267	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	1.5e-48
+733	KOfam	K03293	amino acid transporter, AAT family	4.3e-151
+734	KOfam	K03315	Na+:H+ antiporter, NhaC family	6.6e-157
+736	KOfam	K19504	glucoselysine-6-phosphate deglycase	2.5e-80
+737	KOfam	K01486	adenine deaminase [EC:3.5.4.2]	2.5e-196
+742	KOfam	K03451	betaine/carnitine transporter, BCCT family	4.6e-166
+748	KOfam	K26057	6-dehydroglucose reductase [EC:1.1.1.432]	1e-73
+750	KOfam	K04069	pyruvate formate lyase activating enzyme [EC:1.97.1.4]	2.1e-72
+751	KOfam	K00656	formate C-acetyltransferase [EC:2.3.1.54]	0
+756	KOfam	K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]	3.5e-148
+757	KOfam	K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]	2.3e-171
+762	KOfam	K01869	leucyl-tRNA synthetase [EC:6.1.1.4]	0
+763	KOfam	K06409	stage V sporulation protein B	5.5e-93
+764	KOfam	K06183	16S rRNA pseudouridine516 synthase [EC:5.4.99.19]	3.1e-91
+765	KOfam	K17758	ADP-dependent NAD(P)H-hydrate dehydratase [EC:4.2.1.136]	2.3e-95
+766	KOfam	K01274	beta-Ala-Xaa dipeptidase [EC:3.4.13.-]	2.7e-218
+769	KOfam	K02025	multiple sugar transport system permease protein	3.8e-89
+769	KOfam	K05814	sn-glycerol 3-phosphate transport system permease protein	2e-110
+770	KOfam	K02026	multiple sugar transport system permease protein	2e-83
+771	KOfam	K05813	sn-glycerol 3-phosphate transport system substrate-binding protein	2.8e-114
+772	KOfam	K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]	1.5e-51
+773	KOfam	K15519	deoxyadenosine/deoxycytidine kinase [EC:2.7.1.76 2.7.1.74]	1.2e-57
+774	KOfam	K03282	large conductance mechanosensitive channel	4.7e-54
+775	KOfam	K01421	putative membrane protein	4.2e-141
+778	KOfam	K01990	ABC-2 type transport system ATP-binding protein	1.6e-95
+781	KOfam	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	1.4e-66
+782	KOfam	K21745	MerR family transcriptional regulator, aldehyde-responsive regulator	3.8e-26
+785	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	8.3e-46
+787	KOfam	K07706	two-component system, LytTR family, sensor histidine kinase AgrC [EC:2.7.13.3]	1.4e-82
+788	KOfam	K07707	two-component system, LytTR family, response regulator AgrA	4.8e-80
+791	KOfam	K07052	CAAX protease family protein	2.5e-20
+792	KOfam	K23775	MarR family transcriptional regulator, organic hydroperoxide resistance regulator	1.2e-48
+795	KOfam	K03701	excinuclease ABC subunit A	3e-261
+797	KOfam	K14059	integrase	1.2e-56
+813	KOfam	K02315	DNA replication protein DnaC	4.5e-34
+826	KOfam	K07451	5-methylcytosine-specific restriction enzyme A [EC:3.1.21.-]	1.6e-14
+849	KOfam	K07273	lysozyme	6.3e-20
+857	KOfam	K24042	methionine synthase / methylenetetrahydrofolate reductase (NADH) [EC:2.1.1.13 1.5.1.54]	1.7e-227
+858	KOfam	K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]	5.9e-288
+860	KOfam	K00958	sulfate adenylyltransferase [EC:2.7.7.4]	3.7e-158
+861	KOfam	K00860	adenylylsulfate kinase [EC:2.7.1.25]	1.6e-105
+862	KOfam	K06881	bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3]	2.7e-86
+863	KOfam	K01023	arylsulfate sulfotransferase [EC:2.8.2.22]	8.5e-145
+865	KOfam	K26937	MATE family, multidrug efflux pump	3.8e-108
+867	KOfam	K02348	ElaA protein	4.7e-58
+868	KOfam	K01887	arginyl-tRNA synthetase [EC:6.1.1.19]	1.2e-173
+870	KOfam	K02004	putative ABC transport system permease protein	4.7e-26
+870	KOfam	K02003	putative ABC transport system ATP-binding protein	2.9e-95
+874	KOfam	K02759	cellobiose PTS system EIIA component [EC:2.7.1.196 2.7.1.205]	8.9e-32
+875	KOfam	K02760	cellobiose PTS system EIIB component [EC:2.7.1.196 2.7.1.205]	4.9e-29
+876	KOfam	K02761	cellobiose PTS system EIIC component	2e-98
+877	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	9.6e-208
+880	KOfam	K14188	D-alanine--poly(phosphoribitol) ligase subunit 2 [EC:6.1.1.13]	1e-32
+881	KOfam	K18907	GntR family transcriptional regulator, regulator for abcA and norABC	3.2e-174
+882	KOfam	K06895	L-lysine exporter family protein LysE/ArgO	1.6e-38
+884	KOfam	K03402	transcriptional regulator of arginine metabolism	2.4e-52
+886	KOfam	K12555	penicillin-binding protein 2A [EC:2.4.99.28 3.4.16.4]	5e-282
+888	KOfam	K03547	DNA repair protein SbcD/Mre11	3.7e-44
+890	KOfam	K03698	3'-5' exoribonuclease [EC:3.1.-.-]	1.2e-119
+894	KOfam	K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)	3.9e-49
+895	KOfam	K17363	urocanate reductase [EC:1.3.99.33]	1.3e-256
+895	KOfam	K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)	1.4e-44
+898	KOfam	K20534	polyisoprenyl-phosphate glycosyltransferase [EC:2.4.-.-]	2.2e-134
+902	KOfam	K11752	diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase [EC:3.5.4.26 1.1.1.193]	1.8e-110
+903	KOfam	K00793	riboflavin synthase [EC:2.5.1.9]	6.2e-81
+904	KOfam	K14652	3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II [EC:4.1.99.12 3.5.4.25]	9.8e-161
+904	KOfam	K01497	GTP cyclohydrolase II [EC:3.5.4.25]	6e-91
+905	KOfam	K00794	6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78]	7e-68
+906	KOfam	K09962	uncharacterized protein	1.6e-56
+908	KOfam	K21562	CRP/FNR family transcriptional regulator, anaerobic regulatory protein	4.5e-63
+910	KOfam	K05910	NADH peroxidase [EC:1.11.1.1]	7.8e-153
+916	KOfam	K07533	foldase protein PrsA [EC:5.2.1.8]	8.1e-77
+918	KOfam	K02503	histidine triad (HIT) family protein [EC:3.9.1.-]	1e-33
+919	KOfam	K25158	ABC-2 type transport system ATP-binding protein	7.5e-116
+920	KOfam	K25157	ABC-2 type transport system permease protein	1e-121
+922	KOfam	K03439	tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	7.1e-53
+925	KOfam	K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family	2e-195
+926	KOfam	K01924	UDP-N-acetylmuramate--alanine ligase [EC:6.3.2.8]	2.8e-143
+928	KOfam	K04759	ferrous iron transport protein B	9.3e-233
+929	KOfam	K04758	ferrous iron transport protein A	4.8e-08
+930	KOfam	K09013	Fe-S cluster assembly ATP-binding protein	4.9e-116
+931	KOfam	K09015	Fe-S cluster assembly protein SufD	1.2e-90
+932	KOfam	K11717	cysteine desulfurase / selenocysteine lyase [EC:2.8.1.7 4.4.1.16]	4.4e-214
+933	KOfam	K04488	nitrogen fixation protein NifU and related proteins	1.1e-52
+934	KOfam	K09014	Fe-S cluster assembly protein SufB	2.9e-222
+937	KOfam	K06890	uncharacterized protein	8.5e-62
+938	KOfam	K02335	DNA polymerase I [EC:2.7.7.7]	0
+939	KOfam	K10563	formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]	7.4e-100
+940	KOfam	K00859	dephospho-CoA kinase [EC:2.7.1.24]	9.6e-76
+941	KOfam	K07738	transcriptional repressor NrdR	1.2e-74
+942	KOfam	K03346	replication initiation and membrane attachment protein	3.5e-108
+943	KOfam	K11144	primosomal protein DnaI	1.2e-109
+944	KOfam	K01868	threonyl-tRNA synthetase [EC:6.1.1.3]	1.1e-228
+945	KOfam	K02520	translation initiation factor IF-3	4.5e-79
+946	KOfam	K02916	large subunit ribosomal protein L35	6.8e-10
+947	KOfam	K02887	large subunit ribosomal protein L20	4.3e-56
+949	KOfam	K07478	putative ATPase	1.5e-121
+954	KOfam	K11936	poly-beta-1,6-N-acetyl-D-glucosamine synthase [EC:2.4.1.-]	1.5e-132
+956	KOfam	K07015	putative phosphatase [EC:3.1.3.-]	6.6e-66
+957	KOfam	K06948	30S ribosome assembly GTPase	5.5e-157
+958	KOfam	K07574	RNA-binding protein	3.6e-30
+959	KOfam	K00969	nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18]	3.5e-80
+960	KOfam	K06950	uncharacterized protein	2.6e-11
+961	KOfam	K09710	ribosome-associated protein	9.3e-51
+963	KOfam	K27343	tRNAmet cytidine acetate ligase [EC:6.3.1.22]	5.1e-127
+964	KOfam	K07040	DUF177 domain-containing protein	1.4e-24
+965	KOfam	K02911	large subunit ribosomal protein L32	6.7e-23
+968	KOfam	K00033	6-phosphogluconate dehydrogenase [EC:1.1.1.44 1.1.1.343]	3.2e-225
+969	KOfam	K07478	putative ATPase	2.4e-208
+970	KOfam	K02483	two-component system, OmpR family, response regulator	4.5e-75
+970	KOfam	K18941	two-component system, OmpR family, response regulator ArlR	6.6e-104
+971	KOfam	K18940	two-component system, OmpR family, sensor histidine kinase ArlS [EC:2.7.13.3]	7.8e-165
+973	KOfam	K03546	DNA repair protein SbcC/Rad50	1.1e-160
+974	KOfam	K03547	DNA repair protein SbcD/Mre11	2.6e-77
+975	KOfam	K26996	immunity protein, SdpI family	5.1e-17
+976	KOfam	K03217	YidC/Oxa1 family membrane protein insertase	7.5e-57
+977	KOfam	K01512	acylphosphatase [EC:3.6.1.7]	6e-19
+978	KOfam	K03437	RNA methyltransferase, TrmH family	1.7e-84
+979	KOfam	K06950	uncharacterized protein	5.5e-15
+981	KOfam	K01889	phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	4.9e-108
+982	KOfam	K01890	phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	7.3e-212
+983	KOfam	K07082	peptidoglycan lytic transglycosylase G [EC:4.2.2.29]	5.8e-93
+984	KOfam	K00876	uridine kinase [EC:2.7.1.48]	2.4e-85
+985	KOfam	K03624	transcription elongation factor GreA	3e-58
+991	KOfam	K02913	large subunit ribosomal protein L33	6.1e-13
+992	KOfam	K01934	5-formyltetrahydrofolate cyclo-ligase [EC:6.3.3.2]	1.6e-47
+993	KOfam	K19225	rhomboid protease GluP [EC:3.4.21.105]	9.5e-73
+995	KOfam	K25026	glucokinase [EC:2.7.1.2]	2.5e-95
+996	KOfam	K05995	dipeptidase E [EC:3.4.13.21]	3e-24
+997	KOfam	K03972	phage shock protein E	1.9e-19
+999	KOfam	K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]	5.3e-61
+1000	KOfam	K00791	tRNA dimethylallyltransferase [EC:2.5.1.75]	5.7e-105
+1001	KOfam	K03713	MerR family transcriptional regulator, glutamine synthetase repressor	3e-52
+1002	KOfam	K01915	glutamine synthetase [EC:6.3.1.2]	1.5e-117
+1012	KOfam	K02888	large subunit ribosomal protein L21	2.9e-42
+1013	KOfam	K07584	uncharacterized protein	5e-31
+1014	KOfam	K02899	large subunit ribosomal protein L27	1.7e-39
+1015	KOfam	K01262	Xaa-Pro aminopeptidase [EC:3.4.11.9]	5.2e-72
+1016	KOfam	K02356	elongation factor P	5.7e-89
+1018	KOfam	K03625	transcription antitermination protein NusB	2e-47
+1019	KOfam	K01491	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9]	3.1e-128
+1020	KOfam	K03601	exodeoxyribonuclease VII large subunit [EC:3.1.11.6]	9.4e-165
+1021	KOfam	K03602	exodeoxyribonuclease VII small subunit [EC:3.1.11.6]	2.7e-25
+1023	KOfam	K06442	23S rRNA (cytidine1920-2'-O)/16S rRNA (cytidine1409-2'-O)-methyltransferase [EC:2.1.1.226 2.1.1.227]	3.8e-110
+1024	KOfam	K03402	transcriptional regulator of arginine metabolism	3.2e-45
+1025	KOfam	K03631	DNA repair protein RecN (Recombination protein N)	1.6e-213
+1026	KOfam	K05847	osmoprotectant transport system ATP-binding protein [EC:7.6.2.9]	2.4e-136
+1027	KOfam	K05846	osmoprotectant transport system permease protein	9.1e-90
+1028	KOfam	K05845	osmoprotectant transport system substrate-binding protein	8.5e-86
+1029	KOfam	K05846	osmoprotectant transport system permease protein	2.9e-74
+1031	KOfam	K00942	guanylate kinase [EC:2.7.4.8]	7.9e-74
+1032	KOfam	K03060	DNA-directed RNA polymerase subunit omega [EC:2.7.7.6]	4.3e-21
+1033	KOfam	K13038	phosphopantothenoylcysteine decarboxylase / phosphopantothenate---cysteine ligase [EC:4.1.1.36 6.3.2.5]	1.3e-162
+1034	KOfam	K04066	primosomal protein N' (replication factor Y) (superfamily II helicase) [EC:5.6.2.4]	8.1e-262
+1035	KOfam	K00604	methionyl-tRNA formyltransferase [EC:2.1.2.9]	9.8e-105
+1036	KOfam	K03500	16S rRNA (cytosine967-C5)-methyltransferase [EC:2.1.1.176]	1.2e-133
+1037	KOfam	K20074	PPM family protein phosphatase [EC:3.1.3.16]	1.4e-92
+1038	KOfam	K12132	eukaryotic-like serine/threonine-protein kinase [EC:2.7.11.1]	1.5e-110
+1039	KOfam	K06949	ribosome biogenesis GTPase / thiamine phosphate phosphatase [EC:3.6.1.- 3.1.3.100]	2.6e-91
+1040	KOfam	K01783	ribulose-phosphate 3-epimerase [EC:5.1.3.1]	2.6e-92
+1041	KOfam	K00949	thiamine pyrophosphokinase [EC:2.7.6.2]	1.9e-29
+1042	KOfam	K02902	large subunit ribosomal protein L28	3e-14
+1044	KOfam	K07030	fatty acid kinase [EC:2.7.2.18]	8.1e-174
+1045	KOfam	K03655	ATP-dependent DNA helicase RecG [EC:5.6.2.4]	3e-227
+1046	KOfam	K03621	phosphate acyltransferase [EC:2.3.1.274]	1.6e-132
+1047	KOfam	K02078	acyl carrier protein	1.9e-27
+1048	KOfam	K03685	ribonuclease III [EC:3.1.26.3]	1.3e-74
+1049	KOfam	K03529	chromosome segregation protein	0
+1050	KOfam	K03110	fused signal recognition particle receptor	5.6e-147
+1051	KOfam	K09787	uncharacterized protein	5.6e-41
+1052	KOfam	K03106	signal recognition particle subunit SRP54 [EC:3.6.5.4]	5.9e-201
+1053	KOfam	K02959	small subunit ribosomal protein S16	6.6e-46
+1054	KOfam	K06960	uncharacterized protein	8e-27
+1055	KOfam	K02860	16S rRNA processing protein RimM	2.3e-55
+1056	KOfam	K00554	tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]	3.6e-116
+1057	KOfam	K02884	large subunit ribosomal protein L19	4.3e-54
+1061	KOfam	K01990	ABC-2 type transport system ATP-binding protein	1.9e-81
+1064	KOfam	K01658	anthranilate synthase component II [EC:4.1.3.27]	5.5e-75
+1065	KOfam	K00766	anthranilate phosphoribosyltransferase [EC:2.4.2.18]	5.4e-135
+1066	KOfam	K01609	indole-3-glycerol phosphate synthase [EC:4.1.1.48]	4.6e-75
+1067	KOfam	K01817	phosphoribosylanthranilate isomerase [EC:5.3.1.24]	1.1e-57
+1068	KOfam	K01696	tryptophan synthase beta chain [EC:4.2.1.20]	1.3e-221
+1069	KOfam	K01695	tryptophan synthase alpha chain [EC:4.2.1.20]	8.3e-99
+1071	KOfam	K00344	NADPH:quinone reductase [EC:1.6.5.5]	6.8e-78
+1073	KOfam	K26996	immunity protein, SdpI family	6.4e-08
+1075	KOfam	K04708	3-dehydrosphinganine reductase [EC:1.1.1.102]	1.9e-64
+1075	KOfam	K00019	3-hydroxybutyrate dehydrogenase [EC:1.1.1.30]	2.4e-61
+1077	KOfam	K02372	3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59]	6.5e-59
+1078	KOfam	K00648	3-oxoacyl-[acyl-carrier-protein] synthase III [EC:2.3.1.180]	1.8e-109
+1079	KOfam	K02078	acyl carrier protein	7e-23
+1080	KOfam	K00645	[acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]	3.8e-81
+1081	KOfam	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	1.2e-87
+1082	KOfam	K09458	3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]	8.8e-168
+1083	KOfam	K02160	acetyl-CoA carboxylase biotin carboxyl carrier protein	4.3e-42
+1084	KOfam	K02372	3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59]	4.2e-32
+1088	KOfam	K00208	enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]	5e-105
+1089	KOfam	K06133	4'-phosphopantetheinyl transferase [EC:2.7.8.-]	4e-31
+1090	KOfam	K07150	uncharacterized protein	2e-59
+1093	KOfam	K06949	ribosome biogenesis GTPase / thiamine phosphate phosphatase [EC:3.6.1.- 3.1.3.100]	1.8e-108
+1097	KOfam	K14059	integrase	4.2e-57
+1103	KOfam	K00574	cyclopropane-fatty-acyl-phospholipid synthase [EC:2.1.1.79]	2e-123
+1104	KOfam	K21713	lytic chitin monoxygenase [EC:1.14.99.53]	2.5e-84
+1107	KOfam	K05770	translocator protein	7.9e-40
+1110	KOfam	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	5.4e-45
+1116	KOfam	K08659	dipeptidase [EC:3.4.-.-]	7.8e-185
+1117	KOfam	K01821	4-oxalocrotonate tautomerase [EC:5.3.2.6]	2e-16
+1118	KOfam	K01586	diaminopimelate decarboxylase [EC:4.1.1.20]	9.1e-141
+1119	KOfam	K02548	1,4-dihydroxy-2-naphthoate polyprenyltransferase [EC:2.5.1.74]	1.9e-51
+1120	KOfam	K10716	voltage-gated potassium channel	2.8e-32
+1122	KOfam	K20708	isoleucine 2-epimerase [EC:5.1.1.21]	2.2e-253
+1123	KOfam	K03294	basic amino acid/polyamine antiporter, APA family	1.3e-138
+1124	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	6.3e-95
+1125	KOfam	K11392	16S rRNA (cytosine1407-C5)-methyltransferase [EC:2.1.1.178]	1.2e-110
+1127	KOfam	K16211	maltose/moltooligosaccharide transporter	5e-157
+1128	KOfam	K00691	maltose phosphorylase [EC:2.4.1.8]	0
+1129	KOfam	K01785	aldose 1-epimerase [EC:5.1.3.3]	6.7e-78
+1131	KOfam	K00938	phosphomevalonate kinase [EC:2.7.4.2]	3.1e-105
+1132	KOfam	K01597	diphosphomevalonate decarboxylase [EC:4.1.1.33]	1.3e-108
+1133	KOfam	K00869	mevalonate kinase [EC:2.7.1.36]	2.9e-66
+1134	KOfam	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	7e-50
+1134	KOfam	K03722	ATP-dependent DNA helicase DinG [EC:5.6.2.3]	1.1e-142
+1136	KOfam	K00812	aspartate aminotransferase [EC:2.6.1.1]	3e-140
+1137	KOfam	K01893	asparaginyl-tRNA synthetase [EC:6.1.1.22]	2.1e-154
+1138	KOfam	K02086	DNA replication protein	7.4e-76
+1139	KOfam	K02071	D-methionine transport system ATP-binding protein	7.4e-138
+1140	KOfam	K02072	D-methionine transport system permease protein	9.7e-86
+1141	KOfam	K02073	D-methionine transport system substrate-binding protein	7.3e-80
+1143	KOfam	K02011	iron(III) transport system permease protein	6.9e-113
+1144	KOfam	K02012	iron(III) transport system substrate-binding protein	2.3e-66
+1147	KOfam	K03700	recombination protein U	6.5e-84
+1149	KOfam	K04074	cell division initiation protein	8.6e-22
+1151	KOfam	K07444	putative N6-adenine-specific DNA methylase [EC:2.1.1.-]	8.6e-172
+1159	KOfam	K03830	putative acetyltransferase [EC:2.3.1.-]	4.7e-17
+1160	KOfam	K07273	lysozyme	9.5e-30
+1161	KOfam	K01297	muramoyltetrapeptide carboxypeptidase [EC:3.4.17.13]	2.8e-53
+1169	KOfam	K01938	formate--tetrahydrofolate ligase [EC:6.3.4.3]	3.6e-271
+1170	KOfam	K03101	signal peptidase II [EC:3.4.23.36]	6.2e-44
+1171	KOfam	K06180	23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]	5.7e-124
+1172	KOfam	K02825	pyrimidine operon attenuation protein / uracil phosphoribosyltransferase [EC:2.4.2.9]	1.5e-76
+1173	KOfam	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	9.8e-132
+1177	KOfam	K05937	uncharacterized protein	1.6e-47
+1179	KOfam	K19271	chloramphenicol O-acetyltransferase type A [EC:2.3.1.28]	6.7e-61
+1184	KOfam	K01990	ABC-2 type transport system ATP-binding protein	3.4e-81
+1188	KOfam	K25232	fatty acid kinase fatty acid binding subunit	1.9e-93
+1192	KOfam	K18843	antitoxin HicB	2.5e-10
+1198	KOfam	K08974	putative membrane protein	8.7e-61
+1202	KOfam	K03303	lactate permease	7.7e-132
+1204	KOfam	K21030	D-ribitol-5-phosphate cytidylyltransferase [EC:2.7.7.40]	4.7e-101
+1205	KOfam	K05352	ribitol-5-phosphate 2-dehydrogenase (NADP+) [EC:1.1.1.405]	6e-142
+1205	KOfam	K21680	ribulose-5-phosphate 2-dehydrogenase [EC:1.1.1.137]	5.8e-231
+1207	KOfam	K18704	CDP-ribitol ribitolphosphotransferase / teichoic acid ribitol-phosphate polymerase [EC:2.7.8.14 2.7.8.47]	1.9e-172
+1208	KOfam	K22441	diamine N-acetyltransferase [EC:2.3.1.57]	7.4e-73
+1209	KOfam	K23775	MarR family transcriptional regulator, organic hydroperoxide resistance regulator	5.8e-44
+1212	KOfam	K19003	1,2-diacylglycerol 3-beta-glucosyltransferase [EC:2.4.1.336]	5.4e-99
+1216	KOfam	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	1.1e-68
+1217	KOfam	K07305	peptide-methionine (R)-S-oxide reductase [EC:1.8.4.12]	3.1e-63
+1218	KOfam	K15986	manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1]	8.7e-119
+1220	KOfam	K02621	topoisomerase IV subunit A [EC:5.6.2.2]	3.6e-276
+1221	KOfam	K02622	topoisomerase IV subunit B [EC:5.6.2.2]	5e-285
+1222	KOfam	K08591	acyl phosphate:glycerol-3-phosphate acyltransferase [EC:2.3.1.275]	3.4e-68
+1223	KOfam	K01785	aldose 1-epimerase [EC:5.1.3.3]	6.6e-18
+1224	KOfam	K03667	ATP-dependent HslUV protease ATP-binding subunit HslU	1.5e-188
+1225	KOfam	K01419	ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]	4.6e-82
+1227	KOfam	K04094	methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase [EC:2.1.1.74]	5.9e-232
+1228	KOfam	K03168	DNA topoisomerase I [EC:5.6.2.1]	6.6e-268
+1229	KOfam	K04096	DNA processing protein	1e-93
+1230	KOfam	K03470	ribonuclease HII [EC:3.1.26.4]	6e-87
+1231	KOfam	K14540	ribosome biogenesis GTPase A	2.1e-113
+1233	KOfam	K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]	4.5e-11
+1235	KOfam	K07448	restriction system protein	7.5e-31
+1236	KOfam	K06988	8-hydroxy-5-deazaflavin:NADPH oxidoreductase [EC:1.5.1.40]	5.2e-54
+1239	KOfam	K03797	carboxyl-terminal processing protease [EC:3.4.21.102]	1.8e-120
+1243	KOfam	K25232	fatty acid kinase fatty acid binding subunit	5.3e-77
+1244	KOfam	K00287	dihydrofolate reductase [EC:1.5.1.3]	3.9e-61
+1245	KOfam	K00560	thymidylate synthase [EC:2.1.1.45]	9.2e-145
+1246	KOfam	K15738	ABC transport system ATP-binding/permease protein	2.2e-245
+1248	KOfam	K00974	tRNA nucleotidyltransferase (CCA-adding enzyme) [EC:2.7.7.72 3.1.3.- 3.1.4.-]	2.8e-105
+1249	KOfam	K00215	4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]	4.6e-80
+1250	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	4.8e-42
+1252	KOfam	K03530	DNA-binding protein HU-beta	2.3e-44
+1253	KOfam	K03977	GTPase	7.6e-194
+1254	KOfam	K02945	small subunit ribosomal protein S1	8.2e-140
+1255	KOfam	K00945	CMP/dCMP kinase [EC:2.7.4.25]	7.2e-95
+1257	KOfam	K03654	ATP-dependent DNA helicase RecQ [EC:5.6.2.4]	4.4e-150
+1259	KOfam	K23675	riboflavin transporter	1.2e-50
+1260	KOfam	K06178	23S rRNA pseudouridine2605 synthase [EC:5.4.99.22]	2.2e-96
+1261	KOfam	K06024	segregation and condensation protein B	5.4e-60
+1262	KOfam	K05896	segregation and condensation protein A	1.8e-72
+1263	KOfam	K02859	riboflavin biosynthesis RibT protein	9.6e-48
+1264	KOfam	K04763	integrase/recombinase XerD	5.7e-100
+1265	KOfam	K00243	uncharacterized protein	2e-77
+1267	KOfam	K00873	pyruvate kinase [EC:2.7.1.40]	3.7e-187
+1269	KOfam	K02337	DNA polymerase III subunit alpha [EC:2.7.7.7]	0
+1272	KOfam	K03695	ATP-dependent Clp protease ATP-binding subunit ClpB	0
+1273	KOfam	K01258	tripeptide aminopeptidase [EC:3.4.11.4]	4.3e-143
+1275	KOfam	K06967	tRNA (adenine22-N1)-methyltransferase [EC:2.1.1.217]	4.8e-80
+1277	KOfam	K25140	daunorubicin/doxorubicin transport system permease protein	6.2e-91
+1278	KOfam	K01990	ABC-2 type transport system ATP-binding protein	2e-103
+1280	KOfam	K01007	pyruvate, water dikinase [EC:2.7.9.2]	1.1e-286
+1282	KOfam	K15974	MarR family transcriptional regulator, negative regulator of the multidrug operon emrRAB	3.7e-43
+1286	KOfam	K01535	H+-transporting ATPase [EC:7.1.2.1]	3.9e-172
+1287	KOfam	K01689	enolase 1/2/3 [EC:4.2.1.11]	7.6e-187
+1289	KOfam	K18909	MarR family transcriptional regulator, repressor for mepA	1.4e-29
+1290	KOfam	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	5.2e-85
+1292	KOfam	K03972	phage shock protein E	3.7e-27
+1293	KOfam	K22103	DeoR family transcriptional regulator, carbon catabolite repression regulator	1e-74
+1294	KOfam	K03574	8-oxo-dGTP diphosphatase [EC:3.6.1.55]	3.8e-16
+1295	KOfam	K16509	regulatory protein spx	7.3e-48
+1303	KOfam	K02761	cellobiose PTS system EIIC component	7.3e-64
+1304	KOfam	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	5.6e-36
+1305	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	5.5e-81
+1306	KOfam	K03481	RpiR family transcriptional regulator, glv operon transcriptional regulator	1.5e-42
+1310	KOfam	K11921	LysR family transcriptional regulator, cyn operon transcriptional activator	6.6e-59
+1313	KOfam	K17869	NADH oxidase (H2O-forming) [EC:1.6.3.4]	2.3e-166
+1314	KOfam	K07693	two-component system, NarL family, response regulator DesR	3.7e-80
+1315	KOfam	K07778	two-component system, NarL family, sensor histidine kinase DesK [EC:2.7.13.3]	2.6e-72
+1319	KOfam	K03827	putative acetyltransferase [EC:2.3.1.-]	9.1e-53
+1321	KOfam	K07149	uncharacterized protein	3.4e-54
+1322	KOfam	K01990	ABC-2 type transport system ATP-binding protein	4.7e-72
+1324	KOfam	K16919	acetoin utilization transport system permease protein	6.5e-16
+1326	KOfam	K16921	acetoin utilization transport system ATP-binding protein	7.2e-98
+1327	KOfam	K07979	GntR family transcriptional regulator	1.5e-43
+1328	KOfam	K03086	RNA polymerase primary sigma factor	3.4e-182
+1328	KOfam	K03087	RNA polymerase nonessential primary-like sigma factor	6.7e-127
+1329	KOfam	K02316	DNA primase [EC:2.7.7.101]	1.2e-151
+1330	KOfam	K01879	glycyl-tRNA synthetase beta chain [EC:6.1.1.14]	3.9e-244
+1331	KOfam	K01878	glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]	1.4e-171
+1332	KOfam	K03584	DNA repair protein RecO (recombination protein O)	5.8e-41
+1333	KOfam	K03595	GTPase	3.4e-129
+1334	KOfam	K00887	undecaprenol kinase [EC:2.7.1.66]	2.2e-44
+1335	KOfam	K07042	probable rRNA maturation factor	2.9e-45
+1336	KOfam	K06217	phosphate starvation-inducible protein PhoH and related proteins	3.5e-147
+1337	KOfam	K09117	uncharacterized protein	1.8e-54
+1338	KOfam	K02970	small subunit ribosomal protein S21	5.4e-17
+1339	KOfam	K09773	[pyruvate, water dikinase]-phosphate phosphotransferase / [pyruvate, water dikinase] kinase [EC:2.7.4.28 2.7.11.33]	1.5e-102
+1341	KOfam	K01151	deoxyribonuclease IV [EC:3.1.21.2]	1.9e-103
+1342	KOfam	K21285	teichoic acid glycerol-phosphate primase [EC:2.7.8.44]	1.2e-92
+1344	KOfam	K07304	peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	7.6e-68
+1345	KOfam	K01876	aspartyl-tRNA synthetase [EC:6.1.1.12]	1.3e-258
+1346	KOfam	K01892	histidyl-tRNA synthetase [EC:6.1.1.21]	6.9e-122
+1347	KOfam	K01448	N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]	3e-60
+1348	KOfam	K15523	protein-ribulosamine 3-kinase [EC:2.7.1.172]	1.2e-66
+1349	KOfam	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	9.6e-33
+1350	KOfam	K07560	D-aminoacyl-tRNA deacylase [EC:3.1.1.96]	4.9e-56
+1351	KOfam	K01139	GTP diphosphokinase / guanosine-3',5'-bis(diphosphate) 3'-diphosphatase [EC:2.7.6.5 3.1.7.2]	2.3e-293
+1353	KOfam	K09761	16S rRNA (uracil1498-N3)-methyltransferase [EC:2.1.1.193]	8e-64
+1354	KOfam	K02687	ribosomal protein L11 methyltransferase [EC:2.1.1.-]	1.2e-92
+1355	KOfam	K03652	DNA-3-methyladenine glycosylase [EC:3.2.2.21]	3.7e-63
+1360	KOfam	K14059	integrase	5.8e-69
+1361	KOfam	K03596	GTP-binding protein LepA	0
+1362	KOfam	K03740	D-alanine transfer protein	2e-149
+1363	KOfam	K14188	D-alanine--poly(phosphoribitol) ligase subunit 2 [EC:6.1.1.13]	9.1e-33
+1364	KOfam	K03739	membrane protein involved in D-alanine export	1.4e-160
+1365	KOfam	K03367	D-alanine--poly(phosphoribitol) ligase subunit 1 [EC:6.1.1.13]	2.9e-215
+1367	KOfam	K22580	teichoic acid D-alanine hydrolase [EC:3.1.1.103]	2e-67
+1368	KOfam	K03686	molecular chaperone DnaJ	6e-147
+1369	KOfam	K04043	molecular chaperone DnaK	6.6e-272
+1370	KOfam	K03687	molecular chaperone GrpE	9e-58
+1371	KOfam	K03705	heat-inducible transcriptional repressor	7.7e-99
+1372	KOfam	K01575	acetolactate decarboxylase [EC:4.1.1.5]	2.2e-89
+1373	KOfam	K11753	riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]	4.6e-108
+1374	KOfam	K03177	tRNA pseudouridine55 synthase [EC:5.4.99.25]	4.6e-98
+1375	KOfam	K00891	shikimate kinase [EC:2.7.1.71]	2.9e-46
+1376	KOfam	K04517	prephenate dehydrogenase [EC:1.3.1.12]	1.1e-93
+1377	KOfam	K00800	3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]	5.2e-136
+1379	KOfam	K01736	chorismate synthase [EC:4.2.3.5]	7e-131
+1380	KOfam	K26745	MFS transporter, AAHS family, multidrug transporter	2.5e-154
+1381	KOfam	K02834	ribosome-binding factor A	2.8e-42
+1382	KOfam	K02519	translation initiation factor IF-2	2e-295
+1384	KOfam	K07742	uncharacterized protein	1.1e-23
+1385	KOfam	K02600	transcription termination/antitermination protein NusA	1.2e-169
+1386	KOfam	K09748	ribosome maturation factor RimP	1.2e-51
+1387	KOfam	K03763	DNA polymerase III subunit alpha, Gram-positive type [EC:2.7.7.7]	0
+1387	KOfam	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	8.9e-50
+1388	KOfam	K01881	prolyl-tRNA synthetase [EC:6.1.1.15]	4e-165
+1389	KOfam	K11749	regulator of sigma E protease [EC:3.4.24.-]	3.4e-116
+1390	KOfam	K00981	phosphatidate cytidylyltransferase [EC:2.7.7.41]	2.2e-54
+1391	KOfam	K00806	undecaprenyl diphosphate synthase [EC:2.5.1.31]	9.2e-112
+1392	KOfam	K02838	ribosome recycling factor	2.5e-67
+1393	KOfam	K09903	uridylate kinase [EC:2.7.4.22]	1.9e-124
+1394	KOfam	K02357	elongation factor Ts	2.1e-99
+1395	KOfam	K02967	small subunit ribosomal protein S2	3.8e-121
+1396	KOfam	K07025	putative hydrolase of the HAD superfamily	3.3e-42
+1397	KOfam	K03778	D-lactate dehydrogenase [EC:1.1.1.28]	5.2e-118
+1398	KOfam	K15460	tRNA1Val (adenine37-N6)-methyltransferase [EC:2.1.1.223]	2.3e-40
+1399	KOfam	K00655	1-acyl-sn-glycerol-3-phosphate acyltransferase [EC:2.3.1.51]	5.8e-42
+1400	KOfam	K09976	uncharacterized protein	2.2e-34
+1402	KOfam	K01356	repressor LexA [EC:3.4.21.88]	3.2e-80
+1404	KOfam	K01641	hydroxymethylglutaryl-CoA synthase [EC:2.3.3.10]	1.4e-98
+1407	KOfam	K20534	polyisoprenyl-phosphate glycosyltransferase [EC:2.4.-.-]	1.2e-127
+1407	KOfam	K12999	glucosyltransferase [EC:2.4.1.-]	5.2e-148
+1413	KOfam	K07497	putative transposase	7.1e-08
+1417	KOfam	K14059	integrase	1.1e-58
+1424	KOfam	K00759	adenine phosphoribosyltransferase [EC:2.4.2.7]	4.8e-75
+1425	KOfam	K07462	single-stranded-DNA-specific exonuclease [EC:3.1.-.-]	9.4e-214
+1426	KOfam	K08992	lipopolysaccharide assembly protein A	1.5e-13
+1428	KOfam	K00784	ribonuclease Z [EC:3.1.26.11]	2.7e-85
+1430	KOfam	K03979	GTPase [EC:3.6.5.-]	2.3e-160
+1431	KOfam	K03436	DeoR family transcriptional regulator, fructose operon transcriptional repressor	2.1e-84
+1432	KOfam	K00882	1-phosphofructokinase [EC:2.7.1.56]	1.1e-102
+1433	KOfam	K02768	fructose PTS system EIIA component [EC:2.7.1.202]	1.7e-54
+1433	KOfam	K02770	fructose PTS system EIIBC or EIIC component [EC:2.7.1.202]	3.6e-245
+1434	KOfam	K03651	3',5'-cyclic-AMP phosphodiesterase [EC:3.1.4.53]	1.4e-25
+1436	KOfam	K19423	glycosyltransferase EpsE [EC:2.4.-.-]	4.8e-52
+1443	KOfam	K00903	protein-tyrosine kinase [EC:2.7.10.3]	6.9e-80
+1444	KOfam	K19420	protein tyrosine kinase modulator	4.6e-64
+1445	KOfam	K03703	excinuclease ABC subunit C	4.3e-208
+1446	KOfam	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	1.8e-133
+1447	KOfam	K17077	arginine/lysine/histidine transport system permease protein	5.7e-144
+1447	KOfam	K23059	arginine/lysine/histidine transporter system substrate-binding protein	4.3e-176
+1447	KOfam	K02030	polar amino acid transport system substrate-binding protein	3.7e-42
+1447	KOfam	K02029	polar amino acid transport system permease protein	5.1e-89
+1451	KOfam	K03978	GTP-binding protein	1.1e-77
+1452	KOfam	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX	1.9e-197
+1453	KOfam	K03545	trigger factor	1.6e-137
+1454	KOfam	K02358	elongation factor Tu	6.1e-239
+1456	KOfam	K12574	ribonuclease J [EC:3.1.-.-]	2.6e-201
+1457	KOfam	K01714	4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	1.1e-97
+1458	KOfam	K08161	MFS transporter, DHA1 family, multidrug resistance protein	3.5e-118
+1459	KOfam	K02956	small subunit ribosomal protein S15	1e-34
+1460	KOfam	K02968	small subunit ribosomal protein S20	5.5e-25
+1461	KOfam	K02340	DNA polymerase III subunit delta [EC:2.7.7.7]	5.4e-68
+1462	KOfam	K02238	competence protein ComEC	1.5e-107
+1463	KOfam	K01493	dCMP deaminase [EC:3.5.4.12]	3.6e-45
+1464	KOfam	K02237	competence protein ComEA	5.4e-56
+1465	KOfam	K07177	Lon-like protease	1.4e-101
+1466	KOfam	K00954	pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]	4.5e-69
+1467	KOfam	K08316	16S rRNA (guanine966-N2)-methyltransferase [EC:2.1.1.171]	3.8e-64
+1469	KOfam	K01958	pyruvate carboxylase [EC:6.4.1.1]	0
+1470	KOfam	K03588	peptidoglycan glycosyltransferase [EC:2.4.99.28]	1.2e-110
+1472	KOfam	K11936	poly-beta-1,6-N-acetyl-D-glucosamine synthase [EC:2.4.1.-]	1.2e-87
+1475	KOfam	K06207	GTP-binding protein	6.7e-294
+1476	KOfam	K01092	myo-inositol-1(or 4)-monophosphatase [EC:3.1.3.25]	6.3e-54
+1479	KOfam	K00382	dihydrolipoyl dehydrogenase [EC:1.8.1.4]	1.9e-177
+1480	KOfam	K09699	2-oxoisovalerate dehydrogenase E2 component (dihydrolipoyl transacylase) [EC:2.3.1.168]	6.2e-147
+1480	KOfam	K00627	pyruvate dehydrogenase E2 component (dihydrolipoyllysine-residue acetyltransferase) [EC:2.3.1.12]	3.8e-146
+1482	KOfam	K00166	2-oxoisovalerate dehydrogenase E1 component subunit alpha [EC:1.2.4.4]	3.6e-115
+1483	KOfam	K01462	peptide deformylase [EC:3.5.1.88]	5.6e-45
+1486	KOfam	K12574	ribonuclease J [EC:3.1.-.-]	2.2e-236
+1487	KOfam	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	9.6e-61
+1489	KOfam	K21471	peptidoglycan DL-endopeptidase CwlO [EC:3.4.-.-]	4.5e-35
+1490	KOfam	K00948	ribose-phosphate pyrophosphokinase [EC:2.7.6.1]	3.6e-127
+1491	KOfam	K03581	exodeoxyribonuclease V alpha subunit [EC:3.1.11.5]	2.9e-145
+1497	KOfam	K03499	trk/ktr system potassium uptake protein	1.2e-39
+1498	KOfam	K03498	trk/ktr system potassium uptake protein	4.6e-127
+1499	KOfam	K00566	tRNA-uridine 2-sulfurtransferase [EC:2.8.1.13]	1.6e-168
+1501	KOfam	K04487	cysteine desulfurase [EC:2.8.1.7]	1.6e-141
+1502	KOfam	K01243	adenosylhomocysteine nucleosidase [EC:3.2.2.9]	1.3e-73
+1504	KOfam	K01515	ADP-ribose diphosphatase [EC:3.6.1.13 3.6.1.-]	4.7e-49
+1505	KOfam	K01778	diaminopimelate epimerase [EC:5.1.1.7]	2.6e-63
+1508	KOfam	K11051	multidrug/hemolysin transport system permease protein	3e-86
+1509	KOfam	K11050	multidrug/hemolysin transport system ATP-binding protein	1.8e-109
+1510	KOfam	K01870	isoleucyl-tRNA synthetase [EC:6.1.1.5]	0
+1511	KOfam	K04074	cell division initiation protein	8.3e-63
+1513	KOfam	K02221	YggT family protein	1.6e-23
+1514	KOfam	K09772	cell division inhibitor SepF	2.6e-37
+1515	KOfam	K03531	cell division protein FtsZ	4e-166
+1516	KOfam	K03590	cell division protein FtsA	5.3e-141
+1517	KOfam	K03589	cell division protein FtsQ	2.2e-27
+1518	KOfam	K02563	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]	4.2e-119
+1519	KOfam	K01925	UDP-N-acetylmuramoylalanine--D-glutamate ligase [EC:6.3.2.9]	4.7e-141
+1520	KOfam	K01000	phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]	6.1e-126
+1521	KOfam	K08724	penicillin-binding protein 2B	7.2e-261
+1522	KOfam	K03586	cell division protein FtsL	1.1e-12
+1523	KOfam	K03438	16S rRNA (cytosine1402-N4)-methyltransferase [EC:2.1.1.199]	7.7e-139
+1524	KOfam	K03925	transcriptional regulator MraZ	1e-56
+1526	KOfam	K03284	magnesium transporter	2.1e-41
+1527	KOfam	K03466	DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family	1.5e-211
+1528	KOfam	K03216	tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	1.3e-67
+1529	KOfam	K07118	uncharacterized protein	7e-54
+1530	KOfam	K03311	branched-chain amino acid:cation transporter, LIVCS family	2e-155
+1532	KOfam	K00563	23S rRNA (guanine745-N1)-methyltransferase [EC:2.1.1.187]	2.4e-78
+1533	KOfam	K02954	small subunit ribosomal protein S14	3.1e-33
+1535	KOfam	K02781	glucitol/sorbitol PTS system EIIA component [EC:2.7.1.198]	3e-29
+1536	KOfam	K07404	6-phosphogluconolactonase [EC:3.1.1.31]	1.7e-113
+1537	KOfam	K06201	copper homeostasis protein	1.1e-68
+1539	KOfam	K00858	NAD+ kinase [EC:2.7.1.23]	2.1e-36
+1540	KOfam	K07816	GTP pyrophosphokinase [EC:2.7.6.5]	1.7e-91
+1542	KOfam	K08602	oligoendopeptidase F [EC:3.4.24.-]	2.2e-209
+1543	KOfam	K06198	competence protein CoiA	5.6e-78
+1544	KOfam	K16511	adapter protein MecA 1/2	1.4e-63
+1545	KOfam	K16509	regulatory protein spx	2.6e-64
+1546	KOfam	K00784	ribonuclease Z [EC:3.1.26.11]	5.4e-26
+1550	KOfam	K07052	CAAX protease family protein	8.4e-23
+1551	KOfam	K04078	chaperonin GroES	6.6e-36
+1552	KOfam	K04077	chaperonin GroEL [EC:5.6.1.7]	5.8e-261
+1554	KOfam	K02851	UDP-GlcNAc:undecaprenyl-phosphate/decaprenyl-phosphate GlcNAc-1-phosphate transferase [EC:2.7.8.33 2.7.8.35]	3.8e-110
+1555	KOfam	K02040	phosphate transport system substrate-binding protein	9.9e-76
+1557	KOfam	K02240	competence protein ComFA	3.5e-170
+1558	KOfam	K02242	competence protein ComFC	3.8e-65
+1559	KOfam	K05808	ribosome hibernation promoting factor	2e-67
+1560	KOfam	K03070	preprotein translocase subunit SecA [EC:7.4.2.8]	0
+1561	KOfam	K02836	peptide chain release factor 2	1.2e-166
+1563	KOfam	K02483	two-component system, OmpR family, response regulator	1.2e-82
+1563	KOfam	K07658	two-component system, OmpR family, alkaline phosphatase synthesis response regulator PhoP	4.2e-105
+1564	KOfam	K07636	two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]	2.6e-100
+1565	KOfam	K02040	phosphate transport system substrate-binding protein	1e-70
+1566	KOfam	K02037	phosphate transport system permease protein	8.5e-93
+1567	KOfam	K02038	phosphate transport system permease protein	5.7e-92
+1568	KOfam	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]	7.7e-126
+1569	KOfam	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]	6.1e-134
+1570	KOfam	K02039	phosphate transport system protein	1.1e-66
+1572	KOfam	K08972	putative membrane protein	5.3e-30
+1573	KOfam	K06023	HPr kinase/phosphorylase [EC:2.7.11.- 2.7.4.-]	2.9e-136
+1574	KOfam	K13292	phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]	3e-88
+1575	KOfam	K00057	glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]	3.6e-153
+1576	KOfam	K00963	UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9]	3.2e-42
+1578	KOfam	K17869	NADH oxidase (H2O-forming) [EC:1.6.3.4]	3.2e-169
+1579	KOfam	K00384	thioredoxin reductase (NADPH) [EC:1.8.1.9]	8.6e-124
+1582	KOfam	K01835	phosphoglucomutase [EC:5.4.2.2]	1.3e-117
+1584	KOfam	K17869	NADH oxidase (H2O-forming) [EC:1.6.3.4]	6.1e-149
+1585	KOfam	K08641	zinc D-Ala-D-Ala dipeptidase [EC:3.4.13.22]	1.5e-60
+1586	KOfam	K08153	MFS transporter, DHA1 family, multidrug resistance protein	3.7e-146
+1588	KOfam	K03702	excinuclease ABC subunit B	0
+1589	KOfam	K03701	excinuclease ABC subunit A	0
+1590	KOfam	K07173	S-ribosylhomocysteine lyase [EC:4.4.1.21]	1.7e-77
+1591	KOfam	K01940	argininosuccinate synthase [EC:6.3.4.5]	8.7e-175
+1592	KOfam	K01755	argininosuccinate lyase [EC:4.3.2.1]	1.7e-213
+1594	KOfam	K06958	RNase adapter protein RapZ	1.6e-130
+1596	KOfam	K09762	cell division protein WhiA	4.9e-120
+1597	KOfam	K02035	peptide/nickel transport system substrate-binding protein	1.8e-82
+1597	KOfam	K15580	oligopeptide transport system substrate-binding protein	2.1e-146
+1598	KOfam	K00058	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	1.2e-103
+1599	KOfam	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	5e-108
+1600	KOfam	K03092	RNA polymerase sigma-54 factor	1e-133
+1601	KOfam	K05311	central glycolytic genes regulator	1.1e-134
+1602	KOfam	K00134	glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]	2.6e-125
+1603	KOfam	K00927	phosphoglycerate kinase [EC:2.7.2.3]	5.1e-186
+1604	KOfam	K01803	triosephosphate isomerase (TIM) [EC:5.3.1.1]	5.3e-105
+1605	KOfam	K01689	enolase 1/2/3 [EC:4.2.1.11]	1.6e-219
+1607	KOfam	K03281	chloride channel protein, CIC family	8.3e-103
+1608	KOfam	K03075	preprotein translocase subunit SecG	1.6e-21
+1609	KOfam	K03928	carboxylesterase [EC:3.1.1.1]	1.6e-48
+1610	KOfam	K12573	ribonuclease R [EC:3.1.13.1]	3.8e-269
+1611	KOfam	K03664	SsrA-binding protein	4e-69
+1613	KOfam	K02030	polar amino acid transport system substrate-binding protein	4.8e-50
+1613	KOfam	K10036	glutamine transport system substrate-binding protein	7.9e-221
+1613	KOfam	K10037	glutamine transport system permease protein	1.7e-225
+1613	KOfam	K02029	polar amino acid transport system permease protein	2.6e-77
+1614	KOfam	K10038	glutamine transport system ATP-binding protein [EC:7.4.2.1]	4.7e-120
+1614	KOfam	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	7.1e-136
+1616	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	5e-55
+1617	KOfam	K03648	uracil-DNA glycosylase [EC:3.2.2.27]	3e-110
+1618	KOfam	K00625	phosphate acetyltransferase [EC:2.3.1.8]	1.4e-133
+1619	KOfam	K06925	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE	1.3e-58
+1621	KOfam	K02342	DNA polymerase III subunit epsilon [EC:2.7.7.7]	2.2e-48
+1622	KOfam	K01142	exodeoxyribonuclease III [EC:3.1.11.2]	2.5e-109
+1623	KOfam	K03810	virulence factor	1.2e-97
+1624	KOfam	K00075	UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]	3.9e-108
+1625	KOfam	K24163	monovalent cation/hydrogen antiporter	3.7e-157
+1628	KOfam	K18672	diadenylate cyclase [EC:2.7.7.85]	7.8e-100
+1630	KOfam	K03431	phosphoglucosamine mutase [EC:5.4.2.10]	1.2e-189
+1631	KOfam	K00820	glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]	1.2e-203
+1635	KOfam	K01785	aldose 1-epimerase [EC:5.1.3.3]	3.1e-85
+1638	KOfam	K19285	FMN reductase (NADPH) [EC:1.5.1.38]	7.3e-71
+1641	KOfam	K00864	glycerol kinase [EC:2.7.1.30]	2.3e-220
+1643	KOfam	K16509	regulatory protein spx	1.5e-56
+1646	KOfam	K08168	MFS transporter, DHA2 family, metal-tetracycline-proton antiporter	1.8e-64
+1647	KOfam	K01524	exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase [EC:3.6.1.11 3.6.1.40]	2.5e-87
+1648	KOfam	K00937	polyphosphate kinase [EC:2.7.4.1]	3e-293
+1649	KOfam	K01524	exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase [EC:3.6.1.11 3.6.1.40]	7.8e-36
+1650	KOfam	K07271	lipopolysaccharide cholinephosphotransferase [EC:2.7.8.-]	2.6e-72
+1653	KOfam	K06901	adenine/guanine/hypoxanthine permease	6.4e-165
+1654	KOfam	K00158	pyruvate oxidase [EC:1.2.3.3]	1.6e-253
+1656	KOfam	K11753	riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]	1.6e-34
+1657	KOfam	K00158	pyruvate oxidase [EC:1.2.3.3]	1.8e-229
+1658	KOfam	K01259	proline iminopeptidase [EC:3.4.11.5]	3.7e-35
+1659	KOfam	K03524	BirA family transcriptional regulator, biotin operon repressor / biotin---[acetyl-CoA-carboxylase] ligase [EC:6.3.4.15]	3.5e-63
+1661	KOfam	K01281	X-Pro dipeptidyl-peptidase [EC:3.4.14.11]	2.4e-210
+1662	KOfam	K04063	lipoyl-dependent peroxiredoxin [EC:1.11.1.28]	1.7e-27
+1664	KOfam	K03294	basic amino acid/polyamine antiporter, APA family	2.4e-164
+1666	KOfam	K00868	pyridoxine kinase [EC:2.7.1.35]	1.1e-40
+1667	KOfam	K01518	bis(5'-nucleosidyl)-tetraphosphatase [EC:3.6.1.17]	2.1e-36
+1670	KOfam	K02076	Fur family transcriptional regulator, zinc uptake regulator	1.1e-49
+1673	KOfam	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	4.9e-37
+1674	KOfam	K00841	aminotransferase [EC:2.6.1.-]	9.9e-198
+1675	KOfam	K03778	D-lactate dehydrogenase [EC:1.1.1.28]	1.1e-104
+1678	KOfam	K10041	aspartate/glutamate/glutamine transport system ATP-binding protein [EC:7.4.2.1]	1.9e-127
+1678	KOfam	K02028	polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	1.7e-122
+1679	KOfam	K02030	polar amino acid transport system substrate-binding protein	4.5e-46
+1679	KOfam	K10039	aspartate/glutamate/glutamine transport system substrate-binding protein	1.1e-110
+1680	KOfam	K10040	aspartate/glutamate/glutamine transport system permease protein	1.7e-90
+1680	KOfam	K02029	polar amino acid transport system permease protein	9.9e-76
+1681	KOfam	K10040	aspartate/glutamate/glutamine transport system permease protein	1.7e-84
+1681	KOfam	K02029	polar amino acid transport system permease protein	2.9e-70
+1682	KOfam	K02777	sugar PTS system EIIA component [EC:2.7.1.-]	2.1e-46
+1683	KOfam	K03488	beta-glucoside operon transcriptional antiterminator	5.2e-82
+1686	KOfam	K03478	chitin disaccharide deacetylase [EC:3.5.1.105]	6.1e-33
+1687	KOfam	K19540	fructoselysine transporter	3.4e-92
+1688	KOfam	K23775	MarR family transcriptional regulator, organic hydroperoxide resistance regulator	4.6e-40
+1692	KOfam	K07090	uncharacterized protein	2e-15
+1694	KOfam	K03665	GTPase	8.9e-141
+1695	KOfam	K03574	8-oxo-dGTP diphosphatase [EC:3.6.1.55]	3.5e-19
+1696	KOfam	K11741	quaternary ammonium compound-resistance protein SugE	1.4e-36
+1701	KOfam	K03574	8-oxo-dGTP diphosphatase [EC:3.6.1.55]	2.5e-16
+1702	KOfam	K03975	membrane-associated protein	4.5e-58
+1704	KOfam	K02371	enoyl-[acyl-carrier protein] reductase II [EC:1.3.1.9]	2.1e-122
+1704	KOfam	K00459	nitronate monooxygenase [EC:1.13.12.16]	2.4e-88
+1705	KOfam	K00867	type I pantothenate kinase [EC:2.7.1.33]	4.5e-129
+1706	KOfam	K01951	GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]	2.3e-225
+1710	KOfam	K07052	CAAX protease family protein	3.4e-19
+1721	KOfam	K18336	2,4-didehydro-3-deoxy-L-rhamnonate hydrolase [EC:3.7.1.26]	7.6e-76
+1723	KOfam	K02759	cellobiose PTS system EIIA component [EC:2.7.1.196 2.7.1.205]	1.9e-17
+1725	KOfam	K01256	aminopeptidase N [EC:3.4.11.2]	1.1e-133
+1726	KOfam	K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]	5e-08
+1727	KOfam	K01153	type I restriction enzyme, R subunit [EC:3.1.21.3]	8.6e-142
+1728	KOfam	K03427	type I restriction enzyme M protein [EC:2.1.1.72]	1.4e-139
+1729	KOfam	K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]	6.6e-40
+1730	KOfam	K14059	integrase	7.2e-45
+1731	KOfam	K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]	2.6e-11
+1732	KOfam	K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]	6.6e-12
+1738	KOfam	K07729	putative transcriptional regulator	5.9e-18
+1743	KOfam	K01118	FMN-dependent NADH-azoreductase [EC:1.7.1.17]	7.1e-61
+1744	KOfam	K01893	asparaginyl-tRNA synthetase [EC:6.1.1.22]	4.5e-152
+1745	KOfam	K01914	aspartate--ammonia ligase [EC:6.3.1.1]	3.1e-161
+1746	KOfam	K08659	dipeptidase [EC:3.4.-.-]	3.5e-181
+1750	KOfam	K03654	ATP-dependent DNA helicase RecQ [EC:5.6.2.4]	7.3e-226
+1758	KOfam	K02226	alpha-ribazole phosphatase [EC:3.1.3.73]	1.9e-40
+1761	KOfam	K03292	glycoside/pentoside/hexuronide:cation symporter, GPH family	1.1e-109
+1762	KOfam	K01928	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [EC:6.3.2.13]	1.4e-186
+1763	KOfam	K00928	aspartate kinase [EC:2.7.2.4]	4.1e-114
+1764	KOfam	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	2.6e-171
+1765	KOfam	K26606	branched chain amino acid efflux pump	3.9e-21
+1766	KOfam	K26605	branched chain amino acid efflux pump	2.8e-67
+1771	KOfam	K03446	MFS transporter, DHA2 family, multidrug resistance protein	8.9e-162
+1774	KOfam	K03709	DtxR family transcriptional regulator, Mn-dependent transcriptional regulator	3.7e-71
+1775	KOfam	K03704	cold shock protein	3.2e-36
+1778	KOfam	K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]	5.1e-89
+1783	KOfam	K01652	acetolactate synthase I/II/III large subunit [EC:2.2.1.6]	4.8e-148
+1784	KOfam	K11733	lysine-specific permease	2.6e-240
+1785	KOfam	K07260	zinc D-Ala-D-Ala carboxypeptidase [EC:3.4.17.14]	8.2e-51
+1786	KOfam	K15519	deoxyadenosine/deoxycytidine kinase [EC:2.7.1.76 2.7.1.74]	2e-58
+1787	KOfam	K01875	seryl-tRNA synthetase [EC:6.1.1.11]	3.9e-181
+1788	KOfam	K03708	transcriptional regulator of stress and heat shock response	4.7e-59
+1789	KOfam	K03696	ATP-dependent Clp protease ATP-binding subunit ClpC	0
+1791	KOfam	K03043	DNA-directed RNA polymerase subunit beta [EC:2.7.7.6]	0
+1792	KOfam	K03046	DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]	0
+1793	KOfam	K02654	leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]	5.3e-34
+1794	KOfam	K02950	small subunit ribosomal protein S12	9.8e-69
+1795	KOfam	K02992	small subunit ribosomal protein S7	3.5e-67
+1796	KOfam	K02355	elongation factor G	0
+1797	KOfam	K02946	small subunit ribosomal protein S10	5.1e-51
+1798	KOfam	K02906	large subunit ribosomal protein L3	1.3e-86
+1799	KOfam	K02926	large subunit ribosomal protein L4	3.7e-86
+1800	KOfam	K02892	large subunit ribosomal protein L23	8.4e-20
+1801	KOfam	K02886	large subunit ribosomal protein L2	8.8e-120
+1802	KOfam	K02965	small subunit ribosomal protein S19	2.1e-44
+1803	KOfam	K02890	large subunit ribosomal protein L22	1.3e-53
+1804	KOfam	K02982	small subunit ribosomal protein S3	3.7e-99
+1805	KOfam	K02878	large subunit ribosomal protein L16	8.6e-64
+1806	KOfam	K02904	large subunit ribosomal protein L29	9.9e-27
+1807	KOfam	K02961	small subunit ribosomal protein S17	3.7e-39
+1808	KOfam	K02874	large subunit ribosomal protein L14	2.1e-54
+1809	KOfam	K02895	large subunit ribosomal protein L24	1.2e-38
+1810	KOfam	K02931	large subunit ribosomal protein L5	5e-95
+1811	KOfam	K02994	small subunit ribosomal protein S8	2.7e-55
+1812	KOfam	K02933	large subunit ribosomal protein L6	6.8e-77
+1813	KOfam	K02881	large subunit ribosomal protein L18	3e-44
+1814	KOfam	K02988	small subunit ribosomal protein S5	2.6e-65
+1815	KOfam	K02907	large subunit ribosomal protein L30	3.4e-16
+1816	KOfam	K02876	large subunit ribosomal protein L15	5.5e-63
+1817	KOfam	K03076	preprotein translocase subunit SecY	3.9e-151
+1818	KOfam	K00939	adenylate kinase [EC:2.7.4.3]	1.7e-64
+1819	KOfam	K02518	translation initiation factor IF-1	2.5e-46
+1820	KOfam	K02919	large subunit ribosomal protein L36	2.4e-22
+1821	KOfam	K02952	small subunit ribosomal protein S13	5.9e-54
+1822	KOfam	K02948	small subunit ribosomal protein S11	6.8e-59
+1823	KOfam	K03040	DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]	1.4e-130
+1824	KOfam	K02879	large subunit ribosomal protein L17	1.1e-54
+1825	KOfam	K02523	octaprenyl-diphosphate synthase [EC:2.5.1.90]	1.4e-80
+1828	KOfam	K03885	NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9]	1.9e-115
+1829	KOfam	K20379	sex pheromone cAD1	2.1e-117
+1830	KOfam	K03734	FAD:protein FMN transferase [EC:2.7.1.180]	4.9e-88
+1831	KOfam	K16786	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]	1.4e-122
+1832	KOfam	K16787	energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]	5.6e-130
+1833	KOfam	K16785	energy-coupling factor transport system permease protein	1.1e-69
+1834	KOfam	K06173	tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	2.8e-68
+1835	KOfam	K02871	large subunit ribosomal protein L13	1.5e-65
+1836	KOfam	K02996	small subunit ribosomal protein S9	2.2e-61
+1837	KOfam	K25232	fatty acid kinase fatty acid binding subunit	4.2e-72
+1839	KOfam	K05884	L-2-hydroxycarboxylate dehydrogenase (NAD+) [EC:1.1.1.337]	1.1e-113
+1840	KOfam	K00615	transketolase [EC:2.2.1.1]	3.6e-172
+1841	KOfam	K00014	shikimate dehydrogenase [EC:1.1.1.25]	7.6e-95
+1843	KOfam	K01735	3-dehydroquinate synthase [EC:4.2.3.4]	6.5e-126
+1845	KOfam	K03319	divalent anion:Na+ symporter, DASS family	1.1e-157
+1847	KOfam	K03780	L(+)-tartrate dehydratase beta subunit [EC:4.2.1.32]	7.8e-94
+1848	KOfam	K03779	L(+)-tartrate dehydratase alpha subunit [EC:4.2.1.32]	4.4e-135
+1850	KOfam	K05966	triphosphoribosyl-dephospho-CoA synthase [EC:2.4.2.52]	1.4e-75
+1851	KOfam	K02013	iron complex transport system ATP-binding protein [EC:7.2.2.-]	3.7e-79
+1851	KOfam	K19973	manganese transport system ATP-binding protein [EC:7.2.2.5]	2.5e-106
+1852	KOfam	K19976	manganese transport system permease protein	2.4e-120
+1852	KOfam	K02075	zinc/manganese transport system permease protein	7.2e-84
+1855	KOfam	K00016	L-lactate dehydrogenase [EC:1.1.1.27]	7.2e-98
+1856	KOfam	K03319	divalent anion:Na+ symporter, DASS family	3.5e-189
+1858	KOfam	K00027	malate dehydrogenase (oxaloacetate-decarboxylating) [EC:1.1.1.38]	1.2e-114
+1859	KOfam	K01910	[citrate (pro-3S)-lyase] ligase [EC:6.2.1.22]	2.4e-120
+1860	KOfam	K01646	citrate lyase subunit gamma (acyl carrier protein)	1.6e-35
+1861	KOfam	K01644	citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]	5.7e-100
+1862	KOfam	K01643	citrate lyase subunit alpha / citrate CoA-transferase [EC:2.8.3.10]	4.7e-233
+1863	KOfam	K07482	transposase, IS30 family	6.2e-80
+1869	KOfam	K00986	RNA-directed DNA polymerase [EC:2.7.7.49]	7.1e-72
+1870	KOfam	K01679	fumarate hydratase, class II [EC:4.2.1.2]	2e-194
+1872	KOfam	K05964	holo-ACP synthase [EC:2.7.7.61]	1.6e-63
+1875	KOfam	K00027	malate dehydrogenase (oxaloacetate-decarboxylating) [EC:1.1.1.38]	1.7e-164
+1875	KOfam	K00029	malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40]	3e-174
+1875	KOfam	K22212	malolactic enzyme [EC:4.1.1.101]	5.2e-296
+1876	KOfam	K24180	malate permease and related proteins	1.5e-65
+1877	KOfam	K03294	basic amino acid/polyamine antiporter, APA family	6.4e-171
+1880	KOfam	K06889	uncharacterized protein	1.2e-27
+1881	KOfam	K00425	cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]	1.4e-171
+1882	KOfam	K00426	cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]	5.1e-104
+1883	KOfam	K16013	ATP-binding cassette, subfamily C, bacterial CydD	2.7e-194
+1884	KOfam	K16012	ATP-binding cassette, subfamily C, bacterial CydC	3.5e-178
+1886	KOfam	K13787	geranylgeranyl diphosphate synthase, type I [EC:2.5.1.1 2.5.1.10 2.5.1.29]	2.3e-67
+1887	KOfam	K02548	1,4-dihydroxy-2-naphthoate polyprenyltransferase [EC:2.5.1.74]	5.7e-59
+1889	KOfam	K02395	peptidoglycan hydrolase FlgJ	2.6e-28
+1890	KOfam	K03816	xanthine phosphoribosyltransferase [EC:2.4.2.22]	4.4e-85
+1892	KOfam	K01589	5-(carboxyamino)imidazole ribonucleotide synthase [EC:6.3.4.18]	4.5e-86
+1893	KOfam	K03657	ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]	1.9e-235
+1894	KOfam	K01972	DNA ligase (NAD+) [EC:6.5.1.2]	1.4e-280
+1896	KOfam	K02435	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C [EC:6.3.5.6 6.3.5.7]	7.1e-28
+1897	KOfam	K02433	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A [EC:6.3.5.6 6.3.5.7]	1.2e-212
+1897	KOfam	K01426	amidase [EC:3.5.1.4]	1.3e-119
+1898	KOfam	K02434	aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7]	4.5e-200
+1899	KOfam	K07029	diacylglycerol kinase (ATP) [EC:2.7.1.107]	2.6e-95
+1900	KOfam	K03215	23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]	5.3e-161
+1902	KOfam	K12952	cation-transporting P-type ATPase E [EC:7.2.2.-]	3.4e-289
+1903	KOfam	K02761	cellobiose PTS system EIIC component	3.6e-71
+1906	KOfam	K07273	lysozyme	1.5e-29
+1908	KOfam	K03704	cold shock protein	2.3e-34
+1909	KOfam	K22230	scyllo-inositol 2-dehydrogenase (NADP+) [EC:1.1.1.-]	6.8e-96
+1912	KOfam	K02761	cellobiose PTS system EIIC component	4.9e-95
+1917	KOfam	K00262	glutamate dehydrogenase (NADP+) [EC:1.4.1.4]	9.2e-228
+1918	KOfam	K22580	teichoic acid D-alanine hydrolase [EC:3.1.1.103]	6.8e-74
+1919	KOfam	K01791	UDP-N-acetylglucosamine 2-epimerase (non-hydrolysing) [EC:5.1.3.14]	7e-169
+1920	KOfam	K07058	membrane protein	1.6e-58
+1921	KOfam	K02440	glycerol uptake facilitator	1.2e-74
+1925	KOfam	K22580	teichoic acid D-alanine hydrolase [EC:3.1.1.103]	7.6e-67
+1928	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	1.2e-38
+1929	KOfam	K12996	rhamnosyltransferase [EC:2.4.1.-]	1.6e-197
+1933	KOfam	K21000	polysaccharide biosynthesis protein PslG	5.3e-35
+1934	KOfam	K00973	glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	8.9e-157
+1935	KOfam	K01790	dTDP-4-dehydrorhamnose 3,5-epimerase [EC:5.1.3.13]	1.7e-82
+1936	KOfam	K01710	dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	5.6e-153
+1937	KOfam	K00067	dTDP-4-dehydrorhamnose reductase [EC:1.1.1.133]	3.2e-104
+1958	KOfam	K06909	phage terminase large subunit	8.9e-40
+1959	KOfam	K07474	phage terminase small subunit	1.4e-31
+1965	KOfam	K01160	crossover junction endodeoxyribonuclease RusA [EC:3.1.21.10]	3.5e-10
+1970	KOfam	K07455	recombination protein RecT	2.5e-56
+1977	KOfam	K07729	putative transcriptional regulator	7.4e-15
+1978	KOfam	K07727	putative transcriptional regulator	6.8e-09
+1994	KOfam	K14059	integrase	4.1e-40
+2010	KOfam	K18104	ATP-binding cassette, subfamily B, bacterial AbcA/BmrA [EC:7.6.2.2]	1.5e-202
+2011	KOfam	K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]	1.6e-62
+2012	KOfam	K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]	3.1e-80
+2013	KOfam	K02004	putative ABC transport system permease protein	1.5e-32
+2013	KOfam	K02003	putative ABC transport system ATP-binding protein	1.3e-101
+2015	KOfam	K01810	glucose-6-phosphate isomerase [EC:5.3.1.9]	5e-73
+2016	KOfam	K05340	glucose uptake protein	4.4e-100
+2017	KOfam	K06969	23S rRNA (cytosine1962-C5)-methyltransferase [EC:2.1.1.191]	3.4e-67
+2019	KOfam	K02483	two-component system, OmpR family, response regulator	1.3e-75
+2020	KOfam	K09157	uncharacterized protein	1.7e-190
+2021	KOfam	K07166	ACT domain-containing protein	1.9e-37
+2022	KOfam	K03298	drug/metabolite transporter, DME family	2.9e-40
+2025	KOfam	K08369	MFS transporter, putative metabolite:H+ symporter	1.4e-117
+2030	KOfam	K20742	gamma-D-glutamyl-L-lysine dipeptidyl-peptidase [EC:3.4.14.13]	1.9e-84
+2031	KOfam	K03719	Lrp/AsnC family transcriptional regulator, leucine-responsive regulatory protein	1.1e-42
+2035	KOfam	K06158	ATP-binding cassette, subfamily F, member 3	4.4e-141
+2039	KOfam	K02804	N-acetylglucosamine PTS system EIICBA or EIICB component [EC:2.7.1.193]	1.8e-192
+2040	KOfam	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	7.7e-62
+2041	KOfam	K25232	fatty acid kinase fatty acid binding subunit	1.2e-69
+2042	KOfam	K00003	homoserine dehydrogenase [EC:1.1.1.3]	8.1e-123
+2043	KOfam	K01740	O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]	7.9e-217
+2044	KOfam	K00651	homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31]	4.9e-99
+2047	KOfam	K01989	putative tryptophan/tyrosine transport system substrate-binding protein	1.4e-107
+2048	KOfam	K05832	putative tryptophan/tyrosine transport system permease protein	2.7e-113
+2049	KOfam	K05833	putative tryptophan/tyrosine transport system ATP-binding protein	3.2e-102
+2050	KOfam	K05910	NADH peroxidase [EC:1.11.1.1]	4.3e-219
+2053	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	3e-80
+2054	KOfam	K00817	histidinol-phosphate aminotransferase [EC:2.6.1.9]	4e-109
+2055	KOfam	K01523	phosphoribosyl-ATP pyrophosphohydrolase [EC:3.6.1.31]	4.5e-38
+2057	KOfam	K02500	imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]	6.8e-128
+2058	KOfam	K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]	3.6e-77
+2059	KOfam	K02501	imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	1.7e-80
+2060	KOfam	K01693	imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]	9e-90
+2061	KOfam	K00013	histidinol dehydrogenase [EC:1.1.1.23]	6.7e-186
+2062	KOfam	K00765	ATP phosphoribosyltransferase [EC:2.4.2.17]	1.5e-66
+2063	KOfam	K02502	ATP phosphoribosyltransferase regulatory subunit	2e-81
+2064	KOfam	K04486	histidinol-phosphatase (PHP family) [EC:3.1.3.15]	2.4e-67
+2066	KOfam	K03284	magnesium transporter	5.9e-37
+2067	KOfam	K05937	uncharacterized protein	1.5e-12
+2068	KOfam	K21745	MerR family transcriptional regulator, aldehyde-responsive regulator	1e-36
+2071	KOfam	K00133	aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]	1.7e-134
+2072	KOfam	K24041	penicillin V amidase [EC:3.5.1.11]	3.8e-85
+2074	KOfam	K24915	TMEM175 potassium channel family protein	8.1e-38
+2078	KOfam	K02348	ElaA protein	8.5e-30
+2079	KOfam	K19005	lipoteichoic acid synthase [EC:2.7.8.20]	3.1e-246
+2080	KOfam	K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]	6.9e-41
+2081	KOfam	K21567	ferredoxin/flavodoxin---NADP+ reductase [EC:1.18.1.2 1.19.1.1]	8.7e-124
+2087	KOfam	K03469	ribonuclease HI [EC:3.1.26.4]	3.3e-40
+2088	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	3.5e-51
+2091	KOfam	K22230	scyllo-inositol 2-dehydrogenase (NADP+) [EC:1.1.1.-]	1e-116
+2093	KOfam	K24163	monovalent cation/hydrogen antiporter	6.4e-156
+2094	KOfam	K01662	1-deoxy-D-xylulose-5-phosphate synthase [EC:2.2.1.7]	5.4e-210
+2095	KOfam	K08281	nicotinamidase/pyrazinamidase [EC:3.5.1.19 3.5.1.-]	1.3e-31
+2098	KOfam	K07979	GntR family transcriptional regulator	9.5e-28
+2100	KOfam	K06889	uncharacterized protein	6e-38
+2101	KOfam	K08602	oligoendopeptidase F [EC:3.4.24.-]	3.2e-122
+2106	KOfam	K00158	pyruvate oxidase [EC:1.2.3.3]	4.9e-244
+2116	KOfam	K03800	lipoate---protein ligase [EC:6.3.1.20]	1.1e-89
+2117	KOfam	K02395	peptidoglycan hydrolase FlgJ	1.3e-25
+2118	KOfam	K07090	uncharacterized protein	5.8e-12
+2123	KOfam	K07727	putative transcriptional regulator	1.1e-08
+2125	KOfam	K01621	xylulose-5-phosphate/fructose-6-phosphate phosphoketolase [EC:4.1.2.9 4.1.2.22]	0
+2126	KOfam	K03930	putative tributyrin esterase [EC:3.1.1.-]	4.5e-80
+2127	KOfam	K03492	GntR family transcriptional regulator, regulator of glucomannan utilization	1e-84
+2128	KOfam	K03976	Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase [EC:3.1.1.-]	5.6e-43
+2130	KOfam	K06950	uncharacterized protein	7.4e-51
+2131	KOfam	K07707	two-component system, LytTR family, response regulator AgrA	7e-52
+2134	KOfam	K13993	HSP20 family protein	1.4e-24
+2136	KOfam	K03699	magnesium and cobalt exporter, CNNM family	2.1e-116
+2137	KOfam	K03647	protein involved in ribonucleotide reduction	3.4e-40
+2138	KOfam	K24163	monovalent cation/hydrogen antiporter	1.3e-98
+2142	KOfam	K26996	immunity protein, SdpI family	4.9e-10
+2143	KOfam	K00036	glucose-6-phosphate 1-dehydrogenase [EC:1.1.1.49 1.1.1.363]	5.9e-178
+2144	KOfam	K00375	GntR family transcriptional regulator / MocR family aminotransferase	3.3e-132
+2145	KOfam	K00841	aminotransferase [EC:2.6.1.-]	1.9e-162
+2149	KOfam	K07090	uncharacterized protein	1.3e-26
+2153	KOfam	K16898	ATP-dependent helicase/nuclease subunit A [EC:5.6.2.4 3.1.-.-]	3.6e-295
+2154	KOfam	K16899	ATP-dependent helicase/nuclease subunit B [EC:5.6.2.4 3.1.-.-]	5e-162
+2155	KOfam	K09936	bacterial/archaeal transporter family-2 protein	1.1e-94
+2156	KOfam	K00762	orotate phosphoribosyltransferase [EC:2.4.2.10]	1.8e-62
+2157	KOfam	K01591	orotidine-5'-phosphate decarboxylase [EC:4.1.1.23]	8.7e-67
+2158	KOfam	K17828	dihydroorotate dehydrogenase (NAD+) catalytic subunit [EC:1.3.1.14]	1.6e-126
+2159	KOfam	K01955	carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	0
+2160	KOfam	K01956	carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	7.1e-178
+2161	KOfam	K01465	dihydroorotase [EC:3.5.2.3]	1.9e-126
+2162	KOfam	K00609	aspartate carbamoyltransferase catalytic subunit [EC:2.1.3.2]	2.6e-125
+2163	KOfam	K02825	pyrimidine operon attenuation protein / uracil phosphoribosyltransferase [EC:2.4.2.9]	8e-83
+2164	KOfam	K09684	PucR family transcriptional regulator, purine catabolism regulatory protein	4.2e-88
+2165	KOfam	K16169	xanthine permease	2.6e-204
+2166	KOfam	K06901	adenine/guanine/hypoxanthine permease	3.7e-136
+2170	KOfam	K11936	poly-beta-1,6-N-acetyl-D-glucosamine synthase [EC:2.4.1.-]	1.8e-122
+2172	KOfam	K01945	phosphoribosylamine---glycine ligase [EC:6.3.4.13]	1.3e-158
+2173	KOfam	K00602	phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]	3.5e-229
+2174	KOfam	K11175	phosphoribosylglycinamide formyltransferase 1 [EC:2.1.2.2]	2.3e-76
+2175	KOfam	K01933	phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]	4.5e-136
+2176	KOfam	K00764	amidophosphoribosyltransferase [EC:2.4.2.14]	1e-195
+2177	KOfam	K23269	phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]	0
+2178	KOfam	K23265	phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]	1.6e-102
+2179	KOfam	K23264	phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]	5.5e-30
+2180	KOfam	K01923	phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6]	1.8e-61
+2181	KOfam	K01589	5-(carboxyamino)imidazole ribonucleotide synthase [EC:6.3.4.18]	9.2e-153
+2182	KOfam	K01588	5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]	1.2e-75
+2183	KOfam	K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)	4e-50
+2183	KOfam	K09155	uncharacterized protein	2.6e-32
+2184	KOfam	K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)	9.9e-51
+2185	KOfam	K03800	lipoate---protein ligase [EC:6.3.1.20]	1.8e-87
+2186	KOfam	K01104	protein-tyrosine phosphatase [EC:3.1.3.48]	1.2e-35
+2187	KOfam	K01674	carbonic anhydrase [EC:4.2.1.1]	1e-60
+2189	KOfam	K01424	L-asparaginase [EC:3.5.1.1]	1.9e-112
+2190	KOfam	K02003	putative ABC transport system ATP-binding protein	3.1e-94
+2193	KOfam	K07979	GntR family transcriptional regulator	4.3e-25
+2202	KOfam	K14155	cysteine-S-conjugate beta-lyase [EC:4.4.1.13]	1.8e-139
+2206	KOfam	K01208	cyclomaltodextrinase / maltogenic alpha-amylase / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1.135]	3.4e-178
+2207	KOfam	K01733	threonine synthase [EC:4.2.3.1]	4.1e-98
+2208	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	1.1e-55
+2210	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	9.2e-81
+2211	KOfam	K01515	ADP-ribose diphosphatase [EC:3.6.1.13 3.6.1.-]	3.9e-43
+2212	KOfam	K02503	histidine triad (HIT) family protein [EC:3.9.1.-]	4.7e-23
+2213	KOfam	K00059	3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	2.9e-65
+2215	KOfam	K09963	uncharacterized protein	4.6e-139
+2217	KOfam	K07105	uncharacterized protein	3.9e-57
+2218	KOfam	K00763	nicotinate phosphoribosyltransferase [EC:6.3.4.21]	8.7e-158
+2220	KOfam	K01992	ABC-2 type transport system permease protein	5.9e-12
+2222	KOfam	K01753	D-serine dehydratase [EC:4.3.1.18]	3.6e-181
+2223	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	1.7e-231
+2224	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	2.1e-222
+2225	KOfam	K02759	cellobiose PTS system EIIA component [EC:2.7.1.196 2.7.1.205]	1.6e-44
+2226	KOfam	K02760	cellobiose PTS system EIIB component [EC:2.7.1.196 2.7.1.205]	5.2e-43
+2227	KOfam	K03489	GntR family transcriptional regulator, transcriptional regulator of bglA	5.9e-67
+2231	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	1.3e-48
+2232	KOfam	K00077	2-dehydropantoate 2-reductase [EC:1.1.1.169]	1.4e-66
+2233	KOfam	K03298	drug/metabolite transporter, DME family	2.1e-47
+2234	KOfam	K12972	glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81]	1.7e-58
+2235	KOfam	K06988	8-hydroxy-5-deazaflavin:NADPH oxidoreductase [EC:1.5.1.40]	4.7e-46
+2237	KOfam	K03839	flavodoxin I	1.3e-27
+2243	KOfam	K20265	glutamate:GABA antiporter	2.2e-56
+2245	KOfam	K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]	1e-115
+2246	KOfam	K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]	1.4e-127
+2250	KOfam	K01866	tyrosyl-tRNA synthetase [EC:6.1.1.1]	3.6e-138
+2252	KOfam	K07273	lysozyme	1.4e-29
+2256	KOfam	K07150	uncharacterized protein	4.1e-67
+2258	KOfam	K11102	proton glutamate symport protein	1.6e-186
+2259	KOfam	K08996	putative membrane protein	2.9e-65
+2262	KOfam	K16923	energy-coupling factor transport system substrate-specific component	2e-53
+2265	KOfam	K26730	Na+:H+ antiporter	1.5e-122
+2266	KOfam	K07149	uncharacterized protein	8.7e-27
+2267	KOfam	K24180	malate permease and related proteins	3.3e-63
+2269	KOfam	K08224	MFS transporter, YNFM family, putative membrane transport protein	1.2e-44
+2270	KOfam	K01560	2-haloacid dehalogenase [EC:3.8.1.2]	1.3e-36
+2271	KOfam	K03446	MFS transporter, DHA2 family, multidrug resistance protein	8.3e-149
+2273	KOfam	K03817	ribosomal-protein-serine acetyltransferase [EC:2.3.1.-]	2.3e-45
+2275	KOfam	K21900	LysR family transcriptional regulator, transcriptional activator of the cysJI operon	2.3e-79
+2276	KOfam	K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]	2.5e-164
+2277	KOfam	K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]	6.4e-175
+2280	KOfam	K13531	methylated-DNA-[protein]-cysteine S-methyltransferase [EC:2.1.1.63]	1e-61
+2282	KOfam	K01990	ABC-2 type transport system ATP-binding protein	4.7e-71
+2284	KOfam	K04708	3-dehydrosphinganine reductase [EC:1.1.1.102]	1.7e-52
+2285	KOfam	K01607	4-carboxymuconolactone decarboxylase [EC:4.1.1.44]	2.6e-35
+2286	KOfam	K01607	4-carboxymuconolactone decarboxylase [EC:4.1.1.44]	9.2e-15
+2287	KOfam	K21745	MerR family transcriptional regulator, aldehyde-responsive regulator	5.7e-34
+2288	KOfam	K01439	succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	5.5e-90
+2289	KOfam	K02004	putative ABC transport system permease protein	3.3e-38
+2290	KOfam	K02003	putative ABC transport system ATP-binding protein	9.5e-93
+2292	KOfam	K10773	endonuclease III [EC:3.2.2.- 4.2.99.18]	2.1e-57
+2293	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	7.4e-92
+2294	KOfam	K03100	signal peptidase I [EC:3.4.21.89]	5.3e-50
+2295	KOfam	K03100	signal peptidase I [EC:3.4.21.89]	2.9e-48
+2304	KOfam	K18369	alcohol dehydrogenase [EC:1.1.1.-]	1.3e-82
+2308	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	5.5e-73
+2309	KOfam	K07025	putative hydrolase of the HAD superfamily	2.3e-36
+2311	KOfam	K06988	8-hydroxy-5-deazaflavin:NADPH oxidoreductase [EC:1.5.1.40]	9.9e-45
+2312	KOfam	K14155	cysteine-S-conjugate beta-lyase [EC:4.4.1.13]	1.7e-146
+2314	KOfam	K23107	1-deoxyxylulose-5-phosphate synthase [EC:1.1.-.-]	8.7e-129
+2316	KOfam	K18890	ATP-binding cassette, subfamily B, multidrug efflux pump	3e-220
+2317	KOfam	K18889	ATP-binding cassette, subfamily B, multidrug efflux pump	1.9e-228
+2321	KOfam	K01421	putative membrane protein	3.9e-236
+2324	KOfam	K15051	DNA-entry nuclease	8.3e-76
+2328	KOfam	K07052	CAAX protease family protein	5.2e-12
+2329	KOfam	K06158	ATP-binding cassette, subfamily F, member 3	3.3e-142
+2332	KOfam	K03701	excinuclease ABC subunit A	2e-297
+2335	KOfam	K01259	proline iminopeptidase [EC:3.4.11.5]	4.9e-33
+2336	KOfam	K14052	putrescine importer	7.1e-123
+2337	KOfam	K06902	MFS transporter, UMF1 family	4e-140
+2340	KOfam	K03486	GntR family transcriptional regulator, trehalose operon transcriptional repressor	5.9e-62
+2347	KOfam	K04068	anaerobic ribonucleoside-triphosphate reductase activating protein [EC:1.97.1.4]	1.6e-72
+2348	KOfam	K21636	ribonucleoside-triphosphate reductase (formate) [EC:1.1.98.6]	4.4e-158
+2350	KOfam	K01462	peptide deformylase [EC:3.5.1.88]	5.1e-35
+2351	KOfam	K03734	FAD:protein FMN transferase [EC:2.7.1.180]	2.6e-78
+2358	KOfam	K22958	gallate decarboxylase subunit C [EC:4.1.1.59]	4.5e-232
+2363	KOfam	K06889	uncharacterized protein	2.9e-35
+2364	KOfam	K07035	uncharacterized protein	4.4e-100
+2367	KOfam	K03298	drug/metabolite transporter, DME family	2.4e-39
+2369	KOfam	K22213	6-methylsalicylate decarboxylase [EC:4.1.1.52]	5.8e-102
+2373	KOfam	K18104	ATP-binding cassette, subfamily B, bacterial AbcA/BmrA [EC:7.6.2.2]	4.6e-246
+2375	KOfam	K15976	putative NAD(P)H nitroreductase [EC:1.-.-.-]	3.9e-38
+2376	KOfam	K02804	N-acetylglucosamine PTS system EIICBA or EIICB component [EC:2.7.1.193]	6e-200
+2378	KOfam	K05833	putative tryptophan/tyrosine transport system ATP-binding protein	1.7e-95
+2379	KOfam	K05832	putative tryptophan/tyrosine transport system permease protein	2.1e-117
+2380	KOfam	K01989	putative tryptophan/tyrosine transport system substrate-binding protein	4.4e-101
+2385	KOfam	K04767	acetoin utilization protein AcuB	2.4e-54
+2386	KOfam	K01996	branched-chain amino acid transport system ATP-binding protein	4.8e-123
+2387	KOfam	K01995	branched-chain amino acid transport system ATP-binding protein	5.2e-120
+2388	KOfam	K01998	branched-chain amino acid transport system permease protein	3.8e-100
+2389	KOfam	K01997	branched-chain amino acid transport system permease protein	1.2e-111
+2390	KOfam	K01999	branched-chain amino acid transport system substrate-binding protein	3e-88
+2394	KOfam	K07729	putative transcriptional regulator	2e-17
+2395	KOfam	K03322	manganese transport protein	5.5e-171
+2399	KOfam	K22043	ArsR family transcriptional regulator, zinc-responsive transcriptional repressor	1.1e-34
+2401	KOfam	K02004	putative ABC transport system permease protein	1.1e-33
+2401	KOfam	K02003	putative ABC transport system ATP-binding protein	9e-102
+2408	KOfam	K02760	cellobiose PTS system EIIB component [EC:2.7.1.196 2.7.1.205]	4.1e-41
+2409	KOfam	K02761	cellobiose PTS system EIIC component	3e-132
+2410	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	7.4e-167
+2412	KOfam	K21745	MerR family transcriptional regulator, aldehyde-responsive regulator	4.4e-38
+2415	KOfam	K26996	immunity protein, SdpI family	5.1e-09
+2417	KOfam	K02077	zinc/manganese transport system substrate-binding protein	1.1e-88
+2419	KOfam	K01246	DNA-3-methyladenine glycosylase I [EC:3.2.2.20]	1.9e-56
+2420	KOfam	K18967	diguanylate cyclase [EC:2.7.7.65]	5.6e-58
+2422	KOfam	K03502	DNA polymerase V	4.1e-112
+2429	KOfam	K01607	4-carboxymuconolactone decarboxylase [EC:4.1.1.44]	1.5e-11
+2430	KOfam	K09143	uncharacterized protein	3.3e-13
+2434	KOfam	K18892	ATP-binding cassette, subfamily B, multidrug efflux pump	1.9e-298
+2435	KOfam	K18891	ATP-binding cassette, subfamily B, multidrug efflux pump	2.8e-269
+2441	KOfam	K20391	HTH-type transcriptional regulator, pleiotropic regulator of extracellular virulence genes	2.2e-30
+2442	KOfam	K20265	glutamate:GABA antiporter	1.8e-57
+2444	KOfam	K00086	1,3-propanediol dehydrogenase [EC:1.1.1.202]	3.5e-198
+2445	KOfam	K00055	aryl-alcohol dehydrogenase [EC:1.1.1.90]	6.5e-152
+2446	KOfam	K17686	P-type Cu+ transporter [EC:7.2.2.8]	1.5e-270
+2452	KOfam	K07706	two-component system, LytTR family, sensor histidine kinase AgrC [EC:2.7.13.3]	2.7e-63
+2465	KOfam	K01091	phosphoglycolate phosphatase [EC:3.1.3.18]	1.6e-26
+2469	KOfam	K01953	asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]	6e-165
+2470	KOfam	K07707	two-component system, LytTR family, response regulator AgrA	2.9e-76
+2471	KOfam	K07706	two-component system, LytTR family, sensor histidine kinase AgrC [EC:2.7.13.3]	2.2e-84
+2475	KOfam	K07273	lysozyme	5.9e-23
+2481	KOfam	K24915	TMEM175 potassium channel family protein	3.5e-36
+2483	KOfam	K03446	MFS transporter, DHA2 family, multidrug resistance protein	1.4e-124
+2485	KOfam	K25308	ferric hydroxamate/heme transport system substrate-binding protein	3.7e-87
+2486	KOfam	K25283	iron-siderophore transport system permease protein	7.4e-58
+2486	KOfam	K02013	iron complex transport system ATP-binding protein [EC:7.2.2.-]	3.5e-99
+2486	KOfam	K25285	iron-siderophore transport system ATP-binding protein [EC:7.2.2.-]	2.5e-90
+2492	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	6.6e-54
+2500	KOfam	K03596	GTP-binding protein LepA	1.6e-227
+2501	KOfam	K24163	monovalent cation/hydrogen antiporter	3.3e-100
+2502	KOfam	K03426	NAD+ diphosphatase [EC:3.6.1.22]	1.7e-58
+2506	KOfam	K04047	starvation-inducible DNA-binding protein	3.2e-41
+2507	KOfam	K03489	GntR family transcriptional regulator, transcriptional regulator of bglA	4.9e-69
+2508	KOfam	K01223	6-phospho-beta-glucosidase [EC:3.2.1.86]	4.5e-226
+2509	KOfam	K02761	cellobiose PTS system EIIC component	6.1e-124
+2514	KOfam	K07273	lysozyme	4.1e-27
+2523	KOfam	K18887	ATP-binding cassette, subfamily B, multidrug efflux pump	3.2e-255
+2524	KOfam	K18888	ATP-binding cassette, subfamily B, multidrug efflux pump	8.9e-298
+2527	KOfam	K00826	branched-chain amino acid aminotransferase [EC:2.6.1.42]	6.6e-107
+2529	KOfam	K01286	D-alanyl-D-alanine carboxypeptidase [EC:3.4.16.4]	4.3e-34
+2530	KOfam	K01809	mannose-6-phosphate isomerase [EC:5.3.1.8]	1.1e-63
+2531	KOfam	K07009	lipid II isoglutaminyl synthase (glutamine-hydrolysing) [EC:6.3.5.13]	2.4e-84
+2532	KOfam	K23393	lipid II isoglutaminyl synthase (glutamine-hydrolysing) [EC:6.3.5.13]	4.7e-154
+2533	KOfam	K00857	thymidine kinase [EC:2.7.1.21]	9.2e-44
+2534	KOfam	K02835	peptide chain release factor 1	1.2e-157
+2535	KOfam	K02493	release factor glutamine methyltransferase [EC:2.1.1.297]	3.4e-87
+2536	KOfam	K07566	L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]	3.1e-115
+2537	KOfam	K00600	glycine hydroxymethyltransferase [EC:2.1.2.1]	1.2e-200
+2538	KOfam	K00761	uracil phosphoribosyltransferase [EC:2.4.2.9]	1.2e-109
+2539	KOfam	K02824	uracil permease	2.7e-183
+2540	KOfam	K02108	F-type H+-transporting ATPase subunit a	1.5e-58
+2541	KOfam	K02110	F-type H+-transporting ATPase subunit c	2.5e-22
+2542	KOfam	K02109	F-type H+-transporting ATPase subunit b	2.2e-41
+2543	KOfam	K02113	F-type H+-transporting ATPase subunit delta	5.8e-45
+2544	KOfam	K02111	F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]	3.6e-269
+2545	KOfam	K02115	F-type H+-transporting ATPase subunit gamma	4.4e-92
+2546	KOfam	K02112	F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]	1.1e-257
+2547	KOfam	K02114	F-type H+-transporting ATPase subunit epsilon	1.1e-42
+2548	KOfam	K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]	3.4e-187
+2549	KOfam	K03817	ribosomal-protein-serine acetyltransferase [EC:2.3.1.-]	2.4e-59
+2550	KOfam	K03569	rod shape-determining protein MreB and related proteins	5.1e-146
+2551	KOfam	K08998	uncharacterized protein	5.7e-35
+2553	KOfam	K05837	peptidoglycan glycosyltransferase [EC:2.4.99.28]	1.7e-124
+2554	KOfam	K02437	glycine cleavage system H protein	2.5e-25
+2555	KOfam	K02071	D-methionine transport system ATP-binding protein	2.8e-148
+2556	KOfam	K02072	D-methionine transport system permease protein	3.2e-92
+2557	KOfam	K02073	D-methionine transport system substrate-binding protein	1.1e-105
+2558	KOfam	K00016	L-lactate dehydrogenase [EC:1.1.1.27]	3.5e-77
+2561	KOfam	K01921	D-alanine-D-alanine ligase [EC:6.3.2.4]	1.4e-107
+2562	KOfam	K01126	glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]	1.6e-41
+2563	KOfam	K20391	HTH-type transcriptional regulator, pleiotropic regulator of extracellular virulence genes	1.8e-39
+2564	KOfam	K17836	beta-lactamase class A [EC:3.5.2.6]	5.8e-43
+2567	KOfam	K07478	putative ATPase	2.8e-166
+2568	KOfam	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	2.3e-51
+2569	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	1.4e-91
+2574	KOfam	K19506	fructoselysine/glucoselysine PTS system EIIA component [EC:2.7.1.-]	1.7e-43
+2575	KOfam	K01182	oligo-1,6-glucosidase [EC:3.2.1.10]	3.3e-270
+2576	KOfam	K26993	ArsR family transcriptional regulator, repressor of sdpIR and other operons	8.6e-41
+2577	KOfam	K26996	immunity protein, SdpI family	1.6e-19
+2580	KOfam	K02986	small subunit ribosomal protein S4	1.2e-56
+2581	KOfam	K08968	L-methionine (R)-S-oxide reductase [EC:1.8.4.14]	3.5e-66
+2582	KOfam	K06286	septation ring formation regulator	1.4e-157
+2583	KOfam	K04487	cysteine desulfurase [EC:2.8.1.7]	6.7e-136
+2584	KOfam	K03151	tRNA uracil 4-sulfurtransferase [EC:2.8.1.4]	1.8e-151
+2585	KOfam	K01919	glutamate--cysteine ligase [EC:6.3.2.2]	1.2e-28
+2586	KOfam	K11065	thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	1.4e-57
+2587	KOfam	K01873	valyl-tRNA synthetase [EC:6.1.1.9]	0
+2588	KOfam	K11754	dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]	6.2e-140
+2589	KOfam	K03630	DNA repair protein RadC	1.4e-48
+2590	KOfam	K03569	rod shape-determining protein MreB and related proteins	3.3e-150
+2591	KOfam	K03570	rod shape-determining protein MreC	8.4e-70
+2592	KOfam	K03571	rod shape-determining protein MreD	9.7e-16
+2593	KOfam	K03610	septum site-determining protein MinC	4.7e-21
+2594	KOfam	K03609	septum site-determining protein MinD	6.2e-100
+2595	KOfam	K02029	polar amino acid transport system permease protein	1.3e-80
+2597	KOfam	K02030	polar amino acid transport system substrate-binding protein	9.9e-51
+2598	KOfam	K00928	aspartate kinase [EC:2.7.2.4]	6.6e-100
+2601	KOfam	K15539	cytoskeleton protein RodZ	2.6e-48
+2602	KOfam	K00995	CDP-diacylglycerol---glycerol-3-phosphate 3-phosphatidyltransferase [EC:2.7.8.5]	1.5e-41
+2603	KOfam	K03743	nicotinamide-nucleotide amidase [EC:3.5.1.42]	5.1e-59
+2604	KOfam	K03553	recombination protein RecA	5.6e-200
+2605	KOfam	K18682	ribonucrease Y [EC:3.1.-.-]	9.5e-240
+2606	KOfam	K09769	2',3'-cyclic-nucleotide 2'-phosphodiesterase [EC:3.1.4.16]	7.7e-117
+2607	KOfam	K03555	DNA mismatch repair protein MutS	0
+2608	KOfam	K03572	DNA mismatch repair protein MutL	6.8e-204
+2612	KOfam	K03550	holliday junction DNA helicase RuvA	1.6e-62
+2613	KOfam	K03551	holliday junction DNA helicase RuvB [EC:5.6.2.4]	2e-172
+2614	KOfam	K07568	S-adenosylmethionine:tRNA ribosyltransferase-isomerase [EC:2.4.99.17]	4.8e-149
+2615	KOfam	K00773	queuine tRNA-ribosyltransferase [EC:2.4.2.29]	5.3e-180
+2616	KOfam	K03210	preprotein translocase subunit YajC	1.4e-34
+2617	KOfam	K02346	DNA polymerase IV [EC:2.7.7.7]	1.7e-130
+2618	KOfam	K06881	bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3]	1.8e-89
+2619	KOfam	K18692	ATP-dependent RNA helicase CshB [EC:5.6.2.7]	9e-193
+2620	KOfam	K01872	alanyl-tRNA synthetase [EC:6.1.1.7]	0
+2622	KOfam	K07447	putative pre-16S rRNA nuclease [EC:3.1.-.-]	5.2e-52
+2624	KOfam	K09888	cell division protein ZapA	6.3e-11
+2625	KOfam	K07456	DNA mismatch repair protein MutS2	5.4e-257
+2626	KOfam	K03671	thioredoxin	1.6e-38
+2628	KOfam	K01776	glutamate racemase [EC:5.1.1.3]	3.5e-103
+2629	KOfam	K01519	XTP/dITP diphosphohydrolase [EC:3.6.1.66]	1.7e-70
+2630	KOfam	K07095	uncharacterized protein	3.2e-35
+2632	KOfam	K05822	tetrahydrodipicolinate N-acetyltransferase [EC:2.3.1.89]	3.9e-118
+2633	KOfam	K05823	N-acetyldiaminopimelate deacetylase [EC:3.5.1.47]	3.9e-165
+2634	KOfam	K22044	moderate conductance mechanosensitive channel	3.6e-73
+2637	KOfam	K21745	MerR family transcriptional regulator, aldehyde-responsive regulator	5.2e-36
+2638	KOfam	K01262	Xaa-Pro aminopeptidase [EC:3.4.11.9]	4.7e-66
+2639	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	4.4e-103
+2641	KOfam	K09004	uncharacterized protein	1e-28
+2642	KOfam	K18189	translational activator of cytochrome c oxidase 1	1.6e-63
+2644	KOfam	K00852	ribokinase [EC:2.7.1.15]	5.3e-107
+2645	KOfam	K02243	competence protein ComGA	4.1e-115
+2646	KOfam	K02244	competence protein ComGB	3.8e-86
+2647	KOfam	K02245	competence protein ComGC	4.9e-35
+2653	KOfam	K00925	acetate kinase [EC:2.7.2.1]	1.6e-171
+2659	KOfam	K27959	lyso-form N-acyl lipoprotein transferase [EC:2.3.1.-]	8.8e-58
+2660	KOfam	K03975	membrane-associated protein	7.3e-78
+2661	KOfam	K03768	peptidyl-prolyl cis-trans isomerase B (cyclophilin B) [EC:5.2.1.8]	1.7e-74
+2662	KOfam	K07570	general stress protein 13	7.8e-50
+2665	KOfam	K01607	4-carboxymuconolactone decarboxylase [EC:4.1.1.44]	2e-47
+2666	KOfam	K21745	MerR family transcriptional regulator, aldehyde-responsive regulator	1.1e-32
+2674	KOfam	K05884	L-2-hydroxycarboxylate dehydrogenase (NAD+) [EC:1.1.1.337]	1.1e-110
+2675	KOfam	K02395	peptidoglycan hydrolase FlgJ	4.5e-28
+2678	KOfam	K06221	2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]	5.6e-124
+2688	KOfam	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	1.7e-105
+2692	KOfam	K00574	cyclopropane-fatty-acyl-phospholipid synthase [EC:2.1.1.79]	1.6e-130
+2699	KOfam	K07090	uncharacterized protein	2.2e-22
+2700	KOfam	K26606	branched chain amino acid efflux pump	1e-23
+2701	KOfam	K26605	branched chain amino acid efflux pump	1.3e-53
+2702	KOfam	K24217	L-amino acid N-acyltransferase [EC:2.3.1.-]	3.3e-40
+2703	KOfam	K07258	serine-type D-Ala-D-Ala carboxypeptidase (penicillin-binding protein 5/6) [EC:3.4.16.4]	5.8e-74
+2705	KOfam	K02483	two-component system, OmpR family, response regulator	6.8e-72
+2708	KOfam	K00088	IMP dehydrogenase [EC:1.1.1.205]	4e-145
+2710	KOfam	K06942	ribosome-binding ATPase	1.5e-159
+2712	KOfam	K03497	ParB family transcriptional regulator, chromosome partitioning protein	2.1e-79
+2713	KOfam	K03496	chromosome partitioning protein	6.6e-104
+2714	KOfam	K03497	ParB family transcriptional regulator, chromosome partitioning protein	9.8e-69
+2715	KOfam	K03501	16S rRNA (guanine527-N7)-methyltransferase [EC:2.1.1.170]	4.2e-70
+2716	KOfam	K16323	purine nucleoside transport protein	2.1e-199
+2720	KOfam	K05825	2-aminoadipate transaminase [EC:2.6.1.-]	9.6e-153
+2721	KOfam	K02030	polar amino acid transport system substrate-binding protein	2.4e-45
+2721	KOfam	K02424	L-cystine transport system substrate-binding protein	1.4e-91
+2722	KOfam	K10009	L-cystine transport system permease protein	2.2e-103
+2722	KOfam	K02029	polar amino acid transport system permease protein	7.7e-80
+2724	KOfam	K02030	polar amino acid transport system substrate-binding protein	6.3e-43
+2724	KOfam	K02424	L-cystine transport system substrate-binding protein	6e-91
+2726	KOfam	K10947	PadR family transcriptional regulator	6.8e-32
+2729	KOfam	K02810	sucrose PTS system EIIBCA or EIIBC component [EC:2.7.1.211]	7.2e-195
+2731	KOfam	K02529	LacI family transcriptional regulator, galactose operon repressor	4.2e-93
+2733	KOfam	K02069	UDP-glucose/iron transport system permease protein	5.2e-86
+2734	KOfam	K02068	UDP-glucose/iron transport system ATP-binding protein	9.8e-78
+2735	KOfam	K03215	23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]	6.8e-144
+2737	KOfam	K19267	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	1.7e-73
+2738	KOfam	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	9e-52
+2740	KOfam	K15524	2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate hydrolase [EC:3.2.1.-]	1.8e-230
+2743	KOfam	K02768	fructose PTS system EIIA component [EC:2.7.1.202]	1.7e-41
+2744	KOfam	K03491	probable licABCH operon transcriptional regulator	7.2e-124
+2746	KOfam	K19267	NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]	1.4e-62
+2747	KOfam	K02757	beta-glucoside PTS system EIICBA component [EC:2.7.1.-]	1.8e-226
+2747	KOfam	K02777	sugar PTS system EIIA component [EC:2.7.1.-]	3.7e-77
+2748	KOfam	K07457	endonuclease III related protein	1.3e-69
+2750	KOfam	K19784	chromate reductase, NAD(P)H dehydrogenase (quinone)	2.7e-59
+2753	KOfam	K09825	Fur family transcriptional regulator, peroxide stress response regulator	5e-58
+2753	KOfam	K03711	Fur family transcriptional regulator, ferric uptake regulator	1.2e-43
+2756	KOfam	K03651	3',5'-cyclic-AMP phosphodiesterase [EC:3.1.4.53]	2.3e-52
+2758	KOfam	K05338	holin-like protein	3.2e-42
+2758	KOfam	K06518	holin-like protein	1.3e-26
+2759	KOfam	K05339	holin-like protein LrgB	1.8e-95
+2760	KOfam	K25232	fatty acid kinase fatty acid binding subunit	1.7e-73
+2762	KOfam	K06973	uncharacterized protein	1.6e-92
+2763	KOfam	K10027	phytoene desaturase [EC:1.3.99.26 1.3.99.28 1.3.99.29 1.3.99.31]	1.2e-184
+2764	KOfam	K02291	15-cis-phytoene synthase [EC:2.5.1.32]	3e-73
+2764	KOfam	K10208	4,4'-diapophytoene synthase [EC:2.5.1.96]	4.8e-90
+2765	KOfam	K06889	uncharacterized protein	2.9e-42
+2766	KOfam	K00865	glycerate 2-kinase [EC:2.7.1.165]	1.1e-119
+2769	KOfam	K01756	adenylosuccinate lyase [EC:4.3.2.2]	1.9e-144
+2770	KOfam	K01939	adenylosuccinate synthase [EC:6.3.4.4]	1.4e-185
+2771	KOfam	K00364	GMP reductase [EC:1.7.1.7]	1.1e-102
+2772	KOfam	K01104	protein-tyrosine phosphatase [EC:3.1.3.48]	2e-26
+2773	KOfam	K06131	cardiolipin synthase A/B [EC:2.7.8.-]	3e-153
+2776	KOfam	K03294	basic amino acid/polyamine antiporter, APA family	3.5e-175
+2778	KOfam	K03549	KUP system potassium uptake protein	3.8e-174
+2781	KOfam	K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]	1e-29
+2783	KOfam	K03297	small multidrug resistance pump	3.1e-28
+2784	KOfam	K11068	hemolysin III	4.7e-74
+2786	KOfam	K16264	cobalt-zinc-cadmium efflux system protein	5.8e-120
+2787	KOfam	K07729	putative transcriptional regulator	8.2e-13
+2790	KOfam	K01246	DNA-3-methyladenine glycosylase I [EC:3.2.2.20]	1.6e-46
+2791	KOfam	K00796	dihydropteroate synthase [EC:2.5.1.15]	8.5e-90
+2792	KOfam	K01519	XTP/dITP diphosphohydrolase [EC:3.6.1.66]	3.6e-33
+2793	KOfam	K11754	dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]	3.7e-125
+2794	KOfam	K01495	GTP cyclohydrolase IA [EC:3.5.4.16]	1.1e-72
+2795	KOfam	K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]	4.1e-56
+2796	KOfam	K01633	7,8-dihydroneopterin aldolase/epimerase/oxygenase [EC:4.1.2.25 5.1.99.8 1.13.11.81]	3.1e-33
+2797	KOfam	K03558	membrane protein required for colicin V production	7.3e-13
+2798	KOfam	K02077	zinc/manganese transport system substrate-binding protein	2.6e-89
+2804	KOfam	K16870	N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase [EC:2.4.1.289]	8.7e-58
+2805	KOfam	K16710	colanic acid/amylovoran biosynthesis protein WcaK/AmsJ	5.2e-38
+2808	KOfam	K07473	DNA-damage-inducible protein J	3.1e-16
+2810	KOfam	K07483	transposase	8e-09
+2812	KOfam	K07497	putative transposase	1.5e-12
+2814	KOfam	K07459	putative ATP-dependent endonuclease of the OLD family	1e-54
+2817	KOfam	K16649	rhamnopyranosyl-N-acetylglucosaminyl-diphospho-decaprenol beta-1,3/1,4-galactofuranosyltransferase [EC:2.4.1.287]	5.9e-60
+2818	KOfam	K16649	rhamnopyranosyl-N-acetylglucosaminyl-diphospho-decaprenol beta-1,3/1,4-galactofuranosyltransferase [EC:2.4.1.287]	3.2e-55
+2819	KOfam	K01854	UDP-galactopyranose mutase [EC:5.4.99.9]	2e-178
+2831	KOfam	K16566	exopolysaccharide production protein ExoY	2.6e-71
+2839	KOfam	K03565	regulatory protein	1.8e-43
+2840	KOfam	K07586	uncharacterized protein	2.8e-75
+2841	KOfam	K21471	peptidoglycan DL-endopeptidase CwlO [EC:3.4.-.-]	1.5e-36
+2844	KOfam	K22580	teichoic acid D-alanine hydrolase [EC:3.1.1.103]	8e-71
+2845	KOfam	K00016	L-lactate dehydrogenase [EC:1.1.1.27]	5.2e-75
+2846	KOfam	K03548	putative permease	1.1e-67
+2847	KOfam	K00980	glycerol-3-phosphate cytidylyltransferase [EC:2.7.7.39]	1.4e-58
+2848	KOfam	K03299	gluconate:H+ symporter, GntP family	1.5e-149
+2849	KOfam	K25031	gluconokinase [EC:2.7.1.12]	5.8e-208
+2850	KOfam	K00033	6-phosphogluconate dehydrogenase [EC:1.1.1.44 1.1.1.343]	6e-104
+2852	KOfam	K02837	peptide chain release factor 3	8.1e-244
+2855	KOfam	K21755	LysR family transcriptional regulator, salicylic acid-responsive activator of bsdBCD	9.9e-68
+2856	KOfam	K07090	uncharacterized protein	1.9e-41
+2858	KOfam	K02035	peptide/nickel transport system substrate-binding protein	2.2e-84
+2858	KOfam	K15580	oligopeptide transport system substrate-binding protein	8.4e-162
+2859	KOfam	K02033	peptide/nickel transport system permease protein	2.3e-99
+2859	KOfam	K15581	oligopeptide transport system permease protein	6.5e-117
+2860	KOfam	K02034	peptide/nickel transport system permease protein	3.9e-96
+2860	KOfam	K15582	oligopeptide transport system permease protein	3.5e-112
+2861	KOfam	K02031	peptide/nickel transport system ATP-binding protein	7.8e-152
+2861	KOfam	K15583	oligopeptide transport system ATP-binding protein	5.4e-178
+2862	KOfam	K02032	peptide/nickel transport system ATP-binding protein	2.1e-135
+2862	KOfam	K10823	oligopeptide transport system ATP-binding protein	5.1e-163
+2865	KOfam	K03697	ATP-dependent Clp protease ATP-binding subunit ClpE	0
+2867	KOfam	K02784	phosphocarrier protein HPr	4.6e-32
+2868	KOfam	K08483	phosphoenolpyruvate-protein phosphotransferase (PTS system enzyme I) [EC:2.7.3.9]	4.8e-248
+2869	KOfam	K19002	1,2-diacylglycerol 3-alpha-glucosyltransferase [EC:2.4.1.337]	1.3e-146
+2870	KOfam	K13678	1,2-diacylglycerol-3-alpha-glucose alpha-1,2-galactosyltransferase [EC:2.4.1.-]	4.1e-163
+2871	KOfam	K07027	glycosyltransferase 2 family protein	1.1e-31
+2872	KOfam	K07258	serine-type D-Ala-D-Ala carboxypeptidase (penicillin-binding protein 5/6) [EC:3.4.16.4]	4.9e-63
+2873	KOfam	K00841	aminotransferase [EC:2.6.1.-]	7.8e-175
+2875	KOfam	K19005	lipoteichoic acid synthase [EC:2.7.8.20]	1.3e-252
+2876	KOfam	K01926	redox-sensing transcriptional repressor	1.6e-88
+2877	KOfam	K06158	ATP-binding cassette, subfamily F, member 3	1.1e-183
+2878	KOfam	K25706	tRNA N6-adenosine threonylcarbamoyltransferase [EC:2.3.1.234]	7.2e-147
+2879	KOfam	K03789	[ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]	1e-37
+2880	KOfam	K03789	[ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]	1.1e-43
+2881	KOfam	K14742	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB	4.2e-60
+2882	KOfam	K02044	phosphonate transport system substrate-binding protein	9.5e-56
+2883	KOfam	K02041	phosphonate transport system ATP-binding protein [EC:7.3.2.2]	8.7e-104
+2884	KOfam	K02042	phosphonate transport system permease protein	1.4e-61
+2885	KOfam	K02042	phosphonate transport system permease protein	2.4e-56
+2886	KOfam	K05306	phosphonoacetaldehyde hydrolase [EC:3.11.1.1]	3.3e-92
+2887	KOfam	K03430	2-aminoethylphosphonate-pyruvate transaminase [EC:2.6.1.37]	8.5e-175
+2888	KOfam	K01784	UDP-glucose 4-epimerase [EC:5.1.3.2]	1.7e-137
+2890	KOfam	K07056	16S rRNA (cytidine1402-2'-O)-methyltransferase [EC:2.1.1.198]	1.2e-117
+2892	KOfam	K02341	DNA polymerase III subunit delta' [EC:2.7.7.7]	8.7e-73
+2894	KOfam	K00943	dTMP kinase [EC:2.7.4.9]	2.1e-66
+2896	KOfam	K06187	recombination protein RecR	5.3e-95
+2897	KOfam	K09747	nucleoid-associated protein EbfC	5.7e-38
+2898	KOfam	K02343	DNA polymerase III subunit gamma/tau [EC:2.7.7.7]	8.5e-163
+2899	KOfam	K11991	tRNA(adenine34) deaminase [EC:3.5.4.33]	2e-73
+2900	KOfam	K00564	16S rRNA (guanine1207-N2)-methyltransferase [EC:2.1.1.172]	2.9e-54
+2901	KOfam	K06191	glutaredoxin-like protein NrdH	4.1e-30
+2902	KOfam	K00525	ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]	2.7e-151
+2903	KOfam	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	1.8e-108
+2904	KOfam	K22522	cytokinin riboside 5'-monophosphate phosphoribohydrolase [EC:3.2.2.-]	1.5e-62
+2905	KOfam	K14205	phosphatidylglycerol lysyltransferase [EC:2.3.2.3]	3.1e-209
+2907	KOfam	K15051	DNA-entry nuclease	2.5e-97
+2908	KOfam	K02935	large subunit ribosomal protein L7/L12	4.6e-36
+2909	KOfam	K02864	large subunit ribosomal protein L10	1.6e-54
+2910	KOfam	K02863	large subunit ribosomal protein L1	6.4e-95
+2911	KOfam	K02867	large subunit ribosomal protein L11	6.3e-76
+2913	KOfam	K02601	transcription termination/antitermination protein NusG	3e-77
+2914	KOfam	K03073	preprotein translocase subunit SecE	2.3e-17
+2915	KOfam	K02913	large subunit ribosomal protein L33	4e-14
+2916	KOfam	K27000	RNA polymerase sigma-H factor	2e-45
+2917	KOfam	K06962	uncharacterized protein	9.7e-46
+2918	KOfam	K03218	23S rRNA (guanosine2251-2'-O)-methyltransferase [EC:2.1.1.185]	3.1e-98
+2919	KOfam	K11145	mini-ribonuclease III [EC:3.1.26.-]	1.1e-45
+2920	KOfam	K01883	cysteinyl-tRNA synthetase [EC:6.1.1.16]	3.2e-200
+2921	KOfam	K09698	nondiscriminating glutamyl-tRNA synthetase [EC:6.1.1.24]	1.2e-211
+2921	KOfam	K01885	glutamyl-tRNA synthetase [EC:6.1.1.17]	1.2e-167
+2923	KOfam	K04485	DNA repair protein RadA/Sms	1.5e-205
+2924	KOfam	K01520	dUTP diphosphatase [EC:3.6.1.23]	2.7e-31
+2925	KOfam	K06975	uncharacterized protein	1e-23
+2926	KOfam	K01807	ribose 5-phosphate isomerase A [EC:5.3.1.6]	2e-86
+2927	KOfam	K01372	bleomycin hydrolase [EC:3.4.22.40]	4.6e-192
+2929	KOfam	K01834	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	4.7e-87
+2930	KOfam	K03298	drug/metabolite transporter, DME family	8.7e-43
+2931	KOfam	K24180	malate permease and related proteins	2.1e-71
+2932	KOfam	K01005	polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]	4.5e-93
+2934	KOfam	K01963	acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15]	8.7e-93
+2935	KOfam	K01961	acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14]	3.6e-167
+2936	KOfam	K02160	acetyl-CoA carboxylase biotin carboxyl carrier protein	1.8e-30
+2937	KOfam	K00648	3-oxoacyl-[acyl-carrier-protein] synthase III [EC:2.3.1.180]	6.9e-107
+2940	KOfam	K19505	sigma-54 dependent transcriptional regulator, gfr operon transcriptional activator	1.3e-191
+2942	KOfam	K02796	mannose PTS system EIID component	1.1e-129
+2943	KOfam	K02795	mannose PTS system EIIC component	3.6e-95
+2944	KOfam	K02794	mannose PTS system EIIAB component [EC:2.7.1.191]	3.4e-138
+2946	KOfam	K14059	integrase	2.3e-57
+2960	KOfam	K19789	DNA repair protein RadD	4.8e-76
+2977	KOfam	K07451	5-methylcytosine-specific restriction enzyme A [EC:3.1.21.-]	5.1e-16
+2983	KOfam	K01358	ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	3.1e-25
+2997	KOfam	K08168	MFS transporter, DHA2 family, metal-tetracycline-proton antiporter	1.8e-64
+2998	KOfam	K00789	S-adenosylmethionine synthetase [EC:2.5.1.6]	6.8e-206
+3000	KOfam	K00712	poly(glycerol-phosphate) alpha-glucosyltransferase [EC:2.4.1.52]	4.8e-148
+3001	KOfam	K00547	homocysteine S-methyltransferase [EC:2.1.1.10]	8.1e-119
+3002	KOfam	K16235	S-methylmethionine transporter	2.2e-231
+3003	KOfam	K01772	protoporphyrin/coproporphyrin ferrochelatase [EC:4.98.1.1 4.99.1.9]	4.4e-83
+3004	KOfam	K03322	manganese transport protein	3.4e-141
+3013	KOfam	K00872	homoserine kinase [EC:2.7.1.39]	2.3e-90
+3014	KOfam	K00003	homoserine dehydrogenase [EC:1.1.1.3]	1.2e-153
+3015	KOfam	K03095	SprT-like protein	8.8e-55
+3016	KOfam	K06959	protein Tex	0
+3018	KOfam	K01537	P-type Ca2+ transporter type 2C [EC:7.2.2.10]	0
+3019	KOfam	K01916	NAD+ synthase [EC:6.3.1.5]	6.7e-100
+3020	KOfam	K00763	nicotinate phosphoribosyltransferase [EC:6.3.4.21]	8.2e-179
+3021	KOfam	K05946	N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase [EC:2.4.1.187]	7.4e-92
+3022	KOfam	K24967	GntR family transcriptional regulator, N-acetylglucosamine utilization regulator	3.9e-86
+3022	KOfam	K03710	GntR family transcriptional regulator	1.5e-69
+3023	KOfam	K01443	N-acetylglucosamine-6-phosphate deacetylase [EC:3.5.1.25]	1.3e-111
+3024	KOfam	K00286	pyrroline-5-carboxylate reductase [EC:1.5.1.2]	5.6e-79
+3025	KOfam	K03811	nicotinamide mononucleotide transporter	3.2e-37
+3031	KOfam	K03305	proton-dependent oligopeptide transporter, POT family	2.3e-147
+3036	KOfam	K03169	DNA topoisomerase III [EC:5.6.2.1]	2e-137
+3040	KOfam	K07171	mRNA interferase MazF [EC:3.1.-.-]	2e-07
+3041	KOfam	K07473	DNA-damage-inducible protein J	1.4e-21
+3043	KOfam	K03496	chromosome partitioning protein	6.6e-44
+3046	KOfam	K14060	putative DNA-invertase from lambdoid prophage Rac	7.1e-40
+3047	KOfam	K07497	putative transposase	4e-23
+3048	KOfam	K00526	ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	2.1e-94
+3050	KOfam	K00525	ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]	4.4e-148
+3051	KOfam	K03647	protein involved in ribonucleotide reduction	9.2e-36
+3055	KOfam	K06904	Escherichia/Staphylococcus phage prohead protease	1.2e-57
+3060	KOfam	K07451	5-methylcytosine-specific restriction enzyme A [EC:3.1.21.-]	9.3e-13
+3066	KOfam	K22580	teichoic acid D-alanine hydrolase [EC:3.1.1.103]	1.2e-49
+3067	KOfam	K07482	transposase, IS30 family	4.6e-93
+3073	KOfam	K16710	colanic acid/amylovoran biosynthesis protein WcaK/AmsJ	9.3e-31
+3075	KOfam	K03549	KUP system potassium uptake protein	4.3e-172
+3076	KOfam	K04041	fructose-1,6-bisphosphatase III [EC:3.1.3.11]	2.2e-273
+3077	KOfam	K14060	putative DNA-invertase from lambdoid prophage Rac	1.2e-49
+3078	KOfam	K07483	transposase	7.9e-15
+3079	KOfam	K07497	putative transposase	4.7e-55
+3080	KOfam	K07273	lysozyme	9.6e-53
+3105	KOfam	K00661	maltose O-acetyltransferase [EC:2.3.1.79]	1.7e-32
+3109	KOfam	K07482	transposase, IS30 family	9.8e-44
+3117	KOfam	K07493	putative transposase	1.3e-23
+3121	KOfam	K07493	putative transposase	5.8e-19
+3124	KOfam	K07493	putative transposase	1e-14
+3129	KOfam	K07493	putative transposase	5.5e-12
+3130	KOfam	K07493	putative transposase	5.2e-13
+3131	KOfam	K07493	putative transposase	1.2e-09

@@ -1,0 +1,1166 @@
+To split the hypothetical proteins from the known functions, staring from extracting the unique genes:
+$ mkdir -p Unique_genes/{Hypothetical_proteins,Known_functions,All_unique_genes}
+
+$ anvi-get-sequences-for-gene-clusters \
+	-p pangenome_output/Lp_plantarum-PAN.db \
+	-g Lp_plantarum-GENOMES.db \
+	--max-num-genomes-gene-cluster-occurs 1 \
+	--min-num-genomes-gene-cluster-occurs 1 \
+	-o Unique_genes/unique_genes_all_raw.fasta
+	
+$ sed 's/:/\_/g' Unique_genes/unique_genes_all_raw.fasta > Unique_genes/unique_genes_all.fasta
+
+# add annotations and split the strains
+python3 << 'EOF'
+import os
+from collections import defaultdict
+
+# Load Prokka annotations: locus_tag → function
+# And create mapping: strain → gene_callers_id → function
+gene_functions = defaultdict(dict)
+
+for strain_dir in os.listdir('prokka_output'):
+    tsv_file = f'prokka_output/{strain_dir}/{strain_dir}.tsv'
+    if not os.path.exists(tsv_file):
+        continue
+
+    locus_to_function = {}
+    with open(tsv_file, 'r') as f:
+        next(f)  # Skip header
+        for line in f:
+            parts = line.strip().split('\t')
+            if len(parts) >= 2:
+                locus_tag = parts[0].strip()
+                function = parts[-1].strip() if parts[-1].strip() else 'hypothetical protein'
+                locus_to_function[locus_tag] = function
+
+    # Load external gene calls to map gene_callers_id → locus_tag
+    ext_file = f'{strain_dir}_prokka-external-gene-calls.txt'
+    if not os.path.exists(ext_file):
+        continue
+
+    with open(ext_file, 'r') as f:
+        next(f)  # Skip header
+        gene_id = 0
+        for line in f:
+            parts = line.strip().split('\t')
+            if len(parts) >= 1:
+                caller_id = parts[0].strip()
+                # Find matching locus tag by position
+                locus_tag = f'{list(locus_to_function.keys())[gene_id]}' if gene_id < len(locus_to_function) else None
+                if locus_tag:
+                    gene_functions[strain_dir][caller_id] = locus_to_function.get(locus_tag, 'hypothetical protein')
+                gene_id += 1
+
+print(f"Total strains with annotations: {len(gene_functions)}")
+
+# Read unique genes and add Prokka annotations
+sequences = defaultdict(list)
+current_header = None
+current_seq = ''
+current_genome = ''
+
+with open('Unique_genes/unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            # Save previous sequence
+            if current_header and current_seq:
+                sequences[current_genome].append((current_header, current_seq))
+
+            # Extract genome name and gene caller ID
+            current_genome = ''
+            gene_caller_id = ''
+            for part in line.split('|'):
+                if 'genome_name_' in part:
+                    current_genome = part.replace('genome_name_', '').strip()
+                if 'gene_callers_id_' in part:
+                    gene_caller_id = part.replace('gene_callers_id_', '').strip()
+
+            # Get function from Prokka annotations
+            function = gene_functions.get(current_genome, {}).get(gene_caller_id, 'hypothetical protein')
+            current_header = f"{line}|function_{function}"
+            current_seq = ''
+        else:
+            current_seq += line
+
+    # Save last sequence
+    if current_header and current_seq:
+        sequences[current_genome].append((current_header, current_seq))
+
+print(f"Total strains found in unique genes: {len(sequences)}")
+
+# Split per strain and category
+for genome, genes in sequences.items():
+    hypothetical = []
+    known = []
+    all_genes = []
+
+    for header, seq in genes:
+        entry = f"{header}\n{seq}\n"
+        all_genes.append(entry)
+
+        if 'hypothetical protein' in header.lower():
+            hypothetical.append(entry)
+        else:
+            known.append(entry)
+
+    # Write output files
+    with open(f'Unique_genes/All_unique_genes/all_{genome}.fasta', 'w') as f:
+        f.writelines(all_genes)
+
+    with open(f'Unique_genes/Hypothetical_proteins/hypothetical_{genome}.fasta', 'w') as f:
+        f.writelines(hypothetical)
+
+    with open(f'Unique_genes/Known_functions/known_{genome}.fasta', 'w') as f:
+        f.writelines(known)
+
+    print(f"{genome}:")
+    print(f"  Total: {len(all_genes)} genes")
+    print(f"  Hypothetical: {len(hypothetical)} genes")
+    print(f"  Known functions: {len(known)} genes")
+
+EOF
+
+
+
+
+
+
+
+
+
+
+
+
+
+BLAST files separated based on hits:
+$ mkdir -p BLAST_results/{All_BLAST_results,No_hits,BLAST_identified}
+
+$ awk '/^>/ {print} !/^>/ {gsub(/-/, ""); print}' Unique_genes/unique_genes_all.fasta > Unique_genes/unique_genes_all_blast.fasta
+
+$ blastp -query Unique_genes/unique_genes_all_blast.fasta \
+	-db ~/blast_db/swissprot \
+	-out BLAST_results/blast_results_raw.txt \
+	-outfmt "6 qseqid sseqik pident length mismatch gapopen qstart qend sstart send evalue bitscore stitle" \
+	-num_threads 8 \
+	-evalue 0.01 \
+	-max_target_seqs 5
+	
+
+# Create csv files
+python3 << 'EOF'
+import pandas as pd
+import os
+
+# Read all unique gene headers and sequences
+unique_genes = []
+current_header = None
+current_seq = ''
+
+with open('Unique_genes/unique_genes_all_blast.fasta', 'r') as f:
+    for line in f:
+        line = line.strip()
+        if line.startswith('>'):
+            # Save previous sequence
+            if current_header:
+                genome = ''
+                gene_caller = ''
+                gene_cluster = ''
+                for part in current_header.split('|'):
+                    if 'genome_name_' in part:
+                        genome = part.replace('genome_name_', '')
+                    if 'gene_callers_id_' in part:
+                        gene_caller = part.replace('gene_callers_id_', '')
+                    if 'gene_cluster_' in part:
+                        gene_cluster = part.replace('gene_cluster_', '')
+                unique_genes.append({
+                    'query': current_header,
+                    'genome': genome,
+                    'gene_cluster': gene_cluster,
+                    'gene_callers_id': gene_caller,
+                    'sequence': current_seq
+                })
+            current_header = line.lstrip('>')
+            current_seq = ''
+        else:
+            current_seq += line
+
+    # Save last sequence
+    if current_header:
+        genome = ''
+        gene_caller = ''
+        gene_cluster = ''
+        for part in current_header.split('|'):
+            if 'genome_name_' in part:
+                genome = part.replace('genome_name_', '')
+            if 'gene_callers_id_' in part:
+                gene_caller = part.replace('gene_callers_id_', '')
+            if 'gene_cluster_' in part:
+                gene_cluster = part.replace('gene_cluster_', '')
+        unique_genes.append({
+            'query': current_header,
+            'genome': genome,
+            'gene_cluster': gene_cluster,
+            'gene_callers_id': gene_caller,
+            'sequence': current_seq
+        })
+
+df_genes = pd.DataFrame(unique_genes)
+print(f"Total unique genes read: {len(df_genes)}")
+
+# Load BLAST results
+df_blast = pd.read_csv('BLAST_results/blast_results_raw.txt', sep='\t', header=None,
+                       names=['query', 'subject', 'pident', 'alignment_length',
+                              'mismatches', 'gap_opens', 'qstart', 'qend',
+                              'sstart', 'send', 'evalue', 'bitscore', 'function'])
+
+# Keep only best hit per query
+df_best = df_blast.sort_values('evalue').groupby('query').first().reset_index()
+
+# Merge with unique genes
+df_merged = df_genes.merge(df_best[['query', 'subject', 'pident',
+                                     'alignment_length', 'evalue',
+                                     'bitscore', 'function']],
+                            on='query', how='left')
+
+# Fill unknown for genes without BLAST hit
+df_merged['subject'] = df_merged['subject'].fillna('Unknown')
+df_merged['function'] = df_merged['function'].fillna('Unknown - no BLAST hit found')
+df_merged['pident'] = df_merged['pident'].fillna(0)
+df_merged['evalue'] = df_merged['evalue'].fillna('-')
+df_merged['bitscore'] = df_merged['bitscore'].fillna(0)
+df_merged['alignment_length'] = df_merged['alignment_length'].fillna(0)
+
+# Split into hits and no hits
+df_hits = df_merged[df_merged['subject'] != 'Unknown']
+df_no_hits = df_merged[df_merged['subject'] == 'Unknown']
+
+# Save all results combined
+df_merged.to_csv('BLAST_results/All_BLAST_results/all_strains_blast.csv', index=False)
+df_hits.to_csv('BLAST_results/BLAST_identified/all_strains_identified.csv', index=False)
+df_no_hits.to_csv('BLAST_results/No_hits/all_strains_no_hits.csv', index=False)
+
+print(f"Total unique genes: {len(df_merged)}")
+print(f"Genes with BLAST hit: {len(df_hits)}")
+print(f"Genes without BLAST hit: {len(df_no_hits)}")
+
+# Save per strain CSV
+for genome, group in df_merged.groupby('genome'):
+    # All results
+    group.to_csv(f'BLAST_results/All_BLAST_results/{genome}_blast.csv', index=False)
+
+    # Hits only
+    hits = group[group['subject'] != 'Unknown']
+    hits.to_csv(f'BLAST_results/BLAST_identified/{genome}_identified.csv', index=False)
+
+    # No hits only
+    no_hits = group[group['subject'] == 'Unknown']
+    no_hits.to_csv(f'BLAST_results/No_hits/{genome}_no_hits.csv', index=False)
+
+    print(f"{genome}: {len(hits)} hits, {len(no_hits)} unknown")
+
+EOF
+
+
+
+
+Exporting KOfam annotations, only for the unique genes:
+$ python3 << 'EOF'
+import os
+from collections import defaultdict
+
+unique_per_strain = defaultdict(set)
+with open('Unique_genes/unique_genes_all.fasta', 'r') as f:
+	for line in f:
+		if line.startswith('>'):
+			genome = ''
+			gene_id = ''
+			for part in line.strip().split('|'):
+				if 'genome_name_' in part:
+					genome = part.replace('genome_name_', '').strip()
+				if 'gene_callers_id_' in part:
+					gene_id = part.replace('gene_callers_id_', '').strip()
+			unique_per_strain[genome].add(gene_id)
+
+print(f"Total strains: {len(unique_per_strain)}")
+for genome, genes in sorted(unique_per_strain.items()):
+	print(f" {genome}: {len(genes)} unique genes")
+EOF
+
+
+
+
+
+
+Export KOfam annotations and filter on unique genes:
+python3 << 'EOF'
+import os
+import subprocess
+from collections import defaultdict
+
+# Read unique gene IDs per strain
+unique_per_strain = defaultdict(set)
+with open('Unique_genes/unique_genes_all.fasta', 'r') as f:
+    for line in f:
+        if line.startswith('>'):
+            genome = ''
+            gene_id = ''
+            for part in line.strip().split('|'):
+                if 'genome_name_' in part:
+                    genome = part.replace('genome_name_', '').strip()
+                if 'gene_callers_id_' in part:
+                    gene_id = part.replace('gene_callers_id_', '').strip()
+            unique_per_strain[genome].add(gene_id)
+
+os.makedirs('Downstream_analysis/Databases', exist_ok=True)
+
+# Export KOfam annotations for each strain and filter on unique genes
+for db in os.listdir('.'):
+    if not db.endswith('.db'):
+        continue
+    strain = db.replace('.db', '')
+    if strain not in unique_per_strain:
+        continue
+
+    # Export KOfam annotations
+    output_file = f'Downstream_analysis/Databases/{strain}_kegg_all.txt'
+    os.system(f'anvi-export-functions -c {db} --annotation-source KOfam -o {output_file}')
+
+    # Filter on unique genes
+    unique_file = f'Downstream_analysis/Databases/{strain}_kegg_unique.txt'
+    with open(output_file, 'r') as f_in, open(unique_file, 'w') as f_out:
+        header = f_in.readline()
+        f_out.write(header)
+        for line in f_in:
+            parts = line.strip().split('\t')
+            if parts[0] in unique_per_strain[strain]:
+                f_out.write(line)
+
+    print(f"{strain}: exported and filtered")
+
+EOF
+
+
+
+
+GABA analysis with full operon:
+python3 << 'EOF'
+import os
+from collections import defaultdict
+
+# GABA operon genes
+gaba_genes = {
+	'gadB': ['glutamate decarboxylase', 'gadB'],
+	'gadC': ['gadC', 'glutamate/GABA antiporter', 'amino acid antiporter'],
+	'gabD': ['gabD', 'succinic semialdehyde dehydrogenase'],
+	'gltT': ['gltT', 'glutamate transporter', 'sodium/glutamate symporter']	
+}
+
+os.makedirs('Downstream_analysis/GABA', exist_ok=True)
+
+# Results per strain
+results = {}
+
+for kegg_file in sorted(os.listdir('Downstream_analysis/Databases')):
+	if not kegg_file.endswith('_kegg_unique.txt'):
+		continue
+	
+	strain = kegg_file.replace('_kegg_unique.txt', '')
+	strain_results = {gene: [] for gene in gaba_genes}
+	
+	with open(f'Downstream_analysis/Databases/{kegg_file}', 'r') as f:
+		next(f) #skip header
+		for line in f:
+			parts = line.strip().split('\t')
+			if len(parts) < 4:
+				continue
+			gene_id = parts[0]
+			function = parts[3].lower()
+			
+			# Check for each GABA gene
+			for gene_name, keywords in gaba_genes.items():
+				for keyword in keywords:
+					if keyword.lower() in function:
+						strain_results[gene_name].append({
+							'gene_id': gene_id,
+							'function': parts[3],
+							'evalue': parts[4] if len (parts) > 4 else 'N/A'
+						})
+						break
+					
+	results[strain] = strain_results
+
+# Write detailed results per strain
+for strain, strain_results in results.items():
+	output_file = f'Downstream_analysis/GABA/{strain}_GABA.txt'
+	with open(output_file, 'w') as f:
+		f.write(f"=== GABA operon analysis: {strain} ===\n\n")
+		
+		# Operon completeness
+		total_genes = len(gaba_genes)
+		present_genes = sum(1 for hits in strain_results.values() if hits)
+		completeness = (present_genes / total_genes) * 100
+		
+		f.write(f"Operon completeness: {present_genes}/{total_genes}/ genes ({completeness:.1f}%\n\n")
+		
+		# Details per gene
+		for gene_name, hits in strain_results.items():
+			f.write(f"--- {gene_name} ---\n")
+			if hits:
+				for hit in hits:
+					f.write(f" Gene ID: {hit['gene_id']}\n")
+					f.write(f" Function: {hit['function']}\n")
+					f.write(f" E-value: {hit['evalue']}\n")
+			else:
+				f.write(f" Not found in unique genes\n")
+			f.write("\n")
+	
+	print(f"{strain}: {present_genes}/{total_genes} GABA genes found ({completeness:.1f}%)")
+	
+# Write summary of all strains
+summary_file = 'Downstream_analysis/GABA/GABA_summary_all_strains.txt'
+with open(summary_file, 'w') as f:
+	f.write("=== GABA operon summary - Lp. plantarum ===\n\n")
+	f.write(f"{'Strain':<40} {'gadB':<8} {'gadC':<8} {'gabD':<8} {'gltT':<8} {'Complete':<10}\n")
+	f.write("-" * 90 + "\n")
+	
+	for strain, strain_results in sorted(results.items()):
+		gadB = "yes" if strain_results['gadB'] else "no"
+		gadC = "yes" if strain_results['gadC'] else "no"
+		gabD = "yes" if strain_results['gabD'] else "no"
+		gltT = "yes" if strain_results['gltT'] else "no"
+		present = sum(1 for hits in strain_results.values() if hits)
+		complete = "Full" if present == 4 else f"{present}/4"
+		f.write(f"{strain:<40} {gadB:<8} {gadC:<8} {gabD:8} {gltT:<8} {complete:<10}\n")
+		
+print(f"\nSummary saved to: {summary_file}")
+
+EOF
+
+
+
+Compare with literature:
+python3 << 'EOF'
+import os
+from collections import defaultdict
+
+# Count strains with each gene
+results_summary = {}
+for txt_file in sorted(os.listdir('Downstream_analysis/GABA')):
+	if not txt_file.endswith('_GABA.txt') or txt_file == 'GABA_summary_all_strains.txt':
+		continue
+	
+	strain = txt_file.replace('_GABA.txt', '')
+	gene_counts = defaultdict(int)
+	
+	with open(f'Downstream_analysis/GABA/{txt_file}', 'r') as f:
+		current_gene = None
+		for line in f:
+			if line.startswith('---'):
+				current_gene = line.strip().replace('---', '').strip()
+			elif 'Gene ID:' in line and current_gene:
+				gene_counts[current_gene] += 1
+			
+	results_summary[strain] = gene_counts
+	
+# Print statistics
+print("=== GABA gene statistics across all strains ===\n")
+for gene in ['gadB', 'gadC', 'gabD', 'gltT']:
+	strains_with_gene = sum(1 for counts in results_summary.values() if counts.get(gene, 0) > 0)
+	total_strains = len(results_summary)
+	percentage = (strains_with_gene / total_strains * 100) if total_strains > 0 else 0
+	print(f"{gene}: present in {strains_with_gene}/{total_strains} strains ({percentage:.1f}%)")
+	
+print("\n=== Comparison with literature ===")
+print("Literature (Salvetti et al. 2016, Yunes et al. 2016):")
+print(" gadB: present in ~100% of L. plantarum strains")
+print(" gadC: present in ~100% of L. plantarum strains")
+print(" gabD: present in ~60-80% of L. plantarum strains")
+print(" gltT: present in ~50-70% of L. plantarum strains")
+print("\nNote: These are UNIQUE gene results - lower percentages expected!")
+EOF
+
+
+
+
+
+
+
+EPS:
+python3 << 'EOF'
+import os
+from collections import defaultdict
+
+# EPS genes per category
+eps_genes = {
+    'Biosynthesis': [
+        'exopolysaccharide', 'epsA', 'epsB', 'epsC', 'epsD', 'epsE',
+        'eps synthase', 'polysaccharide biosynthesis'
+    ],
+    'Modification': [
+        'pyruvyl transferase', 'glycosyltransferase',
+        'polysaccharide pyruvyl transferase'
+    ],
+    'Transport': [
+        'polysaccharide transporter', 'wzx', 'wzy', 'wzt', 'wzm',
+        'flippase', 'ABC transporter'
+    ],
+    'Regulation': [
+        'eps regulator', 'polysaccharide regulation',
+        'two-component system', 'response regulator'
+    ]
+}
+
+os.makedirs('Downstream_analysis/EPS', exist_ok=True)
+
+# Results per strain
+results = {}
+
+for kegg_file in sorted(os.listdir('Downstream_analysis/Databases')):
+    if not kegg_file.endswith('_kegg_unique.txt'):
+        continue
+
+    strain = kegg_file.replace('_kegg_unique.txt', '')
+    strain_results = {category: [] for category in eps_genes}
+
+    with open(f'Downstream_analysis/Databases/{kegg_file}', 'r') as f:
+        next(f)  # Skip header
+        for line in f:
+            parts = line.strip().split('\t')
+            if len(parts) < 4:
+                continue
+            gene_id = parts[0]
+            function = parts[3].lower()
+
+            # Check for each EPS category
+            for category, keywords in eps_genes.items():
+                for keyword in keywords:
+                    if keyword.lower() in function:
+                        strain_results[category].append({
+                            'gene_id': gene_id,
+                            'function': parts[3],
+                            'evalue': parts[4] if len(parts) > 4 else 'N/A'
+                        })
+                        break
+
+    results[strain] = strain_results
+
+# Write detailed results per strain
+for strain, strain_results in results.items():
+    output_file = f'Downstream_analysis/EPS/{strain}_EPS.txt'
+    with open(output_file, 'w') as f:
+        f.write(f"=== EPS analysis: {strain} ===\n\n")
+
+        # Overall summary
+        total_genes = sum(len(hits) for hits in strain_results.values())
+        categories_present = sum(1 for hits in strain_results.values() if hits)
+        f.write(f"Total EPS-related genes: {total_genes}\n")
+        f.write(f"Categories present: {categories_present}/{len(eps_genes)}\n\n")
+
+        # Details per category
+        for category, hits in strain_results.items():
+            f.write(f"--- {category} ({len(hits)} genes) ---\n")
+            if hits:
+                for hit in hits:
+                    f.write(f"  Gene ID: {hit['gene_id']}\n")
+                    f.write(f"  Function: {hit['function']}\n")
+                    f.write(f"  E-value: {hit['evalue']}\n")
+            else:
+                f.write(f"  Not found in unique genes\n")
+            f.write("\n")
+
+    print(f"{strain}: {total_genes} EPS genes → Biosynthesis:{len(strain_results['Biosynthesis'])} Modification:{len(strain_results['Modification'])} Transport:{len(strain_results['Transport'])} Regulation:{len(strain_results['Regulation'])}")
+
+# Write summary of all strains
+summary_file = 'Downstream_analysis/EPS/EPS_summary_all_strains.txt'
+with open(summary_file, 'w') as f:
+    f.write("=== EPS summary - Lp. plantarum ===\n\n")
+    f.write(f"{'Strain':<40} {'Biosynth':<12} {'Modif':<10} {'Transport':<12} {'Regulat':<10} {'Total':<8}\n")
+    f.write("-" * 95 + "\n")
+
+    for strain, strain_results in sorted(results.items()):
+        biosynth = len(strain_results['Biosynthesis'])
+        modif = len(strain_results['Modification'])
+        transport = len(strain_results['Transport'])
+        regulat = len(strain_results['Regulation'])
+        total = biosynth + modif + transport + regulat
+        f.write(f"{strain:<40} {biosynth:<12} {modif:<10} {transport:<12} {regulat:<10} {total:<8}\n")
+
+print(f"\nSummary saved to: {summary_file}")
+EOF
+
+
+
+
+
+
+
+KEGG mapper export (color):
+$ for kegg_file in Downstream_analysis/Databases/*_kegg_unique.txt; do
+	strain=$(basename $kegg_file _kegg_unique.txt)
+	
+	grep -v "^gene_callers_id" $kegg_file | \
+	awk '{print $3}' | \
+	grep "^K" | \
+	sort | uniq \
+	> Downstream_analysis/KEGG_mapper/Color/${strain}_color.txt
+	
+	echo "$strain: $(wc -l < Downstream_analysis/KEGG_mapper/Color/${strain}_color.txt) KO numbers"
+done
+
+# All strains combined
+cat Downstream_analysis/KEGG_mapper/Color/*_color.txt | \
+	sort | uniq \
+	> Downstream_analysis/KEGG_mapper/Color/all_strains_color.txt
+echo "All strains: $(wc -l < Downstream_analysis/KEGG_mapper/Color/all_strains_color.txt) KO numbers"
+	
+
+
+
+
+
+
+
+KEGG mapper export (reconstruct):
+$ for kegg_file in Downstream_analysis/Databases/*_kegg_unique.txt; do
+	strain=$(basename $kegg_file _kegg_unique.txt)
+	
+	grep -v "^gene_callers_id" $kegg_file | \
+	awk '{print $1"\t"$3}' | \
+	grep -v "^$" \
+	> Downstream_analysis/KEGG_mapper/Reconstruct/${strain}_reconstruct.txt
+	
+	echo "$strain: ready"
+done
+
+# All strains combined
+cat Downstream_analysis/KEGG_mapper/Reconstruct/*_reconstruct.txt | \
+	grep -v "^$" \
+	> Downstream_analysis/KEGG_mapper/Reconstruct/all_strains_reconstruct.txt
+echo "All strains combined: ready"
+
+
+
+
+
+
+
+Stress tolerance:
+python3 << 'EOF'
+import os
+from collections import defaultdict
+
+# Stress tolerance genes per category
+stress_genes = {
+	'Heat_shock': [
+		'heat shock', 'groel', 'dnak', 'grpe', 'htpx',
+		'clpb', 'clpp', 'clpx', 'hsp', 'chaperone'
+	],
+	'Cold_shock': [
+		'cold shock'
+	],
+	'Oxidative_stress': [
+		'superoxide', 'catalase', 'peroxidase', 'thioredoxine',
+		'glutaredoxin', 'soda', 'kata', 'tpx'
+	],
+	'Acid_stress': [
+		'acid tolerance', 'hdea', 'hdeb', 'gadA', 'gadB',
+		'arginine deiminase', 'f0f1', 'atpase'
+	],
+	'Osmotic_stress': [
+		'osmotic', 'opua', 'opub', 'beta', 'prop',
+		'proline transporter', 'glycine betaine'
+	],
+	'DNA_damage': [
+		'reca', 'lexa', 'uvra', 'uvrb', 'sos',
+		'dna repair', 'dna damage'
+	],
+	'General_regulation': [
+		'rpos', 'ctsr', 'hrca', 'sigma factor', 'stress regul'
+	]
+}
+
+os.makedirs('Downstream_analysis/Stress_tolerance', exist_ok=True)
+
+# Results per strain
+results = {}
+
+for kegg_file in sorted(os.listdir('Downstream_analysis/Databases')):
+	if not kegg_file.endswith('_kegg_unique.txt'):
+		continue
+	
+	strain = kegg_file.replace('_kegg_unique.txt', '')
+	strain_results = {category: [] for category in stress_genes}
+	
+	with open(f'Downstream_analysis/Databases/{kegg_file}', 'r') as f:
+		next(f) 
+		for line in f:
+			parts = line.strip().split('\t')
+			if len(parts) < 4:
+				continue
+			gene_id = parts[0]
+			function = parts[3].lower()
+			
+			# Check for each stress category
+			for category, keywords in stress_genes.items():
+				for keyword in keywords:
+					if keyword.lower() in function:
+						strain_results[category].append({
+							'gene_id': gene_id,
+							'function': parts[3],
+							'evalue': parts[4] if len(parts) > 4 else 'N/A'
+						})
+						break
+				
+	results[strain] = strain_results
+
+# Write detailed results per strain
+for strain, strain_results in results.items():
+	output_file = f'Downstream_analysis/Stress_tolerance/{strain}_stress.txt'
+	with open(output_file, 'w') as f:
+		f.write(f"=== Stress tolerance analysis: {strain} ===\n\n")
+		
+		# Overall summary
+		total_genes = sum(len(hits) for hits in strain_results.values())
+		categories_present = sum(1 for hits in strain_results.values() if hits)
+		f.write(f"Total stress-related genes: {total_genes}\n")
+		f.write(f"Categories present: {categories_present}/{len(stress_genes)}\n\n")
+		
+		# Details per category
+		for category, hits in strain_results.items():
+			f.write(f"--- {category} ({len(hits)} genes) ---\n")
+			if hits:
+				for hit in hits:
+					f.write(f" Gene ID: {hit['gene_id']}\n")
+					f.write(f" Function: {hit['function']}\n")
+					f.write(f" E-value: {hit['evalue']}\n")
+			else:
+				f.write(f" Not found in unique genes\n")
+			f.write("\n")
+	
+	print(f"{strain}: {total_genes} stress genes => {categories_present}/{len(stress_genes)} categories")
+	
+# Write summary of all strains
+summary_file = 'Downstream_analysis/Stress_tolerance/stress_summary_all_strains.txt'
+with open(summary_file, 'w') as f:
+	f.write("=== Stress tolerance summary - Lp. plantarum ===\n\n")
+	f.write(f"{'Strain':<40} {'Heat':<8} {'Cold':<8} {'Oxid':<8} {'Acid':<8} {'Osmo':<8} {'DNA':<8} {'Reg':<8} {'Total':<8}\n")
+	f.write("-" * 104 + "\n")
+	
+	for strain, strain_results in sorted(results.items()):
+		heat = len(strain_results['Heat_shock'])
+		cold = len(strain_results['Cold_shock'])
+		oxid = len(strain_results['Oxidative_stress'])
+		acid = len(strain_results['Acid_stress'])
+		osmo = len(strain_results['Osmotic_stress'])
+		dna = len(strain_results['DNA_damage'])
+		reg = len(strain_results['General_regulation'])
+		total = heat + cold + oxid + acid + osmo + dna + reg
+		f.write(f"{strain:<40} {heat:<8} {cold:<8} {oxid:<8} {acid:<8} {osmo:<8} {dna:<8} {reg:<8} {total:<8}\n")
+
+print(f"\nSummary saved to: {summary_file}")
+
+EOF
+
+
+
+
+
+
+
+Bacteriocin (antiSMASH)
+nohup bash -c 'for gbk in prokka_output/*/*.gbk; do
+	strain=$(basename $(dirname $gbk))
+	echo "Running antiSMASH: $strain"
+	antismash \
+		--output-dir Downstream_analysis/Bacteriocins/${strains}_antismash \
+		--genefinding-tool none \
+		--cpus 8 \
+		--cb-knownclusters \
+		--cb-subclusters \
+		--clusterhmmer \
+		$gbk
+done' > antismash_log.txt 2>&1 &
+
+echo "antiSMASH running in background, PID: $!"
+
+
+
+
+Filter BGCs with unique genes
+$ conda activate anvio-9
+
+python3 << 'EOF'
+import os
+import glob
+from collections import defaultdict
+
+# Load unique gene caller IDs per strain
+unique_per_strain = defaultdict(set)
+with open('Unique_genes/unique_genes_all.fasta', 'r') as f:
+	for line in f:
+		if line.startswith('>'):
+			genome = ''
+			gene_id = ''
+			for part in line.strip().split('|'):
+				if 'genome_name_' in part:
+					genome = part.replace('genome_name_', '').strip()
+				if 'gene_callers_id_' in part:
+					gene_id = part.replace('gene_callers_id_', '').strip()
+			unique_per_strain[genome].add(gene_id)
+
+# Load Prokka locus tag => gene caller ID mapping
+locus_to_callerid = defaultdict(dict)
+for strain in unique_per_strain.keys():
+	ext_file = f'{strain}_prokka-external-gene-calls.txt'
+	tsv_file = f'prokka_output/{strain}/{strain}.tsv'
+	
+	if not os.path.exists(ext_file) or not os.path.exists(tsv_file):
+		continue
+	
+	# Get locus tags in order from TSV
+	locus_tags = []
+	with open(tsv_file, 'r') as f:
+		next(f)
+		for line in f:
+			parts = line.strip().split('\t')
+			if len(parts) >= 1:
+				locus_tags.append(parts[0].strip())
+	
+	# Map gene caller ID to locus tag by position
+	with open(ext_file, 'r') as f:
+		next(f)
+		for i, line in enumerate(f):
+			parts = line.strip().split('\t')
+			if len(parts) >= 1 and i < len(locus_tags):
+				caller_id = parts[0].strip()
+				locus_tag = locus_tags[i]
+				locus_to_callerid[strain][locus_tag] = caller_id
+				
+results = {}
+
+for strain in sorted(unique_per_strain.keys()):
+	antismash_dir = f'Downstream_analysis/Bacteriocins/{strain}_antismash'
+	if not os.path.exists(antismash_dir):
+		continue
+	
+	# Use only .region*.gbk files, avoid duplicates
+	region_files = set(glob.glob(f'{antismash_dir}/*.region*.gbk'))
+	
+	seen_regions = set()
+	strain_results = []
+	
+	for region_file in sorted(region_files):
+		region_name = os.path.basename(region_file).replace('.gbk', '')
+		
+		# Skip duplicates
+		if region_name in seen_regions:
+			continue
+		seen_regions.add(region_name)
+		
+		bgc_locus_tags = []
+		bgc_product = 'Unknown'
+		
+		with open(region_file, 'r') as f:
+			for line in f:
+				if '/product="' in line and 'antiSMASH' not in line:
+					bgc_product = line.strip().replace('/product="', '').replace('"', '')
+				if '/locus_tag="' in line:
+					locus_tag = line.strip().replace('/locus_tag="', '').replace('"', '')
+					bgc_locus_tags.append(locus_tag)
+					
+		# Find unique genes in this BGC
+		unique_genes_in_bgc = []
+		seen_locus = set()
+		for locus_tag in bgc_locus_tags:
+			if locus_tag in seen_locus:
+				continue
+			seen_locus.add(locus_tag)
+			caller_id = locus_to_callerid[strain].get(locus_tag, '')
+			if caller_id in unique_per_strain[strain]:
+				unique_genes_in_bgc.append({
+					'locus_tag': locus_tag,
+					'gene_caller_id': caller_id
+				})
+			
+		if unique_genes_in_bgc:
+			strain_results.append({
+				'region': region_name,
+				'product': bgc_product,
+				'total_genes': len(set(bgc_locus_tags)),
+				'unique_genes': unique_genes_in_bgc
+			})
+				
+	results[strain] = strain_results
+			
+	if strain_results:
+		print(f"{strain}: {len(strain_results)} BGCs with unique genes")
+	else:
+		print(f"{strain}: no BGCs with unique genes")
+			
+# Write clean summary
+summary_file = 'Downstream_analysis/Bacteriocins/BGCs_with_unique_genes/summary.txt'
+with open(summary_file, 'w') as f:
+	f.write("=== BGCs containing unique genes - Lp. plantarum ===\n\n")
+	
+	total_bgcs = 0
+	for strain, strain_results in sorted(results.items()):
+		if not strain_results:
+			continue
+		
+		f.write(f"=== {strain} ===\n")
+		for bgc in strain_results:
+			total_bgcs += 1
+			f.write(f"\n Region: {bgc['region']}\n")
+			f.write(f"  Product: {bgc['product']}\n")
+			f.write(f"  Total genes in BGC: {bgc['total_genes']}\n")
+			f.write(f"  Unique genes in BGC: {len(bgc['unique_genes'])}\n")
+			for gene in bgc['unique_genes']:
+				f.write(f"    - Locus tag: {gene['locus_tag']}\n")
+				f.write(f"      Gene caller ID: {gene['gene_caller_id']}\n")
+		f.write("\n")
+	
+	f.write(f"\nTotal BGCs with unique genes: {total_bgcs}\n")
+
+print(f"\nSummary saved to: {summary_file}")
+EOF
+
+
+Search for bacteriocins in all sequences:
+$ grep -r "RiPP\|lanthipeptide\|bacteriocin\|sactipeptide" \
+  Downstream_analysis/Bacteriocins/*/index.html 2>/dev/null | \
+  grep -v "Binary" | head -20
+  
+  
+  
+  
+  
+ 
+ 
+ 
+Metabolic reconstruction
+# Long format - modules
+anvi-estimate-metabolism \
+	-e genomes.txt \
+	--output-modes modules \
+	-O Downstream_analysis/Metabolism/metabolism_modules
+	
+# Long format - hits
+anvi-estimate-metabolism \
+	-e genomes.txt \
+	--output-modes hits \
+	-O Downstream_analysis/Metabolism/metabolism_hits
+
+# Long format - module steps
+anvi-estimate-metabolism \
+	-e genomes.txt \
+	--output-modes module_steps \
+	-O Downstream_analysis/Metabolism/metabolism_steps
+	
+# Run matrix format apart
+anvi-estimate-metabolism \
+	-e genomes.txt \
+	--matrix-format \
+	-O Downstream_analysis/Metabolism/metabolism_matrix
+	
+
+
+
+python3 << 'EOF'
+import pandas as pd
+import os
+import glob
+
+# Convert all txt files in Metabolism directory to CSV
+for txt_file in glob.glob('Downstream_analysis/Metabolism/*.txt'):
+	df = pd.read_csv(txt_file, sep='\t')
+	csv_file = txt_file.replace('.txt', '.csv')
+	df.to_csv(csv_file, index=False)
+	print(f"Converted: {os.path.basename(txt_file)} => {os.path.basename(csv_file)}")
+	
+	# Remove original txt file
+	os.remove(txt_file)
+	print(f"Removed: {os.path.basename(txt_file)}")
+
+EOF
+
+
+
+
+Search modules which are uniquely complete for certain strains
+python << 'EOF'
+import pandas as pd
+
+df = pd.read_csv('Downstream_analysis/Metabolism/metabolism_modules_modules.csv')
+
+total_strains = df['genome_name'].nunique()
+
+# Find modules that are complete in only 1 strain
+complete = df[df['stepwise_module_is_complete'] == True]
+module_counts = complete.groupby('module')['genome_name'].nunique()
+unique_modules = module_counts[module_counts == 1].index
+
+if len(unique_modules) > 0:
+	unique_complete = complete[complete['module'].isin(unique_modules)]
+	result = unique_complete[['module', 'module_name', 'genome_name',
+		'module_category', 'stepwise_module_completeness']]
+	result.to_csv('Downstream_analysis/Metabolism/strain_unique_modules.csv', index=False)
+	print(f"Modules complete in only 1 strain: {len(unique_modules)}")
+	print(result.to_string(index=False))
+else:
+	print("No modules found that are complete in only 1 strain")
+EOF
+
+
+
+
+
+metabolic reconstruction filtered on unique genes
+python3 << 'EOF'
+import pandas as pd
+from collections import defaultdict
+import os
+
+# Load unique gene caller IDs per strain
+unique_per_strain = defaultdict(set)
+with open('Unique_genes/unique_genes_all.fasta', 'r') as f:
+	for line in f:
+		if line.startswith('>'):
+			genome = ''
+			gene_id = ''
+			for part in line.strip().split('|'):
+				if 'genome_name_' in part:
+					genome = part.replace('genome_name_', '').strip()
+				if 'gene_callers_id_' in part:
+					gene_id = part.replace('gene_callers_id_', '').strip()
+			unique_per_strain[genome].add(gene_id)
+
+print(f"Total strains with unique genes: {len(unique_per_strain)}")
+
+# Load hits
+df_hits = pd.read_csv('Downstream_analysis/Metabolism/metabolism_hits_hits.csv')
+df_hits['gene_caller_id'] = df_hits['gene_caller_id'].astype(str)
+
+# Filter hits that come from unique genes
+unique_hits = []
+for _, row in df_hits.iterrows():
+	strain = row['genome_name']
+	gene_id = str(row['gene_caller_id'])
+	if gene_id in unique_per_strain.get(strain, set()):
+		unique_hits.append(row)
+		
+df_unique_hits = pd.DataFrame(unique_hits)
+print(f"Total enzyme hits from unique genes: {len(df_unique_hits)}")
+
+# Save unique hits
+df_unique_hits.to_csv(
+	'Downstream_analysis/Metabolism/metabolism_hits_unique_genes.csv',
+	index=False
+)
+
+# Load modules
+df_modules = pd.read_csv(
+	'Downstream_analysis/Metabolism/metabolism_modules_modules.csv'
+)
+
+# Find which modules are supported by unique genes
+modules_with_unique = df_unique_hits.groupby('genome_name')\
+	['modules_with_enzyme'].apply(
+		lambda x: set(','.join(x.dropna()).split(','))
+	).reset_index()
+modules_with_unique.columns = ['genome_name', 'modules_with_unique_genes']
+
+# Write detailed results per strain
+os.makedirs('Downstream_analysis/Metabolism/Unique_genes_metabolism',
+	exist_ok=True)
+	
+summary_rows = []
+
+for strain in sorted(unique_per_strain.keys()):
+	strain_hits = df_unique_hits[df_unique_hits['genome_name'] == strain]
+	
+	if strain_hits.empty:
+		continue
+	
+	# Get modules supported by unique genes
+	modules_supported = set ()
+	for modules in strain_hits['modules_with_enzyme'].dropna():
+		for m in modules.split(','):
+			modules_supported.add(m.strip())
+			
+	# Get module details
+	strain_modules = df_modules[
+		(df_modules['genome_name'] == strain) &
+		(df_modules['module'].isin(modules_supported))
+	]
+	
+	# Write per strain file
+	output_file = f'Downstream_analysis/Metabolism/Unique_genes_metabolism/{strain}_unique_metabolism.txt'
+	with open(output_file, 'w') as f:
+		f.write(f"=== Metabolism for unique genes: {strain} ===\n\n")
+		f.write(f"Total unique enzymes: {len(strain_hits)}\n")
+		f.write(f"Modules supported by unique genes: {len(modules_supported)}\n\n")
+		
+		f.write("--- Enzymes from unique genes ---\n")
+		for _, hit in strain_hits.iterrows():
+			f.write(f"  Gene ID: {hit['gene_caller_id']}\n")
+			f.write(f"  Enzyme: {hit['enzyme']}\n")
+			f.write(f"  Function: {hit['enzyme_definition']}\n")
+			f.write(f"  Modules: {hit['modules_with_enzyme']}\n\n")
+			
+		f.write("\n--- Modules supported by unique genes ---\n")
+		for _, mod in strain_modules.iterrows():
+			f.write(f"  Module: {mod['module']} - {mod['module_name']}\n")
+			f.write(f"  Category: {mod['module_category']}\n")
+			f.write(f"  Completeness: {mod['stepwise_module_completeness']:.2f}\n")
+			f.write(f"  Complete: {mod['stepwise_module_is_complete']}\n\n")
+			
+	print(f"{strain}: {len(strain_hits)} unique enzymes => {len(modules_supported)} modules")
+	
+	for _, mod in strain_modules.iterrows():
+		summary_rows.append({
+			'strain': strain,
+			'module': mod['module'],
+			'module_name': mod['module_name'],
+			'module_category': mod['module_category'],
+			'completeness': mod['stepwise_module_completeness'],
+			'is_complete': mod['stepwise_module_is_complete'],
+			'unique_enzymes_count': len(strain_hits)
+		})
+
+# Save summary CSV
+df_summary = pd.DataFrame(summary_rows)
+df_summary.to_csv(
+	'Downstream_analysis/Metabolism/Unique_genes_metabolism/unique_metabolism_summary.csv',
+	index=False
+)
+print(f"\nSummary saved")
+print(f"Total strain-module combinations: {len(df_summary)}")
+
+EOF
+
+
+
+
+
+
+
+
+
+Antibiotic resistance
+for fasta in FastaFiles_reformatted/*_reformatted.fasta; do
+	strain=$(basename $fasta _reformatted.fasta)
+	echo "Running RGI: $strain"
+	rgi main \
+		--input_sequence $fasta \
+		--output_file Downstream_analysis/Antibiotic_resistance/${strain}_resistance \
+		--input_type contig \
+		--local \
+		--clean \
+		--num_threads 8
+done
+
+
+
+

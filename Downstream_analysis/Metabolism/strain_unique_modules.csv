@@ -1,0 +1,5 @@
+module,module_name,genome_name,module_category,stepwise_module_completeness
+M00115,"NAD biosynthesis, aspartate => quinolinate => NAD",P2506_Topinambur_IT,Metabolism of cofactors and vitamins,1.0
+M00082,"Fatty acid biosynthesis, initiation",P2918_Fermented_IQF_Mango_BE,Lipid metabolism,1.0
+M00308,"Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P",P331_Cacoa_CR,Carbohydrate metabolism,0.75
+M00986,"Sulfur reduction, sulfur => sulfide",P3337_BambaraGroudhut_BE,Energy metabolism,1.0

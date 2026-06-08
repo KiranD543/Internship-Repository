@@ -1,0 +1,178 @@
+=== Metabolism for unique genes: P2918_Fermented_IQF_Mango_BE ===
+
+Total unique enzymes: 32
+Modules supported by unique genes: 2
+
+--- Enzymes from unique genes ---
+  Gene ID: 510
+  Enzyme: K12373
+  Function: hexosaminidase [EC:3.2.1.52]
+  Modules: M00079
+
+  Gene ID: 2429
+  Enzyme: K18909
+  Function: MarR family transcriptional regulator, repressor for mepA
+  Modules: M00705
+
+  Gene ID: 2641
+  Enzyme: K07706
+  Function: two-component system, LytTR family, sensor histidine kinase AgrC [EC:2.7.13.3]
+  Modules: nan
+
+  Gene ID: 2325
+  Enzyme: K06221
+  Function: 2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]
+  Modules: nan
+
+  Gene ID: 615
+  Enzyme: K06889
+  Function: uncharacterized protein
+  Modules: nan
+
+  Gene ID: 600
+  Enzyme: K06889
+  Function: uncharacterized protein
+  Modules: nan
+
+  Gene ID: 959
+  Enzyme: K19784
+  Function: chromate reductase, NAD(P)H dehydrogenase (quinone)
+  Modules: nan
+
+  Gene ID: 1326
+  Enzyme: K07727
+  Function: putative transcriptional regulator
+  Modules: nan
+
+  Gene ID: 2587
+  Enzyme: K00852
+  Function: ribokinase [EC:2.7.1.15]
+  Modules: nan
+
+  Gene ID: 2303
+  Enzyme: K11936
+  Function: poly-beta-1,6-N-acetyl-D-glucosamine synthase [EC:2.4.1.-]
+  Modules: nan
+
+  Gene ID: 958
+  Enzyme: K03446
+  Function: MFS transporter, DHA2 family, multidrug resistance protein
+  Modules: nan
+
+  Gene ID: 2091
+  Enzyme: K00661
+  Function: maltose O-acetyltransferase [EC:2.3.1.79]
+  Modules: nan
+
+  Gene ID: 604
+  Enzyme: K00661
+  Function: maltose O-acetyltransferase [EC:2.3.1.79]
+  Modules: nan
+
+  Gene ID: 2074
+  Enzyme: K06978
+  Function: uncharacterized protein
+  Modules: nan
+
+  Gene ID: 1617
+  Enzyme: K07584
+  Function: uncharacterized protein
+  Modules: nan
+
+  Gene ID: 614
+  Enzyme: K21745
+  Function: MerR family transcriptional regulator, aldehyde-responsive regulator
+  Modules: nan
+
+  Gene ID: 621
+  Enzyme: K21745
+  Function: MerR family transcriptional regulator, aldehyde-responsive regulator
+  Modules: nan
+
+  Gene ID: 1809
+  Enzyme: K21745
+  Function: MerR family transcriptional regulator, aldehyde-responsive regulator
+  Modules: nan
+
+  Gene ID: 1791
+  Enzyme: K01421
+  Function: putative membrane protein
+  Modules: nan
+
+  Gene ID: 2697
+  Enzyme: K07171
+  Function: mRNA interferase MazF [EC:3.1.-.-]
+  Modules: nan
+
+  Gene ID: 2583
+  Enzyme: K05346
+  Function: deoxyribonucleoside regulator
+  Modules: nan
+
+  Gene ID: 2585
+  Enzyme: K02429
+  Function: MFS transporter, FHS family, L-fucose permease
+  Modules: nan
+
+  Gene ID: 2649
+  Enzyme: K21744
+  Function: MerR family transcriptional regulator, thiopeptide resistance regulator
+  Modules: nan
+
+  Gene ID: 2584
+  Enzyme: K01619
+  Function: deoxyribose-phosphate aldolase [EC:4.1.2.4]
+  Modules: nan
+
+  Gene ID: 2819
+  Enzyme: K00986
+  Function: RNA-directed DNA polymerase [EC:2.7.7.49]
+  Modules: nan
+
+  Gene ID: 2853
+  Enzyme: K01222
+  Function: 6-phospho-beta-glucosidase [EC:3.2.1.86]
+  Modules: nan
+
+  Gene ID: 2934
+  Enzyme: K07497
+  Function: putative transposase
+  Modules: nan
+
+  Gene ID: 2907
+  Enzyme: K00754
+  Function: L-malate glycosyltransferase [EC:2.4.1.-]
+  Modules: nan
+
+  Gene ID: 108
+  Enzyme: K00754
+  Function: L-malate glycosyltransferase [EC:2.4.1.-]
+  Modules: nan
+
+  Gene ID: 159
+  Enzyme: K27561
+  Function: Bacillus phage HNH endonuclease
+  Modules: nan
+
+  Gene ID: 568
+  Enzyme: K00355
+  Function: NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]
+  Modules: nan
+
+  Gene ID: 2664
+  Enzyme: K15773
+  Function: HTH-type transcriptional regulator / antitoxin HipB
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00079 - Keratan sulfate degradation
+  Category: Glycan metabolism
+  Completeness: 0.20
+  Complete: False
+
+  Module: M00705 - Multidrug resistance, efflux pump MepA
+  Category: Gene set
+  Completeness: 0.50
+  Complete: False
+

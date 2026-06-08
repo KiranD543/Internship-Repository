@@ -1,0 +1,63 @@
+=== Metabolism for unique genes: P2584_Sourdough_BE ===
+
+Total unique enzymes: 2
+Modules supported by unique genes: 9
+
+--- Enzymes from unique genes ---
+  Gene ID: 3100
+  Enzyme: K00134
+  Function: glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]
+  Modules: M00001,M00002,M00003,M00308,M00552,M00165,M00611,M00612
+
+  Gene ID: 3101
+  Enzyme: K01602
+  Function: ribulose-bisphosphate carboxylase small chain [EC:4.1.1.39]
+  Modules: M00532,M00165,M00611,M00612
+
+
+--- Modules supported by unique genes ---
+  Module: M00001 - Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
+  Category: Carbohydrate metabolism
+  Completeness: 0.89
+  Complete: True
+
+  Module: M00002 - Glycolysis, core module involving three-carbon compounds
+  Category: Carbohydrate metabolism
+  Completeness: 1.00
+  Complete: True
+
+  Module: M00003 - Gluconeogenesis, oxaloacetate => fructose-6P
+  Category: Carbohydrate metabolism
+  Completeness: 0.86
+  Complete: True
+
+  Module: M00308 - Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P
+  Category: Carbohydrate metabolism
+  Completeness: 0.50
+  Complete: False
+
+  Module: M00552 - D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P
+  Category: Carbohydrate metabolism
+  Completeness: 0.40
+  Complete: False
+
+  Module: M00532 - Photorespiration
+  Category: Carbohydrate metabolism
+  Completeness: 0.20
+  Complete: False
+
+  Module: M00165 - Reductive pentose phosphate cycle (Calvin cycle)
+  Category: Energy metabolism
+  Completeness: 0.64
+  Complete: False
+
+  Module: M00611 - Oxygenic photosynthesis in plants and cyanobacteria
+  Category: Module set
+  Completeness: 0.00
+  Complete: False
+
+  Module: M00612 - Anoxygenic photosynthesis in purple bacteria
+  Category: Module set
+  Completeness: 0.00
+  Complete: False
+

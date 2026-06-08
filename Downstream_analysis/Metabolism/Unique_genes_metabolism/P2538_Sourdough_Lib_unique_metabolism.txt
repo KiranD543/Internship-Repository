@@ -1,0 +1,53 @@
+=== Metabolism for unique genes: P2538_Sourdough_Lib ===
+
+Total unique enzymes: 8
+Modules supported by unique genes: 1
+
+--- Enzymes from unique genes ---
+  Gene ID: 2486
+  Enzyme: K16649
+  Function: rhamnopyranosyl-N-acetylglucosaminyl-diphospho-decaprenol beta-1,3/1,4-galactofuranosyltransferase [EC:2.4.1.287]
+  Modules: M00888
+
+  Gene ID: 707
+  Enzyme: K14059
+  Function: integrase
+  Modules: nan
+
+  Gene ID: 708
+  Enzyme: K07727
+  Function: putative transcriptional regulator
+  Modules: nan
+
+  Gene ID: 3110
+  Enzyme: K06223
+  Function: DNA adenine methylase [EC:2.1.1.72]
+  Modules: nan
+
+  Gene ID: 3112
+  Enzyme: K18640
+  Function: plasmid segregation protein ParM
+  Modules: nan
+
+  Gene ID: 3116
+  Enzyme: K07483
+  Function: transposase
+  Modules: nan
+
+  Gene ID: 2487
+  Enzyme: K09809
+  Function: CDP-glycerol glycerophosphotransferase [EC:2.7.8.12]
+  Modules: nan
+
+  Gene ID: 2488
+  Enzyme: K02840
+  Function: UDP-D-galactose:(glucosyl)LPS alpha-1,6-D-galactosyltransferase [EC:2.4.1.-]
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00888 - Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5
+  Category: Glycan metabolism
+  Completeness: 0.50
+  Complete: False
+

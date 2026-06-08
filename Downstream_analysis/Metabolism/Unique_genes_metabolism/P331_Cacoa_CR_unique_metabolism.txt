@@ -1,0 +1,73 @@
+=== Metabolism for unique genes: P331_Cacoa_CR ===
+
+Total unique enzymes: 12
+Modules supported by unique genes: 1
+
+--- Enzymes from unique genes ---
+  Gene ID: 2137
+  Enzyme: K16649
+  Function: rhamnopyranosyl-N-acetylglucosaminyl-diphospho-decaprenol beta-1,3/1,4-galactofuranosyltransferase [EC:2.4.1.287]
+  Modules: M00888
+
+  Gene ID: 3125
+  Enzyme: K05338
+  Function: holin-like protein
+  Modules: nan
+
+  Gene ID: 3127
+  Enzyme: K07704
+  Function: two-component system, LytTR family, sensor histidine kinase LytS [EC:2.7.13.3]
+  Modules: nan
+
+  Gene ID: 3125
+  Enzyme: K06518
+  Function: holin-like protein
+  Modules: nan
+
+  Gene ID: 2851
+  Enzyme: K06904
+  Function: Escherichia/Staphylococcus phage prohead protease
+  Modules: nan
+
+  Gene ID: 3086
+  Enzyme: K14059
+  Function: integrase
+  Modules: nan
+
+  Gene ID: 2844
+  Enzyme: K07451
+  Function: 5-methylcytosine-specific restriction enzyme A [EC:3.1.21.-]
+  Modules: nan
+
+  Gene ID: 3126
+  Enzyme: K02477
+  Function: two-component system, LytTR family, response regulator
+  Modules: nan
+
+  Gene ID: 1271
+  Enzyme: K07729
+  Function: putative transcriptional regulator
+  Modules: nan
+
+  Gene ID: 2888
+  Enzyme: K07241
+  Function: nickel/cobalt transporter (NiCoT) family protein
+  Modules: nan
+
+  Gene ID: 2133
+  Enzyme: K12990
+  Function: rhamnosyltransferase [EC:2.4.1.-]
+  Modules: nan
+
+  Gene ID: 2139
+  Enzyme: K23684
+  Function: dolichol-phosphate hexosyltransferase [EC:2.4.1.-]
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00888 - Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5
+  Category: Glycan metabolism
+  Completeness: 0.50
+  Complete: False
+

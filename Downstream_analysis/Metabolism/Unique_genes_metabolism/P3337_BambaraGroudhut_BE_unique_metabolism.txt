@@ -1,0 +1,153 @@
+=== Metabolism for unique genes: P3337_BambaraGroudhut_BE ===
+
+Total unique enzymes: 23
+Modules supported by unique genes: 6
+
+--- Enzymes from unique genes ---
+  Gene ID: 3034
+  Enzyme: K18367
+  Function: CoA-dependent NAD(P)H sulfur oxidoreductase [EC:1.8.1.18]
+  Modules: M00986
+
+  Gene ID: 2974
+  Enzyme: K00135
+  Function: succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20]
+  Modules: M00956,M00957,M00027
+
+  Gene ID: 2558
+  Enzyme: K03431
+  Function: phosphoglucosamine mutase [EC:5.4.2.10]
+  Modules: M00909,M00995
+
+  Gene ID: 3157
+  Enzyme: K06223
+  Function: DNA adenine methylase [EC:2.1.1.72]
+  Modules: nan
+
+  Gene ID: 2972
+  Enzyme: K04047
+  Function: starvation-inducible DNA-binding protein
+  Modules: nan
+
+  Gene ID: 3076
+  Enzyme: K03496
+  Function: chromosome partitioning protein
+  Modules: nan
+
+  Gene ID: 3156
+  Enzyme: K00571
+  Function: site-specific DNA-methyltransferase (adenine-specific) [EC:2.1.1.72]
+  Modules: nan
+
+  Gene ID: 3155
+  Enzyme: K01155
+  Function: type II restriction enzyme [EC:3.1.21.4]
+  Modules: nan
+
+  Gene ID: 3074
+  Enzyme: K06994
+  Function: putative drug exporter of the RND superfamily
+  Modules: nan
+
+  Gene ID: 2449
+  Enzyme: K07497
+  Function: putative transposase
+  Modules: nan
+
+  Gene ID: 2560
+  Enzyme: K00661
+  Function: maltose O-acetyltransferase [EC:2.3.1.79]
+  Modules: nan
+
+  Gene ID: 952
+  Enzyme: K03100
+  Function: signal peptidase I [EC:3.4.21.89]
+  Modules: nan
+
+  Gene ID: 2898
+  Enzyme: K22373
+  Function: lactate racemase [EC:5.1.2.1]
+  Modules: nan
+
+  Gene ID: 2894
+  Enzyme: K07485
+  Function: transposase
+  Modules: nan
+
+  Gene ID: 2899
+  Enzyme: K07241
+  Function: nickel/cobalt transporter (NiCoT) family protein
+  Modules: nan
+
+  Gene ID: 2455
+  Enzyme: K01548
+  Function: potassium-transporting ATPase KdpC subunit
+  Modules: nan
+
+  Gene ID: 2456
+  Enzyme: K07646
+  Function: two-component system, OmpR family, sensor histidine kinase KdpD [EC:2.7.13.3]
+  Modules: nan
+
+  Gene ID: 2454
+  Enzyme: K01547
+  Function: potassium-transporting ATPase ATP-binding subunit [EC:7.2.2.6]
+  Modules: nan
+
+  Gene ID: 2453
+  Enzyme: K01546
+  Function: potassium-transporting ATPase potassium-binding subunit
+  Modules: nan
+
+  Gene ID: 2847
+  Enzyme: K03284
+  Function: magnesium transporter
+  Modules: nan
+
+  Gene ID: 2234
+  Enzyme: K07727
+  Function: putative transcriptional regulator
+  Modules: nan
+
+  Gene ID: 2994
+  Enzyme: K15773
+  Function: HTH-type transcriptional regulator / antitoxin HipB
+  Modules: nan
+
+  Gene ID: 3172
+  Enzyme: K03427
+  Function: type I restriction enzyme M protein [EC:2.1.1.72]
+  Modules: nan
+
+
+--- Modules supported by unique genes ---
+  Module: M00986 - Sulfur reduction, sulfur => sulfide
+  Category: Energy metabolism
+  Completeness: 1.00
+  Complete: True
+
+  Module: M00956 - Lysine degradation, bacteria, L-lysine => succinate
+  Category: Amino acid metabolism
+  Completeness: 0.14
+  Complete: False
+
+  Module: M00957 - Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA
+  Category: Amino acid metabolism
+  Completeness: 0.20
+  Complete: False
+
+  Module: M00027 - GABA (gamma-Aminobutyrate) shunt
+  Category: Amino acid metabolism
+  Completeness: 0.67
+  Complete: False
+
+  Module: M00909 - UDP-GlcNAc biosynthesis, prokaryotes, Fru-6P => UDP-GlcNAc
+  Category: Glycan metabolism
+  Completeness: 1.00
+  Complete: True
+
+  Module: M00995 - UDP-MurNAc biosynthesis, Fru-6P => UDP-MurNAc
+  Category: Glycan metabolism
+  Completeness: 1.00
+  Complete: True
+
